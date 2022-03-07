@@ -1,0 +1,26 @@
+configuration {
+  show-icons:         true;
+  icon-theme:         "Zafiro";
+  terminal:           "rofi-sensible-terminal";
+  cycle:              false;
+  hide-scrollbar:     true;
+  disable-history:    false;
+  modi: "window,run,drun,combi";
+  combi-modi: "window,drun";
+
+  kb-accept-entry: "Control+j,Control+m,Return,KP_Enter,Alt+z";
+  kb-row-up: "Up,Control+p,ISO_Left_Tab,Alt+a";
+  kb-row-down: "Down,Control+n,Alt+s";
+  kb-page-prev: "Page_Up,Super_L+s";
+  kb-page-next: "Page_Down,Super_L+a";
+  kb-cancel: "Escape,Control+g,Control+bracketleft,Alt+q";
+  timeout {
+    action: "kb-cancel";
+    delay:	0;
+  }
+  filebrowser {
+    directories-first: true;
+    sorting-method: "name";
+  }
+}
+@theme "glue_pro_blue.rasi"

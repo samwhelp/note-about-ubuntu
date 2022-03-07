@@ -1,0 +1,49 @@
+org.xfce.mousepad.preferences.file add-last-end-of-line false
+org.xfce.mousepad.preferences.file autosave-timer uint32 30
+org.xfce.mousepad.preferences.file default-encoding 'UTF-8'
+org.xfce.mousepad.preferences.file make-backup false
+org.xfce.mousepad.preferences.file monitor-changes true
+org.xfce.mousepad.preferences.file monitor-disabling-timer uint32 500
+org.xfce.mousepad.preferences.file session-restore 'after-a-crash'
+org.xfce.mousepad.preferences.view auto-indent false
+org.xfce.mousepad.preferences.view color-scheme 'none'
+org.xfce.mousepad.preferences.view font-name 'Monospace 10'
+org.xfce.mousepad.preferences.view highlight-current-line false
+org.xfce.mousepad.preferences.view indent-on-tab true
+org.xfce.mousepad.preferences.view indent-width -1
+org.xfce.mousepad.preferences.view insert-spaces false
+org.xfce.mousepad.preferences.view match-braces false
+org.xfce.mousepad.preferences.view right-margin-position uint32 80
+org.xfce.mousepad.preferences.view show-line-endings false
+org.xfce.mousepad.preferences.view show-line-marks false
+org.xfce.mousepad.preferences.view show-line-numbers false
+org.xfce.mousepad.preferences.view show-right-margin false
+org.xfce.mousepad.preferences.view show-whitespace false
+org.xfce.mousepad.preferences.view.show-whitespace inside true
+org.xfce.mousepad.preferences.view.show-whitespace leading true
+org.xfce.mousepad.preferences.view.show-whitespace trailing true
+org.xfce.mousepad.preferences.view smart-backspace false
+org.xfce.mousepad.preferences.view smart-home-end 'disabled'
+org.xfce.mousepad.preferences.view tab-width uint32 8
+org.xfce.mousepad.preferences.view use-default-monospace-font true
+org.xfce.mousepad.preferences.view word-wrap false
+org.xfce.mousepad.preferences.window always-show-tabs false
+org.xfce.mousepad.preferences.window client-side-decorations true
+org.xfce.mousepad.preferences.window cycle-tabs false
+org.xfce.mousepad.preferences.window default-tab-sizes '2,3,4,8'
+org.xfce.mousepad.preferences.window expand-tabs true
+org.xfce.mousepad.preferences.window menubar-visible-in-fullscreen 'auto'
+org.xfce.mousepad.preferences.window menubar-visible true
+org.xfce.mousepad.preferences.window old-style-menu true
+org.xfce.mousepad.preferences.window opening-mode 'tab'
+org.xfce.mousepad.preferences.window path-in-title true
+org.xfce.mousepad.preferences.window recent-menu-items uint32 10
+org.xfce.mousepad.preferences.window remember-position false
+org.xfce.mousepad.preferences.window remember-size true
+org.xfce.mousepad.preferences.window remember-state true
+org.xfce.mousepad.preferences.window statusbar-visible false
+org.xfce.mousepad.preferences.window statusbar-visible-in-fullscreen 'auto'
+org.xfce.mousepad.preferences.window toolbar-icon-size 'small-toolbar'
+org.xfce.mousepad.preferences.window toolbar-style 'icons'
+org.xfce.mousepad.preferences.window toolbar-visible false
+org.xfce.mousepad.preferences.window toolbar-visible-in-fullscreen 'auto'

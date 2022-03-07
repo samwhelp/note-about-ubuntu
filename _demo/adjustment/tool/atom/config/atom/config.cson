@@ -1,0 +1,18 @@
+"*":
+  core:
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "gruvbox"
+    ]	
+  editor:
+    defaultFontSize: 20
+    fontSize: 18
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+    softTabs: false
+    tabLength: 4
+    tabType: "hard"
+  welcome:
+    showOnStartup: false
