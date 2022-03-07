@@ -1,0 +1,34 @@
+
+
+## Develop
+build-essential
+xserver-xephyr
+
+
+## File
+filezilla
+tree
+
+
+## Video
+vlc
+mpv
+smplayer
+
+
+## Image
+gpicview
+feh
+
+
+## Text
+mousepad
+
+
+## Browser
+firefox
+
+
+## Media
+mediainfo
+mediainfo-gui
