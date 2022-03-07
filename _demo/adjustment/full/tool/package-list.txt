@@ -8,12 +8,14 @@ xserver-xephyr
 ## File
 filezilla
 tree
+fzf
 
 
 ## Video
 vlc
 mpv
 smplayer
+youtube-dl
 
 
 ## Image
