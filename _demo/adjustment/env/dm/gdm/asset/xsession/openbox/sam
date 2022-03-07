@@ -1,0 +1,7 @@
+[InputSource0]
+xkb=us
+
+[User]
+Icon=/home/sam/.face
+SystemAccount=false
+XSession=openbox
