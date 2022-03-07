@@ -19,8 +19,10 @@ youtube-dl
 
 
 ## Image
-gpicview
 feh
+viewnior
+gpicview
+
 
 
 ## Text

@@ -1,0 +1,4 @@
+fzf
+feh
+curl
+wget
