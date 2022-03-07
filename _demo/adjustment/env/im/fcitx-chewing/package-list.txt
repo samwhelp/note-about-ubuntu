@@ -1,0 +1,8 @@
+fcitx
+fcitx-chewing
+fcitx-config-gtk
+fcitx-frontend-gtk2
+fcitx-frontend-gtk3
+fcitx-frontend-qt5
+fcitx-tools
+fcitx-m17n
