@@ -36,3 +36,9 @@ firefox
 ## Media
 mediainfo
 mediainfo-gui
+
+
+## Package Manage
+apt-file
+gdebi-core
+dctrl-tools
