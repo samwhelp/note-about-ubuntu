@@ -32,8 +32,8 @@
 		<property name="MenuImages" type="empty"/>
 		<property name="ButtonImages" type="empty"/>
 		<property name="MenuBarAccel" type="empty"/>
-		<property name="CursorThemeName" type="Breeze"/>
-		<property name="CursorThemeSize" type="24"/>
+		<property name="CursorThemeName" type="string" value="Breeze"/>
+		<property name="CursorThemeSize" type="int" value="24"/>
 		<property name="DecorationLayout" type="empty"/>
 	</property>
 </channel>
