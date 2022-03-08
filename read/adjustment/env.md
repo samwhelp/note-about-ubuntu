@@ -19,4 +19,5 @@ parent: 微調
 | [個人 bin 資料夾](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/bin-dir.html) | |
 | [gtk 微調](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/gtk.html) | ([gtk2](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/part/gtk2)) ([gtk3](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/part/gtk3)) |
 | [qt5ct 微調](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/qt5ct.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/part/qt5ct) |
-| [xsettingsd 設定](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/xsettingsd.html) | [設定範例](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/xsettings/xsettingsd) |
+| [xsettingsd 設定](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/xsettings/xsettingsd.html) | [設定範例](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/xsettings/xsettingsd) |
+| [xfsettingsd - xsettings 設定 ](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/xsettings/xfsettingsd.html) | [設定範例](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/full/xfce/config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml) |
