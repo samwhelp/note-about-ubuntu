@@ -1,5 +1,5 @@
 ---
-title: locale 切換
+title: Locale 切換
 nav_order: 5002
 has_children: false
 parent: 系統環境微調
@@ -12,6 +12,7 @@ grand_parent: 微調
 ## 參考文章
 
 * Ubuntu Community Help Wiki / [Locale](https://help.ubuntu.com/community/Locale)
+* Debian Wiki / [Locale](https://wiki.debian.org/Locale)
 
 
 ## 微調腳本
@@ -102,3 +103,12 @@ sudo sh -c 'echo "LANG=\"zh_TW.UTF-8\"" > /etc/default/locale'
 ```
 
 > [範例腳本](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/env/locale/zh_tw-install.sh)
+
+
+### 其他方式
+
+或是也可以善用下面的指令來操作。
+
+``` sh
+sudo dpkg-reconfigure locales
+```

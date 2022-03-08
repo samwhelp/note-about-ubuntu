@@ -20,7 +20,7 @@
 | --- | --- |
 | [修改預設 editor](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/editor.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/editor/select-editor) |
 | [Apt sources.list](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/apt-sources-list.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/apt-sources-list) |
-| [locale 切換](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/locale.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/locale) |
+| [Locale 切換](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/locale.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/locale) |
 
 
 ### 外觀微調
