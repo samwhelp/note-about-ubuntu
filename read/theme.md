@@ -19,6 +19,8 @@ has_children: true
 
 ### Themes
 
+> themes 資料夾包含了「[ui-theme](theme/theme/ui-theme)」或是「[wm-theme](theme/theme/wm-theme)」。
+
 | 路徑 | 區域 | 相容性 |
 | --- | --- | --- |
 | ~/.themes | 個人區域 | 高 |
@@ -26,9 +28,10 @@ has_children: true
 | /usr/share/themes | 系統全域 | 高 |
 | /usr/local/share/themes | 系統全域 |  |
 
-> themes 資料夾包含了「[ui-theme](theme/theme/ui-theme)」或是「[wm-theme](theme/theme/wm-theme)」。
 
 ### Icons
+
+> icons 資料夾包含了「[icon-theme](theme/icon/icon-theme)」或是「[cursor-theme](theme/icon/cursor-theme)」。
 
 | 路徑 | 區域 | 相容性 |
 | --- | --- | --- |
@@ -37,16 +40,14 @@ has_children: true
 | /usr/share/icons | 系統全域 | 高 |
 | /usr/local/share/icons | 系統全域 | |
 
-> icons 資料夾包含了「[icon-theme](theme/icon/icon-theme)」或是「[cursor-theme](theme/icon/cursor-theme)」。
-
 
 ## 輔助工具
 
 ### 指令操作
 
-| 指令 |
-| --- |
-| `xfconf-query` |
+| 指令 | 範例 |
+| --- | --- |
+| `xfconf-query` | [範例](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/full/xfce.html#%E6%8E%A1%E7%94%A8%E4%BD%88%E6%99%AF%E4%B8%BB%E9%A1%8C) |
 
 > 還有一個相對的圖形介面操作工具 `xfce4-settings-editor`
 
