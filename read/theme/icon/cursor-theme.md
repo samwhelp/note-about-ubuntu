@@ -11,7 +11,7 @@ parent: 佈景主題
 
 ## 路徑
 
-放置資料夾路徑，請參考「[icons](https://samwhelp.github.io/note-about-manjaro/read/theme.html#icons)」。
+放置資料夾路徑，請參考「[icons](https://samwhelp.github.io/note-about-ubuntu/read/theme.html#icons)」。
 
 
 ## 輔助工具 / 指令操作
