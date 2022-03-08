@@ -33,6 +33,7 @@
 | --- | --- |
 | [gtk 微調](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/gtk.html) | ([gtk2](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/part/gtk2)) ([gtk3](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/part/gtk3)) |
 | [qt5ct 微調](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/qt5ct.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/part/qt5ct) |
+| [xsettingsd 設定](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/xsettingsd.html) | [設定範例](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/xsettings/xsettingsd) |
 | theme | |
 
 
