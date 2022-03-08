@@ -1,12 +1,12 @@
 ---
-title: qt5ct 微調
+title: qt5ct 設定
 nav_order: 5081
 has_children: false
 parent: 系統環境微調
 grand_parent: 微調
 ---
 
-# qt5ct 微調
+# qt5ct 設定
 
 
 
