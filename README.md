@@ -31,9 +31,9 @@
 
 ### 桌面環境微調
 
-| 桌面環境 |
-| --- |
-| [xfce](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/full/xfce.html) |
+| 桌面環境 | 微調腳本 |
+| --- | --- |
+| [xfce](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/full/xfce.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/full/xfce) |
 
 
 ### 視窗管理器微調
