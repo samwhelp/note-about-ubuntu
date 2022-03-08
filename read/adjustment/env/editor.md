@@ -22,7 +22,7 @@ grand_parent: 微調
 ``` sh
 sudo update-alternatives --config editor
 ```
-```
+
 會出現一個列表。選擇你預設要使用的編輯器就行了。
 
 驗證一下,看看是不是你使用的編輯器。
@@ -35,7 +35,7 @@ editor
 
 或是執行下面的指令
 
-```
+``` sh
 sensible-editor
 ```
 
