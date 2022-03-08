@@ -76,7 +76,7 @@
 		<property name="wrap_windows" type="bool" value="false"/>
 		<property name="wrap_workspaces" type="bool" value="false"/>
 		<property name="zoom_desktop" type="bool" value="true"/>
-		<property name="margin_top" type="int" value="5"/>
+		<property name="margin_top" type="int" value="30"/>
 		<property name="margin_bottom" type="int" value="5"/>
 		<property name="margin_left" type="int" value="5"/>
 		<property name="margin_right" type="int" value="5"/>
