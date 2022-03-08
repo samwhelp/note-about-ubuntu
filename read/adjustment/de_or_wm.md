@@ -22,4 +22,4 @@ parent: 微調
 
 | 視窗管理器 |
 | --- |
-| openbox |
+| [openbox](wm/openbox) |
