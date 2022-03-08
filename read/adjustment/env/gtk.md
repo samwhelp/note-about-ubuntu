@@ -18,3 +18,10 @@ grand_parent: 微調
 ## Link
 
 * Arch Wiki / [Gtk](https://wiki.archlinux.org/title/GTK#Configuration)
+
+
+## 相關議題
+
+| 相關議題 |
+| --- |
+| [xsettingsd](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/xsettingsd.html) |
