@@ -15,7 +15,7 @@
 run
 
 ``` sh
-apt-cache search breeze
+apt-cache search numix
 ```
 
 show
