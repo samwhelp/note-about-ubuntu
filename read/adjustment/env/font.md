@@ -181,10 +181,10 @@ sudo apt-get install fonts-liberation2
 ## nerd-fonts / liberation (Literation Mono Nerd Font)
 
 
-* https://github.com/ryanoasis/nerd-fonts
-* https://github.com/ryanoasis/nerd-fonts/releases
-* https://github.com/ryanoasis/nerd-fonts/releases/tag/v2.1.0
-* https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/LiberationMono.zip
+* [https://github.com/ryanoasis/nerd-fonts](https://github.com/ryanoasis/nerd-fonts)
+* [https://github.com/ryanoasis/nerd-fonts/releases](https://github.com/ryanoasis/nerd-fonts/releases)
+* [https://github.com/ryanoasis/nerd-fonts/releases/tag/v2.1.0](https://github.com/ryanoasis/nerd-fonts/releases/tag/v2.1.0)
+* [https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/LiberationMono.zip](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/LiberationMono.zip)
 
 
 ``` sh
