@@ -35,7 +35,19 @@
 | [qt5ct 微調](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/qt5ct.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/part/qt5ct) |
 | [xsettingsd 設定](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/xsettings/xsettingsd.html) | [設定範例](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/xsettings/xsettingsd) |
 | [xfsettingsd - xsettings 設定 ](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/xsettings/xfsettingsd.html) | [設定範例](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/full/xfce/config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml) |
-| theme |  |
+
+
+| 議題 |
+| --- |
+| [theme](https://samwhelp.github.io/note-about-ubuntu/read/theme.html) |
+| [ui-theme](https://samwhelp.github.io/note-about-ubuntu/read/theme/theme/ui-theme.html) |
+| [wm-theme](https://samwhelp.github.io/note-about-ubuntu/read/theme/theme/wm-theme.html) |
+| [icon-theme](https://samwhelp.github.io/note-about-ubuntu/read/theme/icon/icon-theme.html) |
+| [cursor-theme](https://samwhelp.github.io/note-about-ubuntu/read/theme/icon/cursor-theme.html) |
+| [grub-theme](https://samwhelp.github.io/note-about-ubuntu/read/theme/grub-theme.html) |
+| [lightdm-theme](https://samwhelp.github.io/note-about-ubuntu/read/theme/lightdm-theme.html) |
+
+
 
 
 ### 桌面環境微調
