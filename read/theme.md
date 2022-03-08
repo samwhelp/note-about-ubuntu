@@ -58,7 +58,7 @@ has_children: true
 | `xfce4-appearance-settings` | /usr/share/applications/xfce-ui-settings.desktop | ~/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml |
 | `qt5ct` | /usr/share/applications/qt5ct.desktop | ~/.config/qt5ct/qt5ct.conf |
 
-> 我的「qt5ct/appearance/style」是設定「[gtk2](https://github.com/samwhelp/note-about-manjaro/blob/gh-pages/_demo/adjustment/full/xfce/config/qt5ct/qt5ct.conf#L5)」，所以 Qt 應用程式的樣式，會根據 gtk2 的佈景主題的設定。
+> 我的「qt5ct/appearance/style」是設定「[gtk2](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/full/xfce/config/qt5ct/qt5ct.conf#L5)」，所以 Qt 應用程式的樣式，會根據 gtk2 的佈景主題的設定。
 
 
 ## gtk
@@ -66,8 +66,8 @@ has_children: true
 > 若是執行其他的「Window Manager」，沒有執行「xfsettingsd」或是「xsettingsd」，則「gtk」就會根據下面檔案的設定
 
 | 設定檔 | 版本 |
-| [~/.config/gtk-3.0/settings.ini](https://github.com/samwhelp/note-about-manjaro/blob/gh-pages/_demo/adjustment/full/xfce/config/gtk3/settings.ini) | gtk3 |
-| [~/.gtkrc-2.0](https://github.com/samwhelp/note-about-manjaro/blob/gh-pages/_demo/adjustment/full/xfce/config/gtk2/.gtkrc-2.0) | gtk2 |
+| [~/.config/gtk-3.0/settings.ini](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/full/xfce/config/gtk3/settings.ini) | gtk3 |
+| [~/.gtkrc-2.0](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/full/xfce/config/gtk2/.gtkrc-2.0) | gtk2 |
 
 * Arch Wiki / [Gtk](https://wiki.archlinux.org/title/GTK#Configuration)
 
