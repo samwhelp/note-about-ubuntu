@@ -4,6 +4,44 @@
 * [note-about-ubuntu](https://samwhelp.github.io/note-about-ubuntu/) ([GitHub](https://github.com/samwhelp/note-about-ubuntu))
 
 
+## 主題
+
+* [環境微調](#環境微調)
+* [外觀微調](#外觀微調)
+* [桌面環境](#桌面環境)
+* [視窗管理器](#視窗管理器)
+* [相關筆記](#相關筆記)
+
+
+### 環境微調
+
+| 議題 |
+| --- |
+| [修改預設 editor](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/editor.html) |
+| [Apt sources.list](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/apt-sources-list.html) |
+
+
+### 外觀微調
+
+| 議題 |
+| --- |
+| theme |
+
+
+### 桌面環境
+
+| 桌面環境 |
+| --- |
+| [xfce](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/full/xfce.html) |
+
+
+### 視窗管理器
+
+| 視窗管理器 |
+| --- |
+| openbox |
+
+
 ## 相關筆記
 
 
