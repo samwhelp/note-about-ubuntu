@@ -26,11 +26,13 @@
 | [個人 bin 資料夾](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/bin-dir.html) | |
 
 
+
 ### 外觀微調
 
-| 議題 |
-| --- |
-| theme |
+| 議題 | 微調腳本 |
+| --- | --- |
+| [qt5ct 微調](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/qt5ct.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/part/qt5ct) |
+| theme | |
 
 
 ### 桌面環境微調
