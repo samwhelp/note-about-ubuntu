@@ -24,7 +24,7 @@ grep 'name="ThemeName"' ~/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
 
 顯示
 
-```
+``` xml
 		<property name="ThemeName" type="string" value="Gruvbox"/>
 ```
 
