@@ -17,15 +17,15 @@ sudo update-alternatives --set editor /bin/nano
 ```
 
 ``` sh
-update-alternatives --set editor /usr/bin/vim.tiny
+sudo update-alternatives --set editor /usr/bin/vim.tiny
 ```
 
 ``` sh
-update-alternatives --set editor /usr/bin/vim.basic
+sudo update-alternatives --set editor /usr/bin/vim.basic
 ```
 
 ``` sh
-update-alternatives --set editor /usr/bin/nvim
+sudo update-alternatives --set editor /usr/bin/nvim
 ```
 
 ## Test
