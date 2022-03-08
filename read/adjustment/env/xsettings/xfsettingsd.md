@@ -1,6 +1,6 @@
 ---
 title: xfsettingsd - xsettings 設定
-nav_order: 5086
+nav_order: 5092
 has_children: false
 parent: 系統環境微調
 grand_parent: 微調
