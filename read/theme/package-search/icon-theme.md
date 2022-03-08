@@ -15,82 +15,62 @@ grand_parent: 佈景主題
 執行下面指令查詢
 
 ``` sh
-pamac search icon-theme
+apt-cache search icon-theme
 ```
 
 顯示
 
 ```
-vertex-maia-icon-theme                                               20180118-1               community
-    Icons matching Vertex Maia themes, based on Menda Circle
-tela-icon-theme                                                      202010121-1              community
-    A flat colorful design icon theme.
-plane-icon-theme                                                     2.0-1                    community
-    A simple iconset, preferably used in Gnome. Love/Inkscape/Gnome.
-paper-icon-theme-git                                                 746.04115106-1           community
-    Paper is an icon theme for GTK based desktops and fits
-    perfectly the paper-gtk-theme
-mate-icon-theme-faenza                                               1.20.0-2                 community
-    Faenza icon theme for MATE
-mate-icon-theme                                                      1.24.0-1                 community
-    MATE icon theme
-masalla-icon-theme                                                   1.2-1                    community
-    A flat design icon theme by Hayder Majid
-maia-xfce-icon-theme                                                 0.4.3-1                  community
-    Maia icon theme for XFCE
-maia-icon-theme                                                      1.2-1                    community
-    Maia icon theme
-lxde-icon-theme                                                      0.5.1-5                  community
-    LXDE default icon theme based on nuoveXT2
-luv-icon-theme                                                       0.4.9.12.r74.g09bbc8f-1  community
-    The spiritual successor to Flattr, a flat but complex icon
-    theme for freedesktop environments.
-gnome-icon-theme-extras                                              3.12.0-5                 community
-    Extra GNOME icons for specific devices and file types
-faenza-icon-theme                                                    1.3.1-6                  community
-    Icon theme designed for Equinox GTK theme
-evopop-icon-theme                                                    0.11.r0.gbf7b5373-1      community
-    A simple icon theme with some google material design
-    inspiration for Solus OS and Budgie Desktop
-elementary-icon-theme                                                5.3.1-1                  community
-    Named, vector icons for elementary OS
-deepin-icon-theme-manjaro                                            2021.03.12-1             community
-    Deepin Icons themed for Manjaro
-deepin-icon-theme                                                    2021.03.12-1             community
-    Deepin Icons
-breeze-maia-icon-themes                                              5.63.0-1                 community
-    Breeze icon themes with Maia colors
-breath-icon-theme                                                    0.4.0-3                  community
-    breath icon theme
-breath-dark-icon-theme                                               0.4.0-3                  community
-    breath dark icon theme
-breath2-icon-themes                                                  1.0.13-1                 community
-    breath2 icon theme
-awoken-icon-theme-light                                              2.5.1-1                  community
-    Coloured AwOken icon set for GNOME/XFCE/LXDE
-awoken-icon-theme                                                    2.5.1-1                  community
-    Coloured, dark and white icon sets for GNOME/XFCE/LXDE
-arc-maia-icon-theme                                                  20161122-4               community
-    Arc icon theme Manjaro variant.
-arc-icon-theme                                                       20161122-3               community
-    Arc icon theme Official.
-papirus-maia-icon-theme                                  [Installed] 20200702-1               community
-    Manjaro variation of Papirus icon theme
-papirus-icon-theme                                       [Installed] 20210601-1               community
-    Papirus icon theme
-hicolor-icon-theme                                       [Installed] 0.17-2                   extra
-    Freedesktop.org Hicolor icon theme
-gnome-icon-theme-symbolic                                [Installed] 3.12.0-6                 extra
-    GNOME icon theme, symbolic icons
-gnome-icon-theme                                         [Installed] 3.12.0-6                 community
-    GNOME icon theme
-adwaita-icon-theme                                       [Installed] 40.1.1-1                 extra
-    GNOME standard icons
-```
-
-
-執行下面指令查詢，包含「AUR」。
-
-``` sh
-pamac search icon-theme -a
+adwaita-icon-theme - default icon theme of GNOME (small subset)
+hicolor-icon-theme - default fallback theme for FreeDesktop.org icon themes
+humanity-icon-theme - Humanity Icon theme
+libxcursor1 - X cursor management library
+adwaita-icon-theme-full - default icon theme of GNOME
+breathe-icon-theme - A fresh and modern icon theme for Ubuntu
+breeze-icon-theme - Default Plasma icon theme
+breeze-icon-theme-rcc - RCC resources for the breeze icon theme
+budgie-desktop-environment - Desktop environment customisation for Ubuntu Budgie
+deepin-icon-theme - Icon Theme for Deepin software and Deepin Desktop Environment
+elementary-icon-theme - simple and appealing Tango-styled icon theme
+elementary-xfce-icon-theme - elementary icon theme modified for Xfce
+faba-icon-theme - Tango influenced icon theme called Faba
+faenza-icon-theme - Faenza icon theme
+fdpowermon-icons - icons for fdpowermon
+gnome-brave-icon-theme - blue variation of the GNOME-Colors icon theme
+gnome-dust-icon-theme - chocolate variation of the GNOME-Colors icon theme
+gnome-human-icon-theme - orange variation of the GNOME-Colors icon theme
+gnome-humility-icon-theme - humility icon theme
+gnome-icon-theme - GNOME Desktop icon theme
+gnome-icon-theme-gartoon - Gartoon icon theme for GTK+
+gnome-icon-theme-gartoon-redux - Cartoon-style SVG icon theme based on Gartoon
+gnome-icon-theme-gperfection2 - icon theme for GTK+ 2.x
+gnome-icon-theme-nuovo - Dropline Nuovo icon theme
+gnome-icon-theme-suede - Suede GTK+ icon theme
+gnome-icon-theme-yasis - YASIS (Yet Another Scalable Icon Set)
+gnome-illustrious-icon-theme - pink variation of the GNOME-Colors icon theme
+gnome-noble-icon-theme - purple variation of the GNOME-Colors icon theme
+gnome-wine-icon-theme - red variation of the GNOME-Colors icon theme
+gnome-wise-icon-theme - green variation of the GNOME-Colors icon theme
+human-icon-theme - Human Icon theme
+lxde-icon-theme - LXDE standard icon theme
+mate-icon-theme - MATE Desktop icon theme
+moka-icon-theme - Tango-esque desktop icon set called Moka
+numix-icon-theme - modern icon theme from the Numix project
+numix-icon-theme-circle - Circle icon theme from the Numix project
+obsidian-icon-theme - Intuitive Faenza-like icon theme
+oxygen-icon-theme - Oxygen icon theme
+paper-icon-theme - simple and modern icon and cursor theme
+papirus-icon-theme - Papirus open source icon theme for Linux
+pocillo-icon-theme - Flat but colorful icon-set called Pocillo
+pop-icon-theme - Pop Icons
+sugar-icon-theme - Sugar Learning Platform - icon theme
+suru-icon-theme - Ubuntu Suru Icon theme
+tangerine-icon-theme - Tangerine Icon theme
+tango-icon-theme - Tango icon library
+tango-icon-theme-common - Tango Icon theme - common icons
+tango-icon-theme-extras - Extra icons for Tango
+ubuntu-mate-icon-themes - Icon themes for Ubuntu MATE
+ubuntustudio-icon-theme - Ubuntu Studio Icon Theme
+unity-asset-pool - Unity Assets Pool
+xubuntu-icon-theme - Xubuntu icon theme (transitional package)
 ```
