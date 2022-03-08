@@ -1,6 +1,6 @@
 ---
 title: Shell 微調
-nav_order: 5004
+nav_order: 5005
 has_children: false
 parent: 系統環境微調
 grand_parent: 微調
