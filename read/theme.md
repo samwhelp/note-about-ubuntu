@@ -8,6 +8,13 @@ has_children: true
 # 佈景主題
 
 
+## 目前採用佈景主題
+
+| 環境 |
+| --- |
+| [xfce](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/full/xfce.html) |
+| [openbox](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/wm/openbox.html) |
+
 ## Path
 
 ### Themes
