@@ -56,3 +56,8 @@ fcitx-m17n
 
 qt5ct
 qt5-style-plugins
+
+
+## Theme
+
+breeze-cursor-theme
