@@ -17,6 +17,10 @@ grand_parent: 微調
 sudo apt-get install openbox
 ```
 
+## 微調腳本
+
+* [微調腳本](https://github.com/samwhelp/note-about-openbox/tree/gh-pages/_demo/config/openbox-config/main)
+
 ## Link
 
 * [http://openbox.org/](http://openbox.org/)
