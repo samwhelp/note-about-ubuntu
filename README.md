@@ -74,17 +74,25 @@
 ## 相關筆記
 
 
-| 筆記 | 微調腳本 | 討論串 |
+| Ubuntu 筆記 | 微調腳本 | 討論串 |
 | --- | --- | --- |
 | [Ubuntu 20.04 (Focal Fossa) 探索筆記](https://samwhelp.github.io/note-ubuntu-20.04) ([GitHub](https://github.com/samwhelp/note-ubuntu-20.04)) | [play-ubuntu-20.04-plan](https://github.com/samwhelp/play-ubuntu-20.04-plan) | [Ubuntu 20.04 LTS (Focal Fossa) Released](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=362340#forumpost362340) |
 | [Ubuntu 18.04 (Bionic Beaver) 探索筆記](https://samwhelp.github.io/note-ubuntu-18.04) ([GitHub](https://github.com/samwhelp/note-ubuntu-18.04)) | [play-ubuntu-18.04-plan](https://github.com/samwhelp/play-ubuntu-18.04-plan) | [Ubuntu 18.04 LTS (Bionic Beaver) Released](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=359750#forumpost359750) |
 | [Ubuntu 17.10 (Artful Aardvark) 探索筆記](https://samwhelp.github.io/note-ubuntu-17.10) ([GitHub](https://github.com/samwhelp/note-ubuntu-17.10)) | [play-ubuntu-17.10-plan](https://github.com/samwhelp/play-ubuntu-17.10-plan) | [#22 回覆: Ubuntu 17.10 推出](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=358814#forumpost358814) |
 
 
-| 相關筆記 |
+| Ubuntu 相關筆記 |
 | --- |
 | [Ubuntu 問答集](http://samwhelp.github.io/book-ubuntu-qna/) |
 | [Ubuntu Basic Skill](http://samwhelp.github.io/book-ubuntu-basic-skill/book/) |
+
+
+| 外觀相關筆記 |
+| --- |
+| [Wallpaper 探索筆記](https://samwhelp.github.io/note-about-wallpaper/) |
+| [Theme 探索筆記](https://samwhelp.github.io/note-about-theme/) |
+| Grub 探索筆記 / [Use Theme](https://samwhelp.github.io/note-about-grub/read/howto/use_theme.html) |
+
 
 ## PPA
 
