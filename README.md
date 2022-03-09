@@ -94,6 +94,12 @@
 | Grub 探索筆記 / [Use Theme](https://samwhelp.github.io/note-about-grub/read/howto/use_theme.html) |
 
 
+| 議題相關筆記 |
+| --- |
+| [Xsession簡易入門](https://github.com/samwhelp/note-about-xsession) |
+
+
+
 ## PPA
 
 | 版本 |
