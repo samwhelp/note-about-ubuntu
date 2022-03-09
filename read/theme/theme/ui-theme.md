@@ -16,7 +16,7 @@ parent: 佈景主題
 
 ## 設定檔路徑
 
-* [~/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/full/xfce/config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml#L5)
+* [~/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/xfce/config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml#L5)
 
 
 執行
@@ -106,4 +106,4 @@ Gruvbox
 | `qt5ct` | /usr/share/applications/qt5ct.desktop | Qt | ~/.config/qt5ct/qt5ct.conf |
 
 
-> 我的「qt5ct/appearance/style」是設定「[gtk2](https://github.com/samwhelp/note-about-manjaro/blob/gh-pages/_demo/adjustment/full/xfce/config/qt5ct/qt5ct.conf#L5)」，所以 Qt 應用程式的樣式，會根據 gtk2 的佈景主題的設定。
+> 我的「qt5ct/appearance/style」是設定「[gtk2](https://github.com/samwhelp/note-about-manjaro/blob/gh-pages/_demo/adjustment/de/xfce/config/qt5ct/qt5ct.conf#L5)」，所以 Qt 應用程式的樣式，會根據 gtk2 的佈景主題的設定。

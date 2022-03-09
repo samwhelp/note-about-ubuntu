@@ -16,7 +16,7 @@ parent: 佈景主題
 
 ## 設定檔路徑
 
-* [~/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/full/xfce/config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml#L59)
+* [~/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/xfce/config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml#L59)
 
 執行
 
