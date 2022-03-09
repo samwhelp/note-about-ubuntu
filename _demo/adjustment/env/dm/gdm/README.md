@@ -113,4 +113,186 @@ drwxr-xr-x  4 gdm  gdm  4096 Mar  6 20:41 .local
 ```
 
 
+run
+
+``` sh
+sudo su
+```
+
+run
+
+``` sh
+cd /var/lib/gdm3
+```
+
+run
+
+``` sh
+ls -a1
+```
+
+show 
+
+```
+.
+..
+.cache
+.config
+greeter-dconf-defaults
+.local
+```
+
+run 
+
+``` sh
+cd .config/dconf
+```
+
+or run
+
+```
+cd /var/lib/gdm3/.config/dconf
+```
+
+run
+
+```
+ls -a1
+```
+
+show
+
+```
+.
+..
+user
+```
+
+run
+
+``` sh
+sudo -u gdm dbus-launch dconf dump /
+```
+
+show
+
+```
+No protocol specified
+[org/gnome/desktop/interface]
+gtk-im-module='gtk-im-context-simple'
+```
+
+run
+
+``` sh
+grep -a 'gtk-im-context-simple' user
+```
+
+or run
+
+```
+sudo grep -a 'gtk-im-context-simple' /var/lib/gdm3/.config/dconf/user
+```
+
+show
+
+
+```
+L$(org/gtk-im-modulegtk-im-context-simples/gnome/desktop/interface/
+```
+
+
+* https://wiki.archlinux.org/title/GDM#Changing_the_cursor_theme
+
+run
+
+``` sh
+sudo -u gdm dbus-launch gsettings get org.gnome.desktop.interface cursor-theme
+```
+
+show
+
+```
+No protocol specified
+'Adwaita'
+```
+
+
+run
+
+``` sh
+sudo -u gdm dbus-launch gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
+```
+
+顯示
+
+```
+No protocol specified
+```
+
+run
+
+``` sh
+sudo -u gdm dbus-launch gsettings get org.gnome.desktop.interface cursor-theme
+```
+
+show
+
+```
+No protocol specified
+'Breeze'
+```
+
+
+run
+
+``` sh
+gsettings get org.gnome.desktop.interface cursor-theme
+```
+
+show
+
+```
+'Adwaita'
+```
+
+
+run
+
+``` sh
+sudo -u gdm dbus-launch dconf dump /
+```
+
+show
+
+```
+No protocol specified
+[org/gnome/desktop/interface]
+cursor-theme='Breeze'
+gtk-im-module='gtk-im-context-simple'
+```
+
+run
+
+```
+sudo grep -a 'Breeze' /var/lib/gdm3/.config/dconf/user
+```
+
+show
+
+```
+LHP��$0PLX\org//cursor-themeBreezesgtk-im-modulegtk-im-context-simplesdesktop/interface/gnome/
+```
+
+
+### gdm / dconf db
+
+* /var/lib/gdm3/.config/dconf/user
+* `sudo -u gdm dbus-launch dconf dump /`
+
+### login user / dconf db
+
+* ~/.config/dconf/user
+* `dconf dump /`
+
 
