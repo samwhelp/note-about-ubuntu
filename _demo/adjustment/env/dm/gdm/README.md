@@ -224,7 +224,7 @@ run
 sudo -u gdm dbus-launch gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
 ```
 
-顯示
+show
 
 ```
 No protocol specified
@@ -284,6 +284,49 @@ show
 LHP��$0PLX\org//cursor-themeBreezesgtk-im-modulegtk-im-context-simplesdesktop/interface/gnome/
 ```
 
+run
+
+``` sh
+sudo -u gdm dbus-launch gsettings reset org.gnome.desktop.interface cursor-theme
+```
+
+
+show
+
+```
+No protocol specified
+```
+
+run
+
+``` sh
+sudo -u gdm dbus-launch gsettings get org.gnome.desktop.interface cursor-theme
+```
+
+
+show
+
+```
+No protocol specified
+'Adwaita'
+```
+
+
+run
+
+``` sh
+sudo -u gdm dbus-launch dconf dump /
+```
+
+show
+
+```
+No protocol specified
+[org/gnome/desktop/interface]
+gtk-im-module='gtk-im-context-simple'
+```
+
+
 
 ### gdm / dconf db
 
@@ -296,3 +339,31 @@ LHP��$0PLX\org//cursor-themeBreezesgtk-im-modulegtk-im-context-simplesdeskto
 * `dconf dump /`
 
 
+run
+
+``` sh
+grep 'org/gnome/desktop/interface' /usr/share/glib-2.0/schemas/* -R
+```
+
+show
+
+```
+grep: /usr/share/glib-2.0/schemas/gschemas.compiled: binary file matches
+/usr/share/glib-2.0/schemas/org.gnome.desktop.interface.gschema.xml:  <schema id="org.gnome.desktop.interface" path="/org/gnome/desktop/interface/">
+```
+
+run
+
+``` sh
+grep 'cursor-theme' /usr/share/glib-2.0/schemas/org.gnome.desktop.interface.gschema.xml
+```
+
+show
+
+``` xml
+    <key name="cursor-theme" type="s">
+      <default>'Adwaita'</default>
+      <summary>Cursor theme</summary>
+      <description>Cursor theme name. Used only by Xservers that support the Xcursor extension.</description>
+    </key>
+```
