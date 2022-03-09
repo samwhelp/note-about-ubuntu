@@ -1,4 +1,9 @@
 
+
+## Xsession
+
+* https://wiki.archlinux.org/title/GDM#Automatic_login
+
 run
 
 ``` sh
@@ -59,3 +64,14 @@ ubuntu.desktop
 ubuntu-xorg.desktop
 xfce.desktop
 ```
+
+
+## Link
+
+* https://wiki.archlinux.org/title/GDM
+* https://wiki.debian.org/GDM
+* https://wiki.gnome.org/Projects/GDM
+* https://help.gnome.org/admin/gdm/
+* https://www.rocksaying.tw/archives/19886616.html
+* https://wiki.archlinux.org/title/HiDPI#GNOME
+
