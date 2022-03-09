@@ -1,0 +1,7 @@
+[Desktop]
+Session=openbox
+
+##
+## Set Default Session
+## /usr/share/xsessions/openbox.desktop
+##
