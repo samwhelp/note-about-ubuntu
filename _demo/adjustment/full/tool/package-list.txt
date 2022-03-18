@@ -3,6 +3,7 @@
 ## Develop
 build-essential
 xserver-xephyr
+git
 
 
 ## Device
