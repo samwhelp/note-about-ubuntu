@@ -47,6 +47,13 @@ sudo apt-get install openbox
 sudo apt-get install tint2 gsimplecal
 ```
 
+### logout
+
+
+``` sh
+sudo apt-get install lxsession-logout
+```
+
 
 ## Link
 
@@ -57,6 +64,21 @@ sudo apt-get install tint2 gsimplecal
 
 
 ## 探索
+
+執行
+
+``` sh
+dpkg -L openbox | grep xml
+```
+
+顯示
+
+```
+/etc/xdg/openbox/menu.xml
+/etc/xdg/openbox/rc.xml
+/usr/share/doc/openbox/rc-mouse-focus.xml.gz
+```
+
 
 執行
 
