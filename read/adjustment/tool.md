@@ -39,3 +39,10 @@ parent: 微調
 | [nvim](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/tool/nvim.html) | [nvim 探索筆記](https://samwhelp.github.io/note-about-nvim/) |
 | [mousepad](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/tool/mousepad.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/tool/mousepad) |
 | [atom](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/tool/atom.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/tool/atom) |
+
+
+## Image Viewer
+
+| Image Viewer | 微調腳本 |
+| --- | --- |
+| [viewnior](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/tool/viewnior.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/tool/viewnior) |
