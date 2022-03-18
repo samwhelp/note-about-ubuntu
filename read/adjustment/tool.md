@@ -19,3 +19,4 @@ parent: 微調
 | Terminal | 微調腳本 |
 | --- | --- |
 | [sakura](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/tool/sakura.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/tool/sakura) |
+| [xfce4-terminal](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/tool/xfce4-terminal.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/tool/xfce4-terminal) |
