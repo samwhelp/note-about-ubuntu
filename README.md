@@ -59,7 +59,7 @@
 
 ### 視窗管理器微調
 
-| 桌面環境 | 微調腳本 |
+| 視窗管理器 | 微調腳本 |
 | --- | --- |
 | [openbox](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/wm/openbox.html) | [openbox 探索筆記](https://samwhelp.github.io/note-about-openbox/) |
 
