@@ -29,10 +29,10 @@
 	<item label="Web Browser" icon="/usr/share/icons/hicolor/16x16/apps/firefox.png" >
 		<action name="Execute"><execute>firefox</execute></action>
 	</item>
-	<item label="Terminal" icon="/usr/share/icons/Numix-Apps/48/apps/terminal.svg" >
+	<item label="Terminal" icon="/usr/share/pixmaps/terminal-tango.svg" >
 		<action name="Execute"><execute>sakura -m</execute></action>
 	</item>
-	<item label="Text Editor" icon="/usr/share/icons/Numix-Apps/48/apps/text-editor.svg" >
+	<item label="Text Editor" icon="/usr/share/icons/hicolor/scalable/apps/org.xfce.mousepad.svg" >
 		<action name="Execute"><execute>mousepad</execute></action>
 	</item>
 
@@ -56,7 +56,7 @@
 			<action name="Execute"><execute>qterminal</execute></action>
 		</item>
 //-->
-		<item label="atom" icon="/usr/share/icons/hicolor/24x24/apps/atom.png">
+		<item label="atom" icon="/usr/share/pixmaps/atom.png">
 			<action name="Execute"><execute>atom</execute></action>
 		</item>
 
@@ -66,13 +66,13 @@
 		<item label="Thunar" icon="/usr/share/icons/Numix/24/actions/gtk-open.svg" >
 			<action name="Execute"><execute>thunar</execute></action>
 		</item>
-		<item label="Xfce4 Terminal" icon="/usr/share/icons/Numix-Apps/48/apps/terminal.svg" >
+		<item label="Xfce4 Terminal" icon="/usr/share/pixmaps/terminal-tango.svg" >
 			<action name="Execute"><execute>xfce4-terminal</execute></action>
 		</item>
-		<item label="Leafpad" icon="/usr/share/icons/Numix-Apps/48/apps/text-editor.svg" >
-			<action name="Execute"><execute>leafpad</execute></action>
+		<item label="l3afpad" icon="/usr/share/pixmaps/l3afpad.png" >
+			<action name="Execute"><execute>l3afpad</execute></action>
 		</item>
-		<item label="geany" icon="/usr/share/icons/Numix-Apps/48/apps/text-editor.svg">
+		<item label="geany" icon="/usr/share/pixmaps/geany.xpm">
 			<action name="Execute"><execute>geany</execute></action>
 		</item>
 <!--
