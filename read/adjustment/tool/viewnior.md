@@ -9,7 +9,7 @@ grand_parent: 微調
 
 # viewnior
 
-* [腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/tool/viewnior)
+* [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/tool/viewnior)
 
 
 ## Package
