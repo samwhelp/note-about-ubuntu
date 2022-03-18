@@ -47,3 +47,9 @@ mediainfo-gui
 apt-file
 gdebi-core
 dctrl-tools
+
+
+## Archiver
+engrampa
+lxqt-archiver
+unrar
