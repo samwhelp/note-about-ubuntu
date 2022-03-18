@@ -65,6 +65,7 @@ breeze-cursor-theme
 
 ## Wallpaper
 
+ubuntu-wallpapers
 #ubuntu-wallpapers-artful
 #ubuntu-wallpapers-bionic
 #ubuntu-wallpapers-cosmic
