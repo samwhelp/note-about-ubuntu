@@ -6,6 +6,10 @@ xserver-xephyr
 git
 
 
+## X
+hsetroot
+
+
 ## Device
 inxi
 
