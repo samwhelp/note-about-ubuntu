@@ -96,8 +96,14 @@
 
 | 議題相關筆記 |
 | --- |
-| [Xsession簡易入門](https://github.com/samwhelp/note-about-xsession) |
+| [Xsession簡易入門](https://github.com/samwhelp/note-about-xsession/) |
+| [dkms 探索筆記](https://samwhelp.github.io/note-about-dkms/) |
 
+
+| Vim 相關筆記 |
+| --- |
+| [vim 探索筆記](https://github.com/samwhelp/note-about-vim/) |
+| [nvim 探索筆記](https://samwhelp.github.io/note-about-nvim/) |
 
 
 ## PPA
