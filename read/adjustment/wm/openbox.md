@@ -42,17 +42,45 @@ sudo apt-get install openbox
 
 ### tint2
 
+執行下面指令，安裝
 
 ``` sh
 sudo apt-get install tint2 gsimplecal
 ```
 
+* Ubuntu Package / [tint2](https://packages.ubuntu.com/jammy/tint2)
+* Ubuntu Package / [gsimplecal](https://packages.ubuntu.com/jammy/gsimplecal)
+
+
 ### logout
 
+下面「obsession-logout」或「lxsession-logout」，選擇其一
+
+在「[menu.xml](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/wm/openbox/config/openbox/menu.xml#L199)」有使用到。
+
+#### obsession
+
+執行下面指令，安裝
+
+``` sh
+sudo apt-get install obsession
+```
+
+* Ubuntu Package / [obsession](https://packages.ubuntu.com/jammy/obsession)
+* $ man [obsession-logout](http://manpages.ubuntu.com/manpages/jammy/en/man1/obsession-logout.1.html)
+* $ man [obsession-exit](http://manpages.ubuntu.com/manpages/jammy/en/man1/obsession-exit.1.html)
+* $ man [xdg-autostart](http://manpages.ubuntu.com/manpages/jammy/en/man1/xdg-autostart.1.html)
+
+#### lxsession-logout
+
+執行下面指令，安裝
 
 ``` sh
 sudo apt-get install lxsession-logout
 ```
+
+* Ubuntu Package / [lxsession-logout](https://packages.ubuntu.com/jammy/lxsession-logout)
+* $ man [obsession-logout](http://manpages.ubuntu.com/manpages/jammy/en/man1/lxsession-logout.1.html)
 
 
 ## Link

@@ -196,9 +196,18 @@
 			<action name="Exit"/>
 		</item>
 	</menu>
+
+	<!-- $ sudo apt-get install obsession //-->
+	<item label="Exit" icon="/usr/share/icons/Numix/24/actions/system-shutdown.svg">
+		<action name="Execute"><execute>obsession-logout</execute></action>
+	</item>
+
+	<!-- $ sudo apt-get install lxsession-logout //-->
+<!--
 	<item label="Exit" icon="/usr/share/icons/Numix/24/actions/system-shutdown.svg">
 		<action name="Execute"><execute>lxsession-logout</execute></action>
 	</item>
+//-->
 </menu>
 
 </openbox_menu>
