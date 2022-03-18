@@ -259,6 +259,10 @@ xubuntu-wallpapers - Xubuntu desktop wallpapers
 
 ## Package
 
+
+* [完整安裝腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/full/ubuntu-wallpapers)
+
+
 ``` sh
 dpkg -l *ubuntu-wallpapers* | grep 'ubuntu-wallpapers' | awk '{print "* ["$2"](https://packages.ubuntu.com/jammy/"$2") / [filelist](https://packages.ubuntu.com/jammy/all/"$2"/filelist)"}'
 ```
