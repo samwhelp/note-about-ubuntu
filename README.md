@@ -4,6 +4,11 @@
 * [note-about-ubuntu](https://samwhelp.github.io/note-about-ubuntu/) ([GitHub](https://github.com/samwhelp/note-about-ubuntu))
 
 
+## 前提
+
+> 這個筆記，目前是基於「Ubuntu 22.04 LTS (Jammy Jellyfish)」撰寫的。
+
+
 ## 主題
 
 * [系統環境微調](#系統環境微調)
