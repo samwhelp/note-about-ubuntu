@@ -61,7 +61,7 @@
 
 | 桌面環境 | 微調腳本 |
 | --- | --- |
-| [openbox](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/wm/openbox.html) |  |
+| [openbox](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/wm/openbox.html) | [openbox 探索筆記](https://samwhelp.github.io/note-about-openbox/) |
 
 
 ### 工具微調
@@ -133,3 +133,4 @@
 
 * [個人筆記](https://samwhelp.github.io/book/)
 * [manjaro 探索筆記](https://samwhelp.github.io/note-about-manjaro/)
+* [archcraft 探索筆記](https://samwhelp.github.io/note-about-archcraft/) / [archcraft-adjustment-package](https://github.com/samwhelp/archcraft-adjustment-package)
