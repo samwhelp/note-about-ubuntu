@@ -28,3 +28,10 @@ parent: 微調
 | --- | --- |
 | [pcmanfm-qt](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/tool/pcmanfm-qt.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/tool/pcmanfm-qt) |
 | [thunar](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/tool/thunar.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/tool/thunar) |
+
+
+## Text Editor
+
+| Text Editor | 微調腳本 |
+| --- | --- |
+| [mousepad](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/tool/mousepad.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/tool/mousepad) |

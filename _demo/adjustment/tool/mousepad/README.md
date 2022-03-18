@@ -16,11 +16,11 @@ $ gsettings list-recursively | grep 'org.xfce.mousepad.preferences'
 ## gschema
 
 ``` sh
-$ pacman -Ql mousepad | grep xml
+$ dpkg -L mousepad | grep xml
 ```
 
 ``` sh
-$ pacman -Ql mousepad | grep gschema
+$ dpkg -L mousepad | grep gschema
 ```
 
 ``` sh
