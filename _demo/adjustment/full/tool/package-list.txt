@@ -5,6 +5,10 @@ build-essential
 xserver-xephyr
 
 
+## Device
+inxi
+
+
 ## File
 filezilla
 tree
@@ -38,7 +42,7 @@ mediainfo
 mediainfo-gui
 
 
-## Package Manage
+## Package Management
 apt-file
 gdebi-core
 dctrl-tools
