@@ -43,8 +43,48 @@ sudo apt-get install openbox
 ### tint2
 
 
+``` sh
+sudo apt-get install tint2 gsimplecal
+```
+
+
 ## Link
 
 * [http://openbox.org/](http://openbox.org/)
 * Arch Wiki / [Openbox](https://wiki.archlinux.org/title/Openbox)
 * [openbox 探索筆記](https://samwhelp.github.io/note-about-openbox/)
+
+
+
+## 探索
+
+執行
+
+``` sh
+apt-cache search openbox | sort -u
+```
+
+顯示
+
+```
+gnome-panel-control - command line utility to invoke GNOME panel run dialog/menu
+gsimplecal - lightweight GUI calendar application
+jwm - very small lightweight pure X11 window manager with tray and menus
+libobrender32v5 - rendering library for openbox themes
+libobt2v5 - parsing library for openbox
+lxhotkey-plugin-openbox - LXHotkey keyboard shortcuts configurator (Openbox support plugin)
+lxsession-logout - utility to logout from a LXDE or an Openbox session
+obconf - preferences manager for Openbox window manager
+obconf-qt - Openbox configuration with a Qt interface
+openbox-dev - development files for the openbox window manager
+openbox-gnome-session - command line utility to run Openbox as GNOME session
+openbox-kde-session - command line utility to run Openbox as KDE SC session
+openbox-lxde-session - LXDE session manager and configuration files
+openbox-menu - openbox pipe-menu to display entries in *.desktop files
+openbox - standards-compliant, fast, light-weight and extensible window manager
+stalonetray - Standalone freedesktop.org and KDE systray implementation
+tdc - Tiny Dockable Clock
+tint2 - lightweight taskbar
+variety - Wallpaper changer, downloader and manager
+wmdocker - System tray for KDE3/GNOME2 docklet applications
+```
