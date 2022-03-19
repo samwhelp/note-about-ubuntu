@@ -12,8 +12,8 @@ has_children: true
 
 | 環境 |
 | --- |
-| [xfce](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/de/xfce.html) |
-| [openbox](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/wm/openbox.html) |
+| [xfce](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/de/xfce.html#採用佈景主題) |
+| [openbox](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/wm/openbox.html#採用佈景主題) |
 
 ## Path
 
