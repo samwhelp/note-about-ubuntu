@@ -13,8 +13,8 @@ grand_parent: 入門
 
 | GRUB Boot ISO 範例 | 設定檔路徑 | 是否需要執行 update-grub |
 | --- | --- | --- |
-| demo_40_custom / [latest](https://github.com/samwhelp/note-about-grub/blob/gh-pages/_demo/prototype/boot_iso/demo_40_custom/Ubuntu/latest/) | [/etc/grub.d/40_custom](https://github.com/samwhelp/note-about-grub/blob/gh-pages/_demo/prototype/boot_iso/demo_40_custom/Ubuntu/latest/40_custom) | 修改後，需要執行 `sudo update-grub` |
-| demo_41_custom / [latest](https://github.com/samwhelp/note-about-grub/blob/gh-pages/_demo/prototype/boot_iso/demo_41_custom/Ubuntu/latest/) | [/boot/grub/custom.cfg](https://github.com/samwhelp/note-about-grub/blob/gh-pages/_demo/prototype/boot_iso/demo_41_custom/Ubuntu/latest/custom.cfg) | 修改後，**不需要**執行 `sudo update-grub` |
+| demo_40_custom / [daily-live](https://github.com/samwhelp/note-about-grub/blob/gh-pages/_demo/prototype/boot_iso/demo_40_custom/Ubuntu/daily-live/) | [/etc/grub.d/40_custom](https://github.com/samwhelp/note-about-grub/blob/gh-pages/_demo/prototype/boot_iso/demo_40_custom/Ubuntu/daily-live/40_custom) | 修改後，需要執行 `sudo update-grub` |
+| demo_41_custom / [daily-live](https://github.com/samwhelp/note-about-grub/blob/gh-pages/_demo/prototype/boot_iso/demo_41_custom/Ubuntu/daily-live/) | [/boot/grub/custom.cfg](https://github.com/samwhelp/note-about-grub/blob/gh-pages/_demo/prototype/boot_iso/demo_41_custom/Ubuntu/daily-live/custom.cfg) | 修改後，**不需要**執行 `sudo update-grub` |
 
 
 ## GRUB Menu Entry / Boot ISO 樣板
