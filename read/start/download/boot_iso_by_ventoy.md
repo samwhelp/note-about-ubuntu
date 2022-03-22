@@ -9,4 +9,4 @@ grand_parent: 入門
 
 # Boot ISO By Ventoy
 
-使用方式，可以參考我的[另一篇筆記](https://samwhelp.github.io/note-about-grub/read/link/ventoy.html)。
+使用方式，可以參考「[ventoy 探索筆記](https://samwhelp.github.io/note-about-ventoy/)」。
