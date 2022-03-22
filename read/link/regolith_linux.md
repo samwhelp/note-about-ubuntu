@@ -7,7 +7,7 @@ parent: 連結
 
 # Regolith Linux
 
-## 相關筆記
+## 連結
 
 * [Regolith Linux](https://regolith-linux.org/)
 * Regolith Linux / [Download](https://regolith-linux.org/download/)
