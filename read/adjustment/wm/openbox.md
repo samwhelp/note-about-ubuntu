@@ -9,6 +9,11 @@ grand_parent: 微調
 
 # openbox
 
+## 相關筆記
+
+* [openbox 探索筆記](https://samwhelp.github.io/note-about-openbox/)
+
+
 ## 安裝
 
 執行下面指令，安裝「[openbox](https://packages.ubuntu.com/jammy/openbox)」。

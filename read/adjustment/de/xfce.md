@@ -6,8 +6,13 @@ parent: 桌面環境微調
 grand_parent: 微調
 ---
 
+# xfce
 
-## 腳本
+## 相關筆記
+
+* [xfce 探索筆記](https://samwhelp.github.io/note-about-xfce/)
+
+## 微調腳本
 
 * [xfce微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/xfce)
 
