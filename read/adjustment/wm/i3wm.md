@@ -1,6 +1,6 @@
 ---
 title: i3wm
-nav_order: 4016
+nav_order: 4021
 has_children: false
 parent: 桌面環境微調
 grand_parent: 微調
