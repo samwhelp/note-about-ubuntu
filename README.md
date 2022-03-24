@@ -6,7 +6,7 @@
 
 ## 前提
 
-> 這個筆記，目前是基於「Ubuntu 22.04 LTS (Jammy Jellyfish)」撰寫的。
+> 這個筆記，目前是基於「**Ubuntu 22.04 LTS (Jammy Jellyfish)**」撰寫的。
 
 
 ## 主題
