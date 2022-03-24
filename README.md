@@ -1,7 +1,7 @@
 
 # 首頁
 
-* [note-about-ubuntu](https://samwhelp.github.io/note-about-ubuntu/) ([GitHub](https://github.com/samwhelp/note-about-ubuntu))
+* [Ubuntu 22.04 LTS 探索筆記](https://samwhelp.github.io/note-about-ubuntu/) ([GitHub](https://github.com/samwhelp/note-about-ubuntu))
 
 
 ## 前提
