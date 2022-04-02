@@ -227,10 +227,60 @@ theme_asset_install_rgaps_xfwm4_install () {
 
 
 ################################################################################
+### Head: Wallpaper
+##
+wallpaper_asset_install () {
+
+	echo "## Asset: wallpaper"
+	echo
+
+	wallpaper_asset_install_wallpaper_select_xfce
+
+	echo
+
+}
+
+##
+### Tail: Wallpaper
+################################################################################
+
+
+################################################################################
+### Head: Wallpaper
+##
+wallpaper_asset_install_wallpaper_select_xfce () {
+
+
+	echo
+
+	if [ -a "$HOME/.local/bin/wallpaper-select-xfce" ]; then
+		echo
+		echo "## Tool Exists:" "$HOME/.local/bin/wallpaper-select-xfce"
+		echo
+		return 0
+	fi
+
+	echo
+
+	echo "wget 'https://raw.githubusercontent.com/samwhelp/note-about-fzf/gh-pages/_demo/project/wallpaper-select/wallpaper-select-xfce/remote-install.sh' -q -O - | bash"
+	wget 'https://raw.githubusercontent.com/samwhelp/note-about-fzf/gh-pages/_demo/project/wallpaper-select/wallpaper-select-xfce/remote-install.sh' -q -O - | bash
+
+
+	echo
+
+}
+
+##
+### Tail: Wallpaper
+################################################################################
+
+
+################################################################################
 ### Head: main
 ##
 main_asset_install () {
 	theme_asset_install
+	wallpaper_asset_install
 }
 ## start
 main_asset_install
