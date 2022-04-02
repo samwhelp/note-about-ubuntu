@@ -278,6 +278,35 @@ sakura_put_my_desktop_entry () {
 
 
 ################################################################################
+### Head: profile
+##
+profile_config_install () {
+
+	echo "## Config: profile"
+	echo
+
+	#echo "mkdir -p $HOME"
+	#mkdir -p "$HOME"
+
+
+	echo "install -Dm644 ./config/profile/.profile $HOME/.profile"
+	install -Dm644 "./config/profile/.profile" "$HOME/.profile"
+
+
+	local now=$(date +%Y%m%d_%s)
+
+	if [ -f "$HOME/.bash_profile" ]; then
+		mv "$HOME/.bash_profile" "$HOME/.bash_profile.bak.$now"
+	fi
+
+	echo
+}
+##
+### Tail: profile
+################################################################################
+
+
+################################################################################
 ### Head: fcitx
 ##
 fcitx_config_install () {
@@ -440,6 +469,8 @@ main_config_install () {
 	xfce4_terminal_config_install
 
 	sakura_config_install
+
+	profile_config_install
 
 	fcitx_config_install
 
