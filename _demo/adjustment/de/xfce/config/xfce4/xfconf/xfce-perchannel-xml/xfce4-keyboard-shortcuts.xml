@@ -58,9 +58,10 @@
 			<property name="&lt;Shift&gt;&lt;Alt&gt;r" type="string" value="rofi -show run"/>
 			<property name="&lt;Shift&gt;&lt;Alt&gt;w" type="string" value="rofi -show window -show-icons"/>
 			<property name="&lt;Shift&gt;&lt;Alt&gt;d" type="string" value="rofi -show drun -show-icons"/>
-			<property name="&lt;Alt&gt;Return" type="string" value="sakura"/>
-			<property name="&lt;Shift&gt;&lt;Alt&gt;a" type="string" value="xfce4-terminal"/>
-			<property name="&lt;Primary&gt;&lt;Alt&gt;a" type="string" value="xfce4-terminal --drop-down"/>
+			<property name="&lt;Alt&gt;Return" type="string" value="sakura -m"/>
+			<property name="&lt;Shift&gt;&lt;Alt&gt;a" type="string" value="sakura -m"/>
+			<property name="&lt;Primary&gt;&lt;Alt&gt;a" type="string" value="xfce4-terminal --maximize"/>
+			<property name="&lt;Shift&gt;&lt;Alt&gt;y" type="string" value="xfce4-terminal --drop-down"/>
 			<property name="&lt;Shift&gt;&lt;Alt&gt;t" type="string" value="xterm"/>
 			<property name="&lt;Primary&gt;&lt;Alt&gt;t" type="string" value="urxvt"/>
 			<property name="&lt;Shift&gt;&lt;Alt&gt;f" type="string" value="pcmanfm-qt"/>
