@@ -10,6 +10,7 @@ curl
 
 openbox
 tint2
+picom
 feh
 obsession
 xmlstarlet
