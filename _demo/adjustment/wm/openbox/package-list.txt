@@ -21,6 +21,11 @@ xfconf
 xfce4-settings
 
 
+## Font
+
+fonts-noto-cjk
+
+
 ## Rofi
 
 rofi

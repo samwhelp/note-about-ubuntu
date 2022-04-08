@@ -20,6 +20,11 @@ tumbler-plugins-extra
 #fortunes-mod
 
 
+## Font
+
+fonts-noto-cjk
+
+
 ## Rofi
 
 rofi
