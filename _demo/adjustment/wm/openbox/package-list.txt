@@ -1,11 +1,18 @@
 
 
+## Download
+git
+wget
+curl
+
+
 ## Openbox
 
 openbox
 tint2
 feh
 obsession
+xmlstarlet
 
 
 ## Xfce

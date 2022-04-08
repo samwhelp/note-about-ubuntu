@@ -25,6 +25,8 @@ openbox_config_install () {
 	install -Dm644 "./config/openbox/menu.xml" "$HOME/.config/openbox/menu.xml"
 
 
+	openbox_config_install_openboxrc_change_theme "Numix"
+
 	echo
 
 }
@@ -57,6 +59,27 @@ openbox_config_install_openboxrc_install () {
 	make -C tmp/Openboxrc_Source/_demo/config/openbox-config/plan config-install
 
 }
+
+openbox_config_install_openboxrc_change_theme () {
+	
+	echo
+	
+	## https://github.com/archcraft-os/archcraft-openbox/blob/main/files/scripts/Forest.sh
+	
+	local openbox_path="$HOME/.config/openbox"
+	local namespace="http://openbox.org/3.4/rc"
+	local config="$openbox_path/rc.xml"
+	local theme="$1"
+
+	# Theme
+	echo xmlstarlet ed -L -N a="$namespace" -u '/a:openbox_config/a:theme/a:name' -v "$theme" "$config"
+	xmlstarlet ed -L -N a="$namespace" -u '/a:openbox_config/a:theme/a:name' -v "$theme" "$config"
+
+
+	#openbox --reconfigure
+
+}
+
 ##
 ### Tail: openbox
 ################################################################################
@@ -496,6 +519,8 @@ gtk2_config_install () {
 ##
 main_config_install () {
 	openbox_config_install
+	
+	return
 
 	xfce4_config_install
 
