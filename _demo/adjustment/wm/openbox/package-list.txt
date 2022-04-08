@@ -70,6 +70,7 @@ fcitx-m17n
 
 qt5ct
 qt5-style-plugins
+#qt5-gtk2-platformtheme
 
 
 ## Theme
