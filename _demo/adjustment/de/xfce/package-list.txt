@@ -71,10 +71,11 @@ ubuntu-wallpapers
 #ubuntu-wallpapers-cosmic
 #ubuntu-wallpapers-disco
 #ubuntu-wallpapers-eoan
-ubuntu-wallpapers-focal
+#ubuntu-wallpapers-focal
 #ubuntu-wallpapers-groovy
 #ubuntu-wallpapers-hirsute
 #ubuntu-wallpapers-impish
+#ubuntu-wallpapers-jammy
 #ubuntu-wallpapers-karmic
 #ubuntu-wallpapers-lucid
 #ubuntu-wallpapers-maverick
