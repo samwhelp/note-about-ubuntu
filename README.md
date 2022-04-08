@@ -74,7 +74,7 @@
 
 | 視窗管理器 | 微調腳本 |
 | --- | --- |
-| [openbox](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/wm/openbox.html) | [openbox 探索筆記](https://samwhelp.github.io/note-about-openbox/) |
+| [openbox](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/wm/openbox.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/wm/openbox) |
 
 
 ### 工具微調
