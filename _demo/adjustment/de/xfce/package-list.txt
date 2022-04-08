@@ -1,5 +1,12 @@
 
 
+## Download
+
+git
+wget
+curl
+
+
 ## Xfce
 
 xfce4
