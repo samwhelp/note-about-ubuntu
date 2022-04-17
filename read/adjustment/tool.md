@@ -46,3 +46,10 @@ parent: 微調
 | Image Viewer | 微調腳本 |
 | --- | --- |
 | [viewnior](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/tool/viewnior.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/tool/viewnior) |
+
+
+## Media Player
+
+| Media Player | 微調腳本 |
+| --- | --- |
+| [mpv](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/tool/mpv.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/tool/mpv) |
