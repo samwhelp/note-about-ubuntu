@@ -30,7 +30,7 @@
 | [Boot ISO By GRUB](https://samwhelp.github.io/note-about-ubuntu/read/start/download/boot_iso_by_grub.html) |
 
 
-### 系統環境微調
+## 系統環境微調
 
 | 議題 | 微調腳本 |
 | --- | --- |
@@ -42,7 +42,7 @@
 | [個人 bin 資料夾](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/bin-dir.html) | |
 
 
-### 外觀微調
+## 外觀微調
 
 | 議題 | 微調腳本 |
 | --- | --- |
@@ -63,21 +63,24 @@
 | [lightdm-theme](https://samwhelp.github.io/note-about-ubuntu/read/theme/lightdm-theme.html) |
 
 
-### 桌面環境微調
+## 桌面環境微調
 
 | 桌面環境 | 微調腳本 |
 | --- | --- |
 | [xfce](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/de/xfce.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/xfce) |
 
 
-### 視窗管理器微調
+## 視窗管理器微調
 
 | 視窗管理器 | 微調腳本 |
 | --- | --- |
 | [openbox](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/wm/openbox.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/wm/openbox) |
 
 
-### 工具微調
+## 工具微調
+
+
+### Terminal
 
 | Terminal | 微調腳本 |
 | --- | --- |
@@ -86,11 +89,15 @@
 | [gnome-terminal](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/tool/gnome-terminal.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/tool/gnome-terminal) |
 
 
+### File Manager
+
 | File Manager | 微調腳本 |
 | --- | --- |
 | [pcmanfm-qt](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/tool/pcmanfm-qt.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/tool/pcmanfm-qt) |
 | [thunar](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/tool/thunar.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/tool/thunar) |
 
+
+### Text Editor
 
 | Text Editor | 微調腳本 |
 | --- | --- |
@@ -100,15 +107,21 @@
 | [atom](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/tool/atom.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/tool/atom) |
 
 
-## Image Viewer
+### Image Viewer
 
 | Image Viewer | 微調腳本 |
 | --- | --- |
 | [viewnior](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/tool/viewnior.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/tool/viewnior) |
 
 
-## 相關筆記
+### Media Player
 
+| Media Player | 微調腳本 |
+| --- | --- |
+| [mpv](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/tool/mpv.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/tool/mpv) |
+
+
+## 相關筆記
 
 | Ubuntu 筆記 | 微調腳本 | 討論串 |
 | --- | --- | --- |
