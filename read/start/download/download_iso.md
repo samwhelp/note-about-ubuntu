@@ -11,6 +11,12 @@ grand_parent: 入門
 # Download ISO
 
 
+## Link
+
+* [https://releases.ubuntu.com/22.04/](https://releases.ubuntu.com/22.04/)
+* [https://cdimage.ubuntu.com/](https://cdimage.ubuntu.com/)
+
+
 ## ISO 列表
 
 | [Ubuntu flavours](https://ubuntu.com/desktop/flavours) | ISO |
