@@ -168,3 +168,4 @@
 * [system-modeling](https://samwhelp.github.io/system-modeling/) / ([GitHub](https://github.com/samwhelp/system-modeling))
 * [manjaro 探索筆記](https://samwhelp.github.io/note-about-manjaro/)
 * [archcraft 探索筆記](https://samwhelp.github.io/note-about-archcraft/) / [archcraft-adjustment-package](https://github.com/samwhelp/archcraft-adjustment-package)
+* [Elementary OS 探索筆記](https://samwhelp.github.io/note-about-elementary-os/)
