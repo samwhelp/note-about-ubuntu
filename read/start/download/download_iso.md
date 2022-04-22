@@ -97,3 +97,10 @@ sh download.sh
 ```
 
 當然也可以直接執行「`wget -c -i download.txt`」這行指令。
+
+
+## Link
+
+* [live-custom-ubuntu-from-scratch](https://github.com/mvallim/live-custom-ubuntu-from-scratch)
+* [regolith-ubuntu-iso-builder](https://github.com/regolith-linux/regolith-ubuntu-iso-builder)
+* [ventoy 探索筆記](https://samwhelp.github.io/note-about-ventoy/
