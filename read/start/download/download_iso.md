@@ -30,7 +30,7 @@ grand_parent: 入門
 | [Xubuntu](https://xubuntu.org/) | [xubuntu-22.04-desktop-amd64.iso](https://cdimage.ubuntu.com/xubuntu/releases/22.04/release/xubuntu-22.04-desktop-amd64.iso) | [Xubuntu 22.04 released!](https://xubuntu.org/news/xubuntu-22-04-released/) ([Xubuntu 22.04](https://xubuntu.org/release/22-04/))|
 | [Kubuntu](https://kubuntu.org/) | [kubuntu-22.04-desktop-amd64.iso](https://cdimage.ubuntu.com/kubuntu/releases/22.04/release/kubuntu-22.04-desktop-amd64.iso) | [Kubuntu 22.04 LTS Released](https://kubuntu.org/news/kubuntu-22-04-lts-released/) ([Release Notes](https://wiki.ubuntu.com/JammyJellyfish/ReleaseNotes/Kubuntu)) |
 | [Lubuntu](https://lubuntu.me/) | [lubuntu-22.04-desktop-amd64.iso](https://cdimage.ubuntu.com/lubuntu/releases/22.04/release/lubuntu-22.04-desktop-amd64.iso) | [Lubuntu 22.04 LTS is Released!](https://lubuntu.me/jammy-released/) |
-| [Ubuntu MATE](https://ubuntu-mate.org/) | [ubuntu-mate-22.04-desktop-amd64.iso](https://cdimage.ubuntu.com/ubuntu-mate/releases/22.04/release/ubuntu-mate-22.04-desktop-amd64.iso) |  |
+| [Ubuntu MATE](https://ubuntu-mate.org/) | [ubuntu-mate-22.04-desktop-amd64.iso](https://cdimage.ubuntu.com/ubuntu-mate/releases/22.04/release/ubuntu-mate-22.04-desktop-amd64.iso) | [Ubuntu MATE 22.04 LTS Release Notes](https://ubuntu-mate.org/blog/ubuntu-mate-jammy-jellyfish-release-notes/)  |
 | [Ubuntu Budgie](https://ubuntubudgie.org/) | [ubuntu-budgie-22.04-desktop-amd64.iso](https://cdimage.ubuntu.com/ubuntu-budgie/releases/22.04/release/ubuntu-budgie-22.04-desktop-amd64.iso) |  |
 | [Ubuntu Studio](https://ubuntustudio.org/) | [ubuntustudio-22.04-dvd-amd64.iso](https://cdimage.ubuntu.com/ubuntustudio/releases/22.04/release/ubuntustudio-22.04-dvd-amd64.iso) |  |
 
