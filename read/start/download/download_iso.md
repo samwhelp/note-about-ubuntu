@@ -53,6 +53,7 @@ https://cdimage.ubuntu.com/lubuntu/releases/22.04/release/lubuntu-22.04-desktop-
 https://cdimage.ubuntu.com/ubuntu-mate/releases/22.04/release/ubuntu-mate-22.04-desktop-amd64.iso
 https://cdimage.ubuntu.com/ubuntu-budgie/releases/22.04/release/ubuntu-budgie-22.04-desktop-amd64.iso
 https://cdimage.ubuntu.com/ubuntustudio/releases/22.04/release/ubuntustudio-22.04-dvd-amd64.iso
+https://releases.ubuntu.com/22.04/ubuntu-22.04-live-server-amd64.iso
 ```
 
 ## download.sh
@@ -103,4 +104,4 @@ sh download.sh
 
 * [live-custom-ubuntu-from-scratch](https://github.com/mvallim/live-custom-ubuntu-from-scratch)
 * [regolith-ubuntu-iso-builder](https://github.com/regolith-linux/regolith-ubuntu-iso-builder)
-* [ventoy 探索筆記](https://samwhelp.github.io/note-about-ventoy/
+* [ventoy 探索筆記](https://samwhelp.github.io/note-about-ventoy/)
