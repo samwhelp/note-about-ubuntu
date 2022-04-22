@@ -19,6 +19,8 @@ sudo apt-get install wget
 
 ## download.txt
 
+產生一個檔案「[download.txt](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/download/iso/22.04/download.txt)」，存入如下的內容
+
 ```
 https://releases.ubuntu.com/22.04/ubuntu-22.04-desktop-amd64.iso
 https://cdimage.ubuntu.com/xubuntu/releases/22.04/release/xubuntu-22.04-desktop-amd64.iso
@@ -31,6 +33,43 @@ https://cdimage.ubuntu.com/ubuntustudio/releases/22.04/release/ubuntustudio-22.0
 
 ## download.sh
 
+
+產生一個檔案「[download.sh](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/download/iso/22.04/download.sh)」，存入如下的內容
+
 ``` sh
-wget -c -i iso-download.txt
+wget -c -i download.txt
 ```
+
+執行下面的指令，設定「可執行」
+
+``` sh
+chmod 755 download.sh
+```
+
+或是執行下面的指令，設定「可執行」
+
+``` sh
+chmod +x download.sh
+```
+
+或是執行下面的指令，設定「可執行」
+
+``` sh
+chmod u+x download.sh
+```
+
+接著就可以執行下面的指令，下載
+
+``` sh
+./download.sh
+```
+
+或是沒有將「download.sh」設定「可執行」，
+
+可以執行下面指令
+
+``` sh
+sh download.sh
+```
+
+當然也可以直接執行「`wget -c -i download.txt`」這行指令。
