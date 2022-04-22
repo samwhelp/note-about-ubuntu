@@ -11,6 +11,11 @@ grand_parent: 入門
 # Download ISO
 
 
+## 簡易下載 ISO 腳本
+
+* [Ubuntu 22.04 flavours](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/download/iso/22.04)
+
+
 ## Link
 
 * [https://releases.ubuntu.com/22.04/](https://releases.ubuntu.com/22.04/)
