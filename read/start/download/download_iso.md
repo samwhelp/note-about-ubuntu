@@ -31,8 +31,8 @@ grand_parent: 入門
 | [Kubuntu](https://kubuntu.org/) | [kubuntu-22.04-desktop-amd64.iso](https://cdimage.ubuntu.com/kubuntu/releases/22.04/release/kubuntu-22.04-desktop-amd64.iso) | [Kubuntu 22.04 LTS Released](https://kubuntu.org/news/kubuntu-22-04-lts-released/) ([Release Notes](https://wiki.ubuntu.com/JammyJellyfish/ReleaseNotes/Kubuntu)) |
 | [Lubuntu](https://lubuntu.me/) | [lubuntu-22.04-desktop-amd64.iso](https://cdimage.ubuntu.com/lubuntu/releases/22.04/release/lubuntu-22.04-desktop-amd64.iso) | [Lubuntu 22.04 LTS is Released!](https://lubuntu.me/jammy-released/) |
 | [Ubuntu MATE](https://ubuntu-mate.org/) | [ubuntu-mate-22.04-desktop-amd64.iso](https://cdimage.ubuntu.com/ubuntu-mate/releases/22.04/release/ubuntu-mate-22.04-desktop-amd64.iso) | [Ubuntu MATE 22.04 LTS Release Notes](https://ubuntu-mate.org/blog/ubuntu-mate-jammy-jellyfish-release-notes/)  |
-| [Ubuntu Budgie](https://ubuntubudgie.org/) | [ubuntu-budgie-22.04-desktop-amd64.iso](https://cdimage.ubuntu.com/ubuntu-budgie/releases/22.04/release/ubuntu-budgie-22.04-desktop-amd64.iso) |  |
-| [Ubuntu Studio](https://ubuntustudio.org/) | [ubuntustudio-22.04-dvd-amd64.iso](https://cdimage.ubuntu.com/ubuntustudio/releases/22.04/release/ubuntustudio-22.04-dvd-amd64.iso) |  |
+| [Ubuntu Budgie](https://ubuntubudgie.org/) | [ubuntu-budgie-22.04-desktop-amd64.iso](https://cdimage.ubuntu.com/ubuntu-budgie/releases/22.04/release/ubuntu-budgie-22.04-desktop-amd64.iso) | [Ubuntu Budgie 22.04 LTS Release Notes](https://ubuntubudgie.org/2022/03/ubuntu-budgie-22-04-lts-release-notes/) |
+| [Ubuntu Studio](https://ubuntustudio.org/) | [ubuntustudio-22.04-dvd-amd64.iso](https://cdimage.ubuntu.com/ubuntustudio/releases/22.04/release/ubuntustudio-22.04-dvd-amd64.iso) | [Ubuntu Studio 22.04 LTS Released](https://ubuntustudio.org/2022/04/ubuntu-studio-22-04-lts-released/) ([Release Notes](https://ubuntustudio.org/ubuntu-studio-22-04-lts-release-notes/)) |
 
 
 ## 安裝 wget
