@@ -82,10 +82,10 @@
 		<property name="margin_right" type="int" value="10"/>
 		<property name="workspace_count" type="int" value="5"/>
 		<property name="workspace_names" type="array">
-			<value type="string" value="Term"/>
+			<value type="string" value="File"/>
 			<value type="string" value="Edit"/>
 			<value type="string" value="Web"/>
-			<value type="string" value="File"/>
+			<value type="string" value="Term"/>
 			<value type="string" value="Misc"/>
 		</property>
 	</property>
