@@ -1,4 +1,4 @@
-#deb cdrom:[Ubuntu 22.04 LTS _Jammy Jellyfish_ - Alpha amd64 (20220122)]/ jammy main restricted
+#deb cdrom:[Ubuntu 22.04 LTS _Jammy Jellyfish_ - Release amd64 (20220419)]/ jammy main restricted
 
 # See http://help.ubuntu.com/community/UpgradeNotes for how to upgrade to
 # newer versions of the distribution.
@@ -35,13 +35,6 @@ deb http://tw.archive.ubuntu.com/ubuntu/ jammy-updates multiverse
 ## or updates from the Ubuntu security team.
 deb http://tw.archive.ubuntu.com/ubuntu/ jammy-backports main restricted universe multiverse
 # deb-src http://tw.archive.ubuntu.com/ubuntu/ jammy-backports main restricted universe multiverse
-
-## Uncomment the following two lines to add software from Canonical's
-## 'partner' repository.
-## This software is not part of Ubuntu, but is offered by Canonical and the
-## respective vendors as a service to Ubuntu users.
-# deb http://archive.canonical.com/ubuntu jammy partner
-# deb-src http://archive.canonical.com/ubuntu jammy partner
 
 deb http://security.ubuntu.com/ubuntu jammy-security main restricted
 # deb-src http://security.ubuntu.com/ubuntu jammy-security main restricted
