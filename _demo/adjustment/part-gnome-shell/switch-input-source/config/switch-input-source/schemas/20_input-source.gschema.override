@@ -1,0 +1,6 @@
+[org/gnome/desktop/input-sources]
+sources=[('xkb', 'us'), ('ibus', 'chewing')]
+
+[org/gnome/desktop/wm/keybindings]
+switch-input-source=['<Control>space', 'XF86Keyboard']
+switch-input-source-backward=['<Shift><Control>space', '<Shift>XF86Keyboard']

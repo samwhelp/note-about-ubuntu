@@ -1,1 +1,1 @@
-io.elementary.terminal
+gnome-shell-extension-ubuntu-dock
