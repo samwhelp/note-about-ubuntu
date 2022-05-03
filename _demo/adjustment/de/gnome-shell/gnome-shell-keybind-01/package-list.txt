@@ -1,0 +1,83 @@
+
+## Download
+
+git
+wget
+curl
+
+
+
+## Xfce
+
+#xfce4
+#xfce4-goodies
+#xfce4-power-manager
+gnome-icon-theme
+thunar-archive-plugin
+thunar-media-tags-plugin
+tumbler-plugins-extra
+#kdelibs-data
+#fortunes-mod
+
+
+## Font
+
+fonts-noto-cjk
+
+
+## Rofi
+
+rofi
+
+
+## Terminal
+
+sakura
+xfce4-terminal
+
+
+## File Manager
+
+pcmanfm-qt
+thunar
+
+
+## Volume Control
+
+mate-media
+
+
+## Text Editor
+
+mousepad
+
+
+## Fcitx
+
+fcitx
+fcitx-chewing
+fcitx-config-gtk
+fcitx-frontend-gtk2
+fcitx-frontend-gtk3
+fcitx-frontend-qt5
+fcitx-tools
+fcitx-m17n
+
+
+## qt5ct
+
+qt5ct
+qt5-style-plugins
+#qt5-gtk2-platformtheme
+
+
+## Theme
+
+breeze-cursor-theme
+
+
+
+## software-properties-common
+
+
+software-properties-common
