@@ -17,7 +17,7 @@ toggle_show_desktop_asset_install () {
 	echo
 
 	toggle_show_desktop_asset_install_script
-	#toggle_show_desktop_asset_install_desktop_entry
+	toggle_show_desktop_asset_install_desktop_entry
 }
 
 toggle_show_desktop_asset_install_script () {

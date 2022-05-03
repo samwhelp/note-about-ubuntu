@@ -15,4 +15,4 @@ show-trash=false
 transparency-mode='DYNAMIC'
 
 [org.gnome.shell]
-favorite-apps=['pcmanfm-qt.desktop', 'atom.desktop', 'firefox_firefox.desktop', 'sakura.desktop', 'gnome-control-center.desktop']
+favorite-apps=['pcmanfm-qt.desktop', 'atom.desktop', 'firefox_firefox.desktop', 'sakura.desktop', 'gnome-control-center.desktop', 'toggle-show-desktop.xdotool.desktop']

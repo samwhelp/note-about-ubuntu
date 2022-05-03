@@ -16,7 +16,7 @@ gnome_shell_extension_ubuntu_dock_config_install () {
 
 
 	echo 'gsettings set org.gnome.shell favorite-apps "'"['pcmanfm-qt.desktop', 'atom.desktop', 'firefox_firefox.desktop', 'sakura.desktop', 'gnome-control-center.desktop']"'"'
-	gsettings set org.gnome.shell favorite-apps "['pcmanfm-qt.desktop', 'atom.desktop', 'firefox_firefox.desktop', 'sakura.desktop', 'gnome-control-center.desktop']"
+	gsettings set org.gnome.shell favorite-apps "['pcmanfm-qt.desktop', 'atom.desktop', 'firefox_firefox.desktop', 'sakura.desktop', 'gnome-control-center.desktop', 'toggle-show-desktop.xdotool.desktop']"
 
 
 
