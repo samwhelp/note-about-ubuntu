@@ -82,7 +82,8 @@ gnome_shell_set_theme () {
 	echo
 
 	#gnome_shell_set_theme_reset
-	gnome_shell_set_theme_yaru_blue_dark
+	#gnome_shell_set_theme_yaru_blue_dark
+	gnome_shell_set_theme_yaru_prussiangreen_dark
 	#gnome_shell_set_theme_elementary
 	#gnome_shell_set_theme_gruvbox
 	#gnome_shell_set_theme_dracula
@@ -173,6 +174,47 @@ gnome_shell_set_theme_reset () {
 
 }
 
+
+gnome_shell_set_theme_yaru_prussiangreen_dark () {
+
+	## Theme Type
+	## $ gsettings list-recursively | grep 'org.gnome.metacity.theme'
+	# org.gnome.metacity.theme name ''
+	# org.gnome.metacity.theme type 'gtk'
+	##
+	#gsettings set org.gnome.metacity.theme type 'gtk'
+
+	## Theme
+	## $ gsettings list-recursively | grep 'theme' | grep 'org.gnome.desktop'
+
+	echo "gsettings set org.gnome.desktop.wm.preferences theme 'Adwaita'"
+	gsettings set org.gnome.desktop.wm.preferences theme 'Adwaita'
+
+	echo "gsettings set org.gnome.desktop.interface gtk-theme 'Yaru-prussiangreen-dark'"
+	gsettings set org.gnome.desktop.interface gtk-theme 'Yaru-prussiangreen-dark'
+
+	echo "gsettings set org.gnome.desktop.interface icon-theme 'Yaru-prussiangreen-dark'"
+	gsettings set org.gnome.desktop.interface icon-theme 'Yaru-prussiangreen-dark'
+
+	echo "gsettings set org.gnome.desktop.interface cursor-theme 'Yaru'"
+	gsettings set org.gnome.desktop.interface cursor-theme 'Yaru'
+
+
+	##
+	## $ gsettings list-recursively | grep 'theme' | grep 'org.gnome.desktop'
+	## $ gsettings list-recursively | grep 'org.gnome.desktop' | grep 'theme'
+	##
+	## ```
+	## org.gnome.desktop.wm.preferences theme 'Adwaita'
+	## org.gnome.desktop.interface icon-theme 'elementary'
+	## org.gnome.desktop.interface gtk-theme 'io.elementary.stylesheet.blueberry'
+	## org.gnome.desktop.interface gtk-key-theme 'Default'
+	## org.gnome.desktop.interface cursor-theme 'elementary'
+	## org.gnome.desktop.sound theme-name 'elementary'
+	## ```
+	##
+
+}
 
 gnome_shell_set_theme_yaru_blue_dark () {
 
