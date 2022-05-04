@@ -67,6 +67,7 @@
 
 | 桌面環境 | 微調腳本 |
 | --- | --- |
+| [gnome-shell](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/de/gnome-shell.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-shell) |
 | [xfce](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/de/xfce.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/xfce) |
 
 
