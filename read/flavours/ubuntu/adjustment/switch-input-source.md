@@ -140,6 +140,11 @@ gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us'), ('ibus', 
 若是要採用「fcitx-chewing」，請參考另一篇紀錄「[紀錄](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/im.html#fcitx-chwing)」。
 
 
+## 相關討論
+
+* [#8](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=363672#forumpost363672) - 回覆: Ubuntu 22.04 LTS (Jammy Jellyfish) Released
+
+
 ## Explore
 
 執行
@@ -153,3 +158,34 @@ dpkg -l *ibus*
 ``` sh
 apt-cache search ibus
 ```
+
+執行
+
+``` sh
+gsettings list-recursively | grep input-source | sort
+```
+
+顯示
+
+```
+org.gnome.desktop.input-sources current uint32 0
+org.gnome.desktop.input-sources mru-sources @a(ss) []
+org.gnome.desktop.input-sources per-window false
+org.gnome.desktop.input-sources show-all-sources false
+org.gnome.desktop.input-sources sources [('xkb', 'us')]
+org.gnome.desktop.input-sources xkb-options @as []
+org.gnome.desktop.wm.keybindings switch-input-source-backward ['<Shift><Super>space', '<Shift>XF86Keyboard']
+org.gnome.desktop.wm.keybindings switch-input-source ['<Super>space', 'XF86Keyboard']
+```
+
+
+## gschema
+
+* /usr/share/glib-2.0/schemas/org.gnome.desktop.input-sources.gschema.xml
+* /usr/share/glib-2.0/schemas/org.gnome.desktop.wm.keybindings.gschema.xml
+* ~/.config/dconf/user
+
+
+## Package
+
+* [gsettings-desktop-schemas](https://packages.ubuntu.com/jammy/gsettings-desktop-schemas) / [filelist](https://packages.ubuntu.com/jammy/all/gsettings-desktop-schemas/filelist)
