@@ -56,16 +56,14 @@ gsettings list-recursively | grep input-source | sort
 show
 
 ```
-com.github.libpinyin.ibus-libpinyin.libbopomofo cloud-input-source 0
-com.github.libpinyin.ibus-libpinyin.libpinyin cloud-input-source 0
 org.gnome.desktop.input-sources current uint32 0
-org.gnome.desktop.input-sources mru-sources [('xkb', 'us'), ('ibus', 'chewing')]
+org.gnome.desktop.input-sources mru-sources @a(ss) []
 org.gnome.desktop.input-sources per-window false
 org.gnome.desktop.input-sources show-all-sources false
-org.gnome.desktop.input-sources sources [('xkb', 'us'), ('ibus', 'chewing')]
+org.gnome.desktop.input-sources sources [('xkb', 'us')]
 org.gnome.desktop.input-sources xkb-options @as []
-org.gnome.desktop.wm.keybindings switch-input-source-backward ['<Shift><Control>space', '<Shift>XF86Keyboard']
-org.gnome.desktop.wm.keybindings switch-input-source ['<Control>space', 'XF86Keyboard']
+org.gnome.desktop.wm.keybindings switch-input-source-backward ['<Shift><Super>space', '<Shift>XF86Keyboard']
+org.gnome.desktop.wm.keybindings switch-input-source ['<Super>space', 'XF86Keyboard']
 ```
 
 
@@ -79,10 +77,10 @@ show
 
 ```
 org.gnome.desktop.input-sources current uint32 0
-org.gnome.desktop.input-sources mru-sources [('xkb', 'us'), ('ibus', 'chewing')]
+org.gnome.desktop.input-sources mru-sources @a(ss) []
 org.gnome.desktop.input-sources per-window false
 org.gnome.desktop.input-sources show-all-sources false
-org.gnome.desktop.input-sources sources [('xkb', 'us'), ('ibus', 'chewing')]
+org.gnome.desktop.input-sources sources [('xkb', 'us')]
 org.gnome.desktop.input-sources xkb-options @as []
 ```
 
@@ -95,8 +93,9 @@ gsettings list-recursively | grep 'org.gnome.desktop.wm.keybindings' | grep 'inp
 show
 
 ```
-org.gnome.desktop.wm.keybindings switch-input-source ['<Control>space', 'XF86Keyboard']
-org.gnome.desktop.wm.keybindings switch-input-source-backward ['<Shift><Control>space', '<Shift>XF86Keyboard']
+nput-source'
+org.gnome.desktop.wm.keybindings switch-input-source ['<Super>space', 'XF86Keyboard']
+org.gnome.desktop.wm.keybindings switch-input-source-backward ['<Shift><Super>space', '<Shift>XF86Keyboard']
 ```
 
 run
