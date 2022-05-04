@@ -37,6 +37,13 @@ parent: Ubuntu Flavours
 | [fcitx-chewing](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/im.html#fcitx-chwing) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/im/fcitx-chewing) |
 
 
+## Favorite Apps
+
+| Favorite Apps | 微調腳本 |
+| --- | --- |
+| [favorite-apps](https://samwhelp.github.io/note-about-ubuntu/read/flavours/ubuntu/adjustment/favorite-apps.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/part-gnome-shell/gnome-shell-extension-ubuntu-dock) |
+
+
 ## GNOME Shell Extension
 
 | GNOME Shell Extension | 微調腳本 |
