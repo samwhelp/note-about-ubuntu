@@ -25,8 +25,13 @@ switch_input_source_config_install () {
 	#gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us'), ('ibus', 'm17n:zh:zhuyin')]"
 
 
-	echo 'gsettings set org.gnome.desktop.input-sources sources "'"[('xkb', 'us'), ('ibus', 'chewing')]"'"'
-	gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us'), ('ibus', 'chewing')]"
+	## sudo apt-get install ibus-libzhuyin
+	echo 'gsettings set org.gnome.desktop.input-sources sources "'"[('xkb', 'us'), ('ibus', 'libzhuyin')]"'"'
+	gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us'), ('ibus', 'libzhuyin')]"
+
+	## sudo apt-get install ibus-chewing
+	#echo 'gsettings set org.gnome.desktop.input-sources sources "'"[('xkb', 'us'), ('ibus', 'chewing')]"'"'
+	#gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us'), ('ibus', 'chewing')]"
 
 
 	echo 'gsettings set org.gnome.desktop.wm.keybindings switch-input-source "'"['<Control>space', 'XF86Keyboard']"'"'

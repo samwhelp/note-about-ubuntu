@@ -50,6 +50,19 @@ $ make config-install
 run
 
 ``` sh
+gnome-shell --version
+```
+
+show
+
+```
+GNOME Shell 42.0
+```
+
+
+run
+
+``` sh
 gsettings list-recursively | grep input-source | sort
 ```
 
