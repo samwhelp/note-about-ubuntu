@@ -8,6 +8,28 @@ parent: Ubuntu Flavours
 
 # Ubuntu
 
+## 主題
+
+* [中文輸入法](#中文輸入法)
+* [工具微調](#工具微調)
+* [相關筆記](#相關筆記)
+
+
+## 中文輸入法
+
+| 中文輸入法 | 微調腳本 |
+| --- | --- |
+| [ibus-chewing](https://samwhelp.github.io/note-about-ubuntu/read/flavours/ubuntu/adjustment/switch-input-source.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/part-gnome-shell/switch-input-source) |
+| [fcitx-chewing](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/im.html#fcitx-chwing) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/im/fcitx-chewing) |
+
+
+## 工具微調
+
+## Terminal
+
+| Terminal | 微調腳本 |
+| --- | --- |
+| [gnome-terminal](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/tool/gnome-terminal.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/tool/gnome-terminal) |
 
 
 ## 相關筆記
