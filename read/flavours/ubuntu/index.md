@@ -12,6 +12,7 @@ parent: Ubuntu Flavours
 ## 主題
 
 * [入門](#入門)
+* [更改外觀](#更改外觀)
 * [中文輸入法](#中文輸入法)
 * [GNOME Shell Extension](#gnome-shell-extension)
 * [工具微調](#工具微調)
@@ -21,6 +22,11 @@ parent: Ubuntu Flavours
 ## 入門
 
 * [gschema](https://samwhelp.github.io/note-about-ubuntu/read/flavours/ubuntu/adjustment/gschema.html)
+
+## 更改外觀
+
+* [更改桌面圖片](https://samwhelp.github.io/note-about-ubuntu/read/flavours/ubuntu/adjustment/wallpaper.html)
+* [更改佈景主題](https://samwhelp.github.io/note-about-ubuntu/read/flavours/ubuntu/adjustment/theme.html)
 
 
 ## 中文輸入法
