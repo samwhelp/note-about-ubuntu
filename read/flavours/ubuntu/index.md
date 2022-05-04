@@ -8,12 +8,19 @@ parent: Ubuntu Flavours
 
 # Ubuntu
 
+
 ## 主題
 
+* [入門](#入門)
 * [中文輸入法](#中文輸入法)
 * [GNOME Shell Extension](#gnome-shell-extension)
 * [工具微調](#工具微調)
 * [相關筆記](#相關筆記)
+
+
+## 入門
+
+* [gschema](https://samwhelp.github.io/note-about-ubuntu/read/flavours/ubuntu/adjustment/gschema.html)
 
 
 ## 中文輸入法
@@ -22,6 +29,7 @@ parent: Ubuntu Flavours
 | --- | --- |
 | [ibus-chewing](https://samwhelp.github.io/note-about-ubuntu/read/flavours/ubuntu/adjustment/switch-input-source.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/part-gnome-shell/switch-input-source) |
 | [fcitx-chewing](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/im.html#fcitx-chwing) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/im/fcitx-chewing) |
+
 
 ## GNOME Shell Extension
 
