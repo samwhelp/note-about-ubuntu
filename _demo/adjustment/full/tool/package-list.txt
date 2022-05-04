@@ -3,14 +3,22 @@
 gnome-text-editor 
 gnome-console
 
+
+## Download
+git
+wget
+curl
+
 ## Develop
 build-essential
 xserver-xephyr
-git
+
 
 
 ## X
 hsetroot
+wmctrl
+xdotool
 
 
 ## Device
