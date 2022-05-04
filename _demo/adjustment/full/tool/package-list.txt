@@ -1,4 +1,7 @@
 
+## Gnome
+gnome-text-editor 
+gnome-console
 
 ## Develop
 build-essential
