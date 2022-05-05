@@ -12,12 +12,12 @@ grand_parent: 微調
 
 ## fcitx
 
-* [fcitx-chwing](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/im/fcitx-chewing.html)
+* [fcitx-chewing](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/im/fcitx-chewing.html)
 
 
 ## ibus
 
-* [ibus-chwing](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/im/ibus-chewing.html)
+* [ibus-chewing](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/im/ibus-chewing.html)
 
 
 ### switch-input-source
