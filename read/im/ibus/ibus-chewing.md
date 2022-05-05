@@ -1,0 +1,146 @@
+---
+title: ibus-chewing
+nav_order: 3201
+has_children: false
+parent: ibus
+grand_parent: 中文輸入法
+---
+
+
+# ibus-chewing
+
+
+## switch-input-source
+
+在「gnome-shell」內建有整合「ibus」，
+
+請參考「[switch-input-source](https://samwhelp.github.io/note-about-ubuntu/read/flavours/ubuntu/adjustment/switch-input-source.html)」這篇的說明。
+
+
+> 以下是在其他桌面環境的操作。
+
+## 指令安裝
+
+``` sh
+sudo apt-get install ibus ibus-chewing
+```
+
+
+## 切換輸入法架構
+
+執行下面指令，切換輸入法架構到「ibus」
+
+``` sh
+im-config -n ibus
+```
+
+重新登出，然後登入，就會生效
+
+
+## ~/.xinputrc
+
+上面的步驟，會儲存在「~/.xinputrc」，這個檔案
+
+執行下面指令，觀看「~/.xinputrc」這個檔案的內容
+
+``` sh
+cat ~/.xinputrc
+```
+
+顯示
+
+```
+# im-config(8) generated on Thu, 05 May 2022 18:57:54 +0800
+run_im ibus
+# im-config signature: cccb5bd4a2715dcb548794dd116103df  -
+```
+
+> 主要是「`run_im ibus`」這一行。
+
+## gsettings
+
+
+
+``` sh
+gsettings list-recursively | grep org.freedesktop.ibus | sort
+```
+
+```
+org.freedesktop.ibus.general dconf-preserve-name-prefixes ['/desktop/ibus/engine/pinyin', '/desktop/ibus/engine/bopomofo', '/desktop/ibus/engine/hangul']
+org.freedesktop.ibus.general embed-preedit-text true
+org.freedesktop.ibus.general enable-by-default false
+org.freedesktop.ibus.general engines-order @as []
+org.freedesktop.ibus.general.hotkey disable-unconditional @as []
+org.freedesktop.ibus.general.hotkey enable-unconditional @as []
+org.freedesktop.ibus.general.hotkey next-engine ['']
+org.freedesktop.ibus.general.hotkey next-engine-in-menu ['']
+org.freedesktop.ibus.general.hotkey prev-engine @as []
+org.freedesktop.ibus.general.hotkey previous-engine @as []
+org.freedesktop.ibus.general.hotkey trigger ['Control+space', 'Zenkaku_Hankaku', 'Alt+Kanji', 'Alt+grave', 'Hangul', 'Alt+Release+Alt_R']
+org.freedesktop.ibus.general.hotkey triggers ['<Super>space']
+org.freedesktop.ibus.general preload-engines ['xkb:us::eng']
+org.freedesktop.ibus.general switcher-delay-time 400
+org.freedesktop.ibus.general use-global-engine true
+org.freedesktop.ibus.general use-system-keyboard-layout false
+org.freedesktop.ibus.general use-xmodmap true
+org.freedesktop.ibus.general version '1.5.26'
+org.freedesktop.ibus.general xkb-latin-layouts ['ara', 'bg', 'cz', 'dev', 'gr', 'gur', 'in', 'jp(kana)', 'mal', 'mkd', 'ru', 'ua']
+org.freedesktop.ibus.panel auto-hide-timeout 10000
+org.freedesktop.ibus.panel custom-font 'Sans 10'
+org.freedesktop.ibus.panel.emoji favorite-annotations @as []
+org.freedesktop.ibus.panel.emoji favorites @as []
+org.freedesktop.ibus.panel.emoji font 'Monospace 16'
+org.freedesktop.ibus.panel.emoji has-partial-match false
+org.freedesktop.ibus.panel.emoji hotkey ['<Control>period', '<Control>semicolon']
+org.freedesktop.ibus.panel.emoji lang 'en'
+org.freedesktop.ibus.panel.emoji load-emoji-at-startup true
+org.freedesktop.ibus.panel.emoji load-unicode-at-startup false
+org.freedesktop.ibus.panel.emoji partial-match-condition 0
+org.freedesktop.ibus.panel.emoji partial-match-length 3
+org.freedesktop.ibus.panel.emoji unicode-hotkey ['<Control><Shift>u']
+org.freedesktop.ibus.panel follow-input-cursor-when-always-shown false
+org.freedesktop.ibus.panel lookup-table-orientation 1
+org.freedesktop.ibus.panel property-icon-delay-time 500
+org.freedesktop.ibus.panel show 0
+org.freedesktop.ibus.panel show-icon-on-systray true
+org.freedesktop.ibus.panel show-im-name false
+org.freedesktop.ibus.panel use-custom-font false
+org.freedesktop.ibus.panel use-glyph-from-engine-lang true
+org.freedesktop.ibus.panel x -1
+org.freedesktop.ibus.panel xkb-icon-rgba '#51a2da'
+org.freedesktop.ibus.panel y -1
+```
+
+
+## 可用輸入法清單
+
+也可以透過「下指令」的方式，，來加入「慣用的中文輸入法」。
+
+執行下面指令，就可以設定「可用輸入法清單」。
+
+``` sh
+gsettings set org.freedesktop.ibus.general preload-engines "['xkb:us::eng', 'chewing']"
+```
+
+
+``` sh
+gsettings set org.freedesktop.ibus.general preload-engines "['xkb:us::eng', 'libzhuyin']"
+```
+
+``` sh
+gsettings set org.freedesktop.ibus.general preload-engines "['xkb:us::eng', 'chewing', 'libzhuyin']"
+```
+
+## 更改切換按鍵
+
+預設只要按下「`Win + Space`」，
+
+就可以切換「英文輸入法」和「中文輸入法」。
+
+因為我還是習慣使用「`Ctrl + Space`」切換「英文輸入法」和「中文輸入法」。
+
+所以執行下面指令，來更改「切換按鍵」
+
+``` sh
+gsettings set org.freedesktop.ibus.general.hotkey triggers "['<Control>space']"
+```
