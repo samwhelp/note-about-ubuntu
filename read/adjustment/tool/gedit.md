@@ -1,6 +1,6 @@
 ---
 title: gedit
-nav_order: 6003
+nav_order: 6024
 has_children: false
 parent: 工具微調
 grand_parent: 微調

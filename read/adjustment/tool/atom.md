@@ -1,6 +1,6 @@
 ---
 title: atom
-nav_order: 6024
+nav_order: 6023
 has_children: false
 parent: 工具微調
 grand_parent: 微調
