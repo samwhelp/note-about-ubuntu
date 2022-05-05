@@ -1,0 +1,34 @@
+[org.gnome.gedit.preferences.editor]
+background-pattern='none'
+display-line-numbers=true
+display-overview-map=false
+display-right-margin=true
+editor-font='Monospace 14'
+highlight-current-line=true
+insert-spaces=false
+scheme='oblivion'
+tabs-size=uint32 4
+use-default-font=false
+
+
+[org.gnome.gedit.plugins]
+active-plugins=['filebrowser', 'quickhighlight', 'modelines', 'sort', 'externaltools', 'openlinks', 'docinfo', 'pythonconsole', 'spell']
+
+[org.gnome.gedit.plugins.externaltools]
+font='Monospace 14'
+use-system-font=false
+
+[org.gnome.gedit.plugins.pythonconsole]
+font='Monospace 14'
+use-system-font=false
+
+
+[org.gnome.gedit.preferences.encodings]
+candidate-encodings=['UTF-8', 'ISO-8859-15', 'UTF-16', 'BIG5', 'GB2312']
+
+[org.gnome.gedit.preferences.ui]
+show-tabs-mode='auto'
+side-panel-visible=true
+
+[org.gnome.gedit.state.window]
+side-panel-active-page='GeditFileBrowserPanel'

@@ -1,0 +1,24 @@
+#!/bin/sh
+# [Gedit Tool]
+# Name=Open terminal here
+# Comment=Open a terminal in the document location
+# Input=nothing
+# Output=output-panel
+# Applicability=local
+# Save-files=nothing
+# Languages=
+# Shortcut=F4
+
+
+#TODO: use "gconftool-2 -g /desktop/gnome/applications/terminal/exec"
+#gnome-terminal --working-directory="$GEDIT_CURRENT_DOCUMENT_DIR" &
+#gnome-terminal --tab --working-directory="$GEDIT_CURRENT_DOCUMENT_DIR" &
+
+xfce4-terminal --tab --working-directory="$GEDIT_CURRENT_DOCUMENT_DIR" &
+
+#sakura --working-directory="$GEDIT_CURRENT_DOCUMENT_DIR" &
+
+#x-terminal-emulator --working-directory="$GEDIT_CURRENT_DOCUMENT_DIR" &
+
+
+
