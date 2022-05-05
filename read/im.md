@@ -10,12 +10,12 @@ has_children: true
 
 ## fcitx
 
-* [fcitx-chewing](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/im/fcitx-chewing.html)
+* [fcitx-chewing](https://samwhelp.github.io/note-about-ubuntu/read/im/fcitx/fcitx-chewing.html)
 
 
 ## ibus
 
-* [ibus-chewing](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/im/ibus-chewing.html)
+* [ibus-chewing](https://samwhelp.github.io/note-about-ubuntu/read/im/ibus/ibus-chewing.html)
 
 
 ### switch-input-source
@@ -27,9 +27,9 @@ has_children: true
 
 ## gcin
 
-* [gcin](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/im/gcin.html)
+* [gcin](https://samwhelp.github.io/note-about-ubuntu/read/im/gcin.html)
 
 
 ## hime
 
-* [hime](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/im/hime.html)
+* [hime](https://samwhelp.github.io/note-about-ubuntu/read/im/hime.html)
