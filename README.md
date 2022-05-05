@@ -29,6 +29,12 @@
 | [Boot ISO By Ventoy](https://samwhelp.github.io/note-about-ubuntu/read/start/download/boot_iso_by_ventoy.html) |
 | [Boot ISO By GRUB](https://samwhelp.github.io/note-about-ubuntu/read/start/download/boot_iso_by_grub.html) |
 
+## Ubuntu Flavours
+
+| Flavours |
+| --- |
+| [Ubuntu](https://samwhelp.github.io/note-about-ubuntu/read/flavours/ubuntu/) |
+
 
 ## 系統環境微調
 
