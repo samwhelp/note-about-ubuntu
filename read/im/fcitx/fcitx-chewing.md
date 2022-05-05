@@ -53,6 +53,55 @@ run_im fcitx
 主要是「`run_im fcitx`」這一行。
 
 
+## 環境變數
+
+執行
+
+``` sh
+env | grep fcitx
+```
+
+顯示
+
+```
+GTK_IM_MODULE=fcitx
+XMODIFIERS=@im=fcitx
+CLUTTER_IM_MODULE=fcitx
+QT_IM_MODULE=fcitx
+```
+
+執行
+
+``` sh
+cat /usr/share/im-config/data/22_fcitx.rc
+```
+
+顯示
+
+```
+# start fcitx
+# vim: set sts=4 expandtab:
+
+if [ "$IM_CONFIG_PHASE" = 2 ]; then
+    # start fcitx daemon
+    /usr/bin/fcitx -d 2> /dev/null
+fi
+
+
+if [ "$IM_CONFIG_PHASE" = 1 ]; then
+# set variables for the plain XIM
+XMODIFIERS=@im=fcitx
+
+# Let's assume all required modules are installed
+GTK_IM_MODULE=fcitx
+QT_IM_MODULE=fcitx
+CLUTTER_IM_MODULE=fcitx
+
+fi
+
+```
+
+
 ## 按鍵綁定
 
 * [spec-keybind-chewing](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/env/im/fcitx-chewing/spec-keybind-chewing.md)

@@ -9,6 +9,13 @@ parent: 中文輸入法
 # gcin
 
 
+## 注意事項
+
+> 在「Ubuntu-Wayland」的環境，「gcin」會讓「gnome-shell」崩潰。
+
+> 在「Ubuntu-Xorg」的環境，「gcin」在「gnome-shell」則是可以正常運作。
+
+
 ## 指令安裝
 
 ``` sh
@@ -48,9 +55,53 @@ run_im gcin
 主要是「`run_im gcin`」這一行。
 
 
+## 環境變數
 
-## 注意事項
+執行
 
-> 在「Ubuntu-Wayland」的環境，「gcin」會讓「gnome-shell」崩潰。
+``` sh
+env | grep gcin
+```
 
-> 在「Ubuntu-Xorg」的環境，「gcin」在「gnome-shell」則是可以正常運作
+顯示
+
+```
+GTK_IM_MODULE=gcin
+XMODIFIERS=@im=gcin
+QT_IM_MODULE=gcin
+```
+
+執行
+
+``` sh
+cat /usr/share/im-config/data/26_gcin.rc
+```
+
+顯示
+
+```
+# start gcin
+# vim: set sts=4 expandtab:
+
+if [ "$IM_CONFIG_PHASE" = 2 ]; then
+# start gcin daemon
+/usr/bin/gcin &
+fi
+
+if [ "$IM_CONFIG_PHASE" = 1 ]; then
+# set variables for the plain XIM
+XMODIFIERS=@im=gcin
+
+# Let's assume all required modules are installed
+GTK_IM_MODULE=gcin
+QT_IM_MODULE=gcin
+# gcin has no clutter support
+CLUTTER_IM_MODULE=xim
+
+
+fi
+```
+
+
+
+

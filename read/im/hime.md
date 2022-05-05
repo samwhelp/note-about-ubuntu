@@ -10,6 +10,13 @@ parent: 中文輸入法
 # hime
 
 
+## 注意事項
+
+> 在「Ubuntu-Wayland」的環境，「hime」會讓「gnome-shell」崩潰。
+
+> 在「Ubuntu-Xorg」的環境，「hime」在「gnome-shell」則是可以正常運作。
+
+
 ## 指令安裝
 
 ``` sh
@@ -49,8 +56,48 @@ run_im hime
 主要是「`run_im hime`」這一行。
 
 
-## 注意事項
+## 環境變數
 
-> 在「Ubuntu-Wayland」的環境，「hime」會讓「gnome-shell」崩潰。
+執行
 
-> 在「Ubuntu-Xorg」的環境，「hime」在「gnome-shell」則是可以正常運作
+``` sh
+env | grep hime
+```
+
+顯示
+
+```
+GTK_IM_MODULE=hime
+XMODIFIERS=@im=hime
+QT_IM_MODULE=hime
+```
+
+執行
+
+``` sh
+cat /usr/share/im-config/data/25_hime.rc
+```
+
+顯示
+
+```
+# start hime
+# vim: set sts=4 expandtab:
+
+if [ "$IM_CONFIG_PHASE" = 2 ]; then
+# start hime daemon
+/usr/bin/hime &
+fi
+
+if [ "$IM_CONFIG_PHASE" = 1 ]; then
+# set variables for the plain XIM
+XMODIFIERS=@im=hime
+
+# Let's assume all required modules are installed
+GTK_IM_MODULE=hime
+QT_IM_MODULE=hime
+# hime has no clutter support
+CLUTTER_IM_MODULE=xim
+
+fi
+```
