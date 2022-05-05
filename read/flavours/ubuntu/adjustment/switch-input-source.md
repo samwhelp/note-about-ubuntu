@@ -135,9 +135,91 @@ gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us'), ('ibus', 
 只是我習慣「兩個輸入法切換」，所以只有設定「英文輸入法」和「慣用的中文輸入法」兩個循環而已。
 
 
+## 注意事項
+
+若是切換到「ibus-chewing」，無法正常輸入「中文」，
+
+原因出在「im-config」。
+
+您可以執行下面指令，檢查
+
+``` sh
+env | grep ibus
+```
+
+正常應該會顯示如下
+
+```
+XMODIFIERS=@im=ibus
+QT_IM_MODULE=ibus
+```
+
+若不是顯示上面的，接著執行下面指令
+
+``` sh
+env | grep XMODIFIERS
+```
+
+正常應該會顯示如下
+
+```
+XMODIFIERS=@im=ibus
+```
+
+若是顯示如下，就是ibus無法輸入中文的關鍵點
+
+```
+XMODIFIERS=@im=fcitx
+```
+
+接著執行下面指令，觀看「~/.xinputrc」
+
+``` sh
+cat ~/.xinputrc
+```
+
+若是顯示如下，就是ibus無法輸入中文的關鍵點
+
+```
+# im-config(8) generated on Thu, 05 May 2022 13:33:20 +0800
+run_im fcitx
+# im-config signature: cb20aa40ca9ee36f0d34727e599072d3  -
+```
+
+解法有兩種方式
+
+第一種方式，刪除「~/.xinputrc」，然後登出，登入
+
+``` sh
+rm ~/.xinputrc
+```
+
+第二種方式，執行下面指令，然後登出，登入
+
+``` sh
+im-config -n ibus
+```
+
+接著執行下面指令，觀看「~/.xinputrc」
+
+``` sh
+cat ~/.xinputrc
+```
+
+顯示如下，主要是「`run_im ibus`」那一行
+
+```
+# im-config(8) generated on Thu, 05 May 2022 13:36:46 +0800
+run_im ibus
+# im-config signature: e76f4af3303331d13a6478e35f0bb309  -
+```
+
+
 ## fcitx-chewing
 
 若是要採用「fcitx-chewing」，請參考另一篇紀錄「[紀錄](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/im.html#fcitx-chwing)」。
+
+
 
 
 ## 相關討論
