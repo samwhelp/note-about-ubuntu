@@ -47,3 +47,10 @@ run_im ibus
 ```
 
 > 主要是「`run_im ibus`」這一行。
+
+
+### switch-input-source
+
+在「gnome-shell」內建有整合「ibus」，
+
+請參考「[switch-input-source](https://samwhelp.github.io/note-about-ubuntu/read/flavours/ubuntu/adjustment/switch-input-source.html)」這篇的說明。
