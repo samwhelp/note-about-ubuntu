@@ -3,6 +3,8 @@ lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
 
 
+onboard
+
 
 yaru-theme-gtk
 yaru-theme-icon
