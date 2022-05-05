@@ -1,3 +1,15 @@
 lightdm
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
+
+
+
+yaru-theme-gtk
+yaru-theme-icon
+#yaru-theme-sound
+#yaru-theme-gnome-shell
+
+
+breeze-cursor-theme
+#breeze-gtk-theme
+#breeze-icon-theme
