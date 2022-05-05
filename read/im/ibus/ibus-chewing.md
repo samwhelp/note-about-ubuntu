@@ -57,6 +57,59 @@ run_im ibus
 
 > 主要是「`run_im ibus`」這一行。
 
+## 環境變數
+
+執行
+
+``` sh
+env | grep ibus
+```
+
+顯示
+
+```
+GTK_IM_MODULE=ibus
+XMODIFIERS=@im=ibus
+CLUTTER_IM_MODULE=ibus
+QT_IM_MODULE=ibus
+```
+
+執行
+
+``` sh
+cat /usr/share/im-config/data/21_ibus.rc
+```
+
+顯示
+
+```
+# start IBus
+# vim: set sts=4 expandtab:
+
+# hands off to set up IM if listed in $DESKTOP_SETUP_IBUS
+if find_match "$IM_CONFIG_CURRENT_DESKTOP" "$DESKTOP_SETUP_IBUS" ; then
+    # ibus set up is owned by desktop --> do the same as "none"
+    return
+fi
+
+if [ "$IM_CONFIG_PHASE" = 2 ]; then
+# start IBus daemon and IM panel
+IBUS_ENABLE_SYNC_MODE=0 /usr/bin/ibus-daemon --daemonize --xim
+fi
+
+if [ "$IM_CONFIG_PHASE" = 1 ]; then
+# set variables for the plain XIM
+XMODIFIERS=@im=ibus
+
+# Let's assume all required modules are installed
+GTK_IM_MODULE=ibus
+QT_IM_MODULE=ibus
+CLUTTER_IM_MODULE=ibus
+
+fi
+
+```
+
 ## gsettings
 
 
