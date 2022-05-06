@@ -11,12 +11,22 @@ parent: Ubuntu Flavours
 
 ## 主題
 
+* [微調腳本](#微調腳本)
 * [入門](#入門)
 * [更改外觀](#更改外觀)
 * [中文輸入法](#中文輸入法)
 * [GNOME Shell Extension](#gnome-shell-extension)
 * [工具微調](#工具微調)
 * [相關筆記](#相關筆記)
+
+
+## 微調腳本
+
+| 微調腳本 |
+| --- |
+| [gnome-shell-keybind](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-shell/gnome-shell-keybind-01) |
+| [gnome-shell-extension-ubuntu-dock](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/part-gnome-shell/gnome-shell-extension-ubuntu-dock) |
+| [switch-input-source](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/part-gnome-shell/switch-input-source) |
 
 
 ## 入門
