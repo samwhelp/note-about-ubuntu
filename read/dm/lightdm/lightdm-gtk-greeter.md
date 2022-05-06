@@ -34,7 +34,7 @@ sudo apt-get onboard
 sudo apt-get yaru-theme-gtk yaru-theme-icon breeze-cursor-theme
 ```
 
-> 安裝套件列表: [package-list.txt(https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/dm/lightdm/lightdm-gtk-greeter/)
+> 安裝套件列表: [package-list.txt](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/dm/lightdm/lightdm-gtk-greeter/)
 
 > 安裝套件腳本: [package-install.sh](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/dm/lightdm/lightdm-gtk-greeter/package-install.sh)
 
