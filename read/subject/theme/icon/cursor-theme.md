@@ -11,7 +11,7 @@ parent: 佈景主題
 
 ## 路徑
 
-放置資料夾路徑，請參考「[icons](https://samwhelp.github.io/note-about-ubuntu/read/theme.html#icons)」。
+放置資料夾路徑，請參考「[icons](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme.html#icons)」。
 
 
 ## 設定檔路徑
@@ -133,6 +133,6 @@ Breeze 24
 
 ## Link
 
-* [arch package search](https://samwhelp.github.io/note-about-manjaro/read/theme/package-search/xcursor.html)
+* [arch package search](https://samwhelp.github.io/note-about-manjaro/read/subject/theme/package-search/xcursor.html)
 * [https://wiki.archlinux.org/title/Cursor_themes](https://wiki.archlinux.org/title/Cursor_themes)
 * [https://www.gnome-look.org/browse?cat=107&ord=latest](https://www.gnome-look.org/browse?cat=107&ord=latest)

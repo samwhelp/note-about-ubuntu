@@ -75,7 +75,7 @@ gsettings get org.gnome.desktop.wm.keybindings show-desktop
 
 ## wallpaper package
 
-請參考「[另一篇](https://samwhelp.github.io/note-about-ubuntu/read/wallpaper.html)」的探索。
+請參考「[另一篇](https://samwhelp.github.io/note-about-ubuntu/read/subject/wallpaper.html)」的探索。
 
 ## ubuntu-wallpapers-jammy
 

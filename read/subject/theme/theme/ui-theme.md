@@ -11,7 +11,7 @@ parent: 佈景主題
 
 ## 放置路徑
 
-放置資料夾路徑，請參考「[themes](https://samwhelp.github.io/note-about-ubuntu/read/theme.html#themes)」。
+放置資料夾路徑，請參考「[themes](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme.html#themes)」。
 
 
 ## 設定檔路徑

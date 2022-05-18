@@ -11,7 +11,7 @@ has_children: true
 
 | 主題 |
 | --- |
-| [佈景主題](https://samwhelp.github.io/note-about-ubuntu/read/theme.html) |
+| [佈景主題](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme.html) |
 
 
 

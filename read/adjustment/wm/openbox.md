@@ -33,10 +33,10 @@ sudo apt-get install openbox
 
 | 項目 | 佈景主題 |
 | --- | --- |
-| [wm-theme](https://samwhelp.github.io/note-about-ubuntu/read/theme/theme/wm-theme.html) | [Numix](https://packages.ubuntu.com/jammy/numix-gtk-theme) |
-| [ui-theme](https://samwhelp.github.io/note-about-ubuntu/read/theme/theme/ui-theme.html) | [Gruvbox](https://github.com/archcraft-os/archcraft-themes/tree/main/archcraft-gtk-theme-gruvbox/files/Gruvbox) |
-| [icon-theme](https://samwhelp.github.io/note-about-ubuntu/read/theme/icon/icon-theme.html) | [Gruvbox-Dark](https://github.com/jmattheis/gruvbox-dark-icons-gtk) |
-| [cursor-theme](https://samwhelp.github.io/note-about-ubuntu/read/theme/icon/cursor-theme.html) | [Breeze](https://packages.ubuntu.com/jammy/breeze-cursor-theme) |
+| [wm-theme](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/theme/wm-theme.html) | [Numix](https://packages.ubuntu.com/jammy/numix-gtk-theme) |
+| [ui-theme](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/theme/ui-theme.html) | [Gruvbox](https://github.com/archcraft-os/archcraft-themes/tree/main/archcraft-gtk-theme-gruvbox/files/Gruvbox) |
+| [icon-theme](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/icon/icon-theme.html) | [Gruvbox-Dark](https://github.com/jmattheis/gruvbox-dark-icons-gtk) |
+| [cursor-theme](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/icon/cursor-theme.html) | [Breeze](https://packages.ubuntu.com/jammy/breeze-cursor-theme) |
 
 相關設定檔是
 

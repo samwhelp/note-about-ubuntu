@@ -60,13 +60,13 @@
 
 | 議題 |
 | --- |
-| [theme](https://samwhelp.github.io/note-about-ubuntu/read/theme.html) |
-| [ui-theme](https://samwhelp.github.io/note-about-ubuntu/read/theme/theme/ui-theme.html) |
-| [wm-theme](https://samwhelp.github.io/note-about-ubuntu/read/theme/theme/wm-theme.html) |
-| [icon-theme](https://samwhelp.github.io/note-about-ubuntu/read/theme/icon/icon-theme.html) |
-| [cursor-theme](https://samwhelp.github.io/note-about-ubuntu/read/theme/icon/cursor-theme.html) |
-| [grub-theme](https://samwhelp.github.io/note-about-ubuntu/read/theme/grub-theme.html) |
-| [lightdm-theme](https://samwhelp.github.io/note-about-ubuntu/read/theme/lightdm-theme.html) |
+| [theme](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme.html) |
+| [ui-theme](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/theme/ui-theme.html) |
+| [wm-theme](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/theme/wm-theme.html) |
+| [icon-theme](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/icon/icon-theme.html) |
+| [cursor-theme](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/icon/cursor-theme.html) |
+| [grub-theme](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/grub-theme.html) |
+| [lightdm-theme](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/lightdm-theme.html) |
 
 
 ## 桌面環境微調

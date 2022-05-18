@@ -1,9 +1,7 @@
 ---
 title: 中文輸入法
-nav_order: 5040
-has_children: false
-parent: 系統環境微調
-grand_parent: 微調
+nav_order: 3000
+has_children: true
 ---
 
 

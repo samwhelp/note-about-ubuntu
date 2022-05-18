@@ -51,7 +51,7 @@ sudo apt-get install gnome-tweaks
 
 ## Gruvbox
 
-我個人慣用「[Gruvbox](https://samwhelp.github.io/note-about-ubuntu/read/theme/source/gruvbox.html)」，可以執行下面的指令。
+我個人慣用「[Gruvbox](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/source/gruvbox.html)」，可以執行下面的指令。
 
 ```
 gsettings set org.gnome.desktop.interface gtk-theme 'Gruvbox'
