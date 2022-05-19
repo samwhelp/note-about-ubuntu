@@ -14,7 +14,7 @@ grand_parent: 入門
 
 * [範例](#範例)
 * [Download ISO](#download-iso)
-* [Mount ISO](#mount-iso)
+* [Mount ISO](#mount-iso-1)
 * [Mount SquashFS](#mount-squashfs)
 * [Extract initrd](#extract-initrd)
 * [Unmount](#unmount)
