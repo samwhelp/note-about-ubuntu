@@ -18,4 +18,4 @@ initramfs-extract iso-root/casper/initrd initrd-root
 
 
 ## or use
-#unmkinitramfs ./iso-root/casper/initrd initramfs
+#unmkinitramfs iso-root/casper/initrd initramfs
