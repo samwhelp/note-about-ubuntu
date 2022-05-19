@@ -8,6 +8,13 @@ has_children: true
 # squashfs
 
 
+## 探索
+
+| [探索](https://samwhelp.github.io/note-about-ubuntu/read/subject/squashfs/explore.html) | Package | Source Package |
+| --- | --- | --- |
+| [squashfs-tools](https://samwhelp.github.io/note-about-ubuntu/read/subject/squashfs/explore/squashfs-tools.html) | [squashfs-tools](https://packages.ubuntu.com/jammy/squashfs-tools) | [squashfs-tools](https://packages.ubuntu.com/source/jammy/squashfs-tools) |
+
+
 ## 相關連結
 
 * [SquashFS HOWTO](https://tldp.org/HOWTO/SquashFS-HOWTO/index.html) / [4. Creating and using squashed file systems](https://tldp.org/HOWTO/SquashFS-HOWTO/creatingandusing.html)
