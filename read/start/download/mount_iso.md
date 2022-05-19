@@ -13,12 +13,12 @@ grand_parent: 入門
 ## Subject
 
 * [範例](#範例)
-* [Download ISO][#download-iso]
-* [Mount ISO][#mount-iso]
-* [Mount SquashFS][#mount-squashfs]
-* [Extract initrd][#extract-initrd]
-* [Unmount][#unmount]
-* [Clean][#clean]
+* [Download ISO](#download-iso)
+* [Mount ISO](#mount-iso)
+* [Mount SquashFS](#mount-squashfs)
+* [Extract initrd](#extract-initrd)
+* [Unmount](#unmount)
+* [Clean](#clean)
 
 
 ## 範例
