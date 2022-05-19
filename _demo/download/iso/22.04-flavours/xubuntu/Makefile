@@ -9,6 +9,8 @@ help:
 	@echo '	$$ make'
 	@echo '	$$ make help'
 	@echo
+	@echo '	$$ make prepare'
+	@echo
 	@echo '	$$ make download'
 	@echo
 	@echo '	$$ make mount'
@@ -22,6 +24,11 @@ help:
 .PHONY: help
 
 
+
+
+prepare:
+	./prepare.sh
+.PHONY: prepare
 
 
 download:

@@ -2,6 +2,15 @@
 # Download ISO / Xubuntu
 
 
+## Prepare
+
+run
+
+``` sh
+make prepare
+```
+
+
 ## Download
 
 run
@@ -46,5 +55,13 @@ make unmount
 run
 
 ``` sh
-make unmount
+make initrd-extract
+```
+
+## Clean
+
+run
+
+``` sh
+make clean
 ```
