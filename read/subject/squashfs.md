@@ -31,4 +31,4 @@ has_children: true
 
 ## 相關議題
 
-* [initramfs](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=362036#forumpost362036)
+* [initramfs](https://samwhelp.github.io/note-about-ubuntu/read/subject/initramfs.html)
