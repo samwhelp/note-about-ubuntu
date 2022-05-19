@@ -37,3 +37,19 @@ squashfs-tools-ng - New set of tools for working with SquashFS images
 squashfs-tools - Tool to create and append to squashfs filesystems
 squashfuse - FUSE filesystem to mount squashfs archives
 ```
+
+## Ubuntu Package
+
+* [squashfs-tools](https://packages.ubuntu.com/jammy/squashfs-tools)
+
+
+## Ubuntu Source Package
+
+* [squashfs-tools](https://packages.ubuntu.com/source/jammy/squashfs-tools)
+
+
+## Manual
+
+* $ man [mksquashfs](http://manpages.ubuntu.com/manpages/jammy/en/man1/mksquashfs.1.html)
+* $ man [unsquashfs](http://manpages.ubuntu.com/manpages/jammy/en/man1/unsquashfs.1.html)
+* [SquashFS HOWTO](https://tldp.org/HOWTO/SquashFS-HOWTO/index.html) / [4. Creating and using squashed file systems](https://tldp.org/HOWTO/SquashFS-HOWTO/creatingandusing.html)
