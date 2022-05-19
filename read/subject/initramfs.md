@@ -18,3 +18,7 @@ has_children: true
 ## 相關討論
 
 * [夾帶 microcode 的 initrd 解法](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=362036#forumpost362036)
+
+## 相關議題
+
+* [squashfs](https://samwhelp.github.io/note-about-ubuntu/read/subject/squashfs.html)
