@@ -90,5 +90,14 @@ sudo rm -rf initrd-root initramfs
 ### Tutorial / Mount
 
 * [Linux 檔案系統掛載（mount）使用教學與範例](https://blog.gtwang.org/linux/linux-mount/)
+
+### Misc
+
+* [initramfs](https://samwhelp.github.io/note-about-ubuntu/read/subject/initramfs.html)
 * [squashfs](https://samwhelp.github.io/note-about-ubuntu/read/subject/squashfs.html)
+
+### Manpage
+
+* $ man 7 [casper](http://manpages.ubuntu.com/manpages/jammy/man7/casper.7.html)
+
 
