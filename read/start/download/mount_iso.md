@@ -85,3 +85,9 @@ sudo rm -rf initrd-root initramfs
 * [https://live-team.pages.debian.net/live-manual/html/live-manual/index.en.html](https://live-team.pages.debian.net/live-manual/html/live-manual/index.en.html)
 * Ubuntu Package: [live-manual](https://packages.ubuntu.com/jammy/live-manual)
 * Ubuntu Package: [live-manual-html](https://packages.ubuntu.com/jammy/live-manual-html)
+
+### Tutorial / Mount
+
+* [Linux 檔案系統掛載（mount）使用教學與範例](https://blog.gtwang.org/linux/linux-mount/)
+* [squashfs](https://samwhelp.github.io/note-about-ubuntu/read/subject/squashfs.html)
+
