@@ -73,3 +73,14 @@ sudo umount iso-root
 ``` sh
 sudo rm -rf initrd-root initramfs
 ```
+
+
+## Link
+
+### Debian Live Manual 
+
+* [https://live-team.pages.debian.net/live-manual/](https://live-team.pages.debian.net/live-manual/)
+* [https://live-team.pages.debian.net/live-manual/html/live-manual.en.html](https://live-team.pages.debian.net/live-manual/html/live-manual.en.html)
+* [https://live-team.pages.debian.net/live-manual/html/live-manual/index.en.html](https://live-team.pages.debian.net/live-manual/html/live-manual/index.en.html)
+* Ubuntu Package: [live-manual](https://packages.ubuntu.com/jammy/live-manual)
+* Ubuntu Package: [live-manual-html](https://packages.ubuntu.com/jammy/live-manual-html)
