@@ -79,6 +79,7 @@ sudo rm -rf initrd-root initramfs
 
 ### Debian Live Manual 
 
+* [4.1 What is a live system?](https://live-team.pages.debian.net/live-manual/html/live-manual.en.html#162)
 * [https://live-team.pages.debian.net/live-manual/](https://live-team.pages.debian.net/live-manual/)
 * [https://live-team.pages.debian.net/live-manual/html/live-manual.en.html](https://live-team.pages.debian.net/live-manual/html/live-manual.en.html)
 * [https://live-team.pages.debian.net/live-manual/html/live-manual/index.en.html](https://live-team.pages.debian.net/live-manual/html/live-manual/index.en.html)
