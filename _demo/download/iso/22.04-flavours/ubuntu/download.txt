@@ -1,0 +1,1 @@
+https://releases.ubuntu.com/22.04/ubuntu-22.04-desktop-amd64.iso
