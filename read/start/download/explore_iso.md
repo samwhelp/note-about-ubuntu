@@ -275,6 +275,18 @@ initrd-root/init: POSIX shell script, ASCII text executable
 * Ubuntu Package: [initramfs-tools-core](https://packages.ubuntu.com/jammy/initramfs-tools-core) / [filelist](https://packages.ubuntu.com/jammy/all/initramfs-tools-core/filelist)
 * /usr/share/initramfs-tools/init
 
+執行
+
+``` sh
+grep '/usr/share/initramfs-tools/init' /usr/sbin/mkinitramfs -n
+```
+
+顯示
+
+```
+326:cp -p /usr/share/initramfs-tools/init "${DESTDIR}/init"
+```
+
 
 
 ## file initrd-root/scripts/casper
