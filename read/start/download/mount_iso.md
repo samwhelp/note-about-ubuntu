@@ -58,6 +58,9 @@ initramfs-extract iso-root/casper/initrd initrd-root
 unmkinitramfs iso-root/casper/initrd initramfs
 ```
 
+
+接下來可以[探索「iso-root」，「initrd-root」，「live-root」這三個資料夾](https://samwhelp.github.io/note-about-ubuntu/read/start/download/explore_iso.html)。
+
 ## Unmount
 
 ``` sh
@@ -77,7 +80,7 @@ sudo rm -rf initrd-root initramfs
 
 ## Link
 
-### Debian Live Manual 
+### Debian Live Manual
 
 * [4.1 What is a live system?](https://live-team.pages.debian.net/live-manual/html/live-manual.en.html#162)
 * [https://live-team.pages.debian.net/live-manual/](https://live-team.pages.debian.net/live-manual/)
@@ -99,5 +102,3 @@ sudo rm -rf initrd-root initramfs
 ### Manpage
 
 * $ man 7 [casper](http://manpages.ubuntu.com/manpages/jammy/man7/casper.7.html)
-
-
