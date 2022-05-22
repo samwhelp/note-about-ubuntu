@@ -287,6 +287,9 @@ grep '/usr/share/initramfs-tools/init' /usr/sbin/mkinitramfs -n
 326:cp -p /usr/share/initramfs-tools/init "${DESTDIR}/init"
 ```
 
+> 關於「initrd-root/init」 是透過「mkinitramfs」產生的，
+
+> 所以要探索「initrd-root/init」，也可以直接探索「/usr/share/initramfs-tools/init」。
 
 
 ## file initrd-root/scripts/casper
@@ -373,4 +376,89 @@ file live-root/sbin/init
 
 ```
 live-root/sbin/init: symbolic link to /lib/systemd/systemd
+```
+
+
+## Explore: initrd-root/init
+
+執行
+
+``` sh
+grep 'init=' initrd-root/init -n
+```
+
+顯示
+
+```
+65:export init=/sbin/init
+96:	init=*)
+97:		init=${x#init=}
+315:	init=
+318:			init="$inittest"
+326:	panic "No init found. Try passing init= bootarg."
+```
+
+執行
+
+``` sh
+grep '/proc/cmdline' initrd-root/init -n -A 10
+```
+
+顯示
+
+```
+21:for x in $(cat /proc/cmdline); do
+22-	case $x in
+23-	initramfs.clear)
+24-		clear
+25-		;;
+26-	quiet)
+27-		quiet=y
+28-		;;
+29-	esac
+30-done
+31-
+--
+94:for x in $(cat /proc/cmdline); do
+95-	case $x in
+96-	init=*)
+97-		init=${x#init=}
+98-		;;
+99-	root=*)
+100-		ROOT=${x#root=}
+101-		if [ -z "${BOOT}" ] && [ "$ROOT" = "/dev/nfs" ]; then
+102-			BOOT=nfs
+103-		fi
+104-		;;
+```
+
+執行
+
+``` sh
+grep 'boot=' initrd-root/init -n
+```
+
+顯示
+
+```
+75:export fastboot=n
+155:	boot=*)
+156:		BOOT=${x#boot=}
+221:		fastboot=y
+```
+
+執行
+
+``` sh
+grep 'BOOT=' initrd-root/init -n
+```
+
+顯示
+
+```
+60:export BOOT=
+102:			BOOT=nfs
+156:		BOOT=${x#boot=}
+235:# Default to BOOT=local if no boot script defined.
+237:	BOOT=local
 ```
