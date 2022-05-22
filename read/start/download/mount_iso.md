@@ -23,7 +23,11 @@ grand_parent: 入門
 
 ## 範例
 
-* [範例](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/download/iso/22.04-flavours)
+| [範例](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/download/iso/22.04-flavours) |
+| --- |
+| [Ubuntu](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/download/iso/22.04-flavours/ubuntu) |
+| [Xubuntu](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/download/iso/22.04-flavours/xubuntu) |
+
 
 
 ## Download ISO
