@@ -193,3 +193,172 @@ menuentry "OEM install (for manufacturers)" {
 ```
 
 * Super Grub2 Disk Wiki / [Loopback.cfg](https://www.supergrubdisk.org/wiki/Loopback.cfg)
+
+
+## initrd-root
+
+執行
+
+``` sh
+ls -1 initrd-root
+```
+
+顯示
+
+```
+bin
+conf
+cryptroot
+etc
+init
+kernel
+lib
+lib32
+lib64
+libx32
+run
+sbin
+scripts
+usr
+var
+```
+
+
+## initrd-root/scripts
+
+執行
+
+``` sh
+ls -1 initrd-root/scripts/
+```
+
+顯示
+
+```
+casper
+casper-bottom
+casper-functions
+casper-helpers
+casper-premount
+functions
+init-bottom
+init-premount
+init-top
+local
+local-block
+local-bottom
+local-premount
+local-top
+nfs
+panic
+zfs
+```
+
+* $ man [casper](http://manpages.ubuntu.com/manpages/jammy/en/man7/casper.7.html)
+* Ubuntu Package: [casper](https://packages.ubuntu.com/jammy/casper) / [filelist](https://packages.ubuntu.com/jammy/amd64/casper/filelist)
+
+
+## initrd-root/init
+
+執行
+``` sh
+file initrd-root/init
+```
+
+顯示
+
+```
+initrd-root/init: POSIX shell script, ASCII text executable
+```
+
+
+* Ubuntu Package: [initramfs-tools-core](https://packages.ubuntu.com/jammy/initramfs-tools-core) / [filelist](https://packages.ubuntu.com/jammy/all/initramfs-tools-core/filelist)
+* /usr/share/initramfs-tools/init
+
+
+
+## file initrd-root/scripts/casper
+
+執行
+``` sh
+file initrd-root/scripts/casper
+```
+
+顯示
+
+```
+initrd-root/scripts/casper: POSIX shell script, ASCII text executable
+```
+
+
+* $ man [casper](http://manpages.ubuntu.com/manpages/jammy/en/man7/casper.7.html)
+* Ubuntu Package: [casper](https://packages.ubuntu.com/jammy/casper) / [filelist](https://packages.ubuntu.com/jammy/amd64/casper/filelist)
+* live-custom-ubuntu-from-scratch / [chroot_build.sh](https://github.com/mvallim/live-custom-ubuntu-from-scratch/blob/master/scripts/chroot_build.sh#L105)
+
+
+## initrd-root/scripts/local
+
+執行
+
+``` sh
+file initrd-root/scripts/local
+```
+
+顯示
+
+```
+initrd-root/scripts/local: ASCII text
+```
+
+* Ubuntu Package: [initramfs-tools-core](https://packages.ubuntu.com/jammy/initramfs-tools-core) / [filelist](https://packages.ubuntu.com/jammy/all/initramfs-tools-core/filelist)
+* /usr/share/initramfs-tools/scripts/local
+
+
+## live-root
+
+執行
+
+``` sh
+ls -1 live-root
+```
+
+顯示
+
+```
+bin
+boot
+dev
+etc
+home
+lib
+lib32
+lib64
+libx32
+media
+mnt
+opt
+proc
+root
+run
+sbin
+snap
+srv
+sys
+tmp
+usr
+var
+```
+
+
+## live-root/sbin/init
+
+執行
+``` sh
+file live-root/sbin/init
+```
+
+顯示
+
+```
+live-root/sbin/init: symbolic link to /lib/systemd/systemd
+```
