@@ -500,6 +500,9 @@ grep 'BOOT=' initrd-root/init -n
 237:	BOOT=local
 ```
 
+> GRUB 探索筆記 / [GRUB Menu Entry / Boot ISO 樣板 / Ubuntu](https://samwhelp.github.io/note-about-grub/read/howto/boot_iso.html#grub-menu-entry--boot-iso-%E6%A8%A3%E6%9D%BF--ubuntu)
+
+
 執行
 
 ``` sh
