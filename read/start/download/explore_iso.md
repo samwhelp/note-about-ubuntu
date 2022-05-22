@@ -292,6 +292,41 @@ grep '/usr/share/initramfs-tools/init' /usr/sbin/mkinitramfs -n
 > 所以要探索「initrd-root/init」，也可以直接探索「/usr/share/initramfs-tools/init」。
 
 
+執行
+
+``` sh
+grep 'initramfs' /usr/lib/live/build/* -R
+```
+
+顯示
+
+```
+/usr/lib/live/build/lb_binary_disk:			unmkinitramfs "../../${INITRD}" .
+/usr/lib/live/build/lb_chroot_hacks:		if [ ! -d chroot/etc/initramfs-tools ]
+/usr/lib/live/build/lb_chroot_hacks:			mkdir chroot/etc/initramfs-tools
+/usr/lib/live/build/lb_chroot_hacks:		# Configuring initramfs for NFS
+/usr/lib/live/build/lb_chroot_hacks:		if ! grep -qs "BOOT=nfs" chroot/etc/initramfs-tools/initramfs.conf
+/usr/lib/live/build/lb_chroot_hacks:			echo "BOOT=nfs" >> chroot/etc/initramfs-tools/initramfs.conf
+/usr/lib/live/build/lb_chroot_hacks:		if ! grep -qs "NFSROOT=auto" chroot/etc/initramfs-tools/initramfs.conf
+/usr/lib/live/build/lb_chroot_hacks:			echo "NFSROOT=auto" >> chroot/etc/initramfs-tools/initramfs.conf
+/usr/lib/live/build/lb_chroot_hacks:# Update initramfs (always, because of udev rules in initrd)
+/usr/lib/live/build/lb_chroot_hacks:			> chroot/etc/initramfs-tools/conf.d/live-build.conf
+/usr/lib/live/build/lb_chroot_hacks:	Chroot chroot "${UPDATE_INITRAMFS_OPTIONS} update-initramfs -k all -t -u"
+/usr/lib/live/build/lb_chroot_hacks:	rm -f chroot//etc/initramfs-tools/conf.d/live-build.conf
+/usr/lib/live/build/lb_chroot_hacks:# Ensure readable permissions on initramfs. loop-aes-utils sets umask to
+/usr/lib/live/build/lb_chroot_hacks:	# Make sure RW dirs exist so that the initramfs script has
+/usr/lib/live/build/lb_chroot_linux-image:# Diverting update-initramfs
+/usr/lib/live/build/lb_chroot_linux-image:#		mv chroot/usr/sbin/update-initramfs chroot/usr/sbin/update-initramfs.live-build
+/usr/lib/live/build/lb_config:\t    [--initramfs auto|none|live-boot|casper]\n\
+/usr/lib/live/build/lb_config:\t    [--initramfs-compression bzip2|gzip|lzma]\n\
+/usr/lib/live/build/lb_config:		initramfs:,initramfs-compression:,initsystem:,fdisk:,losetup:,mode:,system:,root-command:,use-fakeroot:,tasksel:,
+/usr/lib/live/build/lb_config:			--initramfs)
+/usr/lib/live/build/lb_config:			--initramfs-compression)
+/usr/lib/live/build/lb_config:# \$LB_INITRAMFS: set initramfs hook
+/usr/lib/live/build/lb_config:# \$LB_INITRAMFS_COMPRESSION: set initramfs compression
+```
+
+
 ## file initrd-root/scripts/casper
 
 執行
@@ -309,6 +344,8 @@ initrd-root/scripts/casper: POSIX shell script, ASCII text executable
 * $ man [casper](http://manpages.ubuntu.com/manpages/jammy/en/man7/casper.7.html)
 * Ubuntu Package: [casper](https://packages.ubuntu.com/jammy/casper) / [filelist](https://packages.ubuntu.com/jammy/amd64/casper/filelist)
 * live-custom-ubuntu-from-scratch / [chroot_build.sh](https://github.com/mvallim/live-custom-ubuntu-from-scratch/blob/master/scripts/chroot_build.sh#L105)
+
+
 
 
 ## initrd-root/scripts/local
