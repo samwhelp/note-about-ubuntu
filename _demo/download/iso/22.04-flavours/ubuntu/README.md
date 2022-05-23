@@ -20,6 +20,15 @@ make download
 ```
 
 
+## Boot
+
+run
+
+``` sh
+make boot
+```
+
+
 ## Mount
 
 run

@@ -3,6 +3,14 @@
 
 prepare_package () {
 	sudo apt-get install wget curl
+
+	#sudo apt-get install git
+
+	#sudo apt-get install qemu-kvm
+	#sudo apt-get install qemu-system-x86
+
+	#sudo apt-get install initramfs-tools-core
+	#sudo apt-get install cpio zstd
 }
 
 prepare_helper () {

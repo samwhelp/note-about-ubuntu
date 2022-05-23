@@ -13,6 +13,8 @@ help:
 	@echo
 	@echo '	$$ make download'
 	@echo
+	@echo '	$$ make boot'
+	@echo
 	@echo '	$$ make mount'
 	@echo
 	@echo '	$$ make unmount'
@@ -34,6 +36,11 @@ prepare:
 download:
 	./download.sh
 .PHONY: download
+
+
+boot:
+	./boot.sh
+.PHONY: boot
 
 
 mount:
