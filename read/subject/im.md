@@ -33,3 +33,8 @@ has_children: true
 ## hime
 
 * [hime](https://samwhelp.github.io/note-about-ubuntu/read/subject/im/hime.html)
+
+
+## 相關文件
+
+* Debian Wiki / [InputMethodBuster](https://wiki.debian.org/InputMethodBuster) / [How to fake ibus to be removed](InputMethodBuster](https://wiki.debian.org/InputMethodBuster#How_to_fake_ibus_to_be_removed)
