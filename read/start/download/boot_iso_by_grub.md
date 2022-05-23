@@ -1,6 +1,6 @@
 ---
 title: Boot ISO By GRUB
-nav_order: 7040
+nav_order: 7022
 has_children: false
 parent: 下載
 grand_parent: 入門
