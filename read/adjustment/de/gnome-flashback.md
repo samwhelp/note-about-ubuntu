@@ -29,7 +29,7 @@ grand_parent: 微調
 
 ## Source Package
 
-* [gnome-session-flashback](https://packages.ubuntu.com/jammy/gnome-session-flashback)
+* [gnome-flashback](https://packages.ubuntu.com/source/jammy/gnome-flashback)
 
 
 ## 如何安裝
