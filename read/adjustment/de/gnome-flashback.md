@@ -113,7 +113,7 @@ gsettings set org.gnome.gnome-panel.general default-layout "ubuntu"
 重新啟動「gnome-panel」，就會採用新的「layout」。
 
 ``` sh
-exec gnome-panel --replace &
+gnome-panel --replace &
 ```
 
 
