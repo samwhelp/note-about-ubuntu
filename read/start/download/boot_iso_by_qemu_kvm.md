@@ -73,3 +73,8 @@ kvm \
 
 * man 1 [kvm](http://manpages.ubuntu.com/manpages/jammy/en/man1/kvm.1.html)
 * man 1 [qemu-system-x86_64](http://manpages.ubuntu.com/manpages/jammy/en/man1/qemu-system-x86_64.1.html)
+
+
+## Link
+
+* [五分鐘開始玩 qemu-kvm 虛擬機](https://newtoypia.blogspot.com/2015/02/qemu-kvm.html)
