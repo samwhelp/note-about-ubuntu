@@ -21,7 +21,7 @@ grand_parent: 佈景主題
 
 ## gtk-theme
 
-* [archcraft-themes](https://github.com/archcraft-os/archcraft-themes)
+* [archcraft-themes](https://github.com/archcraft-os/archcraft-themes) ([materia-theme](https://github.com/nana-4/materia-theme))
 
 clone
 
@@ -144,3 +144,9 @@ pamac remove archcraft-cursor-*
 ## packages
 
 * archcraft-os / [packages](https://github.com/archcraft-os/packages/tree/main/x86_64)
+
+
+
+## See Also
+
+* [theme-package-materia](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/package/materia.html)

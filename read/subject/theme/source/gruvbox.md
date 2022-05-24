@@ -15,7 +15,7 @@ grand_parent: 佈景主題
 
 ### gruvbox
 
-* archcraft-os / [Gruvbox](https://github.com/archcraft-os/archcraft-themes/tree/main/archcraft-gtk-theme-gruvbox/files/Gruvbox)
+* archcraft-os / [Gruvbox](https://github.com/archcraft-os/archcraft-themes/tree/main/archcraft-gtk-theme-gruvbox/files/Gruvbox) ([materia-theme](https://github.com/nana-4/materia-theme))
 
 
 ### gruvbox-material-gtk

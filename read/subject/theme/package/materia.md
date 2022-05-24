@@ -77,3 +77,5 @@ Description-md5: 6dc396a2a409a8c2a4e8cde1dd972c5f
 ## See Also
 
 * [theme-package-pocillo](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/package/materia.html)
+* [gruvbox](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/source/gruvbox.html)
+* archcraft / themes / [gruvbox](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/source/archcraft.html)
