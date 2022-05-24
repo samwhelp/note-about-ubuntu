@@ -48,3 +48,10 @@ sudo dpkg-reconfigure lightdm
 會出現一個「XDM 選單」提供選擇，請選擇「lightdm」，按下「OK」就會切換，
 
 接著登出，或是重新開機，就可以看到使用「lightdm」當作登入的介面。
+
+
+## See Also
+
+* Xubuntu / lightdm-gtk-greeter / data / [lightdm-gtk-greeter.conf](https://github.com/Xubuntu/lightdm-gtk-greeter/blob/master/data/lightdm-gtk-greeter.conf)
+* Manjaro / [Xfce](https://gitlab.manjaro.org/profiles-and-settings/iso-profiles/-/blob/master/manjaro/xfce/desktop-overlay/etc/lightdm/lightdm-gtk-greeter.conf)
+* Ubuntu Mate / [99_ubuntu-mate.conf](https://github.com/ubuntu-mate/ubuntu-mate-artwork/blob/master/etc/lightdm/lightdm-gtk-greeter.conf.d/99_ubuntu-mate.conf)

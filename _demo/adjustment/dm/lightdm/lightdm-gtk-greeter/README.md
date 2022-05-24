@@ -97,3 +97,10 @@ lightdm-gtk-greeter                           [Installed] 1:2.0.8-2   extra
 lightdm                                       [Installed] 1:1.30.0-4  extra
     A lightweight display manager
 ```
+
+
+## See Also
+
+* Xubuntu / lightdm-gtk-greeter / data / [lightdm-gtk-greeter.conf](https://github.com/Xubuntu/lightdm-gtk-greeter/blob/master/data/lightdm-gtk-greeter.conf)
+* Manjaro / [Xfce](https://gitlab.manjaro.org/profiles-and-settings/iso-profiles/-/blob/master/manjaro/xfce/desktop-overlay/etc/lightdm/lightdm-gtk-greeter.conf)
+* Ubuntu Mate / [99_ubuntu-mate.conf](https://github.com/ubuntu-mate/ubuntu-mate-artwork/blob/master/etc/lightdm/lightdm-gtk-greeter.conf.d/99_ubuntu-mate.conf)
