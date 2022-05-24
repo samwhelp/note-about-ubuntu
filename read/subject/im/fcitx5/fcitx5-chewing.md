@@ -295,3 +295,10 @@ apt-cache search fcitx5 | sort | awk -F ' - ' '{print "* ["$1"](https://packages
 * [libimepinyin-dev](https://packages.ubuntu.com/jammy/libimepinyin-dev)
 * [libimetable0](https://packages.ubuntu.com/jammy/libimetable0)
 * [libimetable-dev](https://packages.ubuntu.com/jammy/libimetable-dev)
+
+
+執行下面指令，產生「[BBCode](https://zh.m.wikipedia.org/zh-tw/BBCode)」
+
+``` sh
+apt-cache search fcitx5 | sort | awk -F ' - ' '{print "* [url=https://packages.ubuntu.com/jammy/"$1"]"$1"[/url]"}'
+```
