@@ -27,7 +27,7 @@ sudo apt-get install hime hime-gtk2-immodule hime-gtk3-immodule hime-qt5-immodul
 
 ## 切換輸入法架構
 
-執行下面指令，切換輸入法架構到「hime」
+執行下面指令，將「輸入法架構」切換到「hime」
 
 ``` sh
 im-config -n hime

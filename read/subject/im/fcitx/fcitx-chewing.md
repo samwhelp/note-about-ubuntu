@@ -29,7 +29,7 @@ sudo apt-get install fcitx-chewing
 
 ## 切換輸入法架構
 
-執行下面指令，切換輸入法架構到「fcitx」
+執行下面指令，將「輸入法架構」切換到「fcitx」
 
 ``` sh
 im-config -n fcitx

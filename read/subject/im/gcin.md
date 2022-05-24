@@ -26,7 +26,7 @@ sudo apt-get install gcin gcin-gtk2-immodule gcin-gtk3-immodule gcin-qt5-immodul
 
 ## 切換輸入法架構
 
-執行下面指令，切換輸入法架構到「gcin」
+執行下面指令，將「輸入法架構」切換到「gcin」
 
 ``` sh
 im-config -n gcin

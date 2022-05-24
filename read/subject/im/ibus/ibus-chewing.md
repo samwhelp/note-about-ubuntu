@@ -28,7 +28,7 @@ sudo apt-get install ibus ibus-chewing
 
 ## 切換輸入法架構
 
-執行下面指令，切換輸入法架構到「ibus」
+執行下面指令，將「輸入法架構」切換到「ibus」
 
 ``` sh
 im-config -n ibus
@@ -197,3 +197,9 @@ gsettings set org.freedesktop.ibus.general preload-engines "['xkb:us::eng', 'che
 ``` sh
 gsettings set org.freedesktop.ibus.general.hotkey triggers "['<Control>space']"
 ```
+
+
+## Note
+
+* [How to fake ibus to be removed](https://samwhelp.github.io/note-about-ubuntu/read/subject/im/howto/how_to_fake_ibus_to_be_removed.html)
+
