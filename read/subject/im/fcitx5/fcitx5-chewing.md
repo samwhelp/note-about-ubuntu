@@ -213,6 +213,8 @@ libimetable-dev - Generic Input Method Implementation (table dev files)
 ``` sh
 apt-cache search fcitx5 | sort | awk -F ' - ' '{print "* ["$1"](https://packages.ubuntu.com/jammy/"$1")"}'
 ```
+
+
 * [fcitx5-anthy](https://packages.ubuntu.com/jammy/fcitx5-anthy)
 * [fcitx5-chewing](https://packages.ubuntu.com/jammy/fcitx5-chewing)
 * [fcitx5-chinese-addons-bin](https://packages.ubuntu.com/jammy/fcitx5-chinese-addons-bin)
