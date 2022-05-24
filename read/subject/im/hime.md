@@ -21,7 +21,7 @@ parent: 中文輸入法
 ## 指令安裝
 
 ``` sh
-sudo apt-get install hime hime-anthy hime-chewing hime-qt5-immodule
+sudo apt-get install hime hime-gtk2-immodule hime-gtk3-immodule hime-qt5-immodule hime-chewing hime-anthy
 ```
 
 
