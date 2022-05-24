@@ -46,7 +46,7 @@ sudo apt-get remove ibus
 
 ## 解法二
 
-因為「GNOME」的實作程式碼，是檢查「/usr/bin/ibus-daemon」是否存在，
+因為「GNOME」的[實作程式碼](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=354222#forumpost354222)，是檢查「/usr/bin/ibus-daemon」是否存在，
 
 若存在，就會自動執行「/usr/bin/ibus-daemon」。
 

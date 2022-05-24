@@ -9,6 +9,12 @@ grand_parent: 中文輸入法
 
 # fcitx-chewing
 
+
+## 注意事項
+
+> [若ibus同時存在，如何解決？](https://samwhelp.github.io/note-about-ubuntu/read/subject/im/howto/how_to_fake_ibus_to_be_removed.html)
+
+
 ## 微調腳本
 
 * [fcitx-chewing 安裝微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/im/fcitx-chewing)
