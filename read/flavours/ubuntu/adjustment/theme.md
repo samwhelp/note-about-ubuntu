@@ -49,16 +49,132 @@ gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
 sudo apt-get install gnome-tweaks
 ```
 
-## Gruvbox
+## Appearance / Gruvbox
 
 我個人慣用「[Gruvbox](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/source/gruvbox.html)」，可以執行下面的指令。
 
-```
+``` sh
 gsettings set org.gnome.desktop.interface gtk-theme 'Gruvbox'
 gsettings set org.gnome.desktop.interface icon-theme 'Gruvbox-Dark'
 gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
 gsettings set org.gnome.desktop.wm.preferences theme 'Gruvbox'
 ```
+
+
+## Appearance / Dracula
+
+``` sh
+gsettings set org.gnome.desktop.interface gtk-theme 'Dracula'
+gsettings set org.gnome.desktop.interface icon-theme 'Dracula'
+gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
+gsettings set org.gnome.desktop.wm.preferences theme 'Dracula'
+```
+
+
+## Appearance / Yaru-blue-dark
+
+``` sh
+gsettings set org.gnome.desktop.interface gtk-theme 'Yaru-blue-dark'
+gsettings set org.gnome.desktop.interface icon-theme 'Yaru-blue-dark'
+gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
+gsettings set org.gnome.desktop.wm.preferences theme 'Yaru-blue-dark'
+```
+
+## Appearance / Yaru-prussiangreen-dark
+
+``` sh
+gsettings set org.gnome.desktop.interface gtk-theme 'Yaru-prussiangreen-dark'
+gsettings set org.gnome.desktop.interface icon-theme 'Yaru-prussiangreen-dark'
+gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
+gsettings set org.gnome.desktop.wm.preferences theme 'Yaru-prussiangreen-dark'
+```
+
+## Appearance / Breeze-Dark
+
+
+``` sh
+gsettings set org.gnome.desktop.interface gtk-theme 'Breeze-Dark'
+gsettings set org.gnome.desktop.interface icon-theme 'Breeze-Dark'
+gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
+gsettings set org.gnome.desktop.wm.preferences theme 'Breeze-Dark'
+```
+
+
+## Appearance / Greybird-dark
+
+``` sh
+gsettings set org.gnome.desktop.interface gtk-theme 'Greybird-dark'
+gsettings set org.gnome.desktop.interface icon-theme 'elementary-xfce-dark'
+gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
+gsettings set org.gnome.desktop.wm.preferences theme 'Greybird-dark'
+```
+
+## Appearance / Numix
+
+``` sh
+gsettings set org.gnome.desktop.interface gtk-theme 'Numix'
+gsettings set org.gnome.desktop.interface icon-theme 'Numix'
+gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
+gsettings set org.gnome.desktop.wm.preferences theme 'Numix'
+```
+
+
+## Appearance / Numix / Circle Icon
+
+``` sh
+gsettings set org.gnome.desktop.interface gtk-theme 'Numix'
+gsettings set org.gnome.desktop.interface icon-theme 'Numix-Circle'
+gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
+gsettings set org.gnome.desktop.wm.preferences theme 'Numix'
+```
+
+
+## Appearance / Adwaita-dark
+
+``` sh
+gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark'
+gsettings set org.gnome.desktop.interface icon-theme 'Yaru-blue-dark'
+gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
+gsettings set org.gnome.desktop.wm.preferences theme 'Adwaita-dark'
+```
+
+
+## Appearance / Materia-dark
+
+``` sh
+gsettings set org.gnome.desktop.interface gtk-theme 'Materia-dark'
+gsettings set org.gnome.desktop.interface icon-theme 'Yaru-bark-dark'
+#gsettings set org.gnome.desktop.interface icon-theme 'Yaru-sage-dark'
+gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
+gsettings set org.gnome.desktop.wm.preferences theme 'Materia-dark'
+```
+
+
+## Appearance / Pocillo
+
+``` sh
+gsettings set org.gnome.desktop.interface gtk-theme 'Pocillo-dark'
+gsettings set org.gnome.desktop.interface icon-theme 'Pocillo'
+gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
+gsettings set org.gnome.desktop.wm.preferences theme 'Pocillo-dark'
+```
+
+
+## Appearance / Obsidian-2-Gray
+
+``` sh
+gsettings set org.gnome.desktop.interface gtk-theme 'Obsidian-2-Gray'
+gsettings set org.gnome.desktop.interface icon-theme 'Black-Frost-Suru'
+gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
+gsettings set org.gnome.desktop.wm.preferences theme 'Obsidian-2-Gray'
+```
+
+
+
+
+
+
+
 
 ## 探索
 
