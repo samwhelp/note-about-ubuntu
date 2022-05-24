@@ -39,3 +39,5 @@ ubuntu-budgie-themes - GTK+3.24 based themes for Ubuntu Budgie
 * GitHub / nana-4 / [materia-theme](https://github.com/nana-4/materia-theme)
 
 ## See Also
+
+* [theme-package-materia](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/package/materia.html)
