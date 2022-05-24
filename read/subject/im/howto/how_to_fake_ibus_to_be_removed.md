@@ -2,7 +2,7 @@
 title: How to fake ibus to be removed
 nav_order: 3910
 has_children: false
-parent: fcitx
+parent: Howto
 grand_parent: 中文輸入法
 ---
 
