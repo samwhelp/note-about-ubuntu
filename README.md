@@ -159,6 +159,7 @@
 | --- |
 | [Xsession簡易入門](https://github.com/samwhelp/note-about-xsession/) |
 | [dkms 探索筆記](https://samwhelp.github.io/note-about-dkms/) |
+| [deb 探索筆記](https://samwhelp.github.io/note-about-deb/) |
 
 
 | Vim 相關筆記 |
