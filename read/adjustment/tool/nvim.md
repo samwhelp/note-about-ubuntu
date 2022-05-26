@@ -131,4 +131,19 @@ lvim +'hi NormalFloat guibg=#1e222a' +PackerSync
 ```
 
 
-> https://github.com/ryanoasis/nerd-fonts
+> [nerd-fonts](https://github.com/ryanoasis/nerd-fonts)
+
+> [font-match-order](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/font-setting/font-match-order)
+
+> [nerd-fonts / liberation](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/font.html#nerd-fonts--liberation-literation-mono-nerd-font)
+
+``` sh
+mkdir -p ~/.local/share/fonts/nerd-fonts
+curl -fLo "$HOME/.local/share/fonts/nerd-fonts/Literation Mono Nerd Font Complete.ttf" 'https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/LiberationMono/complete/Literation%20Mono%20Nerd%20Font%20Complete.ttf'
+
+```
+
+``` sh
+fc-cache -fv ~/.local/share/fonts/
+```
+
