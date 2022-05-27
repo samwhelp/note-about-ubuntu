@@ -7,4 +7,4 @@ has_children: true
 # 微調
 
 
-* [腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment)
+* [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment)

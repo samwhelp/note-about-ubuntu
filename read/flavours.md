@@ -7,6 +7,9 @@ has_children: true
 
 # Ubuntu Flavours
 
-| Flavours |
-| --- |
-| [Ubuntu](https://samwhelp.github.io/note-about-ubuntu/read/flavours/ubuntu/) |
+| Flavours | DE or WM |
+| --- | --- |
+| [Ubuntu](https://samwhelp.github.io/note-about-ubuntu/read/flavours/ubuntu/) | [gnome-shell](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/de/gnome-shell) |
+|  | [gnome-flashback](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/de/gnome-flashback.html) |
+| Xubuntu | [xfce](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/de/xfce.html) |
+|  | [openbox](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/wm/openbox.html) |
