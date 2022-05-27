@@ -179,12 +179,30 @@ gsettings set org.gnome.desktop.wm.preferences theme 'Pocillo-dark'
 
 ## Appearance / Obsidian-2-Gray
 
+> [Obsidian](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/package/obsidian.html)
+
+``` sh
+gsettings set org.gnome.desktop.interface gtk-theme 'Obsidian-2-Gray'
+gsettings set org.gnome.desktop.interface icon-theme 'Obsidian-Gray'
+gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
+gsettings set org.gnome.desktop.wm.preferences theme 'Obsidian-2-Gray'
+```
+
 ``` sh
 gsettings set org.gnome.desktop.interface gtk-theme 'Obsidian-2-Gray'
 gsettings set org.gnome.desktop.interface icon-theme 'Black-Frost-Suru'
 gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
 gsettings set org.gnome.desktop.wm.preferences theme 'Obsidian-2-Gray'
 ```
+
+
+
+
+
+
+
+
+
 
 
 
