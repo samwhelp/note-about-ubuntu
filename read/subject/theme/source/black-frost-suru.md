@@ -1,12 +1,12 @@
 ---
-title: Black-Frost-Suru
+title: black-frost-suru
 nav_order: 2708
 has_children: false
 parent: theme-source
 grand_parent: 佈景主題
 ---
 
-# Black-Frost-Suru
+# black-frost-suru
 
 
 ## Link
