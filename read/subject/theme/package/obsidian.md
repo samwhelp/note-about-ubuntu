@@ -1,6 +1,6 @@
 --
 title: theme-package-obsidian
-nav_order: 2060
+nav_order: 2067
 has_children: false
 parent: theme-package
 grand_parent: 佈景主題
