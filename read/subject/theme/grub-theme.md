@@ -20,3 +20,8 @@ parent: 佈景主題
 | [grubrc-theme-get](https://samwhelp.github.io/note-about-grub/read/project/grubrc-profile/grubrc-theme-get.html) | 用來輔助「安裝」GRUB佈景主題 |
 | [grubrc-theme-ctrl](https://samwhelp.github.io/note-about-grub/read/project/grubrc-profile/grubrc-theme-ctrl.html) | 用來輔助「切換」GRUB佈景主題 |
 | [grub2-theme-preview](https://samwhelp.github.io/note-about-manjaro/read/adjustment/tool/grub2-theme-preview.html) | 用來輔助「預覽」GRUB佈景主題 |
+
+
+## Package
+
+* Package Search: [grub-theme](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/package-search/grub-theme.html)
