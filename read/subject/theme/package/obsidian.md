@@ -1,4 +1,4 @@
---
+---
 title: theme-package-obsidian
 nav_order: 2067
 has_children: false
