@@ -1,6 +1,6 @@
 ---
 title: gnome-flashback
-nav_order: 4011
+nav_order: 4001
 has_children: false
 parent: 桌面環境微調
 grand_parent: 微調
