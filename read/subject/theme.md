@@ -12,6 +12,8 @@ has_children: true
 
 | 環境 |
 | --- |
+| [gnome-shell](https://samwhelp.github.io/note-about-ubuntu/read/flavours/ubuntu/adjustment/theme.html#appearance--yaru-prussiangreen-dark) |
+| [gnome-flashback](https://samwhelp.github.io/note-about-ubuntu/read/flavours/ubuntu/adjustment/theme.html#appearance--gruvbox) |
 | [xfce](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/de/xfce.html#採用佈景主題) |
 | [openbox](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/wm/openbox.html#採用佈景主題) |
 
