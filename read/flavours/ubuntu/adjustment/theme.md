@@ -49,9 +49,10 @@ gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
 sudo apt-get install gnome-tweaks
 ```
 
+
 ## Appearance / Gruvbox
 
-我個人慣用「[Gruvbox](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/source/gruvbox.html)」，可以執行下面的指令。
+> 我個人慣用「[Gruvbox](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/source/gruvbox.html)」，可以執行下面的指令。
 
 ``` sh
 gsettings set org.gnome.desktop.interface gtk-theme 'Gruvbox'
@@ -62,6 +63,8 @@ gsettings set org.gnome.desktop.wm.preferences theme 'Gruvbox'
 
 
 ## Appearance / Dracula
+
+> [Dracula](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/source/dracula.html)
 
 ``` sh
 gsettings set org.gnome.desktop.interface gtk-theme 'Dracula'
@@ -91,6 +94,7 @@ gsettings set org.gnome.desktop.wm.preferences theme 'Yaru-prussiangreen-dark'
 
 ## Appearance / Breeze-Dark
 
+> [Breeze](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/package/breeze.html)
 
 ``` sh
 gsettings set org.gnome.desktop.interface gtk-theme 'Breeze-Dark'
@@ -110,6 +114,8 @@ gsettings set org.gnome.desktop.wm.preferences theme 'Greybird-dark'
 ```
 
 ## Appearance / Numix
+
+> [Numix](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/package/numix.html)
 
 ``` sh
 gsettings set org.gnome.desktop.interface gtk-theme 'Numix'
@@ -141,6 +147,8 @@ gsettings set org.gnome.desktop.wm.preferences theme 'Adwaita-dark'
 
 ## Appearance / Materia-dark
 
+> [Materia](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/package/materia.html)
+
 ``` sh
 gsettings set org.gnome.desktop.interface gtk-theme 'Materia-dark'
 gsettings set org.gnome.desktop.interface icon-theme 'Yaru-bark-dark'
@@ -151,6 +159,8 @@ gsettings set org.gnome.desktop.wm.preferences theme 'Materia-dark'
 
 
 ## Appearance / Pocillo
+
+> [Pocillo](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/package/pocillo.html)
 
 ``` sh
 gsettings set org.gnome.desktop.interface gtk-theme 'Pocillo-dark'
@@ -168,10 +178,6 @@ gsettings set org.gnome.desktop.interface icon-theme 'Black-Frost-Suru'
 gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
 gsettings set org.gnome.desktop.wm.preferences theme 'Obsidian-2-Gray'
 ```
-
-
-
-
 
 
 
