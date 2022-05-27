@@ -140,6 +140,8 @@ gsettings set org.gnome.desktop.wm.preferences theme 'Numix'
 
 ## Appearance / Adwaita-dark
 
+> [Adwaita](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/package/adwaita.html)
+
 ``` sh
 gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark'
 gsettings set org.gnome.desktop.interface icon-theme 'Yaru-blue-dark'

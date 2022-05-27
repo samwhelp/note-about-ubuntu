@@ -10,12 +10,12 @@ grand_parent: 佈景主題
 # gtk-theme
 
 
-## 查詢
+## 探索
 
 執行下面指令查詢
 
 ``` sh
-apt-cache search gtk-theme
+apt-cache search gtk-theme | sort
 ```
 
 顯示
@@ -38,3 +38,28 @@ numix-gtk-theme - modern flat theme from the Numix project
 pop-gtk-theme - Pop GTK Theme
 yuyo-gtk-theme - Yuyo GTK2 and GTK3 Theme
 ```
+
+## Package
+
+執行
+
+``` sh
+apt-cache search gtk-theme | sort | awk -F ' - ' '{print "* ["$1"](https://packages.ubuntu.com/jammy/"$1")"}'
+```
+
+* [adapta-gtk-theme](https://packages.ubuntu.com/jammy/adapta-gtk-theme)
+* [blackbird-gtk-theme](https://packages.ubuntu.com/jammy/blackbird-gtk-theme)
+* [bluebird-gtk-theme](https://packages.ubuntu.com/jammy/bluebird-gtk-theme)
+* [breeze-gtk-theme](https://packages.ubuntu.com/jammy/breeze-gtk-theme)
+* [darkblood-gtk-theme](https://packages.ubuntu.com/jammy/darkblood-gtk-theme)
+* [darkcold-gtk-theme](https://packages.ubuntu.com/jammy/darkcold-gtk-theme)
+* [darkfire-gtk-theme](https://packages.ubuntu.com/jammy/darkfire-gtk-theme)
+* [darkmint-gtk-theme](https://packages.ubuntu.com/jammy/darkmint-gtk-theme)
+* [greybird-gtk-theme](https://packages.ubuntu.com/jammy/greybird-gtk-theme)
+* [gtk-chtheme](https://packages.ubuntu.com/jammy/gtk-chtheme)
+* [gtk-theme-switch](https://packages.ubuntu.com/jammy/gtk-theme-switch)
+* [human-theme](https://packages.ubuntu.com/jammy/human-theme)
+* [materia-gtk-theme](https://packages.ubuntu.com/jammy/materia-gtk-theme)
+* [numix-gtk-theme](https://packages.ubuntu.com/jammy/numix-gtk-theme)
+* [pop-gtk-theme](https://packages.ubuntu.com/jammy/pop-gtk-theme)
+* [yuyo-gtk-theme](https://packages.ubuntu.com/jammy/yuyo-gtk-theme)
