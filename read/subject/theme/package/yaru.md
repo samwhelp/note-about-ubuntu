@@ -1,6 +1,6 @@
 ---
 title: theme-package-yaru
-nav_order: 2060
+nav_order: 2061
 has_children: false
 parent: theme-package
 grand_parent: 佈景主題

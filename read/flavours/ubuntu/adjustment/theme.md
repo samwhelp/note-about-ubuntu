@@ -109,6 +109,8 @@ gsettings set org.gnome.desktop.wm.preferences theme 'Breeze-Dark'
 
 ## Appearance / Greybird-dark
 
+> [Greybird](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/package/greybird.html)
+
 ``` sh
 gsettings set org.gnome.desktop.interface gtk-theme 'Greybird-dark'
 gsettings set org.gnome.desktop.interface icon-theme 'elementary-xfce-dark'

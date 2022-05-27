@@ -1,6 +1,6 @@
 ---
 title: theme-package-numix
-nav_order: 2062
+nav_order: 2064
 has_children: false
 parent: theme-package
 grand_parent: 佈景主題

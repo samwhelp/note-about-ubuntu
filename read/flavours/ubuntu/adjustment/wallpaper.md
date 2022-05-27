@@ -170,7 +170,7 @@ org.gtk.gtk4.Settings.FileChooser last-folder-uri ''
 執行
 
 ``` sh
-gsettings list-recursively | grep icture-uri | sort
+gsettings list-recursively | grep picture-uri | sort
 ```
 
 顯示
