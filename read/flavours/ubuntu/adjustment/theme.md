@@ -76,6 +76,8 @@ gsettings set org.gnome.desktop.wm.preferences theme 'Dracula'
 
 ## Appearance / Yaru-blue-dark
 
+> [Yaru](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/package/yaru.html)
+
 ``` sh
 gsettings set org.gnome.desktop.interface gtk-theme 'Yaru-blue-dark'
 gsettings set org.gnome.desktop.interface icon-theme 'Yaru-blue-dark'
@@ -91,6 +93,7 @@ gsettings set org.gnome.desktop.interface icon-theme 'Yaru-prussiangreen-dark'
 gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
 gsettings set org.gnome.desktop.wm.preferences theme 'Yaru-prussiangreen-dark'
 ```
+
 
 ## Appearance / Breeze-Dark
 
@@ -113,6 +116,7 @@ gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
 gsettings set org.gnome.desktop.wm.preferences theme 'Greybird-dark'
 ```
 
+
 ## Appearance / Numix
 
 > [Numix](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/package/numix.html)
@@ -123,7 +127,6 @@ gsettings set org.gnome.desktop.interface icon-theme 'Numix'
 gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
 gsettings set org.gnome.desktop.wm.preferences theme 'Numix'
 ```
-
 
 ## Appearance / Numix / Circle Icon
 
