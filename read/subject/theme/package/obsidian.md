@@ -38,5 +38,5 @@ apt-cache search obsidian | grep theme | sort | awk -F ' - ' '{print "* ["$1"](h
 
 ## Link
 
-* [iconpack-obsidian](https://github.com/madmaxms/iconpack-obsidian)
+* [iconpack-obsidian](https://github.com/madmaxms/iconpack-obsidian) ([Source](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/source/obsidian.html))
 * [theme-obsidian-2](https://github.com/madmaxms/theme-obsidian-2)

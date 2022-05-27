@@ -188,6 +188,10 @@ gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
 gsettings set org.gnome.desktop.wm.preferences theme 'Obsidian-2-Gray'
 ```
 
+
+> [Black-Frost-Suru](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/source/black-frost-suru.html)
+> [Obsidian-2-Gray](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/source/obsidian.html)
+
 ``` sh
 gsettings set org.gnome.desktop.interface gtk-theme 'Obsidian-2-Gray'
 gsettings set org.gnome.desktop.interface icon-theme 'Black-Frost-Suru'
