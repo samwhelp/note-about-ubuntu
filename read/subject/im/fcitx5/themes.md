@@ -58,13 +58,37 @@ theme.conf
 
 > GitHub Search: 「[fcitx5 theme](https://github.com/search?q=fcitx5+theme&type=Repositories)」
 
+### Default
+
+* [default](https://github.com/fcitx/fcitx5/tree/master/src/ui/classic/themes/default)
+* /usr/share/fcitx5/themes/default/
+
+``` sh
+sed -i 's/^Theme=.*/Theme=default/g' ~/.config/fcitx5/conf/classicui.conf
+```
+
+> 除了可以透過「圖形介面來設定」，也可以透過上面指令來設定。
+
+> 這一招也可以用來設定「[grub theme](https://github.com/samwhelp/note-about-grub/blob/gh-pages/_demo/project/grubrc-profile/grubrc-theme-ctrl/gen/grubrc-theme-ctrl/Section/Sys/Grub.sh#L313)」，或是「[gtkrc](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/part/gtk-config/gtk3/prototype-dracula.sh)」。
+
+
 ### Gruvbox
 
 * [fcitx5-gruvbox](https://github.com/c25vdw/fcitx5-gruvbox) (單純設定，沒有套用圖片)
+* ~/.local/share/fcitx5/themes/gruvbox-dark/
+
+``` sh
+sed -i 's/^Theme=.*/Theme=gruvbox-dark/g' ~/.config/fcitx5/conf/classicui.conf
+```
 
 ### Dracula
 
 * [fcitx5-dracula-theme](https://github.com/drbbr/fcitx5-dracula-theme) (透明背景)
+* ~/.local/share/fcitx5/themes/dracula/
+
+``` sh
+sed -i 's/^Theme=.*/Theme=dracula/g' ~/.config/fcitx5/conf/classicui.conf
+```
 
 
 ### Breeze
