@@ -20,7 +20,7 @@ parent: 連結
 ## Isohybrid
 
 * Syslinux Wiki / [Isohybrid](https://wiki.syslinux.org/wiki/index.php?title=Isohybrid)
-* Ubuntu Wiki / [https://help.ubuntu.com/community/mkusb/isohybrid]
+* Ubuntu Wiki / mkusb / [isohybrid](https://help.ubuntu.com/community/mkusb/isohybrid)
 
 ## Case
 
