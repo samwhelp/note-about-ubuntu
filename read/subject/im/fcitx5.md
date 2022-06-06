@@ -26,7 +26,7 @@ parent: 中文輸入法
 
 ## 相關討論
 
-* [#14](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=363736#forumpost363736)
+* 「[#14](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=363736#forumpost363736)」- 回覆: Ubuntu 22.04 LTS (Jammy Jellyfish) Released
 
 
 ## Package Search
