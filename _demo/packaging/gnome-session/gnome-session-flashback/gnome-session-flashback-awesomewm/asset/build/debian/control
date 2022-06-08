@@ -1,0 +1,16 @@
+Source: gnome-session-flashback-awesomewm
+Section: utils
+Priority: optional
+Maintainer: developer <developer@home.work>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 3.9.5
+Homepage: https://samwhelp.github.io/note-about-gnome-flashback/
+Vcs-Git: https://github.com/samwhelp/note-about-gnome-flashback.git
+Vcs-Browser: https://github.com/samwhelp/note-about-gnome-flashback
+
+Package: gnome-session-flashback-awesomewm
+Architecture: all
+Depends: ${misc:Depends}
+Description: gnome-session-flashback with awesomewm.
+ This is a personal package which build
+ for gnome-session-flashback with awesomewm.
