@@ -1,9 +1,10 @@
 
 # gnome-session-flashback-bspwm
 
-## Main
 
-* [gnome-session-flashback-bspwm](asset/gnome-session-flashback-bspwm)
+## Project
+
+* [gnome-session-flashback-bspwm](https://github.com/samwhelp/note-about-gnome-flashback/tree/gh-pages/_demo/project/gnome-session/gnome-session-flashback/gnome-session-flashback-bspwm)
 
 
 ## Usage
