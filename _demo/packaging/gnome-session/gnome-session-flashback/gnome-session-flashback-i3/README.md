@@ -32,6 +32,15 @@ make prepare
 ```
 
 
+### download
+
+run
+
+``` sh
+make download
+```
+
+
 ### build
 
 run
