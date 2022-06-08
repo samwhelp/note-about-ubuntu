@@ -1,0 +1,15 @@
+Source: gnome-session-flashback-i3
+Section: utils
+Priority: optional
+Maintainer: developer <developer@home.work>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 3.9.5
+Homepage: https://samwhelp.github.io/note-about-gnome-flashback/
+Vcs-Git: https://github.com/samwhelp/note-about-gnome-flashback.git
+Vcs-Browser: https://github.com/samwhelp/note-about-gnome-flashback
+
+Package: gnome-session-flashback-i3
+Architecture: all
+Depends: ${misc:Depends}
+Description: gnome-session-flashback with i3.
+ This is a personal package which build for gnome-session-flashback with i3.
