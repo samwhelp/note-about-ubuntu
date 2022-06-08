@@ -1,10 +1,10 @@
 
-# Packaging / gnome-session-flashback-i3
+# Packaging / gnome-session-flashback-herbstluftwm
 
 
 ## Project
 
-* [gnome-session-flashback-i3](https://github.com/samwhelp/note-about-gnome-flashback/tree/gh-pages/_demo/project/gnome-session/gnome-session-flashback/gnome-session-flashback-i3)
+* [gnome-session-flashback-herbstluftwm](https://github.com/samwhelp/note-about-gnome-flashback/tree/gh-pages/_demo/project/gnome-session/gnome-session-flashback/gnome-session-flashback-herbstluftwm)
 
 
 ## Usage

@@ -1,5 +1,5 @@
 
-# gnome-session-flashback-bspwm
+# Packaging / gnome-session-flashback-bspwm
 
 
 ## Project
