@@ -98,12 +98,12 @@
 		</property>
 		<property name="plugin-12" type="string" value="launcher">
 			<property name="items" type="array">
-				<value type="string" value="mousepad.desktop"/>
+				<value type="string" value="org.xfce.mousepad.desktop"/>
 			</property>
 		</property>
 		<property name="plugin-13" type="string" value="launcher">
 			<property name="items" type="array">
-				<value type="string" value="firefox.desktop"/>
+				<value type="string" value="org.kde.falkon.desktop"/>
 			</property>
 		</property>
 		<property name="plugin-14" type="string" value="launcher">
