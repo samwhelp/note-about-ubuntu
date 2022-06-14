@@ -21,7 +21,7 @@ parent: 中文輸入法
 | 輸入法 |
 | --- |
 | [fcitx5-chewing](https://samwhelp.github.io/note-about-ubuntu/read/subject/im/fcitx5/fcitx5-chewing.html) |
-| [佈景主題](https://samwhelp.github.io/note-about-ubuntu/read/subject/im/fcitx5/fcitx5-table-extra.html) |
+| [fcitx5-table-extra](https://samwhelp.github.io/note-about-ubuntu/read/subject/im/fcitx5/fcitx5-table-extra.html) |
 
 
 ## 相關討論
