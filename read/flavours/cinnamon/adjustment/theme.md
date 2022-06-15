@@ -57,7 +57,7 @@ gsettings set org.cinnamon.desktop.interface cursor-theme 'Breeze'
 gsettings set org.cinnamon.theme name 'Gruvbox'
 gsettings set org.cinnamon.desktop.interface cursor-theme 'Breeze'
 gsettings set org.cinnamon.desktop.interface gtk-theme 'Gruvbox'
-gsettings set org.cinnamon.desktop.interface icon-theme 'Gruvbox-dark'
+gsettings set org.cinnamon.desktop.interface icon-theme 'Gruvbox-Dark'
 gsettings set org.cinnamon.desktop.wm.preferences theme 'Gruvbox'
 
 
