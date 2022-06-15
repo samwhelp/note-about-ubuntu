@@ -217,6 +217,12 @@ cinnamon_set_keybindings_custom () {
 	dconf dump /org/cinnamon/desktop/keybindings/custom-keybindings/
 	echo
 
+	echo
+	echo "gsettings get org.cinnamon.desktop.keybindings custom-list"
+	echo
+	gsettings get org.cinnamon.desktop.keybindings custom-list
+	echo
+
 }
 
 ##
