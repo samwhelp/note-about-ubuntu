@@ -1,6 +1,6 @@
 ---
 title: wallpaper
-nav_order: 3020
+nav_order: 3010
 has_children: false
 parent: Cinnamon
 grand_parent: Ubuntu Flavours

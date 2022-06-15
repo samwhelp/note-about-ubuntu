@@ -1,6 +1,6 @@
 ---
 title: favorite-apps
-nav_order: 3012
+nav_order: 3031
 has_children: false
 parent: Cinnamon
 grand_parent: Ubuntu Flavours
