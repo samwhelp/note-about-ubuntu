@@ -3,7 +3,7 @@ title: keybind-custom
 nav_order: 3021
 has_children: false
 parent: Cinnamon
-grand_parent: Ubuntu Flavours
+grand_parent: Desktop Environment
 ---
 
 

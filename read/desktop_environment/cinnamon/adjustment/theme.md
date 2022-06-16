@@ -3,7 +3,7 @@ title: theme
 nav_order: 3011
 has_children: false
 parent: Cinnamon
-grand_parent: Ubuntu Flavours
+grand_parent: Desktop Environment
 ---
 
 

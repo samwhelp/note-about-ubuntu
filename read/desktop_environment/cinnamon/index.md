@@ -2,7 +2,7 @@
 title: Cinnamon
 nav_order: 3030
 has_children: true
-parent: Ubuntu Flavours
+parent: Desktop Environment
 ---
 
 
