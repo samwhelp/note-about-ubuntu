@@ -1,6 +1,6 @@
 ---
 title: install
-nav_order: 3030
+nav_order: 3000
 has_children: false
 parent: Cinnamon
 grand_parent: Desktop Environment
