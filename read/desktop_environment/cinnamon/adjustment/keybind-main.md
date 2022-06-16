@@ -3,7 +3,7 @@ title: keybind-main
 nav_order: 3021
 has_children: false
 parent: Cinnamon
-grand_parent: Desktop Environment
+grand_parent: 桌面環境
 ---
 
 

@@ -1,8 +1,8 @@
 ---
-title: Window Manager
+title: 視窗管理器
 nav_order: 1012
 has_children: true
 ---
 
 
-# Window Manager
+# 視窗管理器

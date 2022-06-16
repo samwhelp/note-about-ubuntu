@@ -3,7 +3,7 @@ title: install
 nav_order: 3000
 has_children: false
 parent: Cinnamon
-grand_parent: Desktop Environment
+grand_parent: 桌面環境
 ---
 
 
