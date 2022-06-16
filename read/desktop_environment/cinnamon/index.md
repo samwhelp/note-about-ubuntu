@@ -21,7 +21,7 @@ parent: Desktop Environment
 
 ## 如何安裝
 
-* [如何安裝 Cinnamon Desktop](https://samwhelp.github.io/note-about-ubuntu/read/flavours/cinnamon/install.html)
+* [如何安裝 Cinnamon Desktop](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/cinnamon/install.html)
 
 
 ## 微調腳本

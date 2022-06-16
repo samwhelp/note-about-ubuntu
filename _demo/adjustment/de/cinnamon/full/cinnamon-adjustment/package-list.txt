@@ -1,0 +1,123 @@
+
+
+## Download
+
+git
+wget
+curl
+
+
+## Cinnamon
+
+cinnamon-desktop-environment
+
+
+## Font
+
+fonts-noto-cjk
+
+
+## Rofi
+
+rofi
+
+
+## Terminal
+
+sakura
+xfce4-terminal
+
+
+## File Manager
+
+pcmanfm-qt
+thunar
+
+
+## Volume Control
+
+mate-media
+
+
+## Text Editor
+
+mousepad
+
+
+## Fcitx
+
+fcitx
+fcitx-chewing
+fcitx-config-gtk
+fcitx-frontend-gtk2
+fcitx-frontend-gtk3
+fcitx-frontend-qt5
+fcitx-tools
+fcitx-m17n
+
+
+## qt5ct
+
+qt5ct
+qt5-style-plugins
+#qt5-gtk2-platformtheme
+
+## Theme
+
+breeze-cursor-theme
+
+
+## Wallpaper
+
+ubuntu-wallpapers
+#ubuntu-wallpapers-artful
+#ubuntu-wallpapers-bionic
+#ubuntu-wallpapers-cosmic
+#ubuntu-wallpapers-disco
+#ubuntu-wallpapers-eoan
+#ubuntu-wallpapers-focal
+#ubuntu-wallpapers-groovy
+#ubuntu-wallpapers-hirsute
+#ubuntu-wallpapers-impish
+#ubuntu-wallpapers-jammy
+#ubuntu-wallpapers-karmic
+#ubuntu-wallpapers-lucid
+#ubuntu-wallpapers-maverick
+#ubuntu-wallpapers-natty
+#ubuntu-wallpapers-oneiric
+#ubuntu-wallpapers-precise
+#ubuntu-wallpapers-quantal
+#ubuntu-wallpapers-raring
+#ubuntu-wallpapers-saucy
+#ubuntu-wallpapers-trusty
+#ubuntu-wallpapers-utopic
+#ubuntu-wallpapers-vivid
+#ubuntu-wallpapers-wily
+#ubuntu-wallpapers-xenial
+#ubuntu-wallpapers-yakkety
+#ubuntu-wallpapers-zesty
+#ubuntu-wallpapers-artful
+#ubuntu-wallpapers-bionic
+#ubuntu-wallpapers-cosmic
+#ubuntu-wallpapers-disco
+#ubuntu-wallpapers-eoan
+#ubuntu-wallpapers-focal
+#ubuntu-wallpapers-groovy
+#ubuntu-wallpapers-hirsute
+#ubuntu-wallpapers-impish
+#ubuntu-wallpapers-karmic
+#ubuntu-wallpapers-lucid
+#ubuntu-wallpapers-maverick
+#ubuntu-wallpapers-natty
+#ubuntu-wallpapers-oneiric
+#ubuntu-wallpapers-precise
+#ubuntu-wallpapers-quantal
+#ubuntu-wallpapers-raring
+#ubuntu-wallpapers-saucy
+#ubuntu-wallpapers-trusty
+#ubuntu-wallpapers-utopic
+#ubuntu-wallpapers-vivid
+#ubuntu-wallpapers-wily
+#ubuntu-wallpapers-xenial
+#ubuntu-wallpapers-yakkety
+#ubuntu-wallpapers-zesty
