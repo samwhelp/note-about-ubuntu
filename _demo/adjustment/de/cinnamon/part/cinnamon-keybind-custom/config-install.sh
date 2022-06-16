@@ -12,24 +12,25 @@ cinnamon_config_install () {
 	echo "## Config: cinnamon"
 	echo
 
-	cinnamon_set_keybindings_custom
+	cinnamon_keybind_custom_config
 
 	return 0
 
 	echo
 }
 
+##
+### Tail: cinnamon
+################################################################################
 
 
 
 
+################################################################################
+### Head: cinnamon / keybind / custom
+##
 
-
-
-
-
-
-cinnamon_set_keybindings_custom () {
+cinnamon_keybind_custom_config () {
 
 
 
@@ -226,11 +227,8 @@ cinnamon_set_keybindings_custom () {
 }
 
 ##
-### Tail: cinnamon
+### Tail: cinnamon / keybind / custom
 ################################################################################
-
-
-
 
 
 
