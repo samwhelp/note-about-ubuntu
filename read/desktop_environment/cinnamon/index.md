@@ -32,6 +32,7 @@ parent: 桌面環境
 | [cinnamon-theme-main](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-theme-main) |
 | [cinnamon-keybind-main](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-main) |
 | [cinnamon-keybind-custom](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-custom) |
+| [cinnamon-favorite-apps](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-favorite-apps) |
 
 
 ## 更改外觀
@@ -53,7 +54,7 @@ parent: 桌面環境
 
 | Favorite Apps | 微調腳本 |
 | --- | --- |
-| [favorite-apps](https://samwhelp.github.io/note-about-ubuntu/read/flavours/cinnamon/adjustment/favorite-apps.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/part-cinnamon/cinnamon-favorite-apps) |
+| [favorite-apps](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/cinnamon/adjustment/favorite-apps.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-favorite-apps) |
 
 
 
