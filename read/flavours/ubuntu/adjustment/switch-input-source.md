@@ -101,7 +101,7 @@ gsettings set org.gnome.desktop.wm.keybindings switch-input-source "['<Control>s
 gsettings set org.gnome.desktop.wm.keybindings switch-input-source-backward "['<Shift><Control>space', '<Shift>XF86Keyboard']"
 ```
 
-以上指令，整合成一個微調腳本，紀錄在「[GitHub](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/part-gnome-shell/switch-input-source)」上
+以上指令，整合成一個微調腳本，紀錄在「[GitHub](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-shell/part/switch-input-source)」上
 
 另外以「[ibus-libzhuyin](#ibus-libzhuyin)」為例。
 

@@ -14,7 +14,7 @@ grand_parent: Ubuntu Flavours
 
 ## 微調腳本
 
-* [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/part-gnome-shell/gnome-shell-extension-ubuntu-dock)
+* [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-shell/part/gnome-shell-extension-ubuntu-dock)
 
 
 ## 圖形使用者介面程式
