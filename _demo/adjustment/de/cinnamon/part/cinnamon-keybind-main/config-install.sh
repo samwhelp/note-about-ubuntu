@@ -13,33 +13,9 @@ cinnamon_config_install () {
 	echo
 
 
-
-	#cinnamon_set_desktop_corner_behavior
-
-	#cinnamon_keybind_set_screensaver
-
-	#cinnamon_keybind_set_switch_monitor
-
-	#cinnamon_keybind_set_pip
-
-
-
-	#cinnamon_keybind_set_start_here
-
-	#cinnamon_keybind_set_terminal
-
-	#cinnamon_keybind_set_volume_control
-
-
-
 	cinnamon_keybind_window_config
 
 	cinnamon_keybind_workspace_config
-
-
-	#cinnamon_keybind_set_adjustment
-
-
 
 
 	return
@@ -47,227 +23,10 @@ cinnamon_config_install () {
 	echo
 }
 
-
-
-
-cinnamon_set_desktop_corner_behavior () {
-
-	echo
-	echo "### cinnamon_set_desktop_corner_behavior"
-	echo
-
-
-	echo "gsettings set org.gnome.desktop.interface enable-hot-corners true"
-	gsettings set org.gnome.desktop.interface enable-hot-corners true
-
-
-}
-
-
-cinnamon_keybind_set_screensaver () {
-	echo
-	echo "### cinnamon_keybind_set_screensaver"
-	echo
-
-	# org.gnome.settings-daemon.plugins.media-keys screensaver ['<Super>l']
-
-
-	echo 'gsettings set org.gnome.settings-daemon.plugins.media-keys screensaver "'"['<Super>bracketleft']"'"'
-	gsettings set org.gnome.settings-daemon.plugins.media-keys screensaver "['<Super>bracketleft']"
-}
-
-
-cinnamon_keybind_set_switch_monitor () {
-	echo
-	echo "### cinnamon_keybind_set_switch_monitor"
-	echo
-
-	# org.gnome.mutter.keybindings switch-monitor ['<Super>p', 'XF86Display']
-
-
-	echo 'gsettings set org.gnome.mutter.keybindings switch-monitor "'"['<Super>bracketright', 'XF86Display']"'"'
-	gsettings set org.gnome.mutter.keybindings switch-monitor "['<Super>bracketright', 'XF86Display']"
-}
-
-cinnamon_keybind_set_pip () {
-	echo
-	echo "### cinnamon_keybind_set_pip"
-	echo
-
-	# org.cinnamon.desktop.gala.keybindings pip ['<Super>f']
-
-
-	echo 'gsettings set org.cinnamon.desktop.gala.keybindings pip "'"['<Super>p']"'"'
-	gsettings set org.cinnamon.desktop.gala.keybindings pip "['<Super>p']"
-}
-
-
-
-
-cinnamon_keybind_set_terminal () {
-
-	echo
-	echo "### cinnamon_keybind_set_terminal"
-	echo
-
-	#echo 'gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "'"['<Super>t']"'"'
-	#gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "['<Super>t']"
-
-	#echo 'gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "'"['<Super>F4']"'"'
-	#gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "['<Super>F4']"
-
-	## use custom-keybindings. please check cinnamon_keybind_set_custom
-	echo 'gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "'"['<Super>F4']"'"'
-	gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "['']"
-
-
-}
-
-
-cinnamon_keybind_set_volume_control () {
-
-	echo
-	echo "### cinnamon_keybind_set_volume_control"
-	echo
-
-
-	## $ gsettings list-recursively | grep 'org.gnome.settings-daemon.plugins.media-keys volume'
-
-	echo 'gsettings set org.gnome.settings-daemon.plugins.media-keys volume-down "'"['AudioLowerVolume']"'"'
-	gsettings set org.gnome.settings-daemon.plugins.media-keys volume-down "['AudioLowerVolume']"
-
-
-	echo 'gsettings set org.gnome.settings-daemon.plugins.media-keys volume-up "'"['AudioRaiseVolume']"'"'
-	gsettings set org.gnome.settings-daemon.plugins.media-keys volume-up "['AudioRaiseVolume']"
-
-	echo 'gsettings set org.gnome.settings-daemon.plugins.media-keys volume-mute "'"['AudioMute']"'"'
-	gsettings set org.gnome.settings-daemon.plugins.media-keys volume-mute "['AudioMute']"
-
-
-}
-
-
-cinnamon_keybind_set_start_here () {
-
-	echo
-	echo "### cinnamon_keybind_set_start_here"
-	echo
-
-	# org.cinnamon.desktop.keybindings.wm panel-main-menu ['<Super>space', '<Alt>F2']
-
-
-
-	#echo 'gsettings set org.cinnamon.desktop.keybindings.wm panel-main-menu "'"['<Super>Tab', '<Alt>F2']"'"'
-	#gsettings set org.cinnamon.desktop.keybindings.wm panel-main-menu "['<Super>Tab', '<Alt>F2']"
-
-
-	#echo 'gsettings set org.cinnamon.desktop.keybindings.wm panel-main-menu "'"['<Alt>F2']"'"'
-	#gsettings set org.cinnamon.desktop.keybindings.wm panel-main-menu "['<Alt>F2']"
-
-
-	#gsettings set org.gnome.shell.keybindings toggle-application-view "['<Super>a']"
-	#gsettings set org.gnome.shell.keybindings toggle-message-tray "['<Super>v', '<Super>m']"
-	#gsettings set org.gnome.shell.keybindings toggle-overview "['<Super>s']"
-
-	echo 'gsettings set org.gnome.shell.keybindings toggle-overview "'"['<Super>grave', '<Alt>k', '<Alt>Up']"'"'
-	gsettings set org.gnome.shell.keybindings toggle-overview "['<Super>grave', '<Alt>k', '<Alt>Up']"
-
-	echo 'gsettings set org.gnome.shell.keybindings toggle-application-view "'"['<Super>Tab', '<Alt>j', '<Alt>Down']"'"'
-	gsettings set org.gnome.shell.keybindings toggle-application-view "['<Super>Tab', '<Alt>j', '<Alt>Down']"
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-cinnamon_keybind_set_adjustment () {
-
-
-	#echo "gsettings set org.gnome.mutter overlay-key 'Super_L'"
-	#gsettings set org.gnome.mutter overlay-key 'Super_L'
-
-	#echo "gsettings set org.gnome.mutter overlay-key ''"
-	#gsettings set org.gnome.mutter overlay-key ''
-
-	echo "gsettings set org.gnome.mutter overlay-key ''"
-	gsettings set org.gnome.mutter overlay-key ''
-
-	## Fix `<Alt><Shift>a` not work
-
-	echo 'gsettings set org.gnome.desktop.input-sources xkb-options "'"['']"'"'
-	gsettings set org.gnome.desktop.input-sources xkb-options "['']"
-
-
-	echo 'gsettings set org.freedesktop.ibus.general.hotkey next-engine "'"['']"'"'
-	gsettings set org.freedesktop.ibus.general.hotkey next-engine "['']"
-
-	echo 'gsettings set org.freedesktop.ibus.general.hotkey next-engine-in-menu "'"['']"'"'
-	gsettings set org.freedesktop.ibus.general.hotkey next-engine-in-menu "['']"
-
-
-
-	#echo 'gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "'"['<Super>t']"'"'
-	#gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "['<Super>t']"
-
-	#echo 'gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "'"['<Super>F4']"'"'
-	#gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "['<Super>F4']"
-
-	# clear '<Super>t'
-	echo 'gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "'"['']"'"'
-	gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "['']"
-
-
-
-
-	#gsettings set org.gnome.settings-daemon.plugins.media-keys help "['', '<Super>F1']"
-	##clear '<Super>F1'
-	echo 'gsettings set org.gnome.settings-daemon.plugins.media-keys help "'"['']"'"'
-	gsettings set org.gnome.settings-daemon.plugins.media-keys help "['']"
-
-
-
-	#echo 'gsettings set org.gnome.mutter.wayland.keybindings restore-shortcuts "'"['<Super>Escape']"'"'
-	#gsettings set org.gnome.mutter.wayland.keybindings restore-shortcuts "['<Super>Escape']"
-
-	echo 'gsettings set org.gnome.mutter.wayland.keybindings restore-shortcuts "'"['']"'"'
-	gsettings set org.gnome.mutter.wayland.keybindings restore-shortcuts "['']"
-
-
-	#echo 'gsettings set org.cinnamon.desktop.keybindings.wm unmaximize "'"['<Alt>F5']"'"'
-	#gsettings set org.cinnamon.desktop.keybindings.wm unmaximize "['<Alt>F5']"
-
-	echo 'gsettings set org.cinnamon.desktop.keybindings.wm unmaximize "'"['']"'"'
-	gsettings set org.cinnamon.desktop.keybindings.wm unmaximize "['']"
-
-
-
-
-
-	#echo "gsettings set org.cinnamon.desktop.gala.behavior overlay-action 'io.elementary.wingpanel --toggle-indicator=app-launcher'"
-	#gsettings set org.cinnamon.desktop.gala.behavior overlay-action 'io.elementary.wingpanel --toggle-indicator=app-launcher'
-
-	#echo "gsettings set org.cinnamon.desktop.gala.behavior overlay-action 'io.elementary.shortcut-overlay'"
-	#gsettings set org.cinnamon.desktop.gala.behavior overlay-action 'io.elementary.shortcut-overlay'
-
-	#echo "gsettings set org.cinnamon.desktop.gala.behavior overlay-action ''"
-	#gsettings set org.cinnamon.desktop.gala.behavior overlay-action ''
-
-
-
-
-}
-
 ##
 ### Tail: cinnamon
 ################################################################################
+
 
 
 
@@ -294,11 +53,6 @@ cinnamon_keybind_window_config () {
 	cinnamon_keybind_window_config_toggle_show_desktop
 
 	cinnamon_keybind_window_config_toggle_above
-
-	#cinnamon_keybind_set_switch_windows
-
-
-	#cinnamon_keybind_set_raise_or_lower
 
 	cinnamon_keybind_window_config_switch_windows
 
@@ -362,6 +116,7 @@ cinnamon_keybind_window_config_to_minimize () {
 
 cinnamon_keybind_window_config_toggle_shaded () {
 
+	## Window / Shade
 	echo 'gsettings set org.cinnamon.desktop.keybindings.wm toggle-shaded "'"['<Super>y']"'"'
 	gsettings set org.cinnamon.desktop.keybindings.wm toggle-shaded "['<Super>y']"
 }
@@ -369,6 +124,7 @@ cinnamon_keybind_window_config_toggle_shaded () {
 
 cinnamon_keybind_window_config_toggle_show_desktop () {
 
+	## Window / Toggle Show Desktop
 	echo 'gsettings set org.cinnamon.desktop.keybindings.wm show-desktop "'"['<Super>d', '<Alt>d']"'"'
 	gsettings set org.cinnamon.desktop.keybindings.wm show-desktop "['<Super>d', '<Alt>d']"
 
@@ -453,35 +209,6 @@ cinnamon_keybind_window_config_to_tiling () {
 
 
 
-cinnamon_keybind_set_expose_windows () {
-	echo
-	echo "### cinnamon_keybind_set_expose_windows"
-	echo
-
-	# org.cinnamon.desktop.gala.keybindings expose-windows ['<Super>w']
-	# org.cinnamon.desktop.gala.keybindings expose-all-windows ['<Super>a']
-
-
-
-	echo 'gsettings set org.cinnamon.desktop.gala.keybindings expose-windows "'"['<Alt>e']"'"'
-	gsettings set org.cinnamon.desktop.gala.keybindings expose-windows "['<Alt>e']"
-
-	echo 'gsettings set org.cinnamon.desktop.gala.keybindings expose-all-windows "'"['<Alt>r', '<Super>Tab']"'"'
-	gsettings set org.cinnamon.desktop.gala.keybindings expose-all-windows "['<Alt>r', '<Super>Tab']"
-}
-
-
-
-cinnamon_keybind_set_raise_or_lower () {
-	# org.cinnamon.desktop.keybindings.wm raise-or-lower @as []
-
-	gsettings set org.cinnamon.desktop.keybindings.wm raise-or-lower "['<Super>m']"
-}
-
-
-
-
-
 ##
 ### Tail: cinnamon / keybind / window
 ################################################################################
@@ -493,7 +220,6 @@ cinnamon_keybind_set_raise_or_lower () {
 ### Head: cinnamon / keybind / workspace
 ##
 
-
 cinnamon_keybind_workspace_config () {
 
 	cinnamon_keybind_workspace_config_base
@@ -503,7 +229,6 @@ cinnamon_keybind_workspace_config () {
 	cinnamon_keybind_workspace_config_switch_to_workspace_specific
 
 	cinnamon_keybind_workspace_config_move_to_workspace_specific
-
 
 
 }
