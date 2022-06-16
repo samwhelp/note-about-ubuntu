@@ -28,14 +28,18 @@ parent: Desktop Environment
 
 | 微調腳本 |
 | --- |
+| [cinnamon-wallpaper-default](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-wallpaper-default) |
+| [cinnamon-theme-main](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-theme-main) |
 | [cinnamon-keybind-main](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-main) |
 | [cinnamon-keybind-custom](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-custom) |
 
 
 ## 更改外觀
 
-* [更改桌面圖片](https://samwhelp.github.io/note-about-ubuntu/read/flavours/cinnamon/adjustment/wallpaper.html)
-* [更改佈景主題](https://samwhelp.github.io/note-about-ubuntu/read/flavours/cinnamon/adjustment/theme.html)
+| 更改外觀 | 微調腳本 |
+| --- | --- |
+| [更改桌面圖片](https://samwhelp.github.io/note-about-ubuntu/read/flavours/cinnamon/adjustment/wallpaper.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-wallpaper-default) |
+| [更改佈景主題](https://samwhelp.github.io/note-about-ubuntu/read/flavours/cinnamon/adjustment/theme.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-theme-main) |
 
 
 ## 中文輸入法
@@ -50,7 +54,6 @@ parent: Desktop Environment
 | Favorite Apps | 微調腳本 |
 | --- | --- |
 | [favorite-apps](https://samwhelp.github.io/note-about-ubuntu/read/flavours/cinnamon/adjustment/favorite-apps.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/part-cinnamon/cinnamon-favorite-apps) |
-
 
 
 
