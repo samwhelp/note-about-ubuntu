@@ -11,19 +11,26 @@ parent: Desktop Environment
 
 ## 主題
 
-* [微調腳本](#微調腳本)
 * [如何安裝](#如何安裝)
+* [微調腳本](#微調腳本)
 * [更改外觀](#更改外觀)
 * [中文輸入法](#中文輸入法)
 * [工具微調](#工具微調)
 * [相關筆記](#相關筆記)
 
 
-
-
 ## 如何安裝
 
 * [如何安裝 Cinnamon Desktop](https://samwhelp.github.io/note-about-ubuntu/read/flavours/cinnamon/install.html)
+
+
+## 微調腳本
+
+| 微調腳本 |
+| --- |
+| [cinnamon-keybind-main](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-main) |
+| [cinnamon-keybind-custom](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-custom) |
+
 
 ## 更改外觀
 
