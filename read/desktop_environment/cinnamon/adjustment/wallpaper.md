@@ -63,6 +63,19 @@ gsettings reset org.cinnamon.desktop.background picture-uri
 ```
 
 
+## 注意事項
+
+在設定的過程中，發現到執行下面指令，也會設定「桌面圖片」，
+
+除了會設定「org.gnome.desktop.background picture-uri」，
+
+也會連動設定「org.cinnamon.desktop.background picture-uri」。
+
+``` sh
+gsettings set org.gnome.desktop.background picture-uri 'file:///usr/share/backgrounds/Blue_flower_by_Elena_Stravoravdi.jpg'
+```
+
+
 ## 小技巧
 
 切換顯示桌面的按鍵組合是「`Win + d`」。
