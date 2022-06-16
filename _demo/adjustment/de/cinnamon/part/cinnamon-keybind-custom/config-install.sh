@@ -59,6 +59,16 @@ cinnamon_keybind_custom_config () {
 
 
 
+	## Logout
+	dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/system-logout/name "'System_Logout'"
+	dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/system-logout/command "'cinnamon-session-quit --logout'"
+	dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/system-logout/binding "['<Shift><Alt>x']"
+
+	## Shutdown
+	dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/system-shutdown/name "'System_Shutdown'"
+	dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/system-shutdown/command "'cinnamon-session-quit --power-off'"
+	dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/system-shutdown/binding "['<Shift><Alt>z']"
+
 
 
 
@@ -200,7 +210,7 @@ cinnamon_keybind_custom_config () {
 
 	## org.cinnamon.desktop.keybindings custom-list ['custom0', '__dummy__']
 	## Custom Keybindings
-	gsettings set org.cinnamon.desktop.keybindings custom-list "['__dummy__', 'wallpaper-shuf', 'wallpaper-default', 'settings-shortcuts', 'rofi-show-run', 'rofi-show-window', 'rofi-show-drun', 'terminal', 'terminal-1', 'terminal-2', 'terminal-3', 'terminal-4', 'text-editor', 'web-browser', 'file-manager', 'file-manager-1', 'volume-control', 'volume-toggle-mute', 'volume-decrease', 'volume-increase', 'volume-decrease-slowly', 'volume-increase-slowly']"
+	gsettings set org.cinnamon.desktop.keybindings custom-list "['__dummy__', 'system-logout', 'system-shutdown', 'wallpaper-shuf', 'wallpaper-default', 'settings-shortcuts', 'rofi-show-run', 'rofi-show-window', 'rofi-show-drun', 'terminal', 'terminal-1', 'terminal-2', 'terminal-3', 'terminal-4', 'text-editor', 'web-browser', 'file-manager', 'file-manager-1', 'volume-control', 'volume-toggle-mute', 'volume-decrease', 'volume-increase', 'volume-decrease-slowly', 'volume-increase-slowly']"
 
 
 	#gsettings set org.cinnamon.desktop.keybindings custom-list "['__dummy__']"
