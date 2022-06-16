@@ -12,7 +12,7 @@ cinnamon_config_remove () {
 	echo "## Config: cinnamon"
 	echo
 
-	cinnamon_set_keybindings_custom
+	cinnamon_keybind_custom_remove
 
 	return 0
 
@@ -29,7 +29,7 @@ cinnamon_config_remove () {
 
 
 
-cinnamon_set_keybindings_custom () {
+cinnamon_keybind_custom_remove () {
 
 
 
