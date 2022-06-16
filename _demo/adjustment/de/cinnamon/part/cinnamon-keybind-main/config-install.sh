@@ -266,13 +266,13 @@ cinnamon_keybind_set_adjustment () {
 }
 
 ##
-### Tail: Cinnamon
+### Tail: cinnamon
 ################################################################################
 
 
 
 ################################################################################
-### Head: Cinnamon / Keybind / Window
+### Head: cinnamon / keybind / window
 ##
 
 cinnamon_keybind_window_config () {
@@ -483,14 +483,14 @@ cinnamon_keybind_set_raise_or_lower () {
 
 
 ##
-### Tail: Cinnamon / Keybind / Window
+### Tail: cinnamon / keybind / window
 ################################################################################
 
 
 
 
 ################################################################################
-### Head: Cinnamon / Keybind / Workspace
+### Head: cinnamon / keybind / workspace
 ##
 
 
@@ -633,14 +633,14 @@ cinnamon_keybind_workspace_config_demo () {
 
 
 ##
-### Tail: Cinnamon / Keybind / Workspace
+### Tail: cinnamon / keybind / workspace
 ################################################################################
 
 
 
 
 ################################################################################
-### Head: Main
+### Head: main
 ##
 main_config_install () {
 
@@ -653,5 +653,5 @@ main_config_install () {
 main_config_install
 
 ##
-### Tail: Main
+### Tail: main
 ################################################################################
