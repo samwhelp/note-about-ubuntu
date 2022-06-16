@@ -10,6 +10,11 @@ grand_parent: Desktop Environment
 # wallpaper
 
 
+## 微調腳本
+
+* [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-wallpaper-default)
+
+
 ## 圖形使用者介面程式
 
 可以透過「圖形使用者介面程式」，來更改「桌面圖片」。
