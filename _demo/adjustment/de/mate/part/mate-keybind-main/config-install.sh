@@ -13,6 +13,8 @@ mate_config_install () {
 	echo
 
 
+	mate_keybind_command_config
+
 	mate_keybind_window_config
 
 	mate_keybind_workspace_config
@@ -25,6 +27,78 @@ mate_config_install () {
 
 ##
 ### Tail: mate
+################################################################################
+
+
+################################################################################
+### Head: mate / keybind / command
+##
+
+
+mate_keybind_command_config () {
+
+
+
+	gsettings set org.mate.Marco.keybinding-commands command-screenshot 'mate-screenshot'
+	gsettings set org.mate.Marco.keybinding-commands command-window-screenshot 'mate-screenshot --window'
+	gsettings set org.mate.Marco.keybinding-commands command-1 'mate-screensaver-command --lock'
+	gsettings set org.mate.Marco.keybinding-commands command-2 '/bin/sh -c "sleep 0.1; mate-screenshot --area"'
+	gsettings set org.mate.Marco.keybinding-commands command-3 'caja'
+	gsettings set org.mate.Marco.keybinding-commands command-4 'x-terminal-emulator'
+	gsettings set org.mate.Marco.keybinding-commands command-5 'mate-control-center'
+	gsettings set org.mate.Marco.keybinding-commands command-6 'mate-search-tool'
+	gsettings set org.mate.Marco.keybinding-commands command-7 'mate-system-monitor -p'
+	gsettings set org.mate.Marco.keybinding-commands command-8 'mate-system-monitor -s'
+	gsettings set org.mate.Marco.keybinding-commands command-9 ' '
+	gsettings set org.mate.Marco.keybinding-commands command-10 ' '
+	gsettings set org.mate.Marco.keybinding-commands command-11 ' '
+	gsettings set org.mate.Marco.keybinding-commands command-12 ' '
+
+
+	gsettings set org.mate.Marco.global-keybindings run-command-terminal 'disabled'
+	gsettings set org.mate.Marco.global-keybindings run-command-screenshot 'Print'
+	gsettings set org.mate.Marco.global-keybindings run-command-window-screenshot '<Alt>Print'
+	gsettings set org.mate.Marco.global-keybindings run-command-1 '<Super><Alt>l'
+	gsettings set org.mate.Marco.global-keybindings run-command-2 '<Shift>Print'
+	gsettings set org.mate.Marco.global-keybindings run-command-3 '<Super>F1'
+	gsettings set org.mate.Marco.global-keybindings run-command-4 '<Super>F4'
+	gsettings set org.mate.Marco.global-keybindings run-command-5 '<Super>F5'
+	gsettings set org.mate.Marco.global-keybindings run-command-6 '<Super>F6'
+	gsettings set org.mate.Marco.global-keybindings run-command-7 '<Control><Shift>Escape'
+	gsettings set org.mate.Marco.global-keybindings run-command-8 '<Mod4>Pause'
+	gsettings set org.mate.Marco.global-keybindings run-command-9 'disabled'
+	gsettings set org.mate.Marco.global-keybindings run-command-10 'disabled'
+	gsettings set org.mate.Marco.global-keybindings run-command-11 'disabled'
+	gsettings set org.mate.Marco.global-keybindings run-command-12 'disabled'
+
+
+	# gsettings set org.mate.Marco.global-keybindings run-command-terminal '<Control><Alt>t'
+	# gsettings set org.mate.Marco.global-keybindings run-command-screenshot 'Print'
+	# gsettings set org.mate.Marco.global-keybindings run-command-window-screenshot '<Alt>Print'
+	# gsettings set org.mate.Marco.global-keybindings run-command-1 '<Mod4>l'
+	# gsettings set org.mate.Marco.global-keybindings run-command-2 '<Shift>Print'
+	# gsettings set org.mate.Marco.global-keybindings run-command-3 '<Mod4>e'
+	# gsettings set org.mate.Marco.global-keybindings run-command-4 '<Mod4>t'
+	# gsettings set org.mate.Marco.global-keybindings run-command-5 '<Mod4>i'
+	# gsettings set org.mate.Marco.global-keybindings run-command-6 '<Mod4>s'
+	# gsettings set org.mate.Marco.global-keybindings run-command-7 '<Control><Shift>Escape'
+	# gsettings set org.mate.Marco.global-keybindings run-command-8 '<Mod4>Pause'
+	# gsettings set org.mate.Marco.global-keybindings run-command-9 'disabled'
+	# gsettings set org.mate.Marco.global-keybindings run-command-10 'disabled'
+	# gsettings set org.mate.Marco.global-keybindings run-command-11 'disabled'
+	# gsettings set org.mate.Marco.global-keybindings run-command-12 'disabled'
+
+
+
+
+
+
+}
+
+
+
+##
+### Tail: mate / keybind / command
 ################################################################################
 
 
