@@ -255,6 +255,14 @@ mate_keybind_window_config_switch_windows () {
 	gsettings set org.mate.Marco.global-keybindings switch-windows '<Super>s'
 
 
+	echo "gsettings set org.mate.Marco.global-keybindings switch-windows-all '<Super><Shift>a'"
+	gsettings set org.mate.Marco.global-keybindings switch-windows-all '<Super><Shift>a'
+
+	echo "gsettings set org.mate.Marco.global-keybindings switch-windows-all-backward '<Super><Shift>s"
+	gsettings set org.mate.Marco.global-keybindings switch-windows-all-backward '<Super><Shift>s'
+
+
+
 
 
 
