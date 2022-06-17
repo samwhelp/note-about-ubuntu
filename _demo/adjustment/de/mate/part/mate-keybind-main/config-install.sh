@@ -232,18 +232,18 @@ mate_keybind_window_config_switch_windows () {
 	## ```
 	##
 
-	#echo "gsettings set org.mate.Marco.global-keybindings switch-group-backward '<Alt>grave'"
-	#gsettings set org.mate.Marco.global-keybindings switch-group-backward '<Alt>grave'
+	echo "gsettings set org.mate.Marco.global-keybindings switch-group-backward '<Alt>grave'"
+	gsettings set org.mate.Marco.global-keybindings switch-group-backward '<Alt>grave'
 
-	#echo "gsettings set org.mate.Marco.global-keybindings switch-group '<Alt>Tab"
-	#gsettings set org.mate.Marco.global-keybindings switch-group '<Alt>Tab'
+	echo "gsettings set org.mate.Marco.global-keybindings switch-group '<Alt>Tab"
+	gsettings set org.mate.Marco.global-keybindings switch-group '<Alt>Tab'
 
 
-	echo "gsettings set org.mate.Marco.global-keybindings switch-group-backward '<Super>grave'"
-	gsettings set org.mate.Marco.global-keybindings switch-group-backward '<Super>grave'
+	#echo "gsettings set org.mate.Marco.global-keybindings switch-group-backward '<Super>grave'"
+	#gsettings set org.mate.Marco.global-keybindings switch-group-backward '<Super>grave'
 
-	echo "gsettings set org.mate.Marco.global-keybindings switch-group '<Super>Tab"
-	gsettings set org.mate.Marco.global-keybindings switch-group '<Super>Tab'
+	#echo "gsettings set org.mate.Marco.global-keybindings switch-group '<Super>Tab"
+	#gsettings set org.mate.Marco.global-keybindings switch-group '<Super>Tab'
 
 
 
@@ -255,13 +255,13 @@ mate_keybind_window_config_switch_windows () {
 	gsettings set org.mate.Marco.global-keybindings switch-windows '<Super>s'
 
 
-	echo "gsettings set org.mate.Marco.global-keybindings switch-windows-all '<Super><Shift>a'"
-	gsettings set org.mate.Marco.global-keybindings switch-windows-all '<Super><Shift>a'
-
-	echo "gsettings set org.mate.Marco.global-keybindings switch-windows-all-backward '<Super><Shift>s"
-	gsettings set org.mate.Marco.global-keybindings switch-windows-all-backward '<Super><Shift>s'
 
 
+	echo "gsettings set org.mate.Marco.global-keybindings switch-windows-all-backward '<Super>grave"
+	gsettings set org.mate.Marco.global-keybindings switch-windows-all-backward '<Super>grave'
+
+	echo "gsettings set org.mate.Marco.global-keybindings switch-windows-all '<Super>Tab'"
+	gsettings set org.mate.Marco.global-keybindings switch-windows-all '<Super>Tab'
 
 
 
