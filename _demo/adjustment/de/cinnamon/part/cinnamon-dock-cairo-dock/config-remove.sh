@@ -4,42 +4,42 @@ set -e
 
 
 ################################################################################
-### Head: gnome-flashback
+### Head: cinnamon
 ##
-gnome_flashback_config_remove () {
+cinnamon_config_remove () {
 
 	echo
-	echo "## Config: gnome-flashback"
+	echo "## Config: cinnamon"
 	echo
 
-	gnome_flashback_dock_cario_dock_remove
+	cinnamon_dock_cairo_dock_remove
 
 	echo
 }
 
 ##
-### Tail: gnome-flashback
+### Tail: cinnamon
 ################################################################################
 
 
 
 ################################################################################
-### Head: gnome-flashback / dock / cario-dock
+### Head: cinnamon / dock / cairo-dock
 ##
 
-gnome_flashback_dock_cario_dock_remove () {
+cinnamon_dock_cairo_dock_remove () {
 
-	gnome_flashback_dock_cario_dock_remove_autostart
+	cinnamon_dock_cairo_dock_remove_autostart
 
 }
 
 
-gnome_flashback_dock_cario_dock_remove_autostart () {
+cinnamon_dock_cairo_dock_remove_autostart () {
 
 	# OnlyShowIn=GNOME-Flashback;X-Cinnamon;
 
 	local autostart_dir_path="$HOME/.config/autostart"
-	local target_file_name="cairo-dock-with-gnome-flashback.desktop"
+	local target_file_name="cairo-dock-with-cinnamon.desktop"
 	local target_file_path="$autostart_dir_path/$target_file_name"
 
 	echo "rm -f $target_file_path"
@@ -48,7 +48,7 @@ gnome_flashback_dock_cario_dock_remove_autostart () {
 }
 
 ##
-### Tail: gnome-flashback / dock / cario-dock
+### Tail: cinnamon / dock / cairo-dock
 ################################################################################
 
 
@@ -59,7 +59,7 @@ gnome_flashback_dock_cario_dock_remove_autostart () {
 ##
 main_config_remove () {
 
-	gnome_flashback_config_remove
+	cinnamon_config_remove
 
 	return 0
 

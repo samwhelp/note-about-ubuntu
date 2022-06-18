@@ -6,13 +6,14 @@ set -e
 ################################################################################
 ### Head: cinnamon
 ##
-cinnamon_config_remove () {
+cinnamon_config_install () {
 
 	echo
 	echo "## Config: cinnamon"
 	echo
 
-	cinnamon_dock_cario_dock_remove
+	cinnamon_dock_cairo_dock_config
+
 
 	echo
 }
@@ -23,18 +24,19 @@ cinnamon_config_remove () {
 
 
 
+
 ################################################################################
-### Head: cinnamon / dock / cario-dock
+### Head: cinnamon / dock / cairo-dock
 ##
 
-cinnamon_dock_cario_dock_remove () {
+cinnamon_dock_cairo_dock_config () {
 
-	cinnamon_dock_cario_dock_remove_autostart
+	cinnamon_dock_cairo_dock_config_autostart
 
 }
 
 
-cinnamon_dock_cario_dock_remove_autostart () {
+cinnamon_dock_cairo_dock_config_autostart () {
 
 	# OnlyShowIn=GNOME-Flashback;X-Cinnamon;
 
@@ -42,13 +44,21 @@ cinnamon_dock_cario_dock_remove_autostart () {
 	local target_file_name="cairo-dock-with-cinnamon.desktop"
 	local target_file_path="$autostart_dir_path/$target_file_name"
 
-	echo "rm -f $target_file_path"
-	rm -f "$target_file_path"
+	echo "mkdir -p $autostart_dir_path"
+	mkdir -p "$autostart_dir_path"
+
+	echo "cp '/usr/share/applications/cairo-dock.desktop' $target_file_path"
+	cp '/usr/share/applications/cairo-dock.desktop' "$target_file_path"
+
+	echo "echo 'OnlyShowIn=X-Cinnamon;' >> $target_file_path"
+	echo 'OnlyShowIn=X-Cinnamon;' >> "$target_file_path"
 
 }
 
+
+
 ##
-### Tail: cinnamon / dock / cario-dock
+### Tail: cinnamon / dock / cairo-dock
 ################################################################################
 
 
@@ -57,15 +67,15 @@ cinnamon_dock_cario_dock_remove_autostart () {
 ################################################################################
 ### Head: main
 ##
-main_config_remove () {
+main_config_install () {
 
-	cinnamon_config_remove
+	cinnamon_config_install
 
 	return 0
 
 }
 ## start
-main_config_remove
+main_config_install
 
 ##
 ### Tail: main
