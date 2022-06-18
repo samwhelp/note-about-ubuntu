@@ -4,87 +4,54 @@ set -e
 
 
 ################################################################################
-### Head: cinnamon
+### Head: mate
 ##
-cinnamon_config_remove () {
+mate_config_remove () {
 
 	echo
-	echo "## Config: cinnamon"
+	echo "## Config: mate"
 	echo
 
-	cinnamon_keybind_custom_remove
+	mate_favorite_apps_remove
 
-	return 0
 
 	echo
 }
 
-
-
-
-
-
-
-
-
-
-
-cinnamon_keybind_custom_remove () {
-
-
-
-
-	##
-	## $ gsettings list-recursively org.cinnamon.desktop.keybindings.custom-keybinding:/
-	##
-	## ```
-	## org.cinnamon.desktop.keybindings.custom-keybinding binding @as []
-	## org.cinnamon.desktop.keybindings.custom-keybinding command ''
-	## org.cinnamon.desktop.keybindings.custom-keybinding name ''
-	## ```
-	##
-	## $ gsettings list-recursively org.cinnamon.desktop.keybindings.custom-keybinding:/org/cinnamon/desktop/keybindings/custom-keybindings/
-	##
-	##
-
-
-	## Clear old
-	dconf reset -f /org/cinnamon/desktop/keybindings/custom-keybindings/
-
-	## Dump all
-	#dconf dump /org/cinnamon/desktop/keybindings/custom-keybindings/
-
-	#gsettings reset org.cinnamon.desktop.keybindings custom-list
-
-	gsettings set org.cinnamon.desktop.keybindings custom-list "['__dummy__']"
-
-
-
-
-	echo
-	echo "##"
-	echo "## Dump: keybindings_custom"
-	echo "##"
-	echo
-	echo "dconf dump /org/cinnamon/desktop/keybindings/custom-keybindings/"
-	echo
-	dconf dump /org/cinnamon/desktop/keybindings/custom-keybindings/
-	echo
-
-	echo
-	echo "gsettings get org.cinnamon.desktop.keybindings custom-list"
-	echo
-	gsettings get org.cinnamon.desktop.keybindings custom-list
-	echo
-
-}
-
 ##
-### Tail: cinnamon
+### Tail: mate
 ################################################################################
 
 
 
+
+################################################################################
+### Head: mate / favorite-apps
+##
+
+mate_favorite_apps_remove () {
+
+	mate_favorite_apps_remove_to_reset
+	#mate_favorite_apps_remove_to_empty
+
+}
+
+mate_favorite_apps_remove_to_empty () {
+
+	echo 'gsettings set com.solus-project.brisk-menu favourites "'"[]"'"'
+	gsettings set com.solus-project.brisk-menu favourites "[]"
+}
+
+
+mate_favorite_apps_remove_to_reset () {
+
+	echo "gsettings reset com.solus-project.brisk-menu favourites"
+	gsettings reset com.solus-project.brisk-menu favourites
+}
+
+##
+### Tail: mate / favorite-apps
+################################################################################
 
 
 
@@ -94,7 +61,7 @@ cinnamon_keybind_custom_remove () {
 ##
 main_config_remove () {
 
-	cinnamon_config_remove
+	mate_config_remove
 
 	return 0
 
