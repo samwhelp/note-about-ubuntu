@@ -1,6 +1,6 @@
 ---
 title: i3wm
-nav_order: 3010
+nav_order: 3020
 has_children: true
 parent: 視窗管理器
 ---
