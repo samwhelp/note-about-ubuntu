@@ -4,7 +4,7 @@ set -e
 
 
 ################################################################################
-##gsettings set Head: gnome-flashback
+### Head: gnome-flashback
 ##
 gnome_flashback_config_install () {
 
@@ -24,14 +24,14 @@ gnome_flashback_config_install () {
 }
 
 ##
-##gsettings set Tail: gnome-flashback
+### Tail: gnome-flashback
 ################################################################################
 
 
 
 
 ################################################################################
-##gsettings set Head: gnome-flashback / keybind / window
+### Head: gnome-flashback / keybind / window
 ##
 
 gnome_flashback_keybind_window_config () {
@@ -231,14 +231,14 @@ gnome_flashback_keybind_window_config_to_tiling () {
 
 
 ##
-##gsettings set Tail: gnome-flashback / keybind / window
+### Tail: gnome-flashback / keybind / window
 ################################################################################
 
 
 
 
 ################################################################################
-##gsettings set Head: gnome-flashback / keybind / workspace
+### Head: gnome-flashback / keybind / workspace
 ##
 
 gnome_flashback_keybind_workspace_config () {
@@ -391,14 +391,14 @@ gnome_flashback_keybind_workspace_config_demo () {
 
 
 ##
-##gsettings set Tail: gnome-flashback / keybind / workspace
+### Tail: gnome-flashback / keybind / workspace
 ################################################################################
 
 
 
 
 ################################################################################
-##gsettings set Head: main
+### Head: main
 ##
 main_config_install () {
 
@@ -411,5 +411,5 @@ main_config_install () {
 main_config_install
 
 ##
-##gsettings set Tail: main
+### Tail: main
 ################################################################################
