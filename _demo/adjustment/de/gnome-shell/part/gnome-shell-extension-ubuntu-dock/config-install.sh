@@ -4,7 +4,38 @@ set -e
 
 
 ################################################################################
-### Head: gnome_shell_extension_ubuntu_dock
+### Head: gnome-shell / favorite-apps
+##
+
+gnome_shell_favorite_apps_config () {
+
+	#gnome_shell_favorite_apps_config_contain_firefox
+	gnome_shell_favorite_apps_config_contain_falkon
+
+}
+
+gnome_shell_favorite_apps_config_contain_firefox () {
+
+	echo 'gsettings set org.gnome.shell favorite-apps "'"['pcmanfm-qt.desktop', 'atom.desktop', 'firefox_firefox.desktop', 'sakura.desktop', 'gnome-control-center.desktop']"'"'
+	gsettings set org.gnome.shell favorite-apps "['pcmanfm-qt.desktop', 'atom.desktop', 'firefox_firefox.desktop', 'sakura.desktop', 'gnome-control-center.desktop', 'toggle-show-desktop.xdotool.desktop']"
+
+}
+
+
+gnome_shell_favorite_apps_config_contain_falkon () {
+
+	echo 'gsettings set org.gnome.shell favorite-apps "'"['pcmanfm-qt.desktop', 'atom.desktop', 'org.kde.falkon.desktop', 'sakura.desktop', 'gnome-control-center.desktop']"'"'
+	gsettings set org.gnome.shell favorite-apps "['pcmanfm-qt.desktop', 'atom.desktop', 'org.kde.falkon.desktop', 'sakura.desktop', 'gnome-control-center.desktop', 'toggle-show-desktop.xdotool.desktop']"
+
+}
+
+##
+### Tail: gnome-shell / favorite-apps
+################################################################################
+
+
+################################################################################
+### Head: gnome-shell / extension_ubuntu_dock
 ##
 gnome_shell_extension_ubuntu_dock_config_install () {
 
@@ -14,9 +45,6 @@ gnome_shell_extension_ubuntu_dock_config_install () {
 	echo "##"
 	echo
 
-
-	echo 'gsettings set org.gnome.shell favorite-apps "'"['pcmanfm-qt.desktop', 'atom.desktop', 'firefox_firefox.desktop', 'sakura.desktop', 'gnome-control-center.desktop']"'"'
-	gsettings set org.gnome.shell favorite-apps "['pcmanfm-qt.desktop', 'atom.desktop', 'firefox_firefox.desktop', 'sakura.desktop', 'gnome-control-center.desktop', 'toggle-show-desktop.xdotool.desktop']"
 
 
 
@@ -108,7 +136,7 @@ gnome_shell_extension_ubuntu_dock_config_install () {
 	echo
 }
 ##
-### Tail: gnome_shell_extension_ubuntu_dock
+### Tail: gnome-shell / extension_ubuntu_dock
 ################################################################################
 
 
@@ -116,6 +144,7 @@ gnome_shell_extension_ubuntu_dock_config_install () {
 ### Head: main
 ##
 main_config_install () {
+	gnome_shell_favorite_apps_config
 	gnome_shell_extension_ubuntu_dock_config_install
 }
 ## start
