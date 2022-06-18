@@ -265,12 +265,14 @@ mate_keybind_window_config_switch_windows () {
 
 
 
+	echo "gsettings set org.mate.Marco.global-keybindings cycle-windows-backward '<Alt>Escape'"
+	gsettings set org.mate.Marco.global-keybindings cycle-windows-backward '<Alt>Escape'
 
-	echo "gsettings set org.mate.Marco.global-keybindings cycle-windows '<Alt>Escape'"
-	gsettings set org.mate.Marco.global-keybindings cycle-windows '<Alt>Escape'
 
-	echo "gsettings set org.mate.Marco.global-keybindings cycle-windows-backward '<Super>Escape'"
-	gsettings set org.mate.Marco.global-keybindings cycle-windows-backward '<Super>Escape'
+	echo "gsettings set org.mate.Marco.global-keybindings cycle-windows '<Super>Escape'"
+	gsettings set org.mate.Marco.global-keybindings cycle-windows '<Super>Escape'
+
+
 
 
 
@@ -286,8 +288,9 @@ mate_keybind_window_config_to_tiling () {
 
 	gsettings set org.mate.Marco.window-keybindings move-to-side-n 'disabled'
 	gsettings set org.mate.Marco.window-keybindings move-to-side-s 'disabled'
-	gsettings set org.mate.Marco.window-keybindings move-to-side-e 'disabled'
 	gsettings set org.mate.Marco.window-keybindings move-to-side-w 'disabled'
+	gsettings set org.mate.Marco.window-keybindings move-to-side-e 'disabled'
+
 
 	gsettings set org.mate.Marco.window-keybindings move-to-corner-nw 'disabled'
 	gsettings set org.mate.Marco.window-keybindings move-to-corner-ne 'disabled'
@@ -304,8 +307,9 @@ mate_keybind_window_config_to_tiling () {
 
 	gsettings set org.mate.Marco.window-keybindings maximize '<Super>Up'
 	gsettings set org.mate.Marco.window-keybindings unmaximize '<Super>Down'
-	gsettings set org.mate.Marco.window-keybindings tile-to-side-e '<Super>Right'
 	gsettings set org.mate.Marco.window-keybindings tile-to-side-w '<Super>Left'
+	gsettings set org.mate.Marco.window-keybindings tile-to-side-e '<Super>Right'
+
 
 
 
