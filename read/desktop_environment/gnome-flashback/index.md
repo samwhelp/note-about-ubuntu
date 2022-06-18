@@ -6,7 +6,7 @@ parent: 桌面環境
 ---
 
 
-# Mate
+# gnome-flashback
 
 
 ## 主題
