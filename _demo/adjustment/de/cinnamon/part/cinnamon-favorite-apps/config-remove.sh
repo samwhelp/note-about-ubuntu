@@ -12,71 +12,11 @@ cinnamon_config_remove () {
 	echo "## Config: cinnamon"
 	echo
 
-	cinnamon_keybind_custom_remove
+	cinnamon_favorite_apps_remove
 
 	return 0
 
 	echo
-}
-
-
-
-
-
-
-
-
-
-
-
-cinnamon_keybind_custom_remove () {
-
-
-
-
-	##
-	## $ gsettings list-recursively org.cinnamon.desktop.keybindings.custom-keybinding:/
-	##
-	## ```
-	## org.cinnamon.desktop.keybindings.custom-keybinding binding @as []
-	## org.cinnamon.desktop.keybindings.custom-keybinding command ''
-	## org.cinnamon.desktop.keybindings.custom-keybinding name ''
-	## ```
-	##
-	## $ gsettings list-recursively org.cinnamon.desktop.keybindings.custom-keybinding:/org/cinnamon/desktop/keybindings/custom-keybindings/
-	##
-	##
-
-
-	## Clear old
-	dconf reset -f /org/cinnamon/desktop/keybindings/custom-keybindings/
-
-	## Dump all
-	#dconf dump /org/cinnamon/desktop/keybindings/custom-keybindings/
-
-	#gsettings reset org.cinnamon.desktop.keybindings custom-list
-
-	gsettings set org.cinnamon.desktop.keybindings custom-list "['__dummy__']"
-
-
-
-
-	echo
-	echo "##"
-	echo "## Dump: keybindings_custom"
-	echo "##"
-	echo
-	echo "dconf dump /org/cinnamon/desktop/keybindings/custom-keybindings/"
-	echo
-	dconf dump /org/cinnamon/desktop/keybindings/custom-keybindings/
-	echo
-
-	echo
-	echo "gsettings get org.cinnamon.desktop.keybindings custom-list"
-	echo
-	gsettings get org.cinnamon.desktop.keybindings custom-list
-	echo
-
 }
 
 ##
@@ -85,6 +25,33 @@ cinnamon_keybind_custom_remove () {
 
 
 
+################################################################################
+### Head: cinnamon / favorite-apps
+##
+
+cinnamon_favorite_apps_remove () {
+
+	cinnamon_favorite_apps_remove_to_reset
+	#cinnamon_favorite_apps_remove_to_empty
+
+}
+
+cinnamon_favorite_apps_remove_to_empty () {
+
+	echo 'gsettings set org.cinnamon favorite-apps "'"[]"'"'
+	gsettings set org.cinnamon favorite-apps "[]"
+}
+
+
+cinnamon_favorite_apps_remove_to_reset () {
+
+	echo "gsettings reset org.cinnamon favorite-apps"
+	gsettings reset org.cinnamon favorite-apps
+}
+
+##
+### Tail: cinnamon / favorite-apps
+################################################################################
 
 
 
