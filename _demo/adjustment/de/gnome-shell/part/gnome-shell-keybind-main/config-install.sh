@@ -17,8 +17,8 @@ gnome_shell_config_install () {
 
 	gnome_shell_keybind_workspace_config
 
+	gnome_shell_keybind_start_here_config
 
-	return
 
 	echo
 }
@@ -392,6 +392,55 @@ gnome_shell_keybind_workspace_config_demo () {
 
 ##
 ### Tail: gnome-shell / keybind / workspace
+################################################################################
+
+
+
+
+################################################################################
+### Head: gnome-shell / keybind / start_here
+##
+
+
+gnome_shell_keybind_start_here_config () {
+
+	gnome_shell_keybind_start_here_config_overview
+
+}
+
+gnome_shell_keybind_start_here_config_overview () {
+
+	echo
+	echo "### gnome_shell_set_keybindings_start_here"
+	echo
+
+	# org.gnome.desktop.wm.keybindings panel-main-menu ['<Super>space', '<Alt>F2']
+
+
+
+	#echo 'gsettings set org.gnome.desktop.wm.keybindings panel-main-menu "'"['<Super>Tab', '<Alt>F2']"'"'
+	#gsettings set org.gnome.desktop.wm.keybindings panel-main-menu "['<Super>Tab', '<Alt>F2']"
+
+
+	#echo 'gsettings set org.gnome.desktop.wm.keybindings panel-main-menu "'"['<Alt>F2']"'"'
+	#gsettings set org.gnome.desktop.wm.keybindings panel-main-menu "['<Alt>F2']"
+
+
+	#gsettings set org.gnome.shell.keybindings toggle-application-view "['<Super>a']"
+	#gsettings set org.gnome.shell.keybindings toggle-message-tray "['<Super>v', '<Super>m']"
+	#gsettings set org.gnome.shell.keybindings toggle-overview "['<Super>s']"
+
+	echo 'gsettings set org.gnome.shell.keybindings toggle-overview "'"['<Super>grave', '<Alt>k', '<Alt>Up']"'"'
+	gsettings set org.gnome.shell.keybindings toggle-overview "['<Super>grave', '<Alt>k', '<Alt>Up']"
+
+	echo 'gsettings set org.gnome.shell.keybindings toggle-application-view "'"['<Super>Tab', '<Alt>j', '<Alt>Down']"'"'
+	gsettings set org.gnome.shell.keybindings toggle-application-view "['<Super>Tab', '<Alt>j', '<Alt>Down']"
+
+}
+
+
+##
+### Tail: gnome-shell / keybind / start_here
 ################################################################################
 
 
