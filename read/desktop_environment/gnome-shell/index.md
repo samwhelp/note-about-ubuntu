@@ -1,7 +1,7 @@
 ---
 title: gnome-shell
 nav_order: 3010
-has_children: true
+has_children: false
 parent: 桌面環境
 ---
 
