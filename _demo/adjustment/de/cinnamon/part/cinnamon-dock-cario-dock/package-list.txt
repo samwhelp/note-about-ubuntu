@@ -1,5 +1,5 @@
 
 
-## plank
+## cairo-dock
 
-plank
+cairo-dock
