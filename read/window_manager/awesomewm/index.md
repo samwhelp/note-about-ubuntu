@@ -9,9 +9,15 @@ parent: 視窗管理器
 # awesomewm
 
 
+## 主題
+
+* [如何安裝](#如何安裝)
+* [相關筆記](#相關筆記)
 
 
+## 如何安裝
 
+* [如何安裝 awesomewm](https://samwhelp.github.io/note-about-ubuntu/read/window_manager/awesomewm/install.html)
 
 
 ## 相關筆記
