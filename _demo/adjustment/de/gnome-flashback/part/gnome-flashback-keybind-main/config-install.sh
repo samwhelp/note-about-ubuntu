@@ -4,12 +4,12 @@ set -e
 
 
 ################################################################################
-### Head: gnome-flashback
+##gsettings set Head: gnome-flashback
 ##
 gnome_flashback_config_install () {
 
 	echo
-	echo "## Config: gnome-flashback"
+	echo "#gsettings set Config: gnome-flashback"
 	echo
 
 
@@ -24,14 +24,14 @@ gnome_flashback_config_install () {
 }
 
 ##
-### Tail: gnome-flashback
+##gsettings set Tail: gnome-flashback
 ################################################################################
 
 
 
 
 ################################################################################
-### Head: gnome-flashback / keybind / window
+##gsettings set Head: gnome-flashback / keybind / window
 ##
 
 gnome_flashback_keybind_window_config () {
@@ -62,7 +62,7 @@ gnome_flashback_keybind_window_config () {
 
 gnome_flashback_keybind_window_config_begin_move () {
 
-	## Window / Move
+	#gsettings set Window / Move
 	echo 'gsettings set org.gnome.desktop.wm.keybindings begin-move "'"['<Super>e']"'"'
 	gsettings set org.gnome.desktop.wm.keybindings begin-move "['<Super>e']"
 
@@ -70,7 +70,7 @@ gnome_flashback_keybind_window_config_begin_move () {
 
 gnome_flashback_keybind_window_config_begin_resize () {
 
-	## Window / Resize
+	#gsettings set Window / Resize
 	echo 'gsettings set org.gnome.desktop.wm.keybindings begin-resize "'"['<Super>r']"'"'
 	gsettings set org.gnome.desktop.wm.keybindings begin-resize "['<Super>r']"
 
@@ -80,7 +80,7 @@ gnome_flashback_keybind_window_config_begin_resize () {
 
 gnome_flashback_keybind_window_config_to_close () {
 
-	## Window / Close
+	#gsettings set Window / Close
 	echo 'gsettings set org.gnome.desktop.wm.keybindings close "'"['<Super>q']"'"'
 	gsettings set org.gnome.desktop.wm.keybindings close "['<Super>q']"
 
@@ -89,7 +89,7 @@ gnome_flashback_keybind_window_config_to_close () {
 
 gnome_flashback_keybind_window_config_toggle_fullscreen () {
 
-	## Window / Fullscreen
+	#gsettings set Window / Fullscreen
 	echo 'gsettings set org.gnome.desktop.wm.keybindings toggle-fullscreen "'"['<Super>f', 'F11']"'"'
 	gsettings set org.gnome.desktop.wm.keybindings toggle-fullscreen "['<Super>f', 'F11']"
 
@@ -98,7 +98,7 @@ gnome_flashback_keybind_window_config_toggle_fullscreen () {
 
 gnome_flashback_keybind_window_config_toggle_maximized () {
 
-	## Window / Maximize
+	#gsettings set Window / Maximize
 	echo 'gsettings set org.gnome.desktop.wm.keybindings toggle-maximized "'"['<Super>w']"'"'
 	gsettings set org.gnome.desktop.wm.keybindings toggle-maximized "['<Super>w']"
 
@@ -107,7 +107,7 @@ gnome_flashback_keybind_window_config_toggle_maximized () {
 
 gnome_flashback_keybind_window_config_to_minimize () {
 
-	## Window / Minimize
+	#gsettings set Window / Minimize
 	echo 'gsettings set org.gnome.desktop.wm.keybindings minimize "'"['<Super>x']"'"'
 	gsettings set org.gnome.desktop.wm.keybindings minimize "['<Super>x']"
 
@@ -116,7 +116,7 @@ gnome_flashback_keybind_window_config_to_minimize () {
 
 gnome_flashback_keybind_window_config_toggle_shaded () {
 
-	## Window / Shade
+	#gsettings set Window / Shade
 	echo 'gsettings set org.gnome.desktop.wm.keybindings toggle-shaded "'"['<Super>y']"'"'
 	gsettings set org.gnome.desktop.wm.keybindings toggle-shaded "['<Super>y']"
 }
@@ -124,7 +124,7 @@ gnome_flashback_keybind_window_config_toggle_shaded () {
 
 gnome_flashback_keybind_window_config_toggle_show_desktop () {
 
-	## Window / Toggle Show Desktop
+	#gsettings set Window / Toggle Show Desktop
 	echo 'gsettings set org.gnome.desktop.wm.keybindings show-desktop "'"['<Super>d', '<Alt>d']"'"'
 	gsettings set org.gnome.desktop.wm.keybindings show-desktop "['<Super>d', '<Alt>d']"
 
@@ -148,29 +148,44 @@ gnome_flashback_keybind_window_config_raise_or_lower () {
 }
 
 
+gnome_flashback_keybind_window_config_switch_windows_empty () {
+
+	gsettings set org.gnome.desktop.wm.keybindings switch-applications "[]"
+	gsettings set org.gnome.desktop.wm.keybindings switch-applications-backward "[]"
+	gsettings set org.gnome.desktop.wm.keybindings switch-group "[]"
+	gsettings set org.gnome.desktop.wm.keybindings switch-group-backward "[]"
+	gsettings set org.gnome.desktop.wm.keybindings switch-panels "[]"
+	gsettings set org.gnome.desktop.wm.keybindings switch-panels-backward "[]"
+	gsettings set org.gnome.desktop.wm.keybindings switch-windows "[]"
+	gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "[]"
+
+	gsettings set org.gnome.desktop.wm.keybindings cycle-group "[]"
+	gsettings set org.gnome.desktop.wm.keybindings cycle-group-backward "[]"
+	gsettings set org.gnome.desktop.wm.keybindings cycle-panels "[]"
+	gsettings set org.gnome.desktop.wm.keybindings cycle-panels-backward "[]"
+	gsettings set org.gnome.desktop.wm.keybindings cycle-windows "[]"
+	gsettings set org.gnome.desktop.wm.keybindings cycle-windows-backward "[]"
 
 
 
 
+}
 
 gnome_flashback_keybind_window_config_switch_windows () {
 
 	##
-	## $ gsettings list-recursively | grep Alt | grep Tab | grep cinnamon
+	#gsettings set $ gsettings list-recursively | grep Alt | grep Tab | grep cinnamon
 	##
-	## ```
-	## org.gnome.desktop.wm.keybindings switch-group ['<Alt>Above_Tab']
-	## org.gnome.desktop.wm.keybindings switch-panels ['<Control><Alt>Tab']
-	## org.gnome.desktop.wm.keybindings switch-windows ['<Alt>Tab']
-	## ```
+	#gsettings set ```
+	#gsettings set org.gnome.desktop.wm.keybindings switch-group ['<Alt>Above_Tab']
+	#gsettings set org.gnome.desktop.wm.keybindings switch-panels ['<Control><Alt>Tab']
+	#gsettings set org.gnome.desktop.wm.keybindings switch-windows ['<Alt>Tab']
+	#gsettings set ```
 	##
 
-	#gsettings set org.gnome.desktop.wm.keybindings switch-applications "['<Alt>Tab']"
-	#gsettings set org.gnome.desktop.wm.keybindings switch-applications-backward "['<Alt>grave']"
+	gnome_flashback_keybind_window_config_switch_windows_empty
 
 
-	#org.gnome.desktop.wm.keybindings switch-windows-backward ['<Alt><Shift>Tab']
-	#org.gnome.desktop.wm.keybindings switch-windows ['<Alt>Tab']
 
 	echo 'gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "'"['<Super>a', '<Super>h']"'"'
 	gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "['<Super>a', '<Super>h']"
@@ -181,11 +196,16 @@ gnome_flashback_keybind_window_config_switch_windows () {
 
 
 
-	echo 'gsettings set org.gnome.desktop.wm.keybindings cycle-windows-backward "'"['<Alt>Escape']"'"'
+	echo 'gsettings set org.gnome.desktop.wm.keybindings cycle-windows-backward "'"['<Alt>Escape', '<Super>k']"'"'
 	gsettings set org.gnome.desktop.wm.keybindings cycle-windows-backward "['<Alt>Escape', '<Super>k']"
 
-	echo 'gsettings set org.gnome.desktop.wm.keybindings cycle-windows "'"['<Super>Escape']"'"'
+	echo 'gsettings set org.gnome.desktop.wm.keybindings cycle-windows "'"['<Super>Escape', '<Super>j']"'"'
 	gsettings set org.gnome.desktop.wm.keybindings cycle-windows "['<Super>Escape', '<Super>j']"
+
+
+
+
+
 
 
 
@@ -211,14 +231,14 @@ gnome_flashback_keybind_window_config_to_tiling () {
 
 
 ##
-### Tail: gnome-flashback / keybind / window
+##gsettings set Tail: gnome-flashback / keybind / window
 ################################################################################
 
 
 
 
 ################################################################################
-### Head: gnome-flashback / keybind / workspace
+##gsettings set Head: gnome-flashback / keybind / workspace
 ##
 
 gnome_flashback_keybind_workspace_config () {
@@ -237,7 +257,7 @@ gnome_flashback_keybind_workspace_config () {
 gnome_flashback_keybind_workspace_config_base () {
 
 
-	## Workspace
+	#gsettings set Workspace
 	#gsettings set org.gnome.mutter dynamic-workspaces true
 
 	gsettings set org.gnome.mutter dynamic-workspaces false
@@ -304,7 +324,7 @@ gnome_flashback_keybind_workspace_config_move_to_workspace_specific () {
 gnome_flashback_keybind_workspace_config_demo () {
 
 
-	## Workspace
+	#gsettings set Workspace
 	#gsettings set org.gnome.mutter dynamic-workspaces true
 
 	gsettings set org.gnome.mutter dynamic-workspaces false
@@ -344,16 +364,16 @@ gnome_flashback_keybind_workspace_config_demo () {
 	gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-9 "['<Shift><Alt>parenleft']"
 	gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-10 "['<Shift><Alt>parenright']"
 
-	# gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-1 "['<Alt><Super>1']"
-	# gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-2 "['<Alt><Super>2']"
-	# gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-3 "['<Alt><Super>3']"
-	# gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-4 "['<Alt><Super>4']"
-	# gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-5 "['<Alt><Super>5']"
-	# gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-6 "['<Alt><Super>6']"
-	# gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-7 "['<Alt><Super>7']"
-	# gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-8 "['<Alt><Super>8']"
-	# gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-9 "['<Alt><Super>9']"
-	# gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-10 "['<Alt><Super>10']"
+	gsettings set gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-1 "['<Alt><Super>1']"
+	gsettings set gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-2 "['<Alt><Super>2']"
+	gsettings set gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-3 "['<Alt><Super>3']"
+	gsettings set gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-4 "['<Alt><Super>4']"
+	gsettings set gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-5 "['<Alt><Super>5']"
+	gsettings set gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-6 "['<Alt><Super>6']"
+	gsettings set gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-7 "['<Alt><Super>7']"
+	gsettings set gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-8 "['<Alt><Super>8']"
+	gsettings set gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-9 "['<Alt><Super>9']"
+	gsettings set gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-10 "['<Alt><Super>10']"
 
 	#gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-1 "['<Super>1']"
 	#gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-2 "['<Super>2']"
@@ -371,14 +391,14 @@ gnome_flashback_keybind_workspace_config_demo () {
 
 
 ##
-### Tail: gnome-flashback / keybind / workspace
+##gsettings set Tail: gnome-flashback / keybind / workspace
 ################################################################################
 
 
 
 
 ################################################################################
-### Head: main
+##gsettings set Head: main
 ##
 main_config_install () {
 
@@ -387,9 +407,9 @@ main_config_install () {
 	return 0
 
 }
-## start
+#gsettings set start
 main_config_install
 
 ##
-### Tail: main
+##gsettings set Tail: main
 ################################################################################
