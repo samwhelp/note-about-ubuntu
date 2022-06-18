@@ -11,7 +11,9 @@ grand_parent: 桌面環境
 
 ## 微調腳本
 
-* [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/part-cinnamon/gnome-shell-extension-ubuntu-dock)
+| 微調腳本 |
+| --- |
+| [cinnamon-favorite-apps](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-favorite-apps) |
 
 
 ## 探索

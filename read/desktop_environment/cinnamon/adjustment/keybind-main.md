@@ -9,6 +9,9 @@ grand_parent: 桌面環境
 
 # keybind-main
 
+
 ## 微調腳本
 
-* [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-main)
+| 微調腳本 |
+| --- |
+| [cinnamon-keybind-main](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-main) |

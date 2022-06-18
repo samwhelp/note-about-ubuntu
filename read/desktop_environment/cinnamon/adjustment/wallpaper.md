@@ -12,7 +12,9 @@ grand_parent: 桌面環境
 
 ## 微調腳本
 
-* [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-wallpaper-default)
+| 微調腳本 |
+| --- |
+| [cinnamon-wallpaper-default](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-wallpaper-default) |
 
 
 ## 圖形使用者介面程式
