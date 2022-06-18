@@ -2,7 +2,7 @@
 title: theme
 nav_order: 3011
 has_children: false
-parent: Cinnamon
+parent: cinnamon
 grand_parent: 桌面環境
 ---
 

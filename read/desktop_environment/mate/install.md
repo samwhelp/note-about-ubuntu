@@ -2,7 +2,7 @@
 title: install
 nav_order: 3000
 has_children: false
-parent: Mate
+parent: mate
 grand_parent: 桌面環境
 ---
 

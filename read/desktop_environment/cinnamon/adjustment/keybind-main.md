@@ -2,7 +2,7 @@
 title: keybind-main
 nav_order: 3021
 has_children: false
-parent: Cinnamon
+parent: cinnamon
 grand_parent: 桌面環境
 ---
 

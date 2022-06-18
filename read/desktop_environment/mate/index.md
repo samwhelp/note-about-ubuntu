@@ -1,12 +1,12 @@
 ---
-title: Mate
+title: mate
 nav_order: 3040
 has_children: true
 parent: 桌面環境
 ---
 
 
-# Mate
+# mate
 
 
 ## 主題

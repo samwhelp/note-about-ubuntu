@@ -1,12 +1,12 @@
 ---
-title: Cinnamon
+title: cinnamon
 nav_order: 3030
 has_children: true
 parent: 桌面環境
 ---
 
 
-# Cinnamon
+# cinnamon
 
 
 ## 主題
