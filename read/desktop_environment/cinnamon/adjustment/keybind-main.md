@@ -21,6 +21,7 @@ grand_parent: 桌面環境
 
 * [視窗操作](#視窗操作)
 * [工作空間](#工作空間)
+* [相關筆記](#相關筆記)
 
 
 ## 視窗操作
@@ -207,11 +208,33 @@ gsettings set org.cinnamon.desktop.keybindings.wm push-snap-right "['<Super><Con
 
 ## 工作空間
 
-* [工作空間切換](#工作空間切換)
-* [移動視窗到工作空間](#移動視窗到工作空間)
+* [我個人定義的工作空間](#我個人定義的工作空間)
+* [循環切換工作空間](#循環切換工作空間)
+* [切換到指定的工作空間](#切換到指定的工作空間)
+* [移動視窗到指定的工作空間](#移動視窗到指定的工作空間)
+
+### 我個人定義的工作空間
+
+* [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-main/config-install.sh)
+
+``` sh
+gsettings set org.cinnamon.desktop.wm.preferences num-workspaces 5
+gsettings set org.cinnamon.desktop.wm.preferences workspace-names "['File', 'Edit', 'Web', 'Term', 'Misc']"
+
+gsettings set org.cinnamon.muffin dynamic-workspaces false
+gsettings set org.cinnamon.muffin workspace-cycle true
+```
+
+| 工作空間(Workspace) | 名稱  |
+| ------------------- | ----- |
+| 1                   | File  |
+| 2                   | Edit  |
+| 3                   | Web   |
+| 4                   | Term  |
+| 5                   | Misc  |
 
 
-### 工作空間切換
+### 循環切換工作空間
 
 * [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-main/config-install.sh)
 
@@ -225,6 +248,11 @@ gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-right "['<
 | `Alt + a`         | 切換到上一個工作空間 | `org.cinnamon.desktop.keybindings.wm switch-to-workspace-left` |
 | `Alt + s`         | 切換到下一個工作空間 | `org.cinnamon.desktop.keybindings.wm switch-to-workspace-right` |
 
+
+### 切換到指定的工作空間
+
+* [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-main/config-install.sh)
+
 ``` sh
 gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-1 "['<Alt>1']"
 gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-2 "['<Alt>2']"
@@ -235,14 +263,14 @@ gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-5 "['<Alt>
 
 | 按鍵組合          | 功能     | 設定項目         |
 | ----------------- | -------- | ---------------- |
-| `Alt + 1`         | 切換到工作空間 (1) | `org.cinnamon.desktop.keybindings.wm switch-to-workspace-1` |
-| `Alt + 2`         | 切換到工作空間 (2) | `org.cinnamon.desktop.keybindings.wm switch-to-workspace-2` |
-| `Alt + 3`         | 切換到工作空間 (3) | `org.cinnamon.desktop.keybindings.wm switch-to-workspace-3`
-| `Alt + 4`         | 切換到工作空間 (4) | `org.cinnamon.desktop.keybindings.wm switch-to-workspace-4` |
-| `Alt + 5`         | 切換到工作空間 (5) | `org.cinnamon.desktop.keybindings.wm switch-to-workspace-5` |
+| `Alt + 1`         | 切換到工作空間 1 (File) | `org.cinnamon.desktop.keybindings.wm switch-to-workspace-1` |
+| `Alt + 2`         | 切換到工作空間 2 (Edit) | `org.cinnamon.desktop.keybindings.wm switch-to-workspace-2` |
+| `Alt + 3`         | 切換到工作空間 3 (Web) | `org.cinnamon.desktop.keybindings.wm switch-to-workspace-3`
+| `Alt + 4`         | 切換到工作空間 4 (Term) | `org.cinnamon.desktop.keybindings.wm switch-to-workspace-4` |
+| `Alt + 5`         | 切換到工作空間 5 (Misc) | `org.cinnamon.desktop.keybindings.wm switch-to-workspace-5` |
 
 
-### 移動視窗到工作空間
+### 移動視窗到指定的工作空間
 
 * [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-main/config-install.sh)
 
@@ -256,8 +284,13 @@ gsettings set org.cinnamon.desktop.keybindings.wm move-to-workspace-5 "['<Shift>
 
 | 按鍵組合          | 功能     | 設定項目         |
 | ----------------- | -------- | ---------------- |
-| `Alt + 1`         | 移動視窗到工作空間 (1) | `org.cinnamon.desktop.keybindings.wm move-to-workspace-1` |
-| `Alt + 2`         | 移動視窗到工作空間 (2) | `org.cinnamon.desktop.keybindings.wm move-to-workspace-1` |
-| `Alt + 3`         | 移動視窗到工作空間 (3) | `org.cinnamon.desktop.keybindings.wm move-to-workspace-1`
-| `Alt + 4`         | 移動視窗到工作空間 (4) | `org.cinnamon.desktop.keybindings.wm move-to-workspace-1` |
-| `Alt + 5`         | 移動視窗到工作空間 (5) | `org.cinnamon.desktop.keybindings.wm move-to-workspace-1` |
+| `Alt + 1`         | 移動視窗到工作空間 1 (File) | `org.cinnamon.desktop.keybindings.wm move-to-workspace-1` |
+| `Alt + 2`         | 移動視窗到工作空間 2 (Edit) | `org.cinnamon.desktop.keybindings.wm move-to-workspace-1` |
+| `Alt + 3`         | 移動視窗到工作空間 3 (Web) | `org.cinnamon.desktop.keybindings.wm move-to-workspace-1`
+| `Alt + 4`         | 移動視窗到工作空間 4 (Term) | `org.cinnamon.desktop.keybindings.wm move-to-workspace-1` |
+| `Alt + 5`         | 移動視窗到工作空間 5 (Misc) | `org.cinnamon.desktop.keybindings.wm move-to-workspace-1` |
+
+
+## 相關筆記
+
+* System Modeling / [通用鍵盤組合鍵操作](https://samwhelp.github.io/system-modeling/read/zh_tw/spec-keybind-common)
