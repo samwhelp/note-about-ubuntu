@@ -42,6 +42,11 @@ grand_parent: 桌面環境
 
 * [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-main/config-install.sh)
 
+``` sh
+gsettings set org.cinnamon.desktop.keybindings.wm switch-windows-backward "['<Super>a']"
+gsettings set org.cinnamon.desktop.keybindings.wm switch-windows "['<Super>s']"
+```
+
 | 按鍵組合          | 功能     | 設定項目         |
 | ----------------- | -------- | ---------------- |
 | `Win + a`         | 切換到上一個視窗 | `org.cinnamon.desktop.keybindings.wm switch-windows-backward` |
@@ -51,6 +56,10 @@ grand_parent: 桌面環境
 ### 切換顯示桌面
 
 * [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-main/config-install.sh)
+
+``` sh
+gsettings set org.cinnamon.desktop.keybindings.wm show-desktop "['<Super>d']"
+```
 
 | 按鍵組合          | 功能     | 設定項目         |
 | ----------------- | -------- | ---------------- |
@@ -74,6 +83,10 @@ gsettings set org.cinnamon.desktop.keybindings.wm close "['<Super>q']"
 
 * [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-main/config-install.sh)
 
+``` sh
+gsettings set org.cinnamon.desktop.keybindings.wm toggle-fullscreen "['<Super>f', 'F11']"
+```
+
 | 按鍵組合          | 功能     | 設定項目         |
 | ----------------- | -------- | ---------------- |
 | `Win + f`         | 切換視窗全螢幕 | `org.cinnamon.desktop.keybindings.wm toggle-fullscreen`|
@@ -84,6 +97,10 @@ gsettings set org.cinnamon.desktop.keybindings.wm close "['<Super>q']"
 
 * [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-main/config-install.sh)
 
+``` sh
+gsettings set org.cinnamon.desktop.keybindings.wm toggle-maximized "['<Super>w']"
+```
+
 | 按鍵組合          | 功能     | 設定項目         |
 | ----------------- | -------- | ---------------- |
 | `Win + w`         | 切換視窗最大化 | `org.cinnamon.desktop.keybindings.wm toggle-maximized` |
@@ -92,6 +109,10 @@ gsettings set org.cinnamon.desktop.keybindings.wm close "['<Super>q']"
 ### 最小化
 
 * [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-main/config-install.sh)
+
+``` sh
+gsettings set org.cinnamon.desktop.keybindings.wm minimize "['<Super>x']"
+```
 
 | 按鍵組合          | 功能     | 設定項目         |
 | ----------------- | -------- | ---------------- |
@@ -102,6 +123,10 @@ gsettings set org.cinnamon.desktop.keybindings.wm close "['<Super>q']"
 
 * [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-main/config-install.sh)
 
+``` sh
+gsettings set org.cinnamon.desktop.keybindings.wm toggle-shaded "['<Super>y']"
+```
+
 | 按鍵組合          | 功能     | 設定項目         |
 | ----------------- | -------- | ---------------- |
 | `Win + y`         | 內容區塊收合 | `org.cinnamon.desktop.keybindings.wm toggle-shaded` |
@@ -110,6 +135,10 @@ gsettings set org.cinnamon.desktop.keybindings.wm close "['<Super>q']"
 ### 開始視窗移動
 
 * [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-main/config-install.sh)
+
+``` sh
+gsettings set org.cinnamon.desktop.keybindings.wm begin-move "['<Super>e']"
+```
 
 | 按鍵組合          | 功能     | 設定項目         |
 | ----------------- | -------- | ---------------- |
@@ -120,6 +149,10 @@ gsettings set org.cinnamon.desktop.keybindings.wm close "['<Super>q']"
 
 * [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-main/config-install.sh)
 
+``` sh
+gsettings set org.cinnamon.desktop.keybindings.wm begin-resize "['<Super>r']"
+```
+
 | 按鍵組合          | 功能     | 設定項目         |
 | ----------------- | -------- | ---------------- |
 | `Win + r`         | 開始視窗更改大小 | `org.cinnamon.desktop.keybindings.wm begin-resize` |
@@ -128,6 +161,10 @@ gsettings set org.cinnamon.desktop.keybindings.wm close "['<Super>q']"
 ### 永遠在最上方
 
 * [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-main/config-install.sh)
+
+``` sh
+gsettings set org.cinnamon.desktop.keybindings.wm toggle-above "['<Super>t']"
+```
 
 | 按鍵組合          | 功能     | 設定項目         |
 | ----------------- | -------- | ---------------- |
@@ -139,6 +176,13 @@ gsettings set org.cinnamon.desktop.keybindings.wm close "['<Super>q']"
 
 * [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-main/config-install.sh)
 
+``` sh
+gsettings set org.cinnamon.desktop.keybindings.wm push-tile-up "['<Super>Up']"
+gsettings set org.cinnamon.desktop.keybindings.wm push-tile-down "['<Super>Down']"
+gsettings set org.cinnamon.desktop.keybindings.wm push-tile-left "['<Super>Left']"
+gsettings set org.cinnamon.desktop.keybindings.wm push-tile-right "['<Super>Right']"
+```
+
 | 按鍵組合          | 功能     | 設定項目         |
 | ----------------- | -------- | ---------------- |
 | `Win + Up`         | 視窗平鋪移動操作 | `org.cinnamon.desktop.keybindings.wm push-tile-up` |
@@ -146,6 +190,12 @@ gsettings set org.cinnamon.desktop.keybindings.wm close "['<Super>q']"
 | `Win + Left`         | 視窗平鋪移動操作 | `org.cinnamon.desktop.keybindings.wm push-tile-left` |
 | `Win + Right`         | 視窗平鋪移動操作 | `org.cinnamon.desktop.keybindings.wm push-tile-right` |
 
+``` sh
+gsettings set org.cinnamon.desktop.keybindings.wm push-snap-up "['<Super><Control>Up']"
+gsettings set org.cinnamon.desktop.keybindings.wm push-snap-down "['<Super><Control>Down']"
+gsettings set org.cinnamon.desktop.keybindings.wm push-snap-left "['<Super><Control>Left']"
+gsettings set org.cinnamon.desktop.keybindings.wm push-snap-right "['<Super><Control>Right']"
+```
 
 | 按鍵組合          | 功能     | 設定項目         |
 | ----------------- | -------- | ---------------- |
@@ -165,11 +215,23 @@ gsettings set org.cinnamon.desktop.keybindings.wm close "['<Super>q']"
 
 * [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-main/config-install.sh)
 
+``` sh
+gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-left "['<Alt>a']"
+gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-right "['<Alt>s']"
+```
+
 | 按鍵組合          | 功能     | 設定項目         |
 | ----------------- | -------- | ---------------- |
 | `Alt + a`         | 切換到上一個工作空間 | `org.cinnamon.desktop.keybindings.wm switch-to-workspace-left` |
 | `Alt + s`         | 切換到下一個工作空間 | `org.cinnamon.desktop.keybindings.wm switch-to-workspace-right` |
 
+``` sh
+gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-1 "['<Alt>1']"
+gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-2 "['<Alt>2']"
+gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-3 "['<Alt>3']"
+gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-4 "['<Alt>4']"
+gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-5 "['<Alt>5']"
+```
 
 | 按鍵組合          | 功能     | 設定項目         |
 | ----------------- | -------- | ---------------- |
@@ -183,6 +245,14 @@ gsettings set org.cinnamon.desktop.keybindings.wm close "['<Super>q']"
 ### 移動視窗到工作空間
 
 * [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-main/config-install.sh)
+
+``` sh
+gsettings set org.cinnamon.desktop.keybindings.wm move-to-workspace-1 "['<Shift><Alt>exclam']"
+gsettings set org.cinnamon.desktop.keybindings.wm move-to-workspace-2 "['<Shift><Alt>at']"
+gsettings set org.cinnamon.desktop.keybindings.wm move-to-workspace-3 "['<Shift><Alt>numbersign']"
+gsettings set org.cinnamon.desktop.keybindings.wm move-to-workspace-4 "['<Shift><Alt>dollar']"
+gsettings set org.cinnamon.desktop.keybindings.wm move-to-workspace-5 "['<Shift><Alt>percent']"
+```
 
 | 按鍵組合          | 功能     | 設定項目         |
 | ----------------- | -------- | ---------------- |
