@@ -61,6 +61,10 @@ grand_parent: 桌面環境
 
 * [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-main/config-install.sh)
 
+``` sh
+gsettings set org.cinnamon.desktop.keybindings.wm close "['<Super>q']"
+```
+
 | 按鍵組合          | 功能     | 設定項目         |
 | ----------------- | -------- | ---------------- |
 | `Win + q`         | 關閉視窗 | `org.cinnamon.desktop.keybindings.wm close` |
