@@ -34,8 +34,8 @@ grand_parent: Ubuntu Flavours
 
 | 按鍵組合          | 功能                           | 執行指令                            |
 | ----------------- | ------------------------------ | ----------------------------------- |
-| `Alt + Shift + z` | 關機 (會先跳出「確認對話框」)  | `gnome-shell-session-quit --power-off` |
-| `Alt + Shift + x` | 登出 (會先跳出「確認對話框」)  | `gnome-shell-session-quit --logout`    |
+| `Alt + Shift + z` | 關機 (會先跳出「確認對話框」)  | `gnome-session-quit --power-off` |
+| `Alt + Shift + x` | 登出 (會先跳出「確認對話框」)  | `gnome-session-quit --logout`    |
 
 
 ## 桌面圖片
