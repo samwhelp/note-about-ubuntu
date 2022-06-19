@@ -13,15 +13,18 @@ parent: 桌面環境
 
 * [如何安裝](#如何安裝)
 * [微調腳本](#微調腳本)
-* [更改外觀](#更改外觀)
 * [中文輸入法](#中文輸入法)
+* [更改外觀](#更改外觀)
+* [按鍵綁定](#按鍵綁定)
+* [Dock](#dock)
+* [Favorite Apps](#favorite-apps)
 * [工具微調](#工具微調)
 * [相關筆記](#相關筆記)
 
 
 ## 如何安裝
 
-* [如何安裝 GNOME Flashback](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/gnome-flashback/install.html)
+* [如何安裝 Cinnamon Desktop](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/gnome-flashback/install.html)
 
 
 ## 微調腳本
@@ -37,6 +40,14 @@ parent: 桌面環境
 | [gnome-flashback-dock-plank](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-flashback/part/gnome-flashback-dock-plank) |
 
 
+## 中文輸入法
+
+| 中文輸入法 | 微調腳本 |
+| --- | --- |
+| [fcitx5-chewing](https://samwhelp.github.io/note-about-ubuntu/read/subject/im/fcitx5.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/im/fcitx5-chewing) |
+| [fcitx-chewing](https://samwhelp.github.io/note-about-ubuntu/read/subject/im/fcitx/fcitx-chewing.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/im/fcitx-chewing) |
+
+
 ## 更改外觀
 
 | 更改外觀 | 微調腳本 |
@@ -45,11 +56,20 @@ parent: 桌面環境
 | [更改佈景主題](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/gnome-flashback/adjustment/theme.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-flashback/part/gnome-flashback-theme-main) |
 
 
-## 中文輸入法
+## 按鍵綁定
 
-| 中文輸入法 | 微調腳本 |
+| 按鍵綁定 | 微調腳本 |
 | --- | --- |
-| [fcitx-chewing](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/im.html#fcitx-chwing) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/im/fcitx-chewing) |
+| [keybind-main](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/gnome-flashback/adjustment/keybind-main.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-flashback/part/gnome-flashback-keybind-main) |
+| [keybind-custom](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/gnome-flashback/adjustment/keybind-custom.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-flashback/part/gnome-flashback-keybind-custom) |
+
+
+## Dock
+
+| Dock | 微調腳本 |
+| --- | --- |
+| [cairo-dock](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/gnome-flashback/adjustment/dock-cairo-dock.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-flashback/part/gnome-flashback-dock-cairo-dock) |
+| [plank](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/gnome-flashback/adjustment/dock-plank.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-flashback/part/gnome-flashback-dock-cairo-dock) |
 
 
 ## Favorite Apps
@@ -59,6 +79,7 @@ parent: 桌面環境
 | [favorite-apps](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/gnome-flashback/adjustment/favorite-apps.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-flashback/part/gnome-flashback-favorite-apps) |
 
 
+## 工具微調
 
 
 ## 相關筆記
