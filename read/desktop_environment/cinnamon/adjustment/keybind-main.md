@@ -133,4 +133,22 @@ grand_parent: 桌面環境
 ### 視窗平鋪移動操作
 
 
+* [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-main/config-install.sh)
+
+| 按鍵組合          | 功能     | 設定項目         |
+| ----------------- | -------- | ---------------- |
+| `Win + Up`         | 視窗平鋪移動操作 | `org.cinnamon.desktop.keybindings.wm push-tile-up` |
+| `Win + Down`         | 視窗平鋪移動操作 | `org.cinnamon.desktop.keybindings.wm push-tile-down` |
+| `Win + Left`         | 視窗平鋪移動操作 | `org.cinnamon.desktop.keybindings.wm push-tile-left` |
+| `Win + Right`         | 視窗平鋪移動操作 | `org.cinnamon.desktop.keybindings.wm push-tile-right` |
+
+
+| 按鍵組合          | 功能     | 設定項目         |
+| ----------------- | -------- | ---------------- |
+| `Win + Ctrl + Up`         | 視窗平鋪移動操作 | `org.cinnamon.desktop.keybindings.wm push-snap-up` |
+| `Win + Ctrl + Down`         | 視窗平鋪移動操作 | `org.cinnamon.desktop.keybindings.wm push-snap-down` |
+| `Win + Ctrl + Left`         | 視窗平鋪移動操作 | `org.cinnamon.desktop.keybindings.wm push-snap-left` |
+| `Win + Ctrl + Right`         | 視窗平鋪移動操作 | `org.cinnamon.desktop.keybindings.wm push-snap-right` |
+
+
 ## 工作空間
