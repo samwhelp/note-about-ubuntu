@@ -44,8 +44,8 @@ parent: 桌面環境
 
 | 中文輸入法 | 微調腳本 |
 | --- | --- |
-| [fcitx5-chewing](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/im.html#fcitx-chwing) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/im/fcitx5-chewing) |
-| [fcitx-chewing](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/im.html#fcitx-chwing) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/im/fcitx-chewing) |
+| [fcitx5-chewing](https://samwhelp.github.io/note-about-ubuntu/read/subject/im/fcitx5.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/im/fcitx5-chewing) |
+| [fcitx-chewing](https://samwhelp.github.io/note-about-ubuntu/read/subject/im/fcitx/fcitx-chewing.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/im/fcitx-chewing) |
 
 
 ## 更改外觀

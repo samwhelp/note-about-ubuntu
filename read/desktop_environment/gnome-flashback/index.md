@@ -41,8 +41,8 @@ parent: 桌面環境
 
 | 更改外觀 | 微調腳本 |
 | --- | --- |
-| [更改桌面圖片](https://samwhelp.github.io/note-about-ubuntu/read/flavours/gnome-flashback/adjustment/wallpaper.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-flashback/part/gnome-flashback-wallpaper-default) |
-| [更改佈景主題](https://samwhelp.github.io/note-about-ubuntu/read/flavours/gnome-flashback/adjustment/theme.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-flashback/part/gnome-flashback-theme-main) |
+| [更改桌面圖片](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/gnome-flashback/adjustment/wallpaper.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-flashback/part/gnome-flashback-wallpaper-default) |
+| [更改佈景主題](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/gnome-flashback/adjustment/theme.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-flashback/part/gnome-flashback-theme-main) |
 
 
 ## 中文輸入法
