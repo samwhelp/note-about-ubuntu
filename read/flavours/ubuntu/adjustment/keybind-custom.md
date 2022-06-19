@@ -25,6 +25,7 @@ grand_parent: Ubuntu Flavours
 * [開啟應用程式 (Terminal)](#開啟應用程式-terminal)
 * [開啟應用程式 (常用的)](#開啟應用程式-常用的)
 * [音量控制](#音量控制)
+* [相關筆記](#相關筆記)
 
 
 ## 系統操作
@@ -102,3 +103,8 @@ grand_parent: Ubuntu Flavours
 | `XF86AudioMute`        | 音量切換成靜音 | `amixer -q -D pulse sset Master toggle`     |
 | `XF86AudioLowerVolume` | 減小音量       | `amixer -q -D pulse sset Master 5%- unmute` |
 | `XF86AudioRaiseVolume` | 增加音量       | `amixer -q -D pulse sset Master 5%+ unmute` |
+
+
+## 相關筆記
+
+* System Modeling / [通用鍵盤組合鍵操作](https://samwhelp.github.io/system-modeling/read/zh_tw/spec-keybind-common)
