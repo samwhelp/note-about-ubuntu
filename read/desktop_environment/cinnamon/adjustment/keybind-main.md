@@ -36,7 +36,7 @@ grand_parent: 桌面環境
 
 | 按鍵組合          | 功能     | 設定項目         |
 | ----------------- | -------- | ---------------- |
-| `Win + q`         | 關閉視窗 | `gsettings set org.cinnamon.desktop.keybindings.wm close "['<Super>q']"`|
+| `Win + q`         | 關閉視窗 | `org.cinnamon.desktop.keybindings.wm close`|
 
 
 ### 全螢幕
@@ -45,8 +45,8 @@ grand_parent: 桌面環境
 
 | 按鍵組合          | 功能     | 設定項目         |
 | ----------------- | -------- | ---------------- |
-| `Win + f`         | 切換視窗全螢幕 | `gsettings set org.cinnamon.desktop.keybindings.wm toggle-fullscreen "['<Super>f', 'F11']"`|
-| `F11`         | 切換視窗全螢幕 | `gsettings set org.cinnamon.desktop.keybindings.wm toggle-fullscreen "['<Super>f', 'F11']"`|
+| `Win + f`         | 切換視窗全螢幕 | `org.cinnamon.desktop.keybindings.wm toggle-fullscreen`|
+| `F11`         | 切換視窗全螢幕 | `org.cinnamon.desktop.keybindings.wm toggle-fullscreen`|
 
 
 ### 最大化
@@ -55,6 +55,7 @@ grand_parent: 桌面環境
 
 | 按鍵組合          | 功能     | 設定項目         |
 | ----------------- | -------- | ---------------- |
-| `Win + w`         | 切換視窗全螢幕 | `gsettings set org.cinnamon.desktop.keybindings.wm toggle-maximized "['<Super>w']"`|
+| `Win + w`         | 切換視窗最大化 | `org.cinnamon.desktop.keybindings.wm toggle-maximized`|
+
 
 ## 工作空間
