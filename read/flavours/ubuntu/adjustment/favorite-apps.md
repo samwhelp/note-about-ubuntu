@@ -2,7 +2,7 @@
 title: favorite-apps
 nav_order: 1012
 has_children: false
-parent: Ubuntu
+parent: ubuntu
 grand_parent: Ubuntu Flavours
 ---
 

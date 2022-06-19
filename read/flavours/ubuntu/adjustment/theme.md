@@ -2,7 +2,7 @@
 title: theme
 nav_order: 1021
 has_children: false
-parent: Ubuntu
+parent: ubuntu
 grand_parent: Ubuntu Flavours
 ---
 

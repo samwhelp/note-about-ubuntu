@@ -2,7 +2,7 @@
 title: gnome-shell-extension-ubuntu-dock
 nav_order: 1013
 has_children: false
-parent: Ubuntu
+parent: ubuntu
 grand_parent: Ubuntu Flavours
 ---
 

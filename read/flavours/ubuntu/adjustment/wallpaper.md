@@ -2,7 +2,7 @@
 title: wallpaper
 nav_order: 1020
 has_children: false
-parent: Ubuntu
+parent: ubuntu
 grand_parent: Ubuntu Flavours
 ---
 

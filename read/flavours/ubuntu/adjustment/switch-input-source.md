@@ -2,7 +2,7 @@
 title: switch-input-source
 nav_order: 1011
 has_children: false
-parent: Ubuntu
+parent: ubuntu
 grand_parent: Ubuntu Flavours
 ---
 

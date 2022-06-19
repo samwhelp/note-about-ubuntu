@@ -1,12 +1,12 @@
 ---
-title: Ubuntu
+title: ubuntu
 nav_order: 1010
 has_children: true
 parent: Ubuntu Flavours
 ---
 
 
-# Ubuntu
+# ubuntu
 
 
 ## 主題
