@@ -3,7 +3,7 @@ title: keybind-custom
 nav_order: 3022
 has_children: false
 parent: ubuntu
-grand_parent: 桌面環境
+grand_parent: Ubuntu Flavours
 ---
 
 
