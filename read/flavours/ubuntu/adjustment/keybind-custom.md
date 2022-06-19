@@ -14,7 +14,7 @@ grand_parent: Ubuntu Flavours
 
 | 微調腳本 |
 | --- |
-| [ubuntu-keybind-custom](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/ubuntu/part/ubuntu-keybind-custom) |
+| [gnome-shell-keybind-custom](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-shell/part/gnome-shell-keybind-custom) |
 
 
 ## 主題
@@ -29,17 +29,17 @@ grand_parent: Ubuntu Flavours
 
 ## 系統操作
 
-* [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/ubuntu/part/ubuntu-keybind-custom/config-install.sh#L98)
+* [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/gnome-shell/part/gnome-shell-keybind-custom/config-install.sh#L98)
 
 | 按鍵組合          | 功能                           | 執行指令                            |
 | ----------------- | ------------------------------ | ----------------------------------- |
-| `Alt + Shift + z` | 關機 (會先跳出「確認對話框」)  | `ubuntu-session-quit --power-off` |
-| `Alt + Shift + x` | 登出 (會先跳出「確認對話框」)  | `ubuntu-session-quit --logout`    |
+| `Alt + Shift + z` | 關機 (會先跳出「確認對話框」)  | `gnome-shell-session-quit --power-off` |
+| `Alt + Shift + x` | 登出 (會先跳出「確認對話框」)  | `gnome-shell-session-quit --logout`    |
 
 
 ## 桌面圖片
 
-* [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/ubuntu/part/ubuntu-keybind-custom/config-install.sh#L75)
+* [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/gnome-shell/part/gnome-shell-keybind-custom/config-install.sh#L75)
 
 | 按鍵組合         | 功能                 | 路徑                                          |
 | ---------------- | -------------------- | --------------------------------------------- |
@@ -49,7 +49,7 @@ grand_parent: Ubuntu Flavours
 
 ## 開啟應用程式 (Rofi)
 
-* [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/ubuntu/part/ubuntu-keybind-custom/config-install.sh#L98)
+* [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/gnome-shell/part/gnome-shell-keybind-custom/config-install.sh#L98)
 
 | 按鍵組合          | 功能                           | 執行指令                        |
 | ----------------- | ------------------------------ | ------------------------------- |
@@ -60,7 +60,7 @@ grand_parent: Ubuntu Flavours
 
 ## 開啟應用程式 (Terminal)
 
-* [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/ubuntu/part/ubuntu-keybind-custom/config-install.sh#L118)
+* [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/gnome-shell/part/gnome-shell-keybind-custom/config-install.sh#L118)
 
 | 按鍵組合          | 功能         | 執行指令                     |
 | ----------------- | ------------- | --------------------------- |
@@ -73,7 +73,7 @@ grand_parent: Ubuntu Flavours
 
 ## 開啟應用程式 (常用的)
 
-* [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/ubuntu/part/ubuntu-keybind-custom/config-install.sh#L146)
+* [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/gnome-shell/part/gnome-shell-keybind-custom/config-install.sh#L146)
 
 | 按鍵組合          | 功能           | 執行指令     |
 | ----------------- | -------------- | ------------ |
@@ -85,7 +85,7 @@ grand_parent: Ubuntu Flavours
 
 ## 音量控制
 
-* [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/ubuntu/part/ubuntu-keybind-custom/config-install.sh#L168)
+* [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/gnome-shell/part/gnome-shell-keybind-custom/config-install.sh#L168)
 
 | 按鍵組合          | 功能             | 執行指令                                    |
 | ----------------- | ---------------- | ------------------------------------------- |
