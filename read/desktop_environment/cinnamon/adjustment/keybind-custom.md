@@ -19,15 +19,15 @@ grand_parent: 桌面環境
 
 ## 主題
 
-* [System](#system)
-* [Wallpaper](#wallpaper)
-* [Rofi](#rofi)
-* [Terminal](#terminal)
-* [Favorite App](#favorite-app)
-* [Volume](#volume)
+* [系統操作](#系統操作)
+* [桌面圖片](#桌面圖片)
+* [開啟應用程式 (Rofi)](#rofi)
+* [開啟應用程式 (Terminal)](#terminal)
+* [開啟應用程式 (常用的)](#favorite-app)
+* [音量控制](#音量控制)
 
 
-## System
+## 系統操作
 
 * [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-custom/config-install.sh#L98)
 
@@ -37,7 +37,7 @@ grand_parent: 桌面環境
 | `Alt + Shift + x` | 登出 (會先跳出「確認對話框」)  | `cinnamon-session-quit --logout`    |
 
 
-## Wallpaper
+## 桌面圖片
 
 * [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-custom/config-install.sh#L75)
 
@@ -47,7 +47,7 @@ grand_parent: 桌面環境
 | `Alt + Ctrl + w` | 更換成預設的桌面圖片 | 預設圖片： `~/Pictures/Wallpaper/default.jpg` |
 
 
-## Rofi
+## 開啟應用程式 (Rofi)
 
 * [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-custom/config-install.sh#L98)
 
@@ -58,8 +58,7 @@ grand_parent: 桌面環境
 | `Alt + Shift + r` | 開啟 Rofi (可用指令列表)       | `rofi -show run`                |
 
 
-
-## Terminal
+## 開啟應用程式 (Terminal)
 
 * [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-custom/config-install.sh#L118)
 
@@ -72,7 +71,7 @@ grand_parent: 桌面環境
 | `Alt + Ctrl + t`  | 開啟 Terminal | `urxvt`                     |
 
 
-## Favorite App
+## 開啟應用程式 (常用的)
 
 * [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-custom/config-install.sh#L146)
 
@@ -84,7 +83,7 @@ grand_parent: 桌面環境
 | `Alt + Shift + b` | 開啟網頁瀏覽器 | `firefox`    |
 
 
-## Volume
+## 音量控制
 
 * [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-custom/config-install.sh#L168)
 
