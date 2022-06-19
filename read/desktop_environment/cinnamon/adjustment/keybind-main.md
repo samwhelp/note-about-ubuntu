@@ -152,3 +152,38 @@ grand_parent: 桌面環境
 
 
 ## 工作空間
+
+* [工作空間切換](#工作空間切換)
+* [移動視窗到工作空間](#移動視窗到工作空間)
+
+
+### 工作空間切換
+
+* [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-main/config-install.sh)
+
+| 按鍵組合          | 功能     | 設定項目         |
+| ----------------- | -------- | ---------------- |
+| `Alt + a`         | 切換到上一個工作空間 | `org.cinnamon.desktop.keybindings.wm switch-to-workspace-left` |
+| `Alt + s`         | 切換到下一個工作空間 | `org.cinnamon.desktop.keybindings.wm switch-to-workspace-right` |
+
+
+| 按鍵組合          | 功能     | 設定項目         |
+| ----------------- | -------- | ---------------- |
+| `Alt + 1`         | 切換到工作空間 (1) | `org.cinnamon.desktop.keybindings.wm switch-to-workspace-1` |
+| `Alt + 2`         | 切換到工作空間 (2) | `org.cinnamon.desktop.keybindings.wm switch-to-workspace-2` |
+| `Alt + 3`         | 切換到工作空間 (3) | `org.cinnamon.desktop.keybindings.wm switch-to-workspace-3`
+| `Alt + 4`         | 切換到工作空間 (4) | `org.cinnamon.desktop.keybindings.wm switch-to-workspace-4` |
+| `Alt + 5`         | 切換到工作空間 (5) | `org.cinnamon.desktop.keybindings.wm switch-to-workspace-5` |
+
+
+### 移動視窗到工作空間
+
+* [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-main/config-install.sh)
+
+| 按鍵組合          | 功能     | 設定項目         |
+| ----------------- | -------- | ---------------- |
+| `Alt + 1`         | 移動視窗到工作空間 (1) | `org.cinnamon.desktop.keybindings.wm move-to-workspace-1` |
+| `Alt + 2`         | 移動視窗到工作空間 (2) | `org.cinnamon.desktop.keybindings.wm move-to-workspace-1` |
+| `Alt + 3`         | 移動視窗到工作空間 (3) | `org.cinnamon.desktop.keybindings.wm move-to-workspace-1`
+| `Alt + 4`         | 移動視窗到工作空間 (4) | `org.cinnamon.desktop.keybindings.wm move-to-workspace-1` |
+| `Alt + 5`         | 移動視窗到工作空間 (5) | `org.cinnamon.desktop.keybindings.wm move-to-workspace-1` |
