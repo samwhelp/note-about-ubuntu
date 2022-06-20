@@ -10,6 +10,13 @@ grand_parent: 桌面環境
 # wallpaper
 
 
+## 微調腳本
+
+| 微調腳本 |
+| --- |
+| [gnome-flashback-wallpaper-default](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-flashback/part/gnome-flashback-wallpaper-default) |
+
+
 ## 圖形使用者介面程式
 
 可以透過「圖形使用者介面程式」，來更改「桌面圖片」。
