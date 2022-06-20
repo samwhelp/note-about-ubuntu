@@ -16,3 +16,8 @@ grand_parent: 桌面環境
 | --- |
 | [原始專案](https://github.com/samwhelp/note-about-gnome-flashback/tree/gh-pages/_demo/project/gnome-session/gnome-session-flashback) |
 | [打包專案](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/packaging/gnome-session/gnome-session-flashback) |
+
+
+## 相關討論
+
+* [#22](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=363816#forumpost363816) - gnome-session-flashback / with other wm
