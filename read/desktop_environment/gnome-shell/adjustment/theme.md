@@ -9,6 +9,14 @@ grand_parent: 桌面環境
 
 # theme
 
+
+## 微調腳本
+
+| 微調腳本 |
+| --- |
+| [gnome-shell-theme-main](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-shell/part/gnome-shell-theme-main) |
+
+
 ## 圖形使用者介面程式
 
 可以透過「圖形使用者介面程式」，來更改「佈景主題」。
