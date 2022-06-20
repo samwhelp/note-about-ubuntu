@@ -55,6 +55,8 @@ gnome_shell_keybind_window_config () {
 
 	gnome_shell_keybind_window_config_toggle_above
 
+	gnome_shell_keybind_window_config_toggle_on_all_workspaces
+
 	gnome_shell_keybind_window_config_switch_windows
 
 	gnome_shell_keybind_window_config_to_tiling
@@ -137,6 +139,14 @@ gnome_shell_keybind_window_config_toggle_above () {
 	#gsettings set org.gnome.desktop.wm.keybindings always-on-top "['<Super>t']"
 	echo 'gsettings set org.gnome.desktop.wm.keybindings toggle-above "'"['<Super>t']"'"'
 	gsettings set org.gnome.desktop.wm.keybindings toggle-above "['<Super>t']"
+
+}
+
+
+gnome_shell_keybind_window_config_toggle_on_all_workspaces () {
+
+	echo 'gsettings set org.gnome.desktop.wm.keybindings toggle-on-all-workspaces "'"['<Super>g']"'"'
+	gsettings set org.gnome.desktop.wm.keybindings toggle-on-all-workspaces "['<Super>g']"
 
 }
 

@@ -143,6 +143,7 @@ cinnamon_keybind_window_config_toggle_above () {
 	#gsettings set org.cinnamon.desktop.keybindings.wm always-on-top "['<Super>t']"
 	echo 'gsettings set org.cinnamon.desktop.keybindings.wm toggle-above "'"['<Super>t']"'"'
 	gsettings set org.cinnamon.desktop.keybindings.wm toggle-above "['<Super>t']"
+
 }
 
 
@@ -150,6 +151,7 @@ cinnamon_keybind_window_config_toggle_on_all_workspaces () {
 
 	echo 'gsettings set org.cinnamon.desktop.keybindings.wm toggle-on-all-workspaces "'"['<Super>g']"'"'
 	gsettings set org.cinnamon.desktop.keybindings.wm toggle-on-all-workspaces "['<Super>g']"
+
 }
 
 

@@ -128,6 +128,8 @@ mate_keybind_window_config () {
 
 	mate_keybind_window_config_toggle_above
 
+	mate_keybind_window_config_toggle_on_all_workspaces
+
 	mate_keybind_window_config_switch_windows
 
 	mate_keybind_window_config_to_tiling
@@ -212,9 +214,12 @@ mate_keybind_window_config_toggle_above () {
 
 }
 
+mate_keybind_window_config_toggle_on_all_workspaces () {
 
+	echo "gsettings set org.mate.Marco.window-keybindings toggle-on-all-workspaces '<Super>g'"
+	gsettings set org.mate.Marco.window-keybindings toggle-on-all-workspaces '<Super>g'
 
-
+}
 
 
 
