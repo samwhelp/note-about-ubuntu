@@ -49,6 +49,7 @@ gsettings set org.gnome.desktop.interface icon-theme 'Yaru-blue-dark'
 
 ``` sh
 gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
+gsettings set org.gnome.desktop.interface cursor-size 24
 ```
 
 ## gnome-tweaks
@@ -63,10 +64,11 @@ sudo apt-get install gnome-tweaks
 > 我個人慣用「[Gruvbox](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/source/gruvbox.html)」，可以執行下面的指令。
 
 ``` sh
+gsettings set org.gnome.desktop.wm.preferences theme 'Gruvbox'
 gsettings set org.gnome.desktop.interface gtk-theme 'Gruvbox'
 gsettings set org.gnome.desktop.interface icon-theme 'Gruvbox-Dark'
 gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
-gsettings set org.gnome.desktop.wm.preferences theme 'Gruvbox'
+gsettings set org.gnome.desktop.interface cursor-size 24
 ```
 
 
@@ -75,10 +77,11 @@ gsettings set org.gnome.desktop.wm.preferences theme 'Gruvbox'
 > [Dracula](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/source/dracula.html)
 
 ``` sh
+gsettings set org.gnome.desktop.wm.preferences theme 'Dracula'
 gsettings set org.gnome.desktop.interface gtk-theme 'Dracula'
 gsettings set org.gnome.desktop.interface icon-theme 'Dracula'
 gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
-gsettings set org.gnome.desktop.wm.preferences theme 'Dracula'
+gsettings set org.gnome.desktop.interface cursor-size 24
 ```
 
 
@@ -87,19 +90,21 @@ gsettings set org.gnome.desktop.wm.preferences theme 'Dracula'
 > [Yaru](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/package/yaru.html)
 
 ``` sh
+gsettings set org.gnome.desktop.wm.preferences theme 'Yaru-blue-dark'
 gsettings set org.gnome.desktop.interface gtk-theme 'Yaru-blue-dark'
 gsettings set org.gnome.desktop.interface icon-theme 'Yaru-blue-dark'
 gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
-gsettings set org.gnome.desktop.wm.preferences theme 'Yaru-blue-dark'
+gsettings set org.gnome.desktop.interface cursor-size 24
 ```
 
 ## Appearance / Yaru-prussiangreen-dark
 
 ``` sh
+gsettings set org.gnome.desktop.wm.preferences theme 'Yaru-prussiangreen-dark'
 gsettings set org.gnome.desktop.interface gtk-theme 'Yaru-prussiangreen-dark'
 gsettings set org.gnome.desktop.interface icon-theme 'Yaru-prussiangreen-dark'
 gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
-gsettings set org.gnome.desktop.wm.preferences theme 'Yaru-prussiangreen-dark'
+gsettings set org.gnome.desktop.interface cursor-size 24
 ```
 
 
@@ -108,10 +113,11 @@ gsettings set org.gnome.desktop.wm.preferences theme 'Yaru-prussiangreen-dark'
 > [Breeze](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/package/breeze.html)
 
 ``` sh
+gsettings set org.gnome.desktop.wm.preferences theme 'Breeze-Dark'
 gsettings set org.gnome.desktop.interface gtk-theme 'Breeze-Dark'
 gsettings set org.gnome.desktop.interface icon-theme 'Breeze-Dark'
 gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
-gsettings set org.gnome.desktop.wm.preferences theme 'Breeze-Dark'
+gsettings set org.gnome.desktop.interface cursor-size 24
 ```
 
 
@@ -120,10 +126,11 @@ gsettings set org.gnome.desktop.wm.preferences theme 'Breeze-Dark'
 > [Greybird](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/package/greybird.html)
 
 ``` sh
+gsettings set org.gnome.desktop.wm.preferences theme 'Greybird-dark'
 gsettings set org.gnome.desktop.interface gtk-theme 'Greybird-dark'
 gsettings set org.gnome.desktop.interface icon-theme 'elementary-xfce-dark'
 gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
-gsettings set org.gnome.desktop.wm.preferences theme 'Greybird-dark'
+gsettings set org.gnome.desktop.interface cursor-size 24
 ```
 
 
@@ -132,19 +139,21 @@ gsettings set org.gnome.desktop.wm.preferences theme 'Greybird-dark'
 > [Numix](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/package/numix.html)
 
 ``` sh
+gsettings set org.gnome.desktop.wm.preferences theme 'Numix'
 gsettings set org.gnome.desktop.interface gtk-theme 'Numix'
 gsettings set org.gnome.desktop.interface icon-theme 'Numix'
 gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
-gsettings set org.gnome.desktop.wm.preferences theme 'Numix'
+gsettings set org.gnome.desktop.interface cursor-size 24
 ```
 
 ## Appearance / Numix / Circle Icon
 
 ``` sh
+gsettings set org.gnome.desktop.wm.preferences theme 'Numix'
 gsettings set org.gnome.desktop.interface gtk-theme 'Numix'
 gsettings set org.gnome.desktop.interface icon-theme 'Numix-Circle'
 gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
-gsettings set org.gnome.desktop.wm.preferences theme 'Numix'
+gsettings set org.gnome.desktop.interface cursor-size 24
 ```
 
 
@@ -153,10 +162,11 @@ gsettings set org.gnome.desktop.wm.preferences theme 'Numix'
 > [Adwaita](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/package/adwaita.html)
 
 ``` sh
+gsettings set org.gnome.desktop.wm.preferences theme 'Adwaita-dark'
 gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark'
 gsettings set org.gnome.desktop.interface icon-theme 'Yaru-blue-dark'
 gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
-gsettings set org.gnome.desktop.wm.preferences theme 'Adwaita-dark'
+gsettings set org.gnome.desktop.interface cursor-size 24
 ```
 
 
@@ -165,11 +175,12 @@ gsettings set org.gnome.desktop.wm.preferences theme 'Adwaita-dark'
 > [Materia](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/package/materia.html)
 
 ``` sh
+gsettings set org.gnome.desktop.wm.preferences theme 'Materia-dark'
 gsettings set org.gnome.desktop.interface gtk-theme 'Materia-dark'
 gsettings set org.gnome.desktop.interface icon-theme 'Yaru-bark-dark'
 #gsettings set org.gnome.desktop.interface icon-theme 'Yaru-sage-dark'
 gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
-gsettings set org.gnome.desktop.wm.preferences theme 'Materia-dark'
+gsettings set org.gnome.desktop.interface cursor-size 24
 ```
 
 
@@ -178,10 +189,11 @@ gsettings set org.gnome.desktop.wm.preferences theme 'Materia-dark'
 > [Pocillo](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/package/pocillo.html)
 
 ``` sh
+gsettings set org.gnome.desktop.wm.preferences theme 'Pocillo-dark'
 gsettings set org.gnome.desktop.interface gtk-theme 'Pocillo-dark'
 gsettings set org.gnome.desktop.interface icon-theme 'Pocillo'
 gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
-gsettings set org.gnome.desktop.wm.preferences theme 'Pocillo-dark'
+gsettings set org.gnome.desktop.interface cursor-size 24
 ```
 
 
@@ -190,10 +202,11 @@ gsettings set org.gnome.desktop.wm.preferences theme 'Pocillo-dark'
 > [Obsidian](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/package/obsidian.html)
 
 ``` sh
+gsettings set org.gnome.desktop.wm.preferences theme 'Obsidian-2-Gray'
 gsettings set org.gnome.desktop.interface gtk-theme 'Obsidian-2-Gray'
 gsettings set org.gnome.desktop.interface icon-theme 'Obsidian-Gray'
 gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
-gsettings set org.gnome.desktop.wm.preferences theme 'Obsidian-2-Gray'
+gsettings set org.gnome.desktop.interface cursor-size 24
 ```
 
 
@@ -201,10 +214,11 @@ gsettings set org.gnome.desktop.wm.preferences theme 'Obsidian-2-Gray'
 > [Obsidian-2-Gray](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/source/obsidian.html)
 
 ``` sh
+gsettings set org.gnome.desktop.wm.preferences theme 'Obsidian-2-Gray'
 gsettings set org.gnome.desktop.interface gtk-theme 'Obsidian-2-Gray'
 gsettings set org.gnome.desktop.interface icon-theme 'Black-Frost-Suru'
 gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
-gsettings set org.gnome.desktop.wm.preferences theme 'Obsidian-2-Gray'
+gsettings set org.gnome.desktop.interface cursor-size 24
 ```
 
 
