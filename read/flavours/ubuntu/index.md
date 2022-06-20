@@ -1,7 +1,7 @@
 ---
 title: ubuntu
 nav_order: 1010
-has_children: true
+has_children: false
 parent: Ubuntu Flavours
 ---
 
