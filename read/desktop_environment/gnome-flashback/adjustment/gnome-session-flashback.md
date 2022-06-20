@@ -55,3 +55,6 @@ gsettings set org.gnome.gnome-flashback root-background true
 * GitHub / regolith-linux / [i3-gnome-flashback](https://github.com/regolith-linux/i3-gnome-flashback)
 * GitHub / i3-gnome / [i3-gnome](https://github.com/i3-gnome/i3-gnome)
 * GitHub / nmakel / [i3-gnome](https://github.com/nmakel/i3-gnome)
+* Ubuntu / gnome-session-flashback / [filelist](https://packages.ubuntu.com/jammy/all/gnome-session-flashback/filelist)
+* GitLab / GNOME / gnome-flashback / [xsessions](https://gitlab.gnome.org/GNOME/gnome-flashback/-/tree/master/data/xsessions)
+* GitLab / GNOME / gnome-flashback / [sessions](https://gitlab.gnome.org/GNOME/gnome-flashback/-/tree/master/data/sessions)
