@@ -82,6 +82,21 @@ parent: 桌面環境
 
 ## 工具微調
 
+* [更多的工具微調](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/tool.html)
+
+### Terminal
+
+| Terminal | 微調腳本 |
+| --- | --- |
+| [gnome-terminal](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/tool/gnome-terminal.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/tool/gnome-terminal) |
+
+
+### Text Editor
+
+| Text Editor | 微調腳本 |
+| --- | --- |
+| [gedit](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/tool/gedit.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/tool/gedit) |
+
 
 ## 採用其他WM
 
