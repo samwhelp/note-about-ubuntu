@@ -34,3 +34,24 @@ grand_parent: 桌面環境
 | [gnome-session-flashback-awesomewm](https://github.com/samwhelp/note-about-gnome-flashback/tree/gh-pages/_demo/project/gnome-session/gnome-session-flashback/gnome-session-flashback-i3) | [打包專案](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/packaging/gnome-session/gnome-session-flashback/gnome-session-flashback-awesomewm) |
 | [gnome-session-flashback-cwm](https://github.com/samwhelp/note-about-gnome-flashback/tree/gh-pages/_demo/project/gnome-session/gnome-session-flashback/gnome-session-flashback-cwm) | [打包專案](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/packaging/gnome-session/gnome-session-flashback/gnome-session-flashback-i3) |
 | [gnome-session-flashback-berrywm](https://github.com/samwhelp/note-about-gnome-flashback/tree/gh-pages/_demo/project/gnome-session/gnome-session-flashback/gnome-session-flashback-berrywm) |  |
+
+
+## 注意事項
+
+參考「GitHub / nmakel / [i3-gnome](https://github.com/nmakel/i3-gnome)」提到的
+
+在搭配「i3」時，
+
+要執行下面指令，把「原本的桌面功能」關掉
+
+``` sh
+gsettings set org.gnome.gnome-flashback desktop false
+gsettings set org.gnome.gnome-flashback root-background true
+```
+
+
+## 相關專案
+
+* GitHub / regolith-linux / [i3-gnome-flashback](https://github.com/regolith-linux/i3-gnome-flashback)
+* GitHub / i3-gnome / [i3-gnome](https://github.com/i3-gnome/i3-gnome)
+* GitHub / nmakel / [i3-gnome](https://github.com/nmakel/i3-gnome)
