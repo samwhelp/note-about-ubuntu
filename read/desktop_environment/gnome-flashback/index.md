@@ -19,6 +19,7 @@ parent: 桌面環境
 * [Dock](#dock)
 * [Favorite Apps](#favorite-apps)
 * [工具微調](#工具微調)
+* [採用其他WM](#採用其他WM)
 * [相關筆記](#相關筆記)
 
 
@@ -80,6 +81,11 @@ parent: 桌面環境
 
 
 ## 工具微調
+
+
+## 採用其他WM
+
+* [gnome-session-flashback](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/gnome-flashback/adjustment/gnome-session-flashback.html)
 
 
 ## 相關筆記
