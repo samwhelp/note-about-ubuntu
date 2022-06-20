@@ -6,7 +6,7 @@ parent: 桌面環境
 ---
 
 
-# ubuntu
+# gnome-shell
 
 
 ## 主題
