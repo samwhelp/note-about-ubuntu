@@ -19,7 +19,7 @@ parent: 桌面環境
 * [Dock](#dock)
 * [Favorite Apps](#favorite-apps)
 * [工具微調](#工具微調)
-* [採用其他WM](#採用其他WM)
+* [採用其他 WM](#採用其他-wm)
 * [相關筆記](#相關筆記)
 
 
@@ -98,7 +98,7 @@ parent: 桌面環境
 | [gedit](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/tool/gedit.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/tool/gedit) |
 
 
-## 採用其他WM
+## 採用其他 WM
 
 * [gnome-session-flashback](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/gnome-flashback/adjustment/gnome-session-flashback.html)
 
