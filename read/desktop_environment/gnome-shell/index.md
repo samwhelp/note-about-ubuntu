@@ -32,7 +32,11 @@ parent: 桌面環境
 
 | 微調腳本 |
 | --- |
-| [gnome-shell-keybind](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-shell/gnome-shell-keybind-01) |
+| [gnome-shell-wallpaper-default](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-shell/part/gnome-shell-wallpaper-default) |
+| [gnome-shell-theme-main](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-shell/part/gnome-shell-theme-main) |
+| [gnome-shell-keybind-main](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-shell/part/gnome-shell-keybind-main) |
+| [gnome-shell-keybind-custom](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-shell/part/gnome-shell-keybind-custom) |
+| [gnome-shell-favorite-apps](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-shell/part/gnome-shell-favorite-apps) |
 | [gnome-shell-extension-ubuntu-dock](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/part-gnome-shell/gnome-shell-extension-ubuntu-dock) |
 | [switch-input-source](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/part-gnome-shell/switch-input-source) |
 
