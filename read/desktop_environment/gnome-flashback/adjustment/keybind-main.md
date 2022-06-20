@@ -194,16 +194,16 @@ gsettings set org.gnome.desktop.wm.keybindings toggle-on-all-workspaces "['<Supe
 ``` sh
 gsettings set org.gnome.desktop.wm.keybindings maximize "['<Super>Up']"
 gsettings set org.gnome.desktop.wm.keybindings unmaximize "['<Super>Down']"
-gsettings set org.gnome.mutter.keybindings toggle-tiled-left "['<Super>Left']"
-gsettings set org.gnome.mutter.keybindings toggle-tiled-right "['<Super>Right']"
+gsettings set org.gnome.metacity.keybindings toggle-tiled-left "['<Super>Left']"
+gsettings set org.gnome.metacity.keybindings toggle-tiled-right "['<Super>Right']"
 ```
 
 | 按鍵組合          | 功能     | 設定項目         |
 | ----------------- | -------- | ---------------- |
 | `Win + Up`         | 視窗最大化 | `org.gnome.desktop.wm.keybindings maximize` |
 | `Win + Down`         | 視窗反最大化 | `org.gnome.desktop.wm.keybindings unmaximize` |
-| `Win + Left`         | 視窗平鋪移動到畫面左半側(西方) | `org.gnome.mutter.keybindings toggle-tiled-left` |
-| `Win + Right`         | 視窗平鋪移動到畫面右半側(東方) | `org.gnome.mutter.keybindings toggle-tiled-right` |
+| `Win + Left`         | 視窗平鋪移動到畫面左半側(西方) | `org.gnome.metacity.keybindings toggle-tiled-left` |
+| `Win + Right`         | 視窗平鋪移動到畫面右半側(東方) | `org.gnome.metacity.keybindings toggle-tiled-right` |
 
 
 ## 工作空間

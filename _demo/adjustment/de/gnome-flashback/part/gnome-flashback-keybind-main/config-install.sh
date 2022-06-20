@@ -227,13 +227,10 @@ gnome_flashback_keybind_window_config_switch_windows () {
 
 gnome_flashback_keybind_window_config_to_tiling () {
 
-
-
 	gsettings set org.gnome.desktop.wm.keybindings maximize "['<Super>Up']"
 	gsettings set org.gnome.desktop.wm.keybindings unmaximize "['<Super>Down']"
-	gsettings set org.gnome.mutter.keybindings toggle-tiled-left "['<Super>Left']"
-	gsettings set org.gnome.mutter.keybindings toggle-tiled-right "['<Super>Right']"
-
+	gsettings set org.gnome.metacity.keybindings toggle-tiled-left "['<Super>Left']"
+	gsettings set org.gnome.metacity.keybindings toggle-tiled-right "['<Super>Right']"
 
 }
 
