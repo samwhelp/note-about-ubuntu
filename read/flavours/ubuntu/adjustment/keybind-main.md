@@ -188,8 +188,21 @@ gsettings set org.gnome.desktop.wm.keybindings toggle-on-all-workspaces "['<Supe
 
 ### 視窗平鋪移動操作
 
+* [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/gnome-shell/part/gnome-shell-keybind-main/config-install.sh)
 
-TODO:
+``` sh
+gsettings set org.gnome.desktop.wm.keybindings maximize "['<Super>Up']"
+gsettings set org.gnome.desktop.wm.keybindings unmaximize "['<Super>Down']"
+gsettings set org.gnome.mutter.keybindings toggle-tiled-left "['<Super>Left']"
+gsettings set org.gnome.mutter.keybindings toggle-tiled-right "['<Super>Right']"
+```
+
+| 按鍵組合          | 功能     | 設定項目         |
+| ----------------- | -------- | ---------------- |
+| `Win + Up`         | 視窗最大化 | `org.gnome.desktop.wm.keybindings maximize` |
+| `Win + Down`         | 視窗反最大化 | `org.gnome.desktop.wm.keybindings unmaximize` |
+| `Win + Left`         | 視窗平鋪移動到畫面左半側(西方) | `org.gnome.mutter.keybindings toggle-tiled-left` |
+| `Win + Right`         | 視窗平鋪移動到畫面右半側(東方) | `org.gnome.mutter.keybindings toggle-tiled-right` |
 
 
 ## 工作空間
