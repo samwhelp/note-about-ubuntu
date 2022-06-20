@@ -43,5 +43,5 @@ gsettings set org.cinnamon favorite-apps "['pcmanfm-qt.desktop', 'org.xfce.mouse
 /usr/share/applications/org.xfce.mousepad.desktop
 /usr/share/applications/org.kde.falkon.desktop
 /usr/share/applications/sakura.desktop
-/usr/share/applications/innamon-settings.desktop
+/usr/share/applications/cinnamon-settings.desktop
 ```

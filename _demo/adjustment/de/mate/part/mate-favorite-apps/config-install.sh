@@ -30,8 +30,8 @@ mate_config_install () {
 
 mate_favorite_apps_config () {
 
-	echo 'gsettings set com.solus-project.brisk-menu favourites "'"['pcmanfm-qt.desktop', 'org.xfce.mousepad.desktop', 'org.kde.falkon.desktop', 'sakura.desktop', 'matecc.desktop', 'mate-keybinding.desktop', 'mate-appearance-properties.desktop', 'atom.desktop']"'"'
-	gsettings set com.solus-project.brisk-menu favourites "['pcmanfm-qt.desktop', 'org.xfce.mousepad.desktop', 'org.kde.falkon.desktop', 'sakura.desktop', 'matecc.desktop', 'mate-keybinding.desktop', 'mate-appearance-properties.desktop', 'atom.desktop']"
+	echo 'gsettings set com.solus-project.brisk-menu favourites "'"['pcmanfm-qt.desktop', 'org.xfce.mousepad.desktop', 'org.kde.falkon.desktop', 'sakura.desktop', 'matecc.desktop', 'mate-keybinding.desktop', 'mate-appearance-properties.desktop', 'mate-tweak.desktop', 'atom.desktop']"'"'
+	gsettings set com.solus-project.brisk-menu favourites "['pcmanfm-qt.desktop', 'org.xfce.mousepad.desktop', 'org.kde.falkon.desktop', 'sakura.desktop', 'matecc.desktop', 'mate-keybinding.desktop', 'mate-appearance-properties.desktop', 'mate-tweak.desktop', 'atom.desktop']"
 
 }
 
