@@ -37,6 +37,7 @@ grand_parent: 桌面環境
 * [開始視窗移動](#開始視窗移動)
 * [開始視窗更改大小](#開始視窗更改大小)
 * [永遠在最上方](#永遠在最上方)
+* [顯示在所有工作空間](#顯示在所有工作空間)
 * [視窗平鋪移動操作](#視窗平鋪移動操作)
 
 ### 視窗切換
@@ -170,6 +171,19 @@ gsettings set org.mate.Marco.window-keybindings toggle-above '<Super>t'
 | 按鍵組合          | 功能     | 設定項目         |
 | ----------------- | -------- | ---------------- |
 | `Win + t`         | 切換視窗永遠在最上方 | `org.mate.Marco.window-keybindings toggle-above` |
+
+
+### 顯示在所有工作空間
+
+* [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/mate/part/mate-keybind-main/config-install.sh)
+
+``` sh
+gsettings set org.mate.Marco.window-keybindings toggle-on-all-workspaces '<Super>g'
+```
+
+| 按鍵組合          | 功能     | 設定項目         |
+| ----------------- | -------- | ---------------- |
+| `Win + g`         | 切換視窗顯示在所有工作空間 | `org.mate.Marco.window-keybindings toggle-on-all-workspaces` |
 
 
 ### 視窗平鋪移動操作
