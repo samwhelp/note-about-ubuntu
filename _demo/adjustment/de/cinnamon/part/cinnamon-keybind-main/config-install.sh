@@ -54,6 +54,8 @@ cinnamon_keybind_window_config () {
 
 	cinnamon_keybind_window_config_toggle_above
 
+	cinnamon_keybind_window_config_toggle_on_all_workspaces
+
 	cinnamon_keybind_window_config_switch_windows
 
 	cinnamon_keybind_window_config_to_tiling
@@ -102,6 +104,11 @@ cinnamon_keybind_window_config_toggle_maximized () {
 	echo 'gsettings set org.cinnamon.desktop.keybindings.wm toggle-maximized "'"['<Super>w']"'"'
 	gsettings set org.cinnamon.desktop.keybindings.wm toggle-maximized "['<Super>w']"
 
+
+	echo 'gsettings set org.cinnamon.desktop.keybindings.wm unmaximize "'"[]"'"'
+	gsettings set org.cinnamon.desktop.keybindings.wm unmaximize "[]"
+
+
 }
 
 
@@ -138,6 +145,12 @@ cinnamon_keybind_window_config_toggle_above () {
 	gsettings set org.cinnamon.desktop.keybindings.wm toggle-above "['<Super>t']"
 }
 
+
+cinnamon_keybind_window_config_toggle_on_all_workspaces () {
+
+	echo 'gsettings set org.cinnamon.desktop.keybindings.wm toggle-on-all-workspaces "'"['<Super>g']"'"'
+	gsettings set org.cinnamon.desktop.keybindings.wm toggle-on-all-workspaces "['<Super>g']"
+}
 
 
 
