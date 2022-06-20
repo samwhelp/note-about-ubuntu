@@ -9,7 +9,7 @@ has_children: true
 
 | Flavours | DE or WM |
 | --- | --- |
-| [Ubuntu](https://samwhelp.github.io/note-about-ubuntu/read/flavours/ubuntu/) | [gnome-shell](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/de/gnome-shell) |
-|  | [gnome-flashback](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/de/gnome-flashback.html) |
-| Xubuntu | [xfce](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/de/xfce.html) |
-|  | [openbox](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/wm/openbox.html) |
+| [Ubuntu](https://samwhelp.github.io/note-about-ubuntu/read/flavours/ubuntu/) | [gnome-shell](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/gnome-shell/) |
+|  | [gnome-flashback](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/gnome-flashback/) |
+| Xubuntu | [xfce](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/xfce/) |
+|  | [openbox](https://samwhelp.github.io/note-about-ubuntu/read/window_manager/openbox/) |
