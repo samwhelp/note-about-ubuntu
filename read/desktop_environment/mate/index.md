@@ -81,6 +81,7 @@ parent: 桌面環境
 
 ## 工具微調
 
+* [更多的工具微調](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/tool.html)
 
 ## 相關筆記
 
