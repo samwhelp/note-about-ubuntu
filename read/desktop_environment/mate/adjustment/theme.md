@@ -22,7 +22,7 @@ grand_parent: 桌面環境
 
 可以透過「圖形使用者介面程式」，來更改「佈景主題」。
 
-也就是「Appearance」。
+也就是「Appearance Preferences / Theme」。
 
 ``` sh
 mate-appearance-properties
