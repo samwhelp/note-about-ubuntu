@@ -121,3 +121,8 @@ then
         export QT_QPA_PLATFORMTHEME=qt5ct
 fi
 ```
+
+
+## 相關討論
+
+* [#3](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=363628#forumpost363628) - 回覆: 關於「桌面環境」便利操作的按鍵組合設定
