@@ -18,6 +18,6 @@ parent: 微調
 | [中文輸入法](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/im.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/im/fcitx-chewing) |
 | [個人 bin 資料夾](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/bin-dir.html) | |
 | [gtk 設定](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/gtk.html) | ([gtk2](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/part/gtk2)) ([gtk3](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/part/gtk3)) |
-| [qt5ct 設定](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/qt5ct.html) | [設定腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/part/qt5ct) |
+| [qt-style-follow-gtk 設定](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/qt-style-follow-gtk.html) | [設定腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/part/qt-style-follow-gtk) |
 | [xsettingsd 設定](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/xsettings/xsettingsd.html) | [設定範例](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/xsettings/xsettingsd) |
 | [xfsettingsd - xsettings 設定 ](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/xsettings/xfsettingsd.html) | [設定範例](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/xfce/config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml) |
