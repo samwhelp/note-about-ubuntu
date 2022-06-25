@@ -1,0 +1,4 @@
+#qt5-style-plugins
+qt5-gtk2-platformtheme
+qt5-gtk-platformtheme
+qt6-gtk-platformtheme
