@@ -45,6 +45,18 @@ sudo apt-get install qt5-gtk2-platformtheme
 * ~/.profile
 
 
+## Package
+
+* [qt5-gtk2-platformtheme](https://packages.ubuntu.com/jammy/qt5-gtk2-platformtheme)
+* [qt5-gtk-platformtheme](https://packages.ubuntu.com/jammy/qt5-gtk-platformtheme)
+* [qt6-gtk-platformtheme](https://packages.ubuntu.com/jammy/qt6-gtk-platformtheme)
+
+
+## Arch Wiki
+
+* Uniform look for Qt and GTK applications / [QGtkStyle](https://wiki.archlinux.org/title/Uniform_look_for_Qt_and_GTK_applications#QGtkStyle)
+
+
 ## 案例
 
 
