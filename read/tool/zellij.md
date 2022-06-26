@@ -18,19 +18,27 @@ parent: 工具
 
 ## Install
 
+* [releases](https://github.com/zellij-org/zellij/releases/) / [0.30.0](https://github.com/zellij-org/zellij/releases/tag/v0.30.0)
+
 ``` sh
-wget -c 'https://github.com/zellij-org/zellij/releases/download/v0.27.0/zellij-x86_64-unknown-linux-musl.tar.gz'
+wget -c 'https://github.com/zellij-org/zellij/releases/download/v0.30.0/zellij-x86_64-unknown-linux-musl.tar.gz'
 
 tar xf zellij-x86_64-unknown-linux-musl.tar.gz
 
-mkdir -p ~/bin
+mkdir -p ~/.local/bin
 
-install -Dm755 zellij ~/bin/zellij
+install -Dm755 zellij ~/.local/bin/zellij
 ```
 
 ## Config
 
 ``` sh
 mkdir -p ~/.config/zellij
+
 zellij setup --dump-config > ~/.config/zellij/config.yaml
 ```
+
+
+## See Also
+
+* [mprocs](https://samwhelp.github.io/note-about-ubuntu/read/tool/mprocs.html)
