@@ -44,6 +44,21 @@ sudo apt-get install qt5-gtk2-platformtheme
 * /etc/X11/Xsession.d/
 * ~/.profile
 
+上面設定腳本採用的方式，
+
+在「/etc/profile.d/」這個資料夾，
+
+產生一個檔案「[/etc/profile.d/qt-style-follow-gtk.sh](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/part/qt-style-follow-gtk/config/qt-style-follow-gtk/qt-style-follow-gtk.sh)」，
+
+內容如下
+
+``` sh
+
+if [ "$XDG_CURRENT_DESKTOP" != "KDE" ]; then
+	export QT_QPA_PLATFORMTHEME=gtk2
+fi
+
+```
 
 ## Package
 
