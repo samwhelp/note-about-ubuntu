@@ -1,0 +1,9 @@
+
+[net.launchpad.plank.dock.settings]
+auto-pinning=false
+hide-mode='none'
+theme='Gtk+'
+icon-size=36
+zoom-enabled=true
+zoom-percent=150
+dock-items=['desktop.dockitem', 'pcmanfm-qt.dockitem', 'org.xfce.mousepad.dockitem', 'firefox.dockitem', 'sakura.dockitem']
