@@ -38,9 +38,9 @@ cinnamon_theme_main_config () {
 
 cinnamon_theme_fallback_config () {
 
+	gsettings set org.cinnamon.desktop.wm.preferences theme-backup 'Adwaita'
 	gsettings set org.cinnamon.desktop.interface gtk-theme-backup 'Adwaita'
 	gsettings set org.cinnamon.desktop.interface icon-theme-backup 'gnome'
-	gsettings set org.cinnamon.desktop.wm.preferences theme-backup 'Adwaita'
 
 }
 
@@ -58,11 +58,11 @@ cinnamon_theme_fallback_config () {
 cinnamon_theme_gruvbox () {
 
 	gsettings set org.cinnamon.theme name 'Gruvbox'
-	gsettings set org.cinnamon.desktop.interface cursor-theme 'Breeze'
+	gsettings set org.cinnamon.desktop.wm.preferences theme 'Gruvbox'
 	gsettings set org.cinnamon.desktop.interface gtk-theme 'Gruvbox'
 	gsettings set org.cinnamon.desktop.interface icon-theme 'Gruvbox-Dark'
-	gsettings set org.cinnamon.desktop.wm.preferences theme 'Gruvbox'
-
+	gsettings set org.cinnamon.desktop.interface cursor-theme 'Breeze'
+	gsettings set org.cinnamon.desktop.interface cursor-size 24
 
 	cinnamon_theme_fallback_config
 }
@@ -80,11 +80,11 @@ cinnamon_theme_gruvbox () {
 cinnamon_theme_dracula () {
 
 	gsettings set org.cinnamon.theme name 'Dracula'
-	gsettings set org.cinnamon.desktop.interface cursor-theme 'Breeze'
+	gsettings set org.cinnamon.desktop.wm.preferences theme 'Dracula'
 	gsettings set org.cinnamon.desktop.interface gtk-theme 'Dracula'
 	gsettings set org.cinnamon.desktop.interface icon-theme 'Dracula'
-	gsettings set org.cinnamon.desktop.wm.preferences theme 'Dracula'
-
+	gsettings set org.cinnamon.desktop.interface cursor-theme 'Breeze'
+	gsettings set org.cinnamon.desktop.interface cursor-size 24
 
 	cinnamon_theme_fallback_config
 }
