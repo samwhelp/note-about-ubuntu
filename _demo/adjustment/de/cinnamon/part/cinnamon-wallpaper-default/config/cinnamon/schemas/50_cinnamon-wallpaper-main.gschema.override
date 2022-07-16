@@ -1,0 +1,9 @@
+
+
+[org.cinnamon.desktop.background]
+picture-uri='file:///usr/share/backgrounds/default.jpg'
+picture-options='zoom'
+picture-opacity=100
+color-shading-type='solid'
+primary-color='#3c3836'
+secondary-color='#282828'
