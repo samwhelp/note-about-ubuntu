@@ -4,24 +4,24 @@ set -e
 
 
 ################################################################################
-### Head: net_launchpad_plank
+### Head: plank
 ##
-net_launchpad_plank_prototype_rollback () {
+plank_prototype_rollback () {
 
 	##
 	## /usr/share/glib-2.0/schemas/net.launchpad.plank.gschema.xml
-	## /usr/share/glib-2.0/schemas/net.launchpad.plank.gschema.override
+	## /usr/share/glib-2.0/schemas/50_plank.gschema.override
 	##
 
 	echo
 	echo "##"
-	echo "## Prototype: net_launchpad_plank"
+	echo "## Prototype: plank"
 	echo "##"
 	echo
 
 
-	echo "sudo rm -rf /usr/share/glib-2.0/schemas/net.launchpad.plank.gschema.override"
-	sudo rm -rf "/usr/share/glib-2.0/schemas/net.launchpad.plank.gschema.override"
+	echo "sudo rm -rf /usr/share/glib-2.0/schemas/50_plank.gschema.override"
+	sudo rm -rf "/usr/share/glib-2.0/schemas/50_plank.gschema.override"
 
 	echo "sudo glib-compile-schemas /usr/share/glib-2.0/schemas/"
 	sudo glib-compile-schemas /usr/share/glib-2.0/schemas/
@@ -29,7 +29,7 @@ net_launchpad_plank_prototype_rollback () {
 	echo
 }
 ##
-### Tail: net_launchpad_plank
+### Tail: plank
 ################################################################################
 
 
@@ -37,7 +37,7 @@ net_launchpad_plank_prototype_rollback () {
 ### Head: main
 ##
 main_prototype_rollback () {
-	net_launchpad_plank_prototype_rollback
+	plank_prototype_rollback
 }
 ## start
 main_prototype_rollback

@@ -4,13 +4,13 @@ set -e
 
 
 ################################################################################
-### Head: net_launchpad_plank
+### Head: plank
 ##
-net_launchpad_plank_config_rollback () {
+plank_config_rollback () {
 
 	echo
 	echo "##"
-	echo "## Config: net_launchpad_plank"
+	echo "## Config: plank"
 	echo "##"
 	echo
 
@@ -30,7 +30,7 @@ net_launchpad_plank_config_rollback () {
 	echo
 }
 ##
-### Tail: net_launchpad_plank
+### Tail: plank
 ################################################################################
 
 
@@ -38,7 +38,7 @@ net_launchpad_plank_config_rollback () {
 ### Head: main
 ##
 main_config_rollback () {
-	net_launchpad_plank_config_rollback
+	plank_config_rollback
 }
 ## start
 main_config_rollback

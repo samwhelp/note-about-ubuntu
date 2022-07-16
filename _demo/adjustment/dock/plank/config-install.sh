@@ -4,20 +4,20 @@ set -e
 
 
 ################################################################################
-### Head: net_launchpad_plank
+### Head: plank
 ##
 
-net_launchpad_plank_config_install () {
-	net_launchpad_plank_config_install_dock1_settings
-	net_launchpad_plank_config_install_dock1_launchers
+plank_config_install () {
+	plank_config_install_dock1_settings
+	plank_config_install_dock1_launchers
 }
 
 
-net_launchpad_plank_config_install_dock1_settings () {
+plank_config_install_dock1_settings () {
 
 	echo
 	echo "##"
-	echo "## Config: net_launchpad_plank"
+	echo "## Config: plank"
 	echo "##"
 	echo
 
@@ -87,7 +87,7 @@ net_launchpad_plank_config_install_dock1_settings () {
 }
 
 
-net_launchpad_plank_config_install_dock1_launchers () {
+plank_config_install_dock1_launchers () {
 
 	echo
 	echo "mkdir -p $HOME/.config/plank/dock1/launchers"
@@ -101,32 +101,32 @@ net_launchpad_plank_config_install_dock1_launchers () {
 	echo
 
 
-	echo "install -Dm644 ./config/net.launchpad.plank/launchers/desktop.dockitem $HOME/.config/plank/dock1/launchers/desktop.dockitem"
-	install -Dm644 "./config/net.launchpad.plank/launchers/desktop.dockitem" "$HOME/.config/plank/dock1/launchers/desktop.dockitem"
+	echo "install -Dm644 ./config/plank/launchers/desktop.dockitem $HOME/.config/plank/dock1/launchers/desktop.dockitem"
+	install -Dm644 "./config/plank/launchers/desktop.dockitem" "$HOME/.config/plank/dock1/launchers/desktop.dockitem"
 
 
 
-	echo "install -Dm644 ./config/net.launchpad.plank/launchers/pcmanfm-qt.dockitem $HOME/.config/plank/dock1/launchers/pcmanfm-qt.dockitem"
-	install -Dm644 "./config/net.launchpad.plank/launchers/pcmanfm-qt.dockitem" "$HOME/.config/plank/dock1/launchers/pcmanfm-qt.dockitem"
+	echo "install -Dm644 ./config/plank/launchers/pcmanfm-qt.dockitem $HOME/.config/plank/dock1/launchers/pcmanfm-qt.dockitem"
+	install -Dm644 "./config/plank/launchers/pcmanfm-qt.dockitem" "$HOME/.config/plank/dock1/launchers/pcmanfm-qt.dockitem"
 
 
-	echo "install -Dm644 ./config/net.launchpad.plank/launchers/org.xfce.mousepad.dockitem $HOME/.config/plank/dock1/launchers/org.xfce.mousepad.dockitem"
-	install -Dm644 "./config/net.launchpad.plank/launchers/org.xfce.mousepad.dockitem" "$HOME/.config/plank/dock1/launchers/org.xfce.mousepad.dockitem"
+	echo "install -Dm644 ./config/plank/launchers/org.xfce.mousepad.dockitem $HOME/.config/plank/dock1/launchers/org.xfce.mousepad.dockitem"
+	install -Dm644 "./config/plank/launchers/org.xfce.mousepad.dockitem" "$HOME/.config/plank/dock1/launchers/org.xfce.mousepad.dockitem"
 
 
-	echo "install -Dm644 ./config/net.launchpad.plank/launchers/firefox.dockitem $HOME/.config/plank/dock1/launchers/firefox.dockitem"
-	install -Dm644 "./config/net.launchpad.plank/launchers/firefox.dockitem" "$HOME/.config/plank/dock1/launchers/firefox.dockitem"
+	echo "install -Dm644 ./config/plank/launchers/firefox.dockitem $HOME/.config/plank/dock1/launchers/firefox.dockitem"
+	install -Dm644 "./config/plank/launchers/firefox.dockitem" "$HOME/.config/plank/dock1/launchers/firefox.dockitem"
 
 
-	echo "install -Dm644 ./config/net.launchpad.plank/launchers/sakura.dockitem $HOME/.config/plank/dock1/launchers/sakura.dockitem"
-	install -Dm644 "./config/net.launchpad.plank/launchers/sakura.dockitem" "$HOME/.config/plank/dock1/launchers/sakura.dockitem"
+	echo "install -Dm644 ./config/plank/launchers/sakura.dockitem $HOME/.config/plank/dock1/launchers/sakura.dockitem"
+	install -Dm644 "./config/plank/launchers/sakura.dockitem" "$HOME/.config/plank/dock1/launchers/sakura.dockitem"
 
 
 
 }
 
 ##
-### Tail: net_launchpad_plank
+### Tail: plank
 ################################################################################
 
 
@@ -134,7 +134,7 @@ net_launchpad_plank_config_install_dock1_launchers () {
 ### Head: main
 ##
 main_config_install () {
-	net_launchpad_plank_config_install
+	plank_config_install
 }
 ## start
 main_config_install
