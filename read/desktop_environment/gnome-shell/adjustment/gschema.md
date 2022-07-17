@@ -8,6 +8,10 @@ grand_parent: 桌面環境
 
 # gschema
 
+## Link
+
+* Gio / Settings / [Vendor overrides](https://docs.gtk.org/gio/class.Settings.html#vendor-overrides)
+
 ## 探索
 
 執行
