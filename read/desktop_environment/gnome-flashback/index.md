@@ -39,6 +39,7 @@ parent: 桌面環境
 | [gnome-flashback-favorite-apps](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-flashback/part/gnome-flashback-favorite-apps) |
 | [gnome-flashback-autostart-cairo-dock](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-flashback/part/gnome-flashback-autostart-cairo-dock) |
 | [gnome-flashback-autostart-plank](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-flashback/part/gnome-flashback-autostart-plank) |
+| [plank](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/dock/plank) |
 
 
 ## 中文輸入法

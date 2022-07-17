@@ -27,7 +27,9 @@ parent: 桌面環境
 | 微調腳本 |
 | --- |
 | [xfce-adjustment](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/xfce/full/xfce-adjustment) |
-
+| [xfce-autostart-cairo-dock](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/xfce/part/xfce-autostart-cairo-dock) |
+| [xfce-autostart-plank](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/xfce/part/xfce-autostart-plank) |
+| [plank](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/dock/plank) |
 
 
 ## Dock
