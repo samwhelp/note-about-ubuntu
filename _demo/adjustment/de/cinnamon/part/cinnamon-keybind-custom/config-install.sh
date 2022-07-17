@@ -56,7 +56,39 @@ cinnamon_keybind_custom_config () {
 	#dconf dump /org/cinnamon/desktop/keybindings/custom-keybindings/
 
 
+	##
+	## $ gsettings list-recursively org.cinnamon.desktop.keybindings.custom-keybinding:/org/cinnamon/desktop/keybindings/custom-keybindings/system-logout/
+	##
+	## ```
+	## org.cinnamon.desktop.keybindings.custom-keybinding binding ['<Shift><Alt>x']
+	## org.cinnamon.desktop.keybindings.custom-keybinding command 'cinnamon-session-quit --logout'
+	## org.cinnamon.desktop.keybindings.custom-keybinding name 'System_Logout'
+	## ```
+	##
 
+	##
+	## $ gsettings get org.cinnamon.desktop.keybindings.custom-keybinding:/org/cinnamon/desktop/keybindings/custom-keybindings/system-logout/ binding
+	##
+	## ```
+	## ['<Shift><Alt>x']
+	## ```
+	##
+
+	##
+	## $ gsettings get org.cinnamon.desktop.keybindings.custom-keybinding:/org/cinnamon/desktop/keybindings/custom-keybindings/system-logout/ command
+	##
+	## ```
+	## 'cinnamon-session-quit --logout'
+	## ```
+	##
+
+	##
+	## $ gsettings get org.cinnamon.desktop.keybindings.custom-keybinding:/org/cinnamon/desktop/keybindings/custom-keybindings/system-logout/ name
+	##
+	## ```
+	## 'System_Logout'
+	## ```
+	##
 
 
 	## Logout
