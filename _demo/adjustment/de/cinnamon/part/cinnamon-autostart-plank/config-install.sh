@@ -41,7 +41,7 @@ cinnamon_dock_plank_config_autostart () {
 	# OnlyShowIn=GNOME-Flashback;X-Cinnamon;
 
 	local autostart_dir_path="$HOME/.config/autostart"
-	local target_file_name="plank-with-cinnamon.desktop"
+	local target_file_name="plank-on-cinnamon.desktop"
 	local target_file_path="$autostart_dir_path/$target_file_name"
 
 	echo "mkdir -p $autostart_dir_path"

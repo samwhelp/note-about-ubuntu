@@ -50,7 +50,7 @@ mate_dock_cairo_dock_config_autostart () {
 	# OnlyShowIn=GNOME-Flashback;X-Cinnamon;MATE;
 
 	local autostart_dir_path="$HOME/.config/autostart"
-	local target_file_name="cairo-dock-with-mate.desktop"
+	local target_file_name="cairo-dock-on-mate.desktop"
 	local target_file_path="$autostart_dir_path/$target_file_name"
 
 	echo "mkdir -p $autostart_dir_path"

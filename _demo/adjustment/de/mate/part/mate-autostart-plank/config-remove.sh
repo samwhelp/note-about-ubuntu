@@ -39,7 +39,7 @@ mate_dock_plank_remove_autostart () {
 	# OnlyShowIn=GNOME-Flashback;X-Cinnamon;
 
 	local autostart_dir_path="$HOME/.config/autostart"
-	local target_file_name="plank-with-mate.desktop"
+	local target_file_name="plank-on-mate.desktop"
 	local target_file_path="$autostart_dir_path/$target_file_name"
 
 	echo "rm -f $target_file_path"
