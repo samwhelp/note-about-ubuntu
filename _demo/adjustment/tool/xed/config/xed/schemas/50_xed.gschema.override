@@ -1,0 +1,27 @@
+
+
+[org.x.editor.preferences.editor]
+prefer-dark-theme=true
+scheme='oblivion'
+use-default-font=false
+editor-font='Monospace 14'
+insert-spaces=false
+tabs-size=4
+highlight-current-line=true
+display-line-numbers=true
+display-right-margin=true
+right-margin-position=80
+draw-whitespace=true
+draw-whitespace-inside=true
+draw-whitespace-leading=true
+draw-whitespace-newline=true
+draw-whitespace-trailing=true
+ensure-trailing-newline=true
+
+
+[org.x.editor.preferences.ui]
+side-panel-visible=true
+
+
+[org.x.editor.plugins.filebrowser]
+terminal-command='sakura'
