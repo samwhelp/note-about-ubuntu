@@ -2,10 +2,10 @@
 # Cinnamon / Adjustment
 
 
-## Spec
+## Gschema Override
 
-* [keybind](spec-keybind.md)
-* [mousebind](spec-mousebind.md)
+* [/usr/share/glib-2.0/schemas/50_cinnamon-keybind-main.gschema.override](config/cinnamon/schemas/50_cinnamon-keybind-main.gschema.override)
+* [/usr/share/glib-2.0/schemas/50_cinnamon-workspace-main.gschema.override](config/cinnamon/schemas/50_cinnamon-workspace-main.gschema.override)
 
 
 ## Note

@@ -10,6 +10,7 @@ cinnamon_prototype_install () {
 
 	##
 	## /usr/share/glib-2.0/schemas/50_cinnamon-keybind-main.gschema.override
+	## /usr/share/glib-2.0/schemas/50_cinnamon-workspace-main.gschema.override
 	##
 
 	##
@@ -25,8 +26,13 @@ cinnamon_prototype_install () {
 	echo "sudo mkdir -p /usr/share/glib-2.0/schemas"
 	sudo mkdir -p "/usr/share/glib-2.0/schemas"
 
+
 	echo "sudo install -Dm644 ./config/cinnamon/schemas/50_cinnamon-keybind-main.gschema.override /usr/share/glib-2.0/schemas/50_cinnamon-keybind-main.gschema.override"
 	sudo install -Dm644 "./config/cinnamon/schemas/50_cinnamon-keybind-main.gschema.override" "/usr/share/glib-2.0/schemas/50_cinnamon-keybind-main.gschema.override"
+
+	echo "sudo install -Dm644 ./config/cinnamon/schemas/50_cinnamon-workspace-main.gschema.override/usr/share/glib-2.0/schemas/50_cinnamon-workspace-main.gschema.override"
+	sudo install -Dm644 "./config/cinnamon/schemas/50_cinnamon-workspace-main.gschema.override" "/usr/share/glib-2.0/schemas/50_cinnamon-workspace-main.gschema.override"
+
 
 	echo "sudo glib-compile-schemas /usr/share/glib-2.0/schemas/"
 	sudo glib-compile-schemas /usr/share/glib-2.0/schemas/

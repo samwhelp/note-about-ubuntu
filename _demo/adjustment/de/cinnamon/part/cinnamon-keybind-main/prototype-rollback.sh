@@ -10,6 +10,7 @@ cinnamon_prototype_rollback () {
 
 	##
 	## /usr/share/glib-2.0/schemas/50_cinnamon-keybind-main.gschema.override
+	## /usr/share/glib-2.0/schemas/50_cinnamon-workspace-main.gschema.override
 	##
 
 	echo
@@ -21,6 +22,10 @@ cinnamon_prototype_rollback () {
 
 	echo "sudo rm -rf /usr/share/glib-2.0/schemas/50_cinnamon-keybind-main.gschema.override"
 	sudo rm -rf "/usr/share/glib-2.0/schemas/50_cinnamon-keybind-main.gschema.override"
+
+	echo "sudo rm -rf /usr/share/glib-2.0/schemas/50_cinnamon-workspace-main.gschema.override"
+	sudo rm -rf "/usr/share/glib-2.0/schemas/50_cinnamon-workspace-main.gschema.override"
+
 
 	echo "sudo glib-compile-schemas /usr/share/glib-2.0/schemas/"
 	sudo glib-compile-schemas /usr/share/glib-2.0/schemas/
