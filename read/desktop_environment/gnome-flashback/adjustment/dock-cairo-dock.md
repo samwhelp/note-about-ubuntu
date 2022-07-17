@@ -14,4 +14,4 @@ grand_parent: 桌面環境
 
 | 微調腳本 |
 | --- |
-| [gnome-flashback-dock-cairo-dock](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-flashback/part/gnome-flashback-dock-cairo-dock) |
+| [gnome-flashback-autostart-cairo-dock](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-flashback/part/gnome-flashback-autostart-cairo-dock) |

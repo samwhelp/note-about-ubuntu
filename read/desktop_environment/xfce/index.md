@@ -13,6 +13,7 @@ parent: 桌面環境
 
 * [如何安裝](#如何安裝)
 * [微調腳本](#微調腳本)
+* [Dock](#dock)
 * [相關筆記](#相關筆記)
 
 
@@ -29,7 +30,13 @@ parent: 桌面環境
 
 
 
+## Dock
 
+
+| Dock | 微調腳本 | Autostart |
+| --- | --- | --- |
+| [cairo-dock](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/xfce/adjustment/dock-cairo-dock.html) |  | [Autostart](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/xfce/part/xfce-autostart-cairo-dock) |
+| [plank](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/xfce/adjustment/dock-plank.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/dock/plank) | [Autostart](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/xfce/part/xfce-autostart-plank) |
 
 
 

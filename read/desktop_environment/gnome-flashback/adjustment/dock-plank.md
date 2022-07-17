@@ -14,4 +14,5 @@ grand_parent: 桌面環境
 
 | 微調腳本 |
 | --- |
-| [gnome-flashback-dock-plank](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-flashback/part/gnome-flashback-dock-plank) |
+| [plank](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/dock/plank) |
+| [gnome-flashback-autostart-plank](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-flashback/part/gnome-flashback-autostart-plank) |

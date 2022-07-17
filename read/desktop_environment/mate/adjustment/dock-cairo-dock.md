@@ -14,4 +14,4 @@ grand_parent: 桌面環境
 
 | 微調腳本 |
 | --- |
-| [mate-dock-cairo-dock](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/mate/part/mate-dock-cairo-dock) |
+| [mate-autostart-cairo-dock](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/mate/part/mate-autostart-cairo-dock) |

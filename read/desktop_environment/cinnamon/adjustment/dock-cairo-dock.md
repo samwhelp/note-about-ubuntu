@@ -14,4 +14,5 @@ grand_parent: 桌面環境
 
 | 微調腳本 |
 | --- |
-| [cinnamon-dock-cairo-dock](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-dock-cairo-dock) |
+| [cinnamon-autostart-cairo-dock](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-autostart-cairo-dock) |
+

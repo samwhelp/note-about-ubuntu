@@ -14,7 +14,8 @@ grand_parent: 桌面環境
 
 | 微調腳本 |
 | --- |
-| [xfce-dock-plank](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/xfce/part/xfce-dock-plank) |
+| [plank](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/dock/plank) |
+| [xfce-autostart-plank](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/xfce/part/xfce-autostart-plank) |
 
 
 ## 注意事項

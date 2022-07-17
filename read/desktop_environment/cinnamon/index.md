@@ -66,10 +66,10 @@ parent: 桌面環境
 
 ## Dock
 
-| Dock | 微調腳本 |
-| --- | --- |
-| [cairo-dock](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/cinnamon/adjustment/dock-cairo-dock.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-dock-cairo-dock) |
-| [plank](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/cinnamon/adjustment/dock-plank.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-dock-cairo-dock) |
+| Dock | 微調腳本 | Autostart |
+| --- | --- | --- |
+| [cairo-dock](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/cinnamon/adjustment/dock-cairo-dock.html) |  | [Autostart](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-autostart-cairo-dock) |
+| [plank](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/cinnamon/adjustment/dock-plank.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/dock/plank) | [Autostart](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-autostart-plank) |
 
 
 ## Favorite Apps

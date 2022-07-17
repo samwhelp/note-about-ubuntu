@@ -14,4 +14,5 @@ grand_parent: 桌面環境
 
 | 微調腳本 |
 | --- |
-| [mate-dock-plank](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/mate/part/mate-dock-plank) |
+| [plank](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/dock/plank) |
+| [mate-autostart-plank](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/mate/part/mate-autostart-plank) |

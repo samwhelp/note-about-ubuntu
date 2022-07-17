@@ -14,4 +14,5 @@ grand_parent: 桌面環境
 
 | 微調腳本 |
 | --- |
-| [cinnamon-dock-plank](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-dock-plank) |
+| [plank](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/dock/plank) |
+| [cinnamon-autostart-plank](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-autostart-plank) |
