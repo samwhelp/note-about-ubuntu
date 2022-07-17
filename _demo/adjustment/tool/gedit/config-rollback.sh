@@ -4,14 +4,14 @@ set -e
 
 
 ################################################################################
-### Head: org_gnome_gedit
+### Head: gedit
 ##
-org_gnome_gedit_config_rollback () {
+gedit_config_rollback () {
 
 
 	echo
 	echo "##"
-	echo "## Config: org_gnome_gedit"
+	echo "## Config: gedit"
 	echo "##"
 	echo
 
@@ -23,7 +23,7 @@ org_gnome_gedit_config_rollback () {
 	echo
 }
 ##
-### Tail: org_gnome_gedit
+### Tail: gedit
 ################################################################################
 
 
@@ -31,7 +31,7 @@ org_gnome_gedit_config_rollback () {
 ### Head: main
 ##
 main_config_rollback () {
-	org_gnome_gedit_config_rollback
+	gedit_config_rollback
 }
 ## start
 main_config_rollback

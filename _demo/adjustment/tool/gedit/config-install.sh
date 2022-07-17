@@ -4,13 +4,13 @@ set -e
 
 
 ################################################################################
-### Head: org_gnome_gedit
+### Head: gedit
 ##
-org_gnome_gedit_config_install () {
+gedit_config_install () {
 
 	echo
 	echo "##"
-	echo "## Config: org_gnome_gedit"
+	echo "## Config: gedit"
 	echo "##"
 	echo
 
@@ -127,7 +127,7 @@ org_gnome_gedit_config_install () {
 
 
 
-org_gnome_gedit_config_install_tools () {
+gedit_config_install_tools () {
 
 	echo "mkdir -p $HOME/.config/gedit/tools"
 	mkdir -p "$HOME/.config/gedit/tools"
@@ -140,7 +140,7 @@ org_gnome_gedit_config_install_tools () {
 
 
 ##
-### Tail: org_gnome_gedit
+### Tail: gedit
 ################################################################################
 
 
@@ -148,8 +148,8 @@ org_gnome_gedit_config_install_tools () {
 ### Head: main
 ##
 main_config_install () {
-	org_gnome_gedit_config_install
-	org_gnome_gedit_config_install_tools
+	gedit_config_install
+	gedit_config_install_tools
 }
 ## start
 main_config_install

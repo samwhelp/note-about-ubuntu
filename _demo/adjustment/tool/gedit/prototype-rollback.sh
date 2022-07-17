@@ -4,23 +4,23 @@ set -e
 
 
 ################################################################################
-### Head: org_gnome_gedit
+### Head: gedit
 ##
-org_gnome_gedit_prototype_rollback () {
+gedit_prototype_rollback () {
 
 	##
-	## /usr/share/glib-2.0/schemas/20_org.gnome.gedit.gschema.override
+	## /usr/share/glib-2.0/schemas/50_gedit.gschema.override
 	##
 
 	echo
 	echo "##"
-	echo "## Prototype: org_gnome_gedit"
+	echo "## Prototype: gedit"
 	echo "##"
 	echo
 
 
-	echo "sudo rm -rf /usr/share/glib-2.0/schemas/20_org.gnome.gedit.gschema.override"
-	sudo rm -rf "/usr/share/glib-2.0/schemas/20_org.gnome.gedit.gschema.override"
+	echo "sudo rm -rf /usr/share/glib-2.0/schemas/50_gedit.gschema.override"
+	sudo rm -rf "/usr/share/glib-2.0/schemas/50_gedit.gschema.override"
 
 	echo "sudo glib-compile-schemas /usr/share/glib-2.0/schemas/"
 	sudo glib-compile-schemas /usr/share/glib-2.0/schemas/
@@ -28,7 +28,7 @@ org_gnome_gedit_prototype_rollback () {
 	echo
 }
 ##
-### Tail: org_gnome_gedit
+### Tail: gedit
 ################################################################################
 
 
@@ -36,7 +36,7 @@ org_gnome_gedit_prototype_rollback () {
 ### Head: main
 ##
 main_prototype_rollback () {
-	org_gnome_gedit_prototype_rollback
+	gedit_prototype_rollback
 }
 ## start
 main_prototype_rollback
