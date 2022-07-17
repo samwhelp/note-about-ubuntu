@@ -12,9 +12,6 @@ cinnamon_prototype_install () {
 	## /usr/share/glib-2.0/schemas/50_cinnamon-theme-main.gschema.override
 	##
 
-	##
-	## dconf dump /org/cinnamon/desktop/themeings/wm/
-	##
 
 	echo
 	echo "##"
