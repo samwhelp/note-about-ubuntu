@@ -36,8 +36,8 @@ parent: 桌面環境
 | [cinnamon-keybind-main](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-main) |
 | [cinnamon-keybind-custom](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-custom) |
 | [cinnamon-favorite-apps](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-favorite-apps) |
-| [cinnamon-dock-cairo-dock](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-dock-cairo-dock) |
-| [cinnamon-dock-plank](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-dock-plank) |
+| [cinnamon-autostart-cairo-dock](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-autostart-cairo-dock) |
+| [cinnamon-autostart-plank](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-autostart-plank) |
 
 
 ## 中文輸入法

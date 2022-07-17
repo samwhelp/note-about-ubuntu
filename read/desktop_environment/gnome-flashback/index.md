@@ -37,8 +37,8 @@ parent: 桌面環境
 | [gnome-flashback-keybind-main](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-flashback/part/gnome-flashback-keybind-main) |
 | [gnome-flashback-keybind-custom](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-flashback/part/gnome-flashback-keybind-custom) |
 | [gnome-flashback-favorite-apps](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-flashback/part/gnome-flashback-favorite-apps) |
-| [gnome-flashback-dock-cairo-dock](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-flashback/part/gnome-flashback-dock-cairo-dock) |
-| [gnome-flashback-dock-plank](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-flashback/part/gnome-flashback-dock-plank) |
+| [gnome-flashback-autostart-cairo-dock](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-flashback/part/gnome-flashback-autostart-cairo-dock) |
+| [gnome-flashback-autostart-plank](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-flashback/part/gnome-flashback-autostart-plank) |
 
 
 ## 中文輸入法
