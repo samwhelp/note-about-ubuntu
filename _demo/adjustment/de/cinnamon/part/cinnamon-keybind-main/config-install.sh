@@ -250,7 +250,6 @@ cinnamon_keybind_workspace_config () {
 
 cinnamon_keybind_workspace_config_base () {
 
-
 	gsettings set org.cinnamon.desktop.wm.preferences num-workspaces 5
 	gsettings set org.cinnamon.desktop.wm.preferences workspace-names "['File', 'Edit', 'Web', 'Term', 'Misc']"
 
@@ -258,13 +257,20 @@ cinnamon_keybind_workspace_config_base () {
 	gsettings set org.cinnamon.muffin workspace-cycle true
 
 
+	gsettings set org.cinnamon workspace-expo-view-as-grid true
+
 }
 
 cinnamon_keybind_workspace_config_switch_to_workspace_cycle () {
 
+	## overview
+	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-up "['<Super>grave', '<Alt>j', '<Alt>Up']"
+	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-down "['<Super>Tab', '<Alt>k', '<Alt>Down']"
 
+	## cycle
 	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-left "['<Alt>a', '<Alt>h', '<Alt>Left']"
 	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-right "['<Alt>s', '<Alt>l', '<Alt>Right']"
+
 
 }
 
