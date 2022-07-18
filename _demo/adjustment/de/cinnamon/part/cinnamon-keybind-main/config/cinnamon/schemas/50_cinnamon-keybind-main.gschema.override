@@ -1,4 +1,5 @@
 
+
 [org.cinnamon.desktop.keybindings.wm]
 begin-move=['<Super>e']
 begin-resize=['<Super>r']
@@ -52,3 +53,9 @@ toggle-shaded=['<Super>y']
 unmaximize=@as []
 decrease-opacity=['<Super>bracketleft']
 increase-opacity=['<Super>bracketright']
+panel-run-dialog=['<Alt>F2', '<Alt><Shift>i']
+
+
+
+[org.cinnamon.desktop.keybindings]
+looking-glass-keybinding=['<Alt>F3', '<Alt><Shift>l']

@@ -17,6 +17,8 @@ cinnamon_config_install () {
 
 	cinnamon_keybind_workspace_config
 
+	cinnamon_keybind_start_here_config
+
 
 	return
 
@@ -387,6 +389,46 @@ cinnamon_keybind_workspace_config_demo () {
 
 ##
 ### Tail: cinnamon / keybind / workspace
+################################################################################
+
+
+
+
+################################################################################
+### Head: cinnamon / keybind / start_here
+##
+
+
+cinnamon_keybind_start_here_config () {
+
+	echo
+	echo "### cinnamon_keybind_start_here_config"
+	echo
+
+	cinnamon_keybind_start_here_config_run_dialog
+
+	cinnamon_keybind_start_here_config_looking_glass
+
+}
+
+cinnamon_keybind_start_here_config_run_dialog () {
+
+	echo 'gsettings set org.cinnamon.desktop.keybindings.wm panel-run-dialog "'"['<Alt>F2', '<Alt><Shift>i']"'"'
+	gsettings set org.cinnamon.desktop.keybindings.wm panel-run-dialog "['<Alt>F2', '<Alt><Shift>i']"
+
+}
+
+
+cinnamon_keybind_start_here_config_looking_glass () {
+
+	echo 'gsettings set org.cinnamon.desktop.keybindings looking-glass-keybinding "'"['<Alt>F3', '<Alt><Shift>l']"'"'
+	gsettings set org.cinnamon.desktop.keybindings looking-glass-keybinding "['<Alt>F3', '<Alt><Shift>l']"
+
+
+}
+
+##
+### Tail: cinnamon / keybind / start_here
 ################################################################################
 
 
