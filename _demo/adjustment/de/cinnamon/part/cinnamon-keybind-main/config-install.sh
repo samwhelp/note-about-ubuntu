@@ -60,6 +60,8 @@ cinnamon_keybind_window_config () {
 
 	cinnamon_keybind_window_config_to_tiling
 
+	cinnamon_keybind_window_config_change_opacity
+
 }
 
 cinnamon_keybind_window_config_begin_move () {
@@ -222,7 +224,12 @@ cinnamon_keybind_window_config_to_tiling () {
 }
 
 
+cinnamon_keybind_window_config_change_opacity () {
 
+	gsettings set org.cinnamon.desktop.keybindings.wm decrease-opacity "['<Super>bracketleft']"
+	gsettings set org.cinnamon.desktop.keybindings.wm increase-opacity "['<Super>bracketright']"
+
+}
 
 ##
 ### Tail: cinnamon / keybind / window
