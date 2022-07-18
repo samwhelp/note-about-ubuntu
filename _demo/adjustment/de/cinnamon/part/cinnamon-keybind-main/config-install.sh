@@ -160,12 +160,6 @@ cinnamon_keybind_window_config_toggle_on_all_workspaces () {
 }
 
 
-
-
-
-
-
-
 cinnamon_keybind_window_config_switch_windows () {
 
 	##
@@ -178,12 +172,7 @@ cinnamon_keybind_window_config_switch_windows () {
 	## ```
 	##
 
-	#gsettings set org.cinnamon.desktop.keybindings.wm switch-applications "['<Alt>Tab']"
-	#gsettings set org.cinnamon.desktop.keybindings.wm switch-applications-backward "['<Alt>grave']"
 
-
-	#org.cinnamon.desktop.keybindings.wm switch-windows-backward ['<Alt><Shift>Tab']
-	#org.cinnamon.desktop.keybindings.wm switch-windows ['<Alt>Tab']
 
 	echo 'gsettings set org.cinnamon.desktop.keybindings.wm switch-windows-backward "'"['<Super>a', '<Super>h']"'"'
 	gsettings set org.cinnamon.desktop.keybindings.wm switch-windows-backward "['<Super>a', '<Super>h']"
@@ -195,11 +184,18 @@ cinnamon_keybind_window_config_switch_windows () {
 
 
 
-	#echo 'gsettings set org.cinnamon.desktop.keybindings.wm cycle-windows "'"['<Alt>Escape']"'"'
-	#gsettings set org.cinnamon.desktop.keybindings.wm cycle-windows "['<Alt>Escape', '<Super>k', '<Super>Up']"
+	echo 'gsettings set org.cinnamon.desktop.keybindings.wm switch-windows-backward "'"['<Alt>grave']"'"'
+	gsettings set org.cinnamon.desktop.keybindings.wm switch-group-backward "['<Alt>grave']"
 
-	#echo 'gsettings set org.cinnamon.desktop.keybindings.wm cycle-windows-backward "'"['<Super>Escape']"'"'
-	#gsettings set org.cinnamon.desktop.keybindings.wm cycle-windows-backward "['<Super>Escape', '<Super>j', '<Super>Down']"
+	echo 'gsettings set org.cinnamon.desktop.keybindings.wm switch-group "'"['<Alt>Tab']"'"'
+	gsettings set org.cinnamon.desktop.keybindings.wm switch-group "['<Alt>Tab']"
+
+
+
+
+
+
+
 
 
 
