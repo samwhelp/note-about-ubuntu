@@ -56,6 +56,10 @@ increase-opacity=['<Super>bracketright']
 panel-run-dialog=['<Alt>F2', '<Alt><Shift>i']
 
 
-
 [org.cinnamon.desktop.keybindings]
 looking-glass-keybinding=['<Alt>F3', '<Alt><Shift>l']
+
+
+[org.cinnamon.desktop.keybindings.media-keys]
+home=['<Primary><Alt>e', 'XF86Explorer']
+terminal=['<Primary><Alt>t']

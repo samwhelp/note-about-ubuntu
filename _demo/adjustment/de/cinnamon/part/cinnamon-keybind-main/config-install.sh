@@ -19,6 +19,7 @@ cinnamon_config_install () {
 
 	cinnamon_keybind_start_here_config
 
+	cinnamon_keybind_media_config
 
 	return
 
@@ -429,6 +430,46 @@ cinnamon_keybind_start_here_config_looking_glass () {
 
 ##
 ### Tail: cinnamon / keybind / start_here
+################################################################################
+
+
+
+
+################################################################################
+### Head: cinnamon / keybind / media
+##
+
+
+cinnamon_keybind_media_config () {
+
+	echo
+	echo "### cinnamon_keybind_media_config"
+	echo
+
+	cinnamon_keybind_media_config_home
+
+	cinnamon_keybind_media_config_terminal
+
+}
+
+cinnamon_keybind_media_config_home () {
+
+	echo 'gsettings set org.cinnamon.desktop.keybindings.media-keys home "'"['<Crtl><Alt>e', 'XF86Explorer']"'"'
+	gsettings set org.cinnamon.desktop.keybindings.media-keys home "['<Primary><Alt>e', 'XF86Explorer']"
+
+}
+
+
+cinnamon_keybind_media_config_terminal () {
+
+	echo 'gsettings set org.cinnamon.desktop.keybindings.media-keys terminal "'"['<Crtl><Alt>t']"'"'
+	gsettings set org.cinnamon.desktop.keybindings.media-keys terminal "['<Primary><Alt>t']"
+
+
+}
+
+##
+### Tail: cinnamon / keybind / media
 ################################################################################
 
 
