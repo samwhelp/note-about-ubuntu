@@ -450,16 +450,21 @@ cinnamon_keybind_media_config () {
 
 cinnamon_keybind_media_config_home () {
 
-	echo 'gsettings set org.cinnamon.desktop.keybindings.media-keys home "'"['<Crtl><Alt>e', 'XF86Explorer']"'"'
-	gsettings set org.cinnamon.desktop.keybindings.media-keys home "['<Primary><Alt>e', 'XF86Explorer']"
+	##
+	## Primary
+	## Control
+	##
+
+	echo 'gsettings set org.cinnamon.desktop.keybindings.media-keys home "'"['<Alt><Control>e', 'XF86Explorer']"'"'
+	gsettings set org.cinnamon.desktop.keybindings.media-keys home "['<Alt><Control>e', 'XF86Explorer']"
 
 }
 
 
 cinnamon_keybind_media_config_terminal () {
 
-	echo 'gsettings set org.cinnamon.desktop.keybindings.media-keys terminal "'"['<Crtl><Alt>t']"'"'
-	gsettings set org.cinnamon.desktop.keybindings.media-keys terminal "['<Primary><Alt>t']"
+	echo 'gsettings set org.cinnamon.desktop.keybindings.media-keys terminal "'"['<Alt><Control>t']"'"'
+	gsettings set org.cinnamon.desktop.keybindings.media-keys terminal "['<Alt><Control>t']"
 
 
 }

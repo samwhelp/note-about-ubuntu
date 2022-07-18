@@ -63,5 +63,5 @@ looking-glass-keybinding=['<Alt>F3', '<Alt><Shift>l']
 
 
 [org.cinnamon.desktop.keybindings.media-keys]
-home=['<Primary><Alt>e', 'XF86Explorer']
-terminal=['<Primary><Alt>t']
+home=['<Alt><Control>e', 'XF86Explorer']
+terminal=['<Alt><Control>t']
