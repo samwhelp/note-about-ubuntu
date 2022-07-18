@@ -14,6 +14,8 @@ cinnamon_config_install () {
 
 	cinnamon_theme_main_config
 
+	cinnamon_theme_have_icons_config
+
 	echo
 }
 
@@ -92,6 +94,53 @@ cinnamon_theme_dracula () {
 ##
 ### Tail: cinnamon / theme / dracula
 ################################################################################
+
+
+
+################################################################################
+### Head: cinnamon / have_icons
+##
+cinnamon_theme_have_icons_config () {
+
+	echo
+	echo "## Config: cinnamon / have_icons"
+	echo
+
+	cinnamon_theme_have_icons_config_menus
+
+	cinnamon_theme_have_icons_config_buttons
+
+	echo
+}
+
+cinnamon_theme_have_icons_config_menus () {
+
+	gsettings set org.cinnamon.settings-daemon.plugins.xsettings menus-have-icons true
+
+	gsettings set org.cinnamon.desktop.interface menus-have-icons true
+
+}
+
+
+cinnamon_theme_have_icons_config_buttons () {
+
+	gsettings set org.cinnamon.settings-daemon.plugins.xsettings buttons-have-icons true
+
+	gsettings set org.cinnamon.desktop.interface buttons-have-icons true
+
+}
+
+
+
+
+
+
+
+##
+### Tail: cinnamon / have_icons
+################################################################################
+
+
 
 
 
