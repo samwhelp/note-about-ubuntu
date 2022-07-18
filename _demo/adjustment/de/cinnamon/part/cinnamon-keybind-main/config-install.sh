@@ -406,6 +406,8 @@ cinnamon_keybind_start_here_config () {
 
 	cinnamon_keybind_start_here_config_looking_glass
 
+	cinnamon_keybind_start_here_config_show_desklets
+
 }
 
 cinnamon_keybind_start_here_config_run_dialog () {
@@ -420,6 +422,14 @@ cinnamon_keybind_start_here_config_looking_glass () {
 
 	echo 'gsettings set org.cinnamon.desktop.keybindings looking-glass-keybinding "'"['<Alt>F3', '<Alt><Shift>l']"'"'
 	gsettings set org.cinnamon.desktop.keybindings looking-glass-keybinding "['<Alt>F3', '<Alt><Shift>l']"
+
+
+}
+
+cinnamon_keybind_start_here_config_show_desklets () {
+
+	echo 'gsettings set org.cinnamon.desktop.keybindings show-desklets "'"['<Alt><Control>s']"'"'
+	gsettings set org.cinnamon.desktop.keybindings show-desklets "['<Alt><Control>s']"
 
 
 }
@@ -446,6 +456,8 @@ cinnamon_keybind_media_config () {
 
 	cinnamon_keybind_media_config_terminal
 
+	cinnamon_keybind_media_config_video
+
 }
 
 cinnamon_keybind_media_config_home () {
@@ -468,6 +480,19 @@ cinnamon_keybind_media_config_terminal () {
 
 
 }
+
+
+cinnamon_keybind_media_config_video () {
+
+	echo 'gsettings set org.cinnamon.desktop.keybindings.media-keys video-rotation-lock "'"['<Alt><Control>o']"'"'
+	gsettings set org.cinnamon.desktop.keybindings.media-keys video-rotation-lock "['<Alt><Control>o']"
+
+	echo 'gsettings set org.cinnamon.desktop.keybindings.media-keys video-outputs "'"['<Alt><Control>p', 'XF86Display']"'"'
+	gsettings set org.cinnamon.desktop.keybindings.media-keys video-outputs "['<Alt><Control>p', 'XF86Display']"
+
+
+}
+
 
 ##
 ### Tail: cinnamon / keybind / media

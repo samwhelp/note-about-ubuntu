@@ -60,8 +60,11 @@ panel-run-dialog=['<Alt>F2', '<Alt><Shift>i']
 
 [org.cinnamon.desktop.keybindings]
 looking-glass-keybinding=['<Alt>F3', '<Alt><Shift>l']
+show-desklets=['<Alt><Control>s']
 
 
 [org.cinnamon.desktop.keybindings.media-keys]
 home=['<Alt><Control>e', 'XF86Explorer']
 terminal=['<Alt><Control>t']
+video-rotation-lock=['<Alt><Control>o']
+video-outputs=['<Alt><Control>p', 'XF86Display']
