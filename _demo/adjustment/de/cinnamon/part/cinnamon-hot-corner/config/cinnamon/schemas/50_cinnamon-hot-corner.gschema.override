@@ -1,0 +1,4 @@
+
+
+[org.cinnamon]
+hotcorner-layout=['scale:true:0', 'sakura:true:0', 'expo:true:0', 'desktop:true:0']
