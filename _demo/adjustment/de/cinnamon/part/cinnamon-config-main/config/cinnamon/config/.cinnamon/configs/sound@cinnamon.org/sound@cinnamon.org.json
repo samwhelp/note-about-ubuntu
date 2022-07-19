@@ -19,9 +19,9 @@
     "keyOpen": {
         "type": "keybinding",
         "description": "Show menu",
-        "default": "<Shift><Super>s",
+        "default": "<Alt><Control>v",
         "tooltip": "Set keybinding(s) to show the sound applet menu.",
-        "value": "<Alt><Control>s"
+        "value": "<Alt><Control>v"
     },
     "_knownPlayers": {
         "type": "generic",

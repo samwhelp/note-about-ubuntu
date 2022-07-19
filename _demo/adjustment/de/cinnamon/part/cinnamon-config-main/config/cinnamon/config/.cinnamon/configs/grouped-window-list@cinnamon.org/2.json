@@ -158,9 +158,10 @@
     "pinned-apps": {
         "type": "generic",
         "default": [
+            "pcmanfm-qt.desktop",
+            "org.xfce.mousepad.desktop",
             "firefox.desktop",
-            "org.gnome.Terminal.desktop",
-            "nemo.desktop"
+            "sakura.desktop"
         ],
         "value": [
             "pcmanfm-qt.desktop",
@@ -200,13 +201,13 @@
     },
     "cycleMenusHotkey": {
         "type": "keybinding",
-        "default": "",
+        "default": "<Super>Escape::",
         "description": "Global hotkey for cycling through thumbnail menus",
         "value": "<Super>Escape::"
     },
     "show-apps-order-hotkey": {
         "type": "keybinding",
-        "default": "<Super>grave",
+        "default": "::",
         "description": "Global hotkey to show the order of apps",
         "value": "::"
     },

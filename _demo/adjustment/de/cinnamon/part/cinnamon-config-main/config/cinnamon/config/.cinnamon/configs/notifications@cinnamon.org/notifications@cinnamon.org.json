@@ -34,14 +34,14 @@
     "keyOpen": {
         "type": "keybinding",
         "description": "Show notifications",
-        "default": "<Super>n",
+        "default": "<Alt><Control>m",
         "tooltip": "Set keybinding(s) to show the notification popup menu.",
         "value": "<Alt><Control>m"
     },
     "keyClear": {
         "type": "keybinding",
         "description": "Clear notifications",
-        "default": "<Shift><Super>c",
+        "default": "<Alt><Control>c",
         "tooltip": "Set keybinding(s) to clear all notifications.",
         "value": "<Alt><Control>c"
     },

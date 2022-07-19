@@ -72,7 +72,7 @@
     "overlay-key": {
         "type": "keybinding",
         "description": "Keyboard shortcut to open and close the menu",
-        "default": "Super_L::Super_R",
+        "default": "<Alt>F1::",
         "value": "<Alt>F1::"
     },
     "menu-custom": {

@@ -26,7 +26,7 @@
     },
     "custom-format": {
         "type": "entry",
-        "default": "%A, %B %e, %H:%M",
+        "default": "%A %Y-%m-%d %H:%M:%S",
         "description": "Date format",
         "dependency": "use-custom-format",
         "tooltip": "Set your custom format here.",
@@ -46,7 +46,7 @@
     "keyOpen": {
         "type": "keybinding",
         "description": "Show calendar",
-        "default": "<Super>c",
+        "default": "<Alt>F5::",
         "tooltip": "Set keybinding(s) to show the calendar.",
         "value": "<Alt>F5::"
     },

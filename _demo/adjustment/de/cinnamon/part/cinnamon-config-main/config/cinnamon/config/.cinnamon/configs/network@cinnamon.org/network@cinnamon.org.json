@@ -6,7 +6,7 @@
     "keyOpen": {
         "type": "keybinding",
         "description": "Show menu",
-        "default": "<Shift><Super>n",
+        "default": "<Alt><Control>n",
         "tooltip": "Set keybinding(s) to show the network applet menu.",
         "value": "<Alt><Control>n"
     },
