@@ -13,6 +13,7 @@ parent: 桌面環境
 
 * [如何安裝](#如何安裝)
 * [微調腳本](#微調腳本)
+* [主要設定](#主要設定)
 * [中文輸入法](#中文輸入法)
 * [更改外觀](#更改外觀)
 * [按鍵綁定](#按鍵綁定)
@@ -31,6 +32,7 @@ parent: 桌面環境
 
 | 微調腳本 |
 | --- |
+| [cinnamon-config-main](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-config-main) |
 | [cinnamon-wallpaper-default](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-wallpaper-default) |
 | [cinnamon-theme-main](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-theme-main) |
 | [cinnamon-keybind-main](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-main) |
@@ -40,6 +42,12 @@ parent: 桌面環境
 | [cinnamon-autostart-plank](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-autostart-plank) |
 | [plank](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/dock/plank) |
 
+
+## 主要設定
+
+| 主要設定 | 微調腳本 |
+| --- | --- |
+| [fcitx5-chewing](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/cinnamon/adjustment/config-main.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-config-main) |
 
 ## 中文輸入法
 
