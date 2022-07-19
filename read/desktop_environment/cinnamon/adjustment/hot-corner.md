@@ -31,3 +31,12 @@ gsettings set org.cinnamon hotcorner-layout "['scale:true:0', 'sakura:true:0', '
 | 右上(東北) | `sakura` | Run a command `sakura` |
 | 左下(西南) | `expo` | Show all workspaces |
 | 右下(東南) | `desktop` | Show the desktop |
+
+
+## 停用
+
+* [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-hot-corner/config-rollback.sh#L49)
+
+``` sh
+gsettings set org.cinnamon hotcorner-layout "['scale:false:0', 'desktop:false:0', 'expo:false:0', 'desktop:false:0']"
+```
