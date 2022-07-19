@@ -19,6 +19,7 @@ parent: 桌面環境
 * [按鍵綁定](#按鍵綁定)
 * [Dock](#dock)
 * [Favorite Apps](#favorite-apps)
+* [Hot Corner](#hot-corner)
 * [工具微調](#工具微調)
 * [相關筆記](#相關筆記)
 
@@ -41,6 +42,8 @@ parent: 桌面環境
 | [cinnamon-autostart-cairo-dock](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-autostart-cairo-dock) |
 | [cinnamon-autostart-plank](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-autostart-plank) |
 | [plank](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/dock/plank) |
+| [cinnamon-hot-corner](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-hot-corner) |
+
 
 
 ## 主要設定
@@ -86,6 +89,13 @@ parent: 桌面環境
 | Favorite Apps | 微調腳本 |
 | --- | --- |
 | [favorite-apps](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/cinnamon/adjustment/favorite-apps.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-favorite-apps) |
+
+
+## Hot Corner
+
+| Hot Corner | 微調腳本 |
+| --- | --- |
+| [hot-corner](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/cinnamon/adjustment/hot-corner.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-hot-corner) |
 
 
 ## 工具微調
