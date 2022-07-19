@@ -40,3 +40,14 @@ gsettings set org.cinnamon hotcorner-layout "['scale:true:0', 'sakura:true:0', '
 ``` sh
 gsettings set org.cinnamon hotcorner-layout "['scale:false:0', 'desktop:false:0', 'expo:false:0', 'desktop:false:0']"
 ```
+
+
+## 圖形介面程式
+
+> 也可以透過「圖形介面程式(Hot Corners)」來操作。
+
+* /usr/share/applications/cinnamon-settings-hotcorner.desktop
+
+``` sh
+cinnamon-settings hotcorner
+```
