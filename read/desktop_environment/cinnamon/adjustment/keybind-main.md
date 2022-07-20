@@ -17,6 +17,18 @@ grand_parent: 桌面環境
 | [cinnamon-keybind-main](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-main) |
 
 
+## 圖形使用者介面程式
+
+> 除了透過指令來設定，也可以透過「圖形介面程式(Keyboard)」來操作。
+
+* /usr/share/applications/cinnamon-settings-keyboard.desktop
+
+``` sh
+cinnamon-settings keyboard
+```
+
+
+
 ## 主題
 
 * [視窗操作](#視窗操作)

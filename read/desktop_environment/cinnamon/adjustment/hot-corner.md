@@ -51,9 +51,9 @@ gsettings set org.cinnamon hotcorner-layout "['scale:false:0', 'desktop:false:0'
 ```
 
 
-## 圖形介面程式
+## 圖形使用者介面程式
 
-> 也可以透過「圖形介面程式(Hot Corners)」來操作。
+> 除了透過指令來設定，也可以透過「圖形介面程式(Hot Corners)」來操作。
 
 * /usr/share/applications/cinnamon-settings-hotcorner.desktop
 
