@@ -25,6 +25,7 @@ grand_parent: 桌面環境
 * [顯示網路連線選單](#顯示網路連線選單)
 * [顯示通知訊息選單](#顯示通知訊息選單)
 * [循環切換已經開啟程式的預覽圖示](#循環切換已經開啟程式的預覽圖示)
+* [常用應用程式](#常用應用程式)
 * [其他按鍵綁定](#其他按鍵綁定)
 
 
@@ -81,6 +82,18 @@ grand_parent: 桌面環境
 | 按鍵組合          | 功能     |
 | ----------------- | -------- |
 | `Super + Esc`         | 循環切換已經開啟程式的預覽圖示 |
+
+
+### 常用應用程式
+
+* [~/.cinnamon/configs/grouped-window-list@cinnamon.org/2.json](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-config-main/config/cinnamon/config/.cinnamon/configs/grouped-window-list%40cinnamon.org/2.json#L166)
+
+| 按鍵組合          | 功能     | 應用程式 |
+| ----------------- | -------- | -------- |
+| `Super + 1`         | 啟動或切換聚焦到「檔案管理器」 | `pcmanfm-qt` |
+| `Super + 2`         | 啟動或切換聚焦到「文字編輯器」 | `mousepad` |
+| `Super + 3`         | 啟動或切換聚焦到「網路瀏覽器」 | `firefox` |
+| `Super + 4`         | 啟動或切換聚焦到「Terminal」 | `sakura` |
 
 
 
