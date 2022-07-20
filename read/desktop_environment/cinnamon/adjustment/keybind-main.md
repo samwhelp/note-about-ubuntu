@@ -70,7 +70,7 @@ gsettings set org.cinnamon.desktop.keybindings.wm show-desktop "['<Super>d']"
 | `Win + d`         | 切換顯示桌面 | `org.cinnamon.desktop.keybindings.wm show-desktop` |
 
 
-> 也有設定「Hot Corner」觸發，設定在「右下(東南)」。
+> 也有設定「[Hot Corner](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/cinnamon/adjustment/hot-corner.html#%E8%A8%AD%E5%AE%9A)」觸發，設定在「右下(東南)」。
 
 
 ## 切換顯示所有視窗
@@ -89,7 +89,7 @@ gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-down "['<S
 | `Alt + k`         | 切換顯示所有視窗 | `org.cinnamon.desktop.keybindings.wm switch-to-workspace-down` |
 
 
-> 也有設定「Hot Corner」觸發，設定在「左上(西北)」。
+> 也有設定「[Hot Corner](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/cinnamon/adjustment/hot-corner.html#%E8%A8%AD%E5%AE%9A)」觸發，設定在「左上(西北)」。
 
 
 ## 切換顯示所有工作空間
@@ -108,7 +108,7 @@ gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-up "['<Sup
 | `Alt + j`         | 切換顯示所有工作空間 | `org.cinnamon.desktop.keybindings.wm switch-to-workspace-up` |
 
 
-> 也有設定「Hot Corner」觸發，設定在「左下(西南)」。
+> 也有設定「[Hot Corner](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/cinnamon/adjustment/hot-corner.html#%E8%A8%AD%E5%AE%9A)」觸發，設定在「左下(西南)」。
 
 
 ### 視窗關閉

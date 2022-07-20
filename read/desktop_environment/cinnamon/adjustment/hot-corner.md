@@ -34,7 +34,7 @@ gsettings set org.cinnamon hotcorner-layout "['scale:true:0', 'sakura:true:0', '
 
 > 關於「grave」 指的是 「`」，也就是「Tab」上面那個鍵位。
 
-> 上面的快速鍵綁定，請參考「keybind-main」該頁的說明，
+> 上面的快速鍵綁定，請參考「[keybind-main](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/cinnamon/adjustment/keybind-main.html#%E5%88%87%E6%8F%9B%E9%A1%AF%E7%A4%BA%E6%A1%8C%E9%9D%A2)」該頁的說明，
 
 > 請查詢「切換顯示桌面」「切換顯示所有視窗」「切換顯示所有工作空間」
 
