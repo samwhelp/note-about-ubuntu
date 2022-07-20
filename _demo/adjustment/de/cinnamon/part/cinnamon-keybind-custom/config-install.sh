@@ -196,6 +196,9 @@ cinnamon_keybind_custom_config () {
 	dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/file-manager-1/binding "['<Shift><Alt>g']"
 
 
+	##
+	## cinnamon-settings sound
+	##
 
 	## Volume Control
 	dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/volume-control/name "'Volume_Control'"
