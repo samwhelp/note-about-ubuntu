@@ -45,12 +45,12 @@ parent: 桌面環境
 | [cinnamon-hot-corner](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-hot-corner) |
 
 
-
 ## 主要設定
 
 | 主要設定 | 微調腳本 |
 | --- | --- |
-| [fcitx5-chewing](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/cinnamon/adjustment/config-main.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-config-main) |
+| [config-main](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/cinnamon/adjustment/config-main.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-config-main) |
+
 
 ## 中文輸入法
 
@@ -74,6 +74,10 @@ parent: 桌面環境
 | --- | --- |
 | [keybind-main](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/cinnamon/adjustment/keybind-main.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-main) |
 | [keybind-custom](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/cinnamon/adjustment/keybind-custom.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-custom) |
+
+> 有些「按鍵綁定」，是在「[~/.cinnamon/configs](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-config-main/config/cinnamon/config/.cinnamon/configs)」裡面設定的。
+
+> 請參考「[config-main](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/cinnamon/adjustment/config-main.html)」該頁的說明。
 
 
 ## Dock
