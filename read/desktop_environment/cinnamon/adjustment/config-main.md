@@ -17,6 +17,31 @@ grand_parent: 桌面環境
 | [cinnamon-config-main](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-config-main) |
 
 
+## 主要設定
+
+> 主要設定採用的「applets」
+
+``` sh
+gsettings set org.cinnamon enabled-applets "['panel1:left:0:menu@cinnamon.org:0', 'panel1:left:1:show-desktop@cinnamon.org:1', 'panel1:left:2:grouped-window-list@cinnamon.org:2', 'panel1:right:1:systray@cinnamon.org:3', 'panel1:right:2:xapp-status@cinnamon.org:4', 'panel1:right:3:notifications@cinnamon.org:5', 'panel1:right:4:printers@cinnamon.org:6', 'panel1:right:5:removable-drives@cinnamon.org:7', 'panel1:right:6:keyboard@cinnamon.org:8', 'panel1:right:7:favorites@cinnamon.org:9', 'panel1:right:8:network@cinnamon.org:10', 'panel1:right:9:sound@cinnamon.org:11', 'panel1:right:10:power@cinnamon.org:12', 'panel1:center:0:calendar@cinnamon.org:13', 'panel1:right:0:workspace-switcher@cinnamon.org:14']"
+
+gsettings set org.cinnamon next-applet-id 15
+```
+
+> 把「Panel」改放到上方
+
+``` sh
+gsettings set org.cinnamon panels-enabled "['1:0:top']"
+```
+
+> 並且設定「~/.cinnamon」這個資料夾裡面的設定。
+
+> 我是直接把舊「~/.cinnamon」刪除或備份，
+
+> 然後複製我自己設定後的「[.cinnamon](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-config-main/config/cinnamon/config/.cinnamon/configs)」這個資料夾，複製到「.cinnamon」
+
+> 主要是修改「[按鍵綁定](#按鍵綁定)」，以及將「[常用應用程式](#常用應用程式)」「Pin to Panel」
+
+
 ## 按鍵綁定
 
 * [顯示主選單](#顯示主選單)
