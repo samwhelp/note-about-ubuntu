@@ -25,13 +25,16 @@ grand_parent: 桌面環境
 gsettings set org.cinnamon hotcorner-layout "['scale:true:0', 'sakura:true:0', 'expo:true:0', 'desktop:true:0']"
 ```
 
-| 方位 | 指令 | 功能 |
-| --- | --- | --- |
-| 左上(西北) | `scale` | Show all windows |
-| 右上(東北) | `sakura` | Run a command `sakura` |
-| 左下(西南) | `expo` | Show all workspaces |
-| 右下(東南) | `desktop` | Show the desktop |
+| 方位 | 指令 | 功能 | 快速鍵 |
+| --- | --- | --- | --- |
+| 左上(西北) | `scale` | Show all windows | `Win + Tab` |
+| 右上(東北) | `sakura` | Run a command `sakura` |  |
+| 左下(西南) | `expo` | Show all workspaces | `Win + grave` |
+| 右下(東南) | `desktop` | Show the desktop | `Win + d` |
 
+> 關於「grave」 指的是 「`」，也就是「Tab」上面那個鍵位。
+
+> 上面的快速鍵綁定，請參考「keybind-main」該頁的說明。
 
 ## 停用
 
