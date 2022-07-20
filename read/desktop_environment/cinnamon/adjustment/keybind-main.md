@@ -53,6 +53,8 @@ cinnamon-settings keyboard
 * [永遠在最上方](#永遠在最上方)
 * [顯示在所有工作空間](#顯示在所有工作空間)
 * [視窗平鋪移動操作](#視窗平鋪移動操作)
+* [視窗透明度](#視窗透明度)
+
 
 ### 視窗切換
 
@@ -273,6 +275,21 @@ gsettings set org.cinnamon.desktop.keybindings.wm push-snap-right "['<Super><Con
 | `Win + Ctrl + Down`         | 視窗平鋪移動操作 | `org.cinnamon.desktop.keybindings.wm push-snap-down` |
 | `Win + Ctrl + Left`         | 視窗平鋪移動操作 | `org.cinnamon.desktop.keybindings.wm push-snap-left` |
 | `Win + Ctrl + Right`         | 視窗平鋪移動操作 | `org.cinnamon.desktop.keybindings.wm push-snap-right` |
+
+
+## 視窗透明度
+
+* [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-keybind-main/config-install.sh)
+
+``` sh
+gsettings set org.cinnamon.desktop.keybindings.wm decrease-opacity "['<Super>bracketleft']"
+gsettings set org.cinnamon.desktop.keybindings.wm increase-opacity "['<Super>bracketright']"
+```
+
+| 按鍵組合          | 功能     | 設定項目         |
+| ----------------- | -------- | ---------------- |
+| `Win + [`         | 視窗透明度(越透明) | `org.cinnamon.desktop.keybindings.wm decrease-opacity` |
+| `Win + ]`         | 視窗透明度(越不透明) | `org.cinnamon.desktop.keybindings.wm increase-opacity` |
 
 
 ## 工作空間
