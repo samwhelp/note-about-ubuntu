@@ -36,7 +36,11 @@ gsettings set org.cinnamon hotcorner-layout "['scale:true:0', 'sakura:true:0', '
 
 > 上面的快速鍵綁定，請參考「[keybind-main](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/cinnamon/adjustment/keybind-main.html#%E5%88%87%E6%8F%9B%E9%A1%AF%E7%A4%BA%E6%A1%8C%E9%9D%A2)」該頁的說明，
 
-> 請查詢「切換顯示桌面」「切換顯示所有視窗」「切換顯示所有工作空間」
+> 請查詢「切換顯示桌面」，「切換顯示所有視窗」，「切換顯示所有工作空間」。
+
+> 關於「切換顯示所有視窗」，因為我把「Panel」放在上方，所以設定在「左上(西北)」，
+
+> 若是「Panel」放在下方，可以改設定在「左下(西南)」。
 
 ## 停用
 
