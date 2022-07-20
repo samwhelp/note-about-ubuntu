@@ -39,7 +39,15 @@ gsettings set org.cinnamon panels-enabled "['1:0:top']"
 
 > 然後複製我自己設定後的「[.cinnamon](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-config-main/config/cinnamon/config/.cinnamon/configs)」這個資料夾，複製到「.cinnamon」
 
-> 主要是修改「[按鍵綁定](#按鍵綁定)」，以及將「[常用應用程式](#常用應用程式)」「Pin to Panel」
+> 主要是修改「[按鍵綁定](#按鍵綁定)」，
+
+> 以及將「[常用應用程式](#常用應用程式)」「Pin to Panel」。
+
+> 然而「[其他按鍵綁定](#其他按鍵綁定)」，
+
+> 則是透過指令「`gsettings`」和「`dconf`」來設定，
+
+> 也可以透過「`cinnamon-settings keyboard`」這個「圖形介面程式」來設定。
 
 
 ## 按鍵綁定
