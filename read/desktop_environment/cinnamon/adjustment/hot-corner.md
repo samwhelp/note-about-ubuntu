@@ -27,9 +27,9 @@ gsettings set org.cinnamon hotcorner-layout "['scale:true:0', 'sakura:true:0', '
 
 | 方位 | 指令 | 功能 | 快速鍵 |
 | --- | --- | --- | --- |
-| 左上(西北) | `scale` | Show all windows | `Win + Tab` |
+| 左上(西北) | `scale` | Show all windows | `Win + grave` |
 | 右上(東北) | `sakura` | Run a command `sakura` |  |
-| 左下(西南) | `expo` | Show all workspaces | `Win + grave` |
+| 左下(西南) | `expo` | Show all workspaces | `Win + Tab` |
 | 右下(東南) | `desktop` | Show the desktop | `Win + d` |
 
 > 關於「grave」 指的是 「`」，也就是「Tab」上面那個鍵位。
