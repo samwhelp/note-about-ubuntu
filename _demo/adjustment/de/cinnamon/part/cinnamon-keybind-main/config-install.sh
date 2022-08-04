@@ -269,9 +269,13 @@ cinnamon_keybind_workspace_config_base () {
 
 cinnamon_keybind_workspace_config_switch_to_workspace_cycle () {
 
-	## overview
-	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-up "['<Super>grave', '<Alt>j', '<Alt>Up']"
-	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-down "['<Super>Tab', '<Alt>k', '<Alt>Down']"
+	## overview / version_1
+	#gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-up "['<Super>grave', '<Alt>j', '<Alt>Up']"
+	#gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-down "['<Super>Tab', '<Alt>k', '<Alt>Down']"
+
+	## overview / version_2
+	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-up "['<Super>Tab', '<Alt>k', '<Alt>Down']"
+	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-down "['<Super>grave', '<Alt>j', '<Alt>Up']"
 
 	## cycle
 	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-left "['<Alt>a', '<Alt>h', '<Alt>Left']"
