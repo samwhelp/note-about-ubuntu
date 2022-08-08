@@ -34,7 +34,7 @@ git clone https://framagit.org/MarianArlt/sddm-sugar-candy.git sddm-theme-sugar-
 
 ### 移除 .git
 
-執行下面指令，將「sddm-theme-sugar-candy/.git」這個資料夾以及檔案，移除
+執行下面指令，將「sddm-theme-sugar-candy/.git」這個資料夾以及檔案移除
 
 ``` sh
 rm -rf sddm-theme-sugar-candy/.git
