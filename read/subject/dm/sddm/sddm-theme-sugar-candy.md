@@ -96,6 +96,13 @@ sudo update-alternatives --config sddm-ubuntu-theme
 會出現一個「候選選單」，可以輸入號碼，選擇要套用那個「theme」。
 
 
+## 重新啟動 sddm
+
+``` sh
+sudo systemctl restart sddm.service
+```
+
+
 ### 移出 update-alternatives 的機制
 
 若是要「移出 update-alternatives 的機制」，執行下面指令
@@ -104,11 +111,4 @@ sudo update-alternatives --config sddm-ubuntu-theme
 sudo update-alternatives --remove \
 	sddm-ubuntu-theme \
 	/usr/share/sddm/themes/sddm-theme-sugar-candy
-```
-
-
-## 重新啟動 sddm
-
-``` sh
-sudo systemctl restart sddm.service
 ```
