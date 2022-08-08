@@ -18,6 +18,9 @@ grand_parent: XDM
 ## Source
 
 * [sddm-theme-sugar-candy](sddm-theme-sugar-candy)
+* [sddm-theme-sugar-dark](sddm-theme-sugar-dark)
+* [sddm-theme-sugar-light](sddm-theme-sugar-light)
+* [sddm-theme-chili](sddm-theme-chili)
 
 
 ## 如何切換「佈景主題」
