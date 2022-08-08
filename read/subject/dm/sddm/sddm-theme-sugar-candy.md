@@ -16,6 +16,8 @@ grand_parent: XDM
 * [https://framagit.org/MarianArlt/sddm-sugar-candy](https://framagit.org/MarianArlt/sddm-sugar-candy)
 
 
+
+
 ## 如何安裝
 
 
@@ -103,6 +105,11 @@ sudo systemctl restart sddm.service
 ```
 
 
+
+
+## 如何移除
+
+
 ### 移出 update-alternatives 的機制
 
 若是要「移出 update-alternatives 的機制」，執行下面指令
@@ -111,4 +118,13 @@ sudo systemctl restart sddm.service
 sudo update-alternatives --remove \
 	sddm-ubuntu-theme \
 	/usr/share/sddm/themes/sddm-theme-sugar-candy
+```
+
+
+### 移除
+
+執行下面指令，將「/usr/share/sddm/themes/sddm-theme-sugar-candy」這個資料夾移除。
+
+``` sh
+sudo rm -rf /usr/share/sddm/themes/sddm-theme-sugar-candy
 ```
