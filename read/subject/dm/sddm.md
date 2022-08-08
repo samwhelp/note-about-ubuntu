@@ -34,6 +34,18 @@ sudo dpkg-reconfigure sddm
 接著登出，或是重新開機，就可以看到使用「sddm」當作登入的介面。
 
 
+## 重新啟動 sddm
+
+``` sh
+sudo systemctl restart sddm.service
+```
+
+
 ## Debian Wiki
 
 * [SDDM](https://wiki.debian.org/SDDM)
+
+
+## 佈景主題
+
+* [佈景主題](sddm/theme)
