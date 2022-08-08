@@ -7,3 +7,8 @@ parent: XDM
 
 
 # lightdm
+
+
+## Debian Wiki
+
+* [LightDM](https://wiki.debian.org/LightDM)
