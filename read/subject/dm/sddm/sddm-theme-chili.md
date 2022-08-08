@@ -12,11 +12,11 @@ grand_parent: XDM
 
 ## Link
 
-* [https://www.pling.com/u/marianarlt/](https://www.pling.com/u/marianarlt/)
-* [https://store.kde.org/p/1240784](https://store.kde.org/p/1240784)
-* [https://www.opendesktop.org/p/1240784/](https://www.opendesktop.org/p/1240784/)
 * [https://github.com/MarianArlt/sddm-chili](https://github.com/MarianArlt/sddm-chili)
 * [https://aur.archlinux.org/packages/chili-sddm-theme](https://aur.archlinux.org/packages/chili-sddm-theme)
+* [https://store.kde.org/p/1240784](https://store.kde.org/p/1240784)
+* [https://www.opendesktop.org/p/1240784/](https://www.opendesktop.org/p/1240784/)
+* [https://www.pling.com/u/marianarlt/](https://www.pling.com/u/marianarlt/)
 
 
 

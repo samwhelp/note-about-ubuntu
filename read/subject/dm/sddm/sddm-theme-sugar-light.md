@@ -12,12 +12,11 @@ grand_parent: XDM
 
 ## Link
 
-* [https://www.pling.com/u/marianarlt/](https://www.pling.com/u/marianarlt/)
-* [https://store.kde.org/p/1272119/](https://store.kde.org/p/1272119/)
-* [https://www.opendesktop.org/p/1272119/](https://www.opendesktop.org/p/1272119/)
 * [https://github.com/MarianArlt/sddm-sugar-light](https://github.com/MarianArlt/sddm-sugar-light)
 * [https://aur.archlinux.org/packages/sddm-sugar-light](https://aur.archlinux.org/packages/sddm-sugar-light)
-
+* [https://store.kde.org/p/1272119/](https://store.kde.org/p/1272119/)
+* [https://www.opendesktop.org/p/1272119/](https://www.opendesktop.org/p/1272119/)
+* [https://www.pling.com/u/marianarlt/](https://www.pling.com/u/marianarlt/)
 
 
 
