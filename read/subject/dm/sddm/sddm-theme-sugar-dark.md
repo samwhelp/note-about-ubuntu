@@ -12,7 +12,9 @@ grand_parent: XDM
 
 ## Link
 
-* [https://www.opendesktop.org/p/1272122](https://www.opendesktop.org/p/1272122)
+* [https://www.pling.com/u/marianarlt/](https://www.pling.com/u/marianarlt/)
+* [https://store.kde.org/p/1272122/](https://store.kde.org/p/1272122/)
+* [https://www.opendesktop.org/p/1272122/](https://www.opendesktop.org/p/1272122/)
 * [https://github.com/MarianArlt/sddm-sugar-dark](https://github.com/MarianArlt/sddm-sugar-dark)
 * [https://aur.archlinux.org/packages/sddm-sugar-dark](https://aur.archlinux.org/packages/sddm-sugar-dark)
 
