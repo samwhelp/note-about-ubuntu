@@ -14,6 +14,7 @@ grand_parent: XDM
 
 * [https://store.kde.org/p/1312658/](https://store.kde.org/p/1312658/)
 * [https://framagit.org/MarianArlt/sddm-sugar-candy](https://framagit.org/MarianArlt/sddm-sugar-candy)
+* [https://aur.archlinux.org/packages/sddm-sugar-candy-git](https://aur.archlinux.org/packages/sddm-sugar-candy-git)
 
 
 
