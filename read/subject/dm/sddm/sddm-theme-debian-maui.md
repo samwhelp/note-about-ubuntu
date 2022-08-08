@@ -41,9 +41,68 @@ fi
 # Tag to allow some debhelper commands to inject relevant code
 ```
 
-或是也可以執行「`dpkg-query --control-show sddm-theme-debian-maui postinst`」
+或是也可以執行「`dpkg-query --control-show sddm-theme-debian-maui postinst`」，就可以看到上面的內容
 
-## 探索
+
+執行下面指令
+
+``` sh
+update-alternatives --query sddm-ubuntu-theme
+```
+
+顯示
+
+```
+update-alternatives --query sddm-ubuntu-theme
+Name: sddm-ubuntu-theme
+Link: /usr/share/sddm/themes/ubuntu-theme
+Status: auto
+Best: /usr/share/sddm/themes/debian-maui
+Value: /usr/share/sddm/themes/debian-maui
+
+Alternative: /usr/share/sddm/themes/debian-maui
+Priority: 40
+```
+
+
+執行
+
+``` sh
+update-alternatives --get-selections | grep sddm
+```
+
+顯示
+
+```
+sddm-ubuntu-theme              auto     /usr/share/sddm/themes/debian-maui
+```
+
+執行
+
+``` sh
+file /usr/share/sddm/themes/ubuntu-theme
+```
+
+顯示
+
+```
+/usr/share/sddm/themes/ubuntu-theme: symbolic link to /etc/alternatives/sddm-ubuntu-theme
+```
+
+執行
+
+``` sh
+file /etc/alternatives/sddm-ubuntu-theme
+```
+
+顯示
+
+```
+/etc/alternatives/sddm-ubuntu-theme: symbolic link to /usr/share/sddm/themes/debian-maui
+```
+
+
+## 如何探索
 
 * [如何探索 Ubuntu](https://samwhelp.github.io/book-ubuntu-qna/read/howto/explore/)
 
