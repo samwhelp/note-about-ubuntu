@@ -9,7 +9,14 @@ parent: XDM
 # sddm
 
 
+## Package
+
+* [sddm](https://packages.ubuntu.com/jammy/sddm)
+
+
 ## 安裝指令
+
+執行下面指令，安裝「Package: [sddm](https://packages.ubuntu.com/jammy/sddm)」
 
 ``` sh
 sudo apt-get install sddm
