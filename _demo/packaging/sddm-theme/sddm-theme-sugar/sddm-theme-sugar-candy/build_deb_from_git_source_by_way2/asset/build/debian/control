@@ -1,0 +1,15 @@
+Source: sddm-theme-sugar-candy
+Section: utils
+Priority: optional
+Maintainer: developer <developer@home.work>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 3.9.5
+Homepage: https://github.com/samwhelp/note-about-ubuntu/
+Vcs-Git: https://github.com/samwhelp/note-about-ubuntu.git
+Vcs-Browser: https://github.com/samwhelp/note-about-ubuntu
+
+Package: sddm-theme-sugar-candy
+Architecture: all
+Depends: ${misc:Depends}
+Description: SDDM Theme / sugar-candy
+ This is a personal package which build from source.
