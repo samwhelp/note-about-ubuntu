@@ -21,6 +21,19 @@ parent: XDM
 * $ man [sddm-greeter](https://manpages.ubuntu.com/manpages/jammy/en/man1/sddm-greeter.1.html)
 
 
+## Path
+
+### config
+
+* Dir: /usr/lib/sddm/sddm.conf.d
+* Dir: /etc/sddm.conf.d
+* File: /etc/sddm.conf
+
+### theme
+
+* Dir: /usr/share/sddm/themes
+
+
 ## 安裝指令
 
 執行下面指令，安裝「Package: [sddm](https://packages.ubuntu.com/jammy/sddm)」
@@ -56,3 +69,22 @@ sudo systemctl restart sddm.service
 ## 佈景主題
 
 * [佈景主題](sddm/theme)
+
+
+### ubuntu-theme
+
+* Theme Dir: /usr/share/sddm/themes/ubuntu-theme
+
+``` ini
+[Theme]
+Current=ubuntu-theme
+```
+
+### sddm-theme-sugar-candy
+
+* Theme Dir: /usr/share/sddm/themes/sddm-theme-sugar-candy
+
+``` ini
+[Theme]
+Current=sddm-theme-sugar-candy
+```
