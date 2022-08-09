@@ -14,6 +14,13 @@ parent: XDM
 * [sddm](https://packages.ubuntu.com/jammy/sddm)
 
 
+## Manpage
+
+* $ man [sddm](https://manpages.ubuntu.com/manpages/jammy/en/man1/sddm.1.html)
+* $ man [sddm.conf](https://manpages.ubuntu.com/manpages/jammy/en/man5/sddm.conf.5.html)
+* $ man [sddm-greeter](https://manpages.ubuntu.com/manpages/jammy/en/man1/sddm-greeter.1.html)
+
+
 ## 安裝指令
 
 執行下面指令，安裝「Package: [sddm](https://packages.ubuntu.com/jammy/sddm)」

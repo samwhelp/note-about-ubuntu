@@ -100,6 +100,17 @@ sudo update-alternatives --config sddm-ubuntu-theme
 會出現一個「候選選單」，可以輸入號碼，選擇要套用那個「theme」。
 
 
+## 預覽
+
+執行下面指令，預覽「/usr/share/sddm/themes/sddm-theme-sugar-light」的登入畫面。
+
+``` sh
+sddm-greeter --test-mode --theme /usr/share/sddm/themes/sddm-theme-sugar-light
+```
+
+* $ man [sddm-greeter](https://manpages.ubuntu.com/manpages/jammy/en/man1/sddm-greeter.1.html)
+
+
 ## 重新啟動 sddm
 
 ``` sh
