@@ -23,6 +23,13 @@ grand_parent: XDM
 * [sddm-theme-chili](sddm-theme-chili)
 
 
+## Link
+
+* [https://www.pling.com/browse?cat=101](https://www.pling.com/browse?cat=101)
+* [https://store.kde.org/browse?cat=101](https://store.kde.org/browse?cat=101)
+* [https://www.gnome-look.org/browse?cat=101](https://www.gnome-look.org/browse?cat=101)
+
+
 ## 如何切換「佈景主題」
 
 因為在「Ubuntu」這個環境，
