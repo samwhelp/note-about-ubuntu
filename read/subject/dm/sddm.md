@@ -66,6 +66,11 @@ sudo systemctl restart sddm.service
 * [SDDM](https://wiki.debian.org/SDDM)
 
 
+## Arch Wiki
+
+* [SDDM](https://wiki.archlinux.org/title/SDDM)
+
+
 ## 佈景主題
 
 * [佈景主題](sddm/theme)
