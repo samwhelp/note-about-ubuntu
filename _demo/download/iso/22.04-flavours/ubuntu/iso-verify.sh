@@ -5,9 +5,16 @@ sha256sum -c SHA256SUMS
 
 
 ##
+## ubuntu-22.04.1-desktop-amd64.iso: OK
+## ubuntu-22.04.1-live-server-amd64.iso: OK
+##
+
+
+##
 ## sha256sum -c SHA256SUMS 2>&1 | grep OK
 ## shasum -a 256 -c SHA256SUMS 2>&1 | grep OK
 ##
+
 
 ##
 ## https://ubuntu.com/download/desktop/thank-you?version=22.04.1&architecture=amd64#

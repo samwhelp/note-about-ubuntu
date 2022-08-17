@@ -11,7 +11,7 @@ boot_ubuntu () {
 		-machine memory-backend=pc.ram \
 		-m 1024M \
 		-monitor stdio \
-		-cdrom ubuntu-22.04-desktop-amd64.iso
+		-cdrom ubuntu-22.04.1-desktop-amd64.iso
 }
 
 __main__ () {
