@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 
-sudo rm -rf initrd-root initramfs 
+sudo rm -rf initrd-root initramfs
