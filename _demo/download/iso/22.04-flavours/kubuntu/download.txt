@@ -1,0 +1,3 @@
+https://cdimage.ubuntu.com/kubuntu/releases/22.04/release/kubuntu-22.04.1-desktop-amd64.iso
+https://cdimage.ubuntu.com/kubuntu/releases/22.04/release/SHA256SUMS
+https://cdimage.ubuntu.com/kubuntu/releases/22.04/release/SHA256SUMS.gpg
