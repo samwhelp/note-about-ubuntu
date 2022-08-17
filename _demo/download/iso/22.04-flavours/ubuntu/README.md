@@ -2,6 +2,14 @@
 # Download ISO / Ubuntu
 
 
+## Link
+
+* https://releases.ubuntu.com/
+* https://releases.ubuntu.com/22.04/
+* https://releases.ubuntu.com/jammy/
+* [How to verify your Ubuntu download](https://ubuntu.com/tutorials/how-to-verify-ubuntu#1-overview)
+
+
 ## Prepare
 
 run

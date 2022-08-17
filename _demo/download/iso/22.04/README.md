@@ -1,6 +1,14 @@
 
 # Download ISO / Ubuntu
 
+
+## Link
+
+* https://releases.ubuntu.com/
+* https://cdimage.ubuntu.com/
+* [How to verify your Ubuntu download](https://ubuntu.com/tutorials/how-to-verify-ubuntu#1-overview)
+
+
 ## Mount
 
 mount iso

@@ -1,1 +1,4 @@
-https://releases.ubuntu.com/22.04/ubuntu-22.04-desktop-amd64.iso
+https://releases.ubuntu.com/22.04/ubuntu-22.04.1-desktop-amd64.iso
+https://releases.ubuntu.com/22.04/ubuntu-22.04.1-live-server-amd64.iso
+https://releases.ubuntu.com/22.04/SHA256SUMS
+https://releases.ubuntu.com/22.04/SHA256SUMS.gpg
