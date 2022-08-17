@@ -1,12 +1,12 @@
 
-# Download ISO / Xubuntu
+# Download ISO / Kubuntu
 
 
 ## Link
 
 * https://cdimage.ubuntu.com/
-* https://cdimage.ubuntu.com/xubuntu/releases/22.04/release/
-* https://cdimage.ubuntu.com/xubuntu/releases/jammy/release/
+* https://cdimage.ubuntu.com/kubuntu/releases/22.04/release/
+* https://cdimage.ubuntu.com/kubuntu/releases/jammy/release/
 * [How to verify your Ubuntu download](https://ubuntu.com/tutorials/how-to-verify-ubuntu#1-overview)
 
 

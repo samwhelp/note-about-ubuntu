@@ -5,10 +5,10 @@ prepare_mount_dir () {
 }
 
 mount_iso () {
-	mount_xubuntu
+	mount_kubuntu
 }
 
-mount_xubuntu () {
+mount_kubuntu () {
 	sudo mount -o loop kubuntu-22.04.1-desktop-amd64.iso iso-root
 }
 

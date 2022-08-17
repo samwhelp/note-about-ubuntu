@@ -2,10 +2,10 @@
 
 
 boot_iso () {
-	boot_xubuntu
+	boot_kubuntu
 }
 
-boot_xubuntu () {
+boot_kubuntu () {
 	kvm \
 		-object memory-backend-ram,id=pc.ram,size=1024M,x-use-canonical-path-for-ramblock-id=off \
 		-machine memory-backend=pc.ram \
