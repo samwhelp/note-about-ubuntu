@@ -11,7 +11,7 @@ boot_xubuntu () {
 		-machine memory-backend=pc.ram \
 		-m 1024M \
 		-monitor stdio \
-		-cdrom xubuntu-22.04-desktop-amd64.iso
+		-cdrom xubuntu-22.04.1-desktop-amd64.iso
 }
 
 __main__ () {
