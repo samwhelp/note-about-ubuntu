@@ -1,0 +1,7 @@
+*.iso
+iso-root
+live-root
+initrd-root
+initramfs
+SHA256SUMS
+SHA256SUMS.gpg
