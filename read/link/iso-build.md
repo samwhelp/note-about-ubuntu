@@ -1,12 +1,12 @@
 ---
-title: live-build
+title: iso-build
 nav_order: 9010
 has_children: false
 parent: 連結
 ---
 
 
-# live-build
+# iso-build
 
 ## DebianLive
 
@@ -36,3 +36,30 @@ parent: 連結
 * Ubuntu Cinnamon / [iso-builder-devel](https://github.com/Ubuntu-Cinnamon-Remix/iso-builder-devel) / [iso-builder-old-archive](https://github.com/Ubuntu-Cinnamon-Remix/iso-builder-old-archive)
 * UbuntuDDE / [iso-builder](https://github.com/UbuntuDDE/iso-builder)
 * Ubuntu-Sway / [iso-builder](https://github.com/Ubuntu-Sway/iso-builder)
+
+
+## live-build
+
+執行
+
+``` sh
+apt-cache search live-build
+```
+
+顯示
+
+```
+live-build - Debian Live - System build scripts
+live-build-cgi - Debian Live - System build scripts (CGI frontend)
+live-clone - GUI to clone and manage Live-Build USB sticks
+```
+
+
+## Package
+
+* [live-build](https://packages.ubuntu.com/jammy/live-build)
+
+
+## Manpage
+
+* [live-build](https://manpages.ubuntu.com/manpages/jammy/en/man7/live-build.7.html)

@@ -1,12 +1,12 @@
 ---
-title: live-build-from-scratch
+title: iso-build-from-scratch
 nav_order: 9010
 has_children: false
 parent: 連結
 ---
 
 
-# live-build-from-scratch
+# iso-build-from-scratch
 
 
 ## Case
