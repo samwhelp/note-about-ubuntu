@@ -35,3 +35,4 @@ parent: 連結
 * Ubuntu Cinnamon / [iso-builder-devel](https://github.com/Ubuntu-Cinnamon-Remix/iso-builder-devel) / [iso-builder-old-archive](https://github.com/Ubuntu-Cinnamon-Remix/iso-builder-old-archive)
 * elementary-os / [os](https://github.com/elementary/os)
 * UbuntuDDE / [iso-builder](https://github.com/UbuntuDDE/iso-builder)
+* Ubuntu-Sway / [iso-builder](https://github.com/Ubuntu-Sway/iso-builder)

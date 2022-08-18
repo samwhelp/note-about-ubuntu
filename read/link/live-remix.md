@@ -45,3 +45,10 @@ parent: 連結
 
 * [Ubuntu Web](https://ubuntu-web.org/)
 * GitHub / [Ubuntu-Web](https://github.com/Ubuntu-Web)
+
+
+## Ubuntu Sway Remix
+
+* [Ubuntu Sway Remix](https://ubuntusway.com/)
+* GitHub / [Ubuntu-Sway](https://github.com/Ubuntu-Sway)
+* [https://downloads.ubuntusway.com/](https://downloads.ubuntusway.com/)
