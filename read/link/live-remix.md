@@ -33,22 +33,3 @@ parent: 連結
 
 * [Ubuntu Unity](https://ubuntuunity.org/)
 * GitLab / [ubuntu-unity](https://gitlab.com/ubuntu-unity)
-
-
-### UbuntuDDE Remix
-
-* [UbuntuDDE Remix](https://ubuntudde.com/)
-* GitHub / [UbuntuDDE](https://github.com/UbuntuDDE/)
-
-
-### Ubuntu Web
-
-* [Ubuntu Web](https://ubuntu-web.org/)
-* GitHub / [Ubuntu-Web](https://github.com/Ubuntu-Web)
-
-
-## Ubuntu Sway Remix
-
-* [Ubuntu Sway Remix](https://ubuntusway.com/)
-* GitHub / [Ubuntu-Sway](https://github.com/Ubuntu-Sway)
-* [https://downloads.ubuntusway.com/](https://downloads.ubuntusway.com/)
