@@ -24,5 +24,5 @@ echo "sudo apt-get install gdebi-core"
 sudo apt-get install gdebi-core
 
 echo
-echo "sudo gdebi --n atom-amd64.deb"
-sudo gdebi --n atom-amd64.deb
+echo "sudo gdebi -n atom-amd64.deb"
+sudo gdebi -n atom-amd64.deb
