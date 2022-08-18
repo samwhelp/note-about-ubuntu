@@ -93,3 +93,56 @@ Current=ubuntu-theme
 [Theme]
 Current=sddm-theme-sugar-candy
 ```
+
+
+### qml-module
+
+
+執行
+
+``` sh
+sudo apt-get install qml-module-qtgraphicaleffects qml-module-qtquick-controls2 qml-module-qtquick-layouts
+```
+
+執行
+
+``` sh
+apt-cache search QtGraphicalEffects
+```
+
+顯示
+
+```
+qml-module-qtgraphicaleffects - Qt 5 Graphical Effects module
+qtgraphicaleffects5-doc - Qt 5 graphical effects documentation
+qtgraphicaleffects5-doc-html - Qt 5 graphicaleffects HTML documentation
+```
+
+執行
+
+``` sh
+apt-cache search QtQuick.Controls
+```
+
+顯示
+
+```
+qml-module-qtquick-controls - Qt 5 Quick Controls QML module
+qml-module-qtquick-controls2 - Qt 5 Qt Quick Controls 2 QML module
+qml6-module-qtquick-controls - Qt 6 Quick Controls QML module
+```
+
+執行
+
+``` sh
+apt-cache search QtQuick.Layouts
+```
+
+顯示
+
+```
+qml-module-qtquick-layouts - Qt 5 Quick Layouts QML module
+qml6-module-qtquick-layouts - Qt 6 Quick Layouts QML module
+```
+
+
