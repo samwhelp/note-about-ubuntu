@@ -21,6 +21,9 @@ xdg_user_dir_templates_config_install () {
 	echo "install -Dm755 ./config/xdg-user-dir-templates/Templates/pygithub.py $HOME/Templates/pygithub.py"
 	install -Dm755 "./config/xdg-user-dir-templates/Templates/pygithub.py" "$HOME/Templates/pygithub.py"
 
+	echo "install -Dm644 ./config/xdg-user-dir-templates/Templates/empty.txt $HOME/Templates/empty.txt"
+	install -Dm644 "./config/xdg-user-dir-templates/Templates/empty.txt" "$HOME/Templates/empty.txt"
+
 	echo
 }
 
