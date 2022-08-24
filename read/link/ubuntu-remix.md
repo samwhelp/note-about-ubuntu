@@ -38,3 +38,4 @@ parent: 連結
 * [Ubuntu Sway Remix](https://ubuntusway.com/)
 * GitHub / [Ubuntu-Sway](https://github.com/Ubuntu-Sway)
 * [https://downloads.ubuntusway.com/](https://downloads.ubuntusway.com/)
+* [Ubuntu Sway Remix 探索筆記](https://samwhelp.github.io/note-about-ubuntu-sway)
