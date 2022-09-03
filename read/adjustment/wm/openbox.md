@@ -24,7 +24,7 @@ sudo apt-get install openbox
 
 ## 微調腳本
 
-* [微調腳本](https://github.com/samwhelp/note-about-openbox/tree/gh-pages/_demo/config/openbox-config/main)
+* [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/wm/openbox/full/openbox-adjustment)
 
 
 ## 採用佈景主題
