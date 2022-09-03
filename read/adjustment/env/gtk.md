@@ -11,8 +11,8 @@ grand_parent: 微調
 
 ## 腳本
 
-* [gtk2](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/part/gtk2)
-* [gtk3](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/part/gtk3)
+* [gtk2](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/style/gtk2)
+* [gtk3](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/style/gtk3)
 
 
 ## Link

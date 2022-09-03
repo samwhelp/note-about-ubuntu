@@ -26,7 +26,7 @@ grand_parent: 微調
 
 ## 設定檔路徑
 
-* [~/.config/qt5ct/qt5ct.conf](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/part/qt5ct/config/qt5ct/qt5ct.conf)
+* [~/.config/qt5ct/qt5ct.conf](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/style/qt5ct/config/qt5ct/qt5ct.conf)
 
 
 ## Package
@@ -35,7 +35,7 @@ grand_parent: 微調
 * [qt5-style-plugins](https://packages.ubuntu.com/jammy/qt5-style-plugins)
 * [qt5-gtk2-platformtheme](https://packages.ubuntu.com/jammy/qt5-gtk2-platformtheme)
 
-> 我是採用「[style=gtk2](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/part/qt5ct/config/qt5ct/qt5ct.conf#L5)」，所以需要安裝「[qt5-style-plugins](https://packages.ubuntu.com/jammy/qt5-style-plugins)」，就會安裝「[qt5-gtk2-platformtheme](https://packages.ubuntu.com/jammy/qt5-gtk2-platformtheme)」。
+> 我是採用「[style=gtk2](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/style/qt5ct/config/qt5ct/qt5ct.conf#L5)」，所以需要安裝「[qt5-style-plugins](https://packages.ubuntu.com/jammy/qt5-style-plugins)」，就會安裝「[qt5-gtk2-platformtheme](https://packages.ubuntu.com/jammy/qt5-gtk2-platformtheme)」。
 
 
 ## Manpage

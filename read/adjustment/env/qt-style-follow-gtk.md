@@ -11,11 +11,11 @@ grand_parent: 微調
 
 ## 設定腳本
 
-* [設定腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/part/qt-style-follow-gtk)
+* [設定腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/style/qt-style-follow-gtk)
 
 ## 設定檔案
 
-* [/etc/profile.d/qt-style-follow-gtk.sh](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/part/qt-style-follow-gtk/config/qt-style-follow-gtk/qt-style-follow-gtk.sh)
+* [/etc/profile.d/qt-style-follow-gtk.sh](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/style/qt-style-follow-gtk/config/qt-style-follow-gtk/qt-style-follow-gtk.sh)
 
 
 ## 前提
@@ -48,7 +48,7 @@ sudo apt-get install qt5-gtk2-platformtheme
 
 在「/etc/profile.d/」這個資料夾，
 
-產生一個檔案「[/etc/profile.d/qt-style-follow-gtk.sh](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/part/qt-style-follow-gtk/config/qt-style-follow-gtk/qt-style-follow-gtk.sh)」，
+產生一個檔案「[/etc/profile.d/qt-style-follow-gtk.sh](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/style/qt-style-follow-gtk/config/qt-style-follow-gtk/qt-style-follow-gtk.sh)」，
 
 內容如下
 

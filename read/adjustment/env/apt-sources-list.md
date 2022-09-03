@@ -13,8 +13,8 @@ grand_parent: 微調
 
 | 版本 |
 | --- |
-| [22.04](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/apt-sources-list/22.04) |
-| [20.04](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/apt-sources-list/20.04) |
+| [22.04](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/apt/apt-sources-list/22.04) |
+| [20.04](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/apt/apt-sources-list/20.04) |
 
 
 ## 相關路徑

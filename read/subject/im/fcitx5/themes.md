@@ -69,7 +69,7 @@ sed -i 's/^Theme=.*/Theme=default/g' ~/.config/fcitx5/conf/classicui.conf
 
 > 除了可以透過「圖形介面來設定」，也可以透過上面指令來設定。
 
-> 這一招也可以用來設定「[grub theme](https://github.com/samwhelp/note-about-grub/blob/gh-pages/_demo/project/grubrc-profile/grubrc-theme-ctrl/gen/grubrc-theme-ctrl/Section/Sys/Grub.sh#L313)」，或是「[gtkrc](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/part/gtk-config/gtk3/prototype-dracula.sh)」。
+> 這一招也可以用來設定「[grub theme](https://github.com/samwhelp/note-about-grub/blob/gh-pages/_demo/project/grubrc-profile/grubrc-theme-ctrl/gen/grubrc-theme-ctrl/Section/Sys/Grub.sh#L313)」，或是「[gtkrc](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/style/gtk-config/gtk3/prototype-dracula.sh)」。
 
 
 ### Gruvbox
