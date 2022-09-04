@@ -24,7 +24,7 @@ gsettings set org.xfce.mousepad.preferences.view.show-whitespace leading true
 gsettings set org.xfce.mousepad.preferences.view.show-whitespace trailing true
 gsettings set org.xfce.mousepad.preferences.view smart-home-end 'disabled'
 gsettings set org.xfce.mousepad.preferences.view tab-width 4
-gsettings set org.xfce.mousepad.preferences.view use-default-monospace-font true
+gsettings set org.xfce.mousepad.preferences.view use-default-monospace-font false
 gsettings set org.xfce.mousepad.preferences.view word-wrap true
 gsettings set org.xfce.mousepad.preferences.window always-show-tabs true
 gsettings set org.xfce.mousepad.preferences.window cycle-tabs false
