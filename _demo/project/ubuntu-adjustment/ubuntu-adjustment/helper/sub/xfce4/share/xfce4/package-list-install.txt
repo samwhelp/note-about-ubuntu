@@ -1,0 +1,19 @@
+
+
+################################################################################
+### Head: Xfce
+##
+
+xfce4
+xfce4-goodies
+xfce4-power-manager
+gnome-icon-theme
+thunar-archive-plugin
+thunar-media-tags-plugin
+tumbler-plugins-extra
+#kdelibs-data
+#fortunes-mod
+
+##
+### Tail: Xfce
+################################################################################
