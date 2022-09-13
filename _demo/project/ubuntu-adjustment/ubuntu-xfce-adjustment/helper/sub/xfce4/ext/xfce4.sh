@@ -44,13 +44,13 @@ mod_xfce4_config_install () {
 	util_error_echo "mkdir -p ${HOME}/.config/xfce4"
 	mkdir -p "${HOME}/.config/xfce4"
 
-	util_error_echo "install -Dm644 ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/xfce4/helpers.rc ${HOME}/.config/xfce4/helpers.rc"
-	install -Dm644 "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/xfce4/helpers.rc" "${HOME}/.config/xfce4/helpers.rc"
+	#util_error_echo "install -Dm644 ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/xfce4/helpers.rc ${HOME}/.config/xfce4/helpers.rc"
+	#install -Dm644 "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/xfce4/helpers.rc" "${HOME}/.config/xfce4/helpers.rc"
 
 
 
-	#util_error_echo "cp -rf ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/xfce4/. ${HOME}/.config/xfce4/"
-	#cp -rf "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/xfce4/." "${HOME}/.config/xfce4/"
+	util_error_echo "cp -rf ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/xfce4/. ${HOME}/.config/xfce4/"
+	cp -rf "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/xfce4/." "${HOME}/.config/xfce4/"
 
 	#util_error_echo "cp -rfv ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/xfce4/. ${HOME}/.config/xfce4/"
 	#cp -rfv "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/xfce4/." "${HOME}/.config/xfce4/"
