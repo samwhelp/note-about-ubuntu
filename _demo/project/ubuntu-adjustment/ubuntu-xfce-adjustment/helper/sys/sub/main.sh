@@ -23,7 +23,7 @@ mod_main_package_install () {
 
 mod_main_package_list_find_for_install () {
 
-
+	mod_xfce4_package_list_find_for_install
 	mod_sakura_package_list_find_for_install
 	mod_pcmanfm_qt_package_list_find_for_install
 	mod_pcmanfm_package_list_find_for_install
@@ -63,7 +63,7 @@ mod_main_config_install () {
 	util_error_echo
 	util_error_echo
 
-
+	mod_xfce4_config_install
 	mod_sakura_config_install
 	mod_pcmanfm_qt_config_install
 	mod_pcmanfm_config_install
@@ -106,7 +106,7 @@ mod_main_asset_install () {
 	util_error_echo
 
 
-
+	mod_xfce4_asset_install
 	mod_sakura_asset_install
 	mod_pcmanfm_qt_asset_install
 	mod_pcmanfm_asset_install
