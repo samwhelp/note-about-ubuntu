@@ -17,6 +17,8 @@ source "${THE_SYS_SUB_DIR_PATH}/main.sh"
 ##
 ## sub module
 ##
+source "${THE_SUB_DIR_PATH}/xfce4/ext/init.sh"
+source "${THE_SUB_DIR_PATH}/xfce4-terminal/ext/init.sh"
 source "${THE_SUB_DIR_PATH}/style/ext/init.sh"
 source "${THE_SUB_DIR_PATH}/sakura/ext/init.sh"
 source "${THE_SUB_DIR_PATH}/pcmanfm-qt/ext/init.sh"
