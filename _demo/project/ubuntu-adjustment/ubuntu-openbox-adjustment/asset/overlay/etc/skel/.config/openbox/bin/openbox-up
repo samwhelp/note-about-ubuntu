@@ -1,0 +1,152 @@
+#!/usr/bin/env bash
+
+
+################################################################################
+### Head: Note
+##
+
+## * https://github.com/samwhelp/skel-project-plan/blob/gh-pages/demo/sh/project/bin/install.sh
+
+
+##
+## * /usr/lib/openbox/openbox-xdg-autostart
+## * /usr/lib/openbox/openbox-autostart
+## * /etc/xdg/autostart
+## * ~/.config/autostart
+##
+## `sudo pacman -Sy --needed python-pyxdg`
+## install `python-pyxdg` to support `/usr/lib/openbox/openbox-xdg-autostart`
+## use xdg-autostart instead of exec `openbox-up-applet `
+##
+
+##
+### Tail: Note
+################################################################################
+
+
+################################################################################
+### Head: Init
+##
+
+THE_BASE_DIR_PATH="$(cd -- "$(dirname -- "$0")" ; pwd)"
+THE_BASE_DIR_PATH="$THE_BASE_DIR_PATH/../ext"
+source "$THE_BASE_DIR_PATH/init.sh"
+
+##
+### Tail: Init
+################################################################################
+
+
+################################################################################
+### Head: Start
+##
+
+main_try_xdg_autostart () {
+
+	##
+	## * /usr/lib/openbox/openbox-autostart
+	## * /usr/lib/openbox/openbox-xdg-autostart
+	##
+
+
+	if [ -f "/usr/share/make-sure-fallback/xdg/bin/xdg-autostart" ]; then
+		if [ -x "/usr/share/make-sure-fallback/xdg/bin/xdg-autostart" ]; then
+			/usr/share/make-sure-fallback/xdg/bin/xdg-autostart
+			return 0
+		fi
+	fi
+
+
+	if [ -f "/usr/lib/openbox/openbox-xdg-autostart" ]; then
+		if [ -x "/usr/lib/openbox/openbox-xdg-autostart" ]; then
+			/usr/lib/openbox/openbox-xdg-autostart
+			return 0
+		fi
+	fi
+
+	if [ -f "/usr/share/make-sure-fallback/openbox/bin/openbox-xdg-autostart" ]; then
+		if [ -x "/usr/share/make-sure-fallback/openbox/bin/openbox-xdg-autostart" ]; then
+			/usr/share/make-sure-fallback/openbox/bin/openbox-xdg-autostart
+			return 0
+		fi
+	fi
+
+
+	## last fallback
+	main_app_upstart
+}
+
+
+main_xdg_autostart () {
+
+
+	main_app_upstart_with_xdg_autostart
+	#main_try_xdg_autostart					## no needed run this line. on openbox, `/usr/lib/openbox/openbox-xdg-autostart` would be launched by `/usr/lib/openbox/openbox-autostart`
+
+
+}
+
+main_app_upstart_with_xdg_autostart () {
+
+	is_command_exist 'openbox-up-xsettings' && openbox-up-xsettings &
+
+	is_command_exist 'openbox-up-wallpaper' && openbox-up-wallpaper &
+
+	is_command_exist 'openbox-up-compositor' && openbox-up-compositor &
+
+	is_command_exist 'openbox-up-panel' && openbox-up-panel &
+
+}
+
+main_app_upstart () {
+
+	#is_command_exist 'openbox-up-keybind' && openbox-up-keybind &
+
+	is_command_exist 'openbox-up-xsettings' && openbox-up-xsettings &
+
+	is_command_exist 'openbox-up-wallpaper' && openbox-up-wallpaper &
+
+	is_command_exist 'openbox-up-compositor' && openbox-up-compositor &
+
+	is_command_exist 'openbox-up-panel' && openbox-up-panel &
+
+	is_command_exist 'openbox-up-applet' && openbox-up-applet &
+
+}
+
+
+main_app_autostart () {
+
+	local use_xdg_autostart="true"
+
+	if [ "is_${use_xdg_autostart}" = "is_true" ]; then
+		main_xdg_autostart
+	else
+		main_app_upstart
+	fi
+
+}
+
+##
+### Tail: Start
+################################################################################
+
+
+################################################################################
+### Head: Main
+##
+
+__main__ () {
+
+	PATH="$HOME/.config/openbox/bin:$PATH"
+	#echo $PATH > /tmp/log.txt
+
+	main_app_autostart
+
+}
+
+__main__
+
+##
+### Tail: Main
+################################################################################
