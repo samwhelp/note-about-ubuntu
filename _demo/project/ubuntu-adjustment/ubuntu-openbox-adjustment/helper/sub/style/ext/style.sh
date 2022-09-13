@@ -66,6 +66,8 @@ mod_style_config_install () {
 	util_error_echo "install -Dm644 ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/gtk-3.0/settings.ini ${HOME}/.config/gtk-3.0/settings.ini"
 	install -Dm644 "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/gtk-3.0/settings.ini" "${HOME}/.config/gtk-3.0/settings.ini"
 
+	util_error_echo "install -Dm644 ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/gtk-3.0/gtk.css ${HOME}/.config/gtk-3.0/gtk.css"
+	install -Dm644 "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/gtk-3.0/gtk.css" "${HOME}/.config/gtk-3.0/gtk.css"
 
 
 	##
