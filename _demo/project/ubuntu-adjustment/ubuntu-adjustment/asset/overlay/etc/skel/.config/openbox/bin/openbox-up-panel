@@ -1,0 +1,217 @@
+#!/usr/bin/env bash
+
+
+################################################################################
+### Head: Note
+##
+
+## * https://github.com/samwhelp/skel-project-plan/blob/gh-pages/demo/sh/project/bin/install.sh
+
+##
+### Tail: Note
+################################################################################
+
+
+################################################################################
+### Head: Init
+##
+
+THE_BASE_DIR_PATH="$(cd -- "$(dirname -- "$0")" ; pwd)"
+THE_BASE_DIR_PATH="$THE_BASE_DIR_PATH/../ext"
+source "$THE_BASE_DIR_PATH/init.sh"
+
+##
+### Tail: Init
+################################################################################
+
+
+################################################################################
+### Head: Panel / Polybar
+##
+
+app_polybar_start () {
+
+	if ! is_command_exist 'polybar'; then
+		return 0
+	fi
+
+	util_stop_all 'polybar'
+
+	if [ -f "$THE_STYLE_POLYBAR_CONFIG_FILE_PATH" ]; then
+		polybar top -c "$THE_STYLE_POLYBAR_CONFIG_FILE_PATH" &
+		return
+	fi
+
+	polybar top &
+
+}
+
+##
+### Tail: Panel / Polybar
+################################################################################
+
+
+################################################################################
+### Head: Panel / tint2
+##
+
+app_tint2_start () {
+
+	if ! is_command_exist 'tint2'; then
+		return 0
+	fi
+
+	#app_tint2_start_default
+	#app_tint2_start_top_panel
+	#app_tint2_start_bottom_panel
+	app_tint2_start_top_bottom_panel
+
+}
+
+##
+### Tail: Panel / tint2
+################################################################################
+
+
+################################################################################
+### Head: Panel / tint2 / default
+##
+
+app_tint2_start_default () {
+
+	if ! is_command_exist 'tint2'; then
+		return 0
+	fi
+
+	util_stop_all 'tint2'
+
+	if [ -f "$THE_STYLE_TINT2_CONFIG_FILE_PATH" ]; then
+		### load config `~/.config/openbox/style/tint2/tint2rc`
+		tint2 -c "$THE_STYLE_TINT2_CONFIG_FILE_PATH" &
+		return
+	fi
+
+	## load default config `~/.config/tint2/tint2rc`
+	tint2 &
+
+}
+
+##
+### Tail: Panel / tint2 / default
+################################################################################
+
+
+################################################################################
+### Head: Panel / tint2 / top_panel
+##
+
+app_tint2_start_top_panel () {
+
+	if ! is_command_exist 'tint2'; then
+		return 0
+	fi
+
+	util_stop_all 'tint2'
+
+	local tint2rc_config_file_path="$THE_STYLE_DIR_PATH/tint2/top_panel/tint2rc"
+
+	if [ -f "$tint2rc_config_file_path" ]; then
+		## load config `~/.config/openbox/style/tint2/top_panel/tint2rc`
+		tint2 -c "$tint2rc_config_file_path" &
+		return
+	fi
+
+
+	## load default config `~/.config/tint2/tint2rc`
+	tint2 &
+
+}
+
+##
+### Tail: Panel / tint2 / top_panel
+################################################################################
+
+
+################################################################################
+### Head: Panel / tint2 / bottom_panel
+##
+
+app_tint2_start_bottom_panel () {
+
+	if ! is_command_exist 'tint2'; then
+		return 0
+	fi
+
+	util_stop_all 'tint2'
+
+	local tint2rc_config_file_path="$THE_STYLE_DIR_PATH/tint2/bottom_panel/tint2rc"
+
+	if [ -f "$tint2rc_config_file_path" ]; then
+		## load config `~/.config/openbox/style/tint2/bottom_panel/tint2rc`
+		tint2 -c "$tint2rc_config_file_path" &
+		return
+	fi
+
+
+	## load default config `~/.config/tint2/tint2rc`
+	tint2 &
+
+}
+
+##
+### Tail: Panel / tint2 / bottom_panel
+################################################################################
+
+
+################################################################################
+### Head: Panel / tint2 / top_bottom_panel
+##
+
+app_tint2_start_top_bottom_panel () {
+
+	if ! is_command_exist 'tint2'; then
+		return 0
+	fi
+
+	util_stop_all 'tint2'
+
+
+	local tint2rc_top_config_file_path="$THE_STYLE_DIR_PATH/tint2/top_bottom_panel/tint2rc_top"
+	local tint2rc_bottom_config_file_path="$THE_STYLE_DIR_PATH/tint2/top_bottom_panel/tint2rc_bottom"
+
+	if [ -f "$tint2rc_top_config_file_path" ]; then
+		if [ -f "$tint2rc_bottom_config_file_path" ]; then
+			## load config `~/.config/openbox/style/tint2/top_bottom_panel/tint2rc_top`
+			tint2 -c "$tint2rc_top_config_file_path" &
+
+			## load config `~/.config/openbox/style/tint2/top_bottom_panel/tint2rc_bottom`
+			tint2 -c "$tint2rc_bottom_config_file_path" &
+			return
+		fi
+	fi
+
+
+	## load default config `~/.config/tint2/tint2rc`
+	tint2 &
+
+}
+
+##
+### Tail: Panel / tint2 / top_bottom_panel
+################################################################################
+
+
+################################################################################
+### Head: Main
+##
+
+__main__ () {
+	#app_polybar_start
+	app_tint2_start
+}
+
+__main__
+
+##
+### Tail: Main
+################################################################################

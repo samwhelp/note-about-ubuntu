@@ -1,0 +1,221 @@
+#!/usr/bin/env bash
+
+
+################################################################################
+### Head: Init
+##
+
+THE_BASE_DIR_PATH="$(cd -- "$(dirname -- "$0")" ; pwd)"
+THE_BASE_DIR_PATH="$THE_BASE_DIR_PATH/../ext"
+source "$THE_BASE_DIR_PATH/init.sh"
+
+##
+### Tail: Init
+################################################################################
+
+
+################################################################################
+### Head: Init / Cmd
+##
+
+cmd_var_init () {
+
+	THE_CMD_VERSION='0.1'
+
+	THE_CMD_DIR_PATH="$THE_BIN_DIR_PATH"
+
+	if [ "none$THE_CMD_FILE_NAME" = 'none' ]; then
+		THE_CMD_FILE_NAME="openbox-system-ctrl"
+	fi
+
+	THE_CMD_FILE_PATH="$THE_CMD_DIR_PATH/$THE_CMD_FILE_NAME"
+
+}
+
+##
+### Tail: Init / Cmd
+################################################################################
+
+
+################################################################################
+### Head: Model / system
+##
+
+mod_system_shutdown () {
+
+	if ! is_command_exist 'shutdown'; then
+		return 0
+	fi
+
+	shutdown now
+}
+
+mod_system_reboot () {
+
+	if ! is_command_exist 'systemctl'; then
+		return 0
+	fi
+
+	systemctl reboot
+}
+
+
+mod_system_logout () {
+	##killall -9 openbox
+
+	##
+	## $ man openbox
+	##
+
+	openbox --exit
+}
+
+mod_system_restart () {
+	openbox --restart
+}
+
+mod_system_econfigure () {
+	openbox --reconfigure
+}
+
+##
+### Tail: Model / system
+################################################################################
+
+
+################################################################################
+### Head: SubCmd / system
+##
+
+sub_run_shutdown () {
+	mod_system_shutdown "$@"
+}
+
+sub_run_reboot () {
+	mod_system_reboot "$@"
+}
+
+sub_run_logout () {
+	mod_system_logout "$@"
+}
+
+##
+### Tail: SubCmd / system
+################################################################################
+
+
+################################################################################
+### Head: SubCmd / self_actions
+##
+
+sub_run_self_actions () {
+	util_self_actions "$@"
+}
+
+##
+### Tail: SubCmd / self_actions
+################################################################################
+
+
+################################################################################
+### Head: SubCmd / help
+##
+
+sub_run_help () {
+	main_usage "$@"
+}
+
+##
+### Tail: SubCmd / help
+################################################################################
+
+
+################################################################################
+### Head: Util / SubCmd
+##
+
+sub_cmd_find_function_name () {
+	echo "sub_run_$1"
+}
+
+##
+### Tail: Util / SubCmd
+################################################################################
+
+
+################################################################################
+### Head: Main
+##
+
+main_usage () {
+	##local cmd_name="$0"
+	local cmd_name="openbox-system-ctrl"
+
+cat << EOF
+Usage:
+	$ $cmd_name [action]
+
+Example:
+
+	$ $cmd_name
+	$ $cmd_name help
+
+	$ $cmd_name shutdowm
+	$ $cmd_name reboot
+	$ $cmd_name logout
+
+
+Debug:
+	$ export DEBUG_OPENBOX=true
+
+EOF
+
+}
+
+main_check_args_size () {
+	if [ $1 -le 0 ]; then
+		shift
+		main_run_default_sub_cmd "$@"
+		exit 1
+	fi
+}
+
+main_run_default_sub_cmd () {
+	main_usage "$@"
+}
+
+main_run_sub_cmd () {
+
+	local sub_cmd="$1"
+
+	shift
+
+	local function_name="$(sub_cmd_find_function_name "$sub_cmd")"
+
+	if ! is_function_exist "$function_name" ; then
+
+		util_debug_echo "[Debug] sub_cmd_function_not_exist: sub_cmd=$sub_cmd; function_name=$function_name"
+
+		echo
+
+		main_run_default_sub_cmd "$@"
+
+		return 1
+
+	fi
+
+	"$function_name" "$@" ## run sub cmd function
+
+
+}
+
+## Start
+cmd_var_init "$@"
+
+main_check_args_size $# "$@"
+
+main_run_sub_cmd "$@"
+
+##
+### Tail: Main
+################################################################################

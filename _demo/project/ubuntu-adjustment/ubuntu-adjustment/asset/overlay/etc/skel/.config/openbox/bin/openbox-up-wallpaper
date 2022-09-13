@@ -1,0 +1,87 @@
+#!/usr/bin/env bash
+
+
+################################################################################
+### Head: Note
+##
+
+## * https://github.com/samwhelp/skel-project-plan/blob/gh-pages/demo/sh/project/bin/install.sh
+
+##
+### Tail: Note
+################################################################################
+
+
+################################################################################
+### Head: Init
+##
+
+THE_BASE_DIR_PATH="$(cd -- "$(dirname -- "$0")" ; pwd)"
+THE_BASE_DIR_PATH="$THE_BASE_DIR_PATH/../ext"
+source "$THE_BASE_DIR_PATH/init.sh"
+
+##
+### Tail: Init
+################################################################################
+
+
+################################################################################
+### Head: Desktop / Wallpaper / feh
+##
+
+app_feh_start () {
+
+	sys_feh_wallpaper_main
+
+}
+
+
+sys_feh_wallpaper_default () {
+
+	if ! is_command_exist 'feh'; then
+		util_error_echo 'Needed: feh'
+		return 0
+	fi
+
+	local wallpaper_file_path="$(sys_wallpaper_find_default_file_path)"
+
+	#util_stop_all 'feh'
+
+	#exec feh --bg-scale "$wallpaper_file_path" &
+	exec feh --bg-fill "$wallpaper_file_path" &
+
+}
+
+sys_feh_wallpaper_main () {
+
+	local load_last="$HOME/.fehbg"
+
+	if [ -x "$load_last" ]; then
+		##echo 1
+		$load_last
+		return
+	fi
+
+	##echo 2
+	sys_feh_wallpaper_default
+}
+
+
+##
+### Tail: Desktop / Wallpaper / feh
+################################################################################
+
+
+################################################################################
+### Head: Main
+##
+
+__main__ () {
+	app_feh_start
+}
+
+__main__
+
+##
+### Tail: Main
+################################################################################

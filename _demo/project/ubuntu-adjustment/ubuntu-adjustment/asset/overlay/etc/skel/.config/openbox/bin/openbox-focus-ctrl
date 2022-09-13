@@ -1,0 +1,428 @@
+#!/usr/bin/env bash
+
+
+################################################################################
+### Head: Init
+##
+
+THE_BASE_DIR_PATH="$(cd -- "$(dirname -- "$0")" ; pwd)"
+THE_BASE_DIR_PATH="$THE_BASE_DIR_PATH/../ext"
+source "$THE_BASE_DIR_PATH/init.sh"
+
+##
+### Tail: Init
+################################################################################
+
+
+################################################################################
+### Head: Init / Cmd
+##
+
+cmd_var_init () {
+
+	THE_CMD_VERSION='0.1'
+
+	THE_CMD_DIR_PATH="$THE_BIN_DIR_PATH"
+
+	if [ "none$THE_CMD_FILE_NAME" = 'none' ]; then
+		THE_CMD_FILE_NAME="openbox-focus-ctrl"
+	fi
+
+	THE_CMD_FILE_PATH="$THE_CMD_DIR_PATH/$THE_CMD_FILE_NAME"
+
+}
+
+##
+### Tail: Init / Cmd
+################################################################################
+
+
+################################################################################
+### Head: Model / raise_or_run
+##
+
+mod_raise_or_run () {
+
+	##
+	## * https://github.com/codic12/worm/issues/7
+	## * https://github.com/tam-carre/dotfiles/blob/master/bin/tamwm
+	## * https://vickychijwani.me/blazing-fast-application-switching-in-linux/
+	##
+
+	util_error_echo "\$1: $1"
+	util_error_echo "\$2: $2"
+
+	##
+	## wmctrl -x -a "$1" || "$2"
+	##
+
+	if ! is_command_exist "wmctrl"; then
+		util_error_echo '## Needed: wmctrl'
+		return 0
+	fi
+
+	if $(wmctrl -x -a "$1"); then
+		util_error_echo '## Step: 1'
+		return 0
+	fi
+
+	util_error_echo '## Step:2'
+
+	if is_command_exist "$2"; then
+		exec $2 &
+		#exec "$2" &
+		return 0
+	fi
+
+}
+
+
+##
+### Tail: Model / raise_or_run
+################################################################################
+
+
+################################################################################
+### Head: SubCmd / raise_or_run
+##
+
+sub_run_raise_or_run () {
+	mod_raise_or_run "$@"
+}
+
+
+
+##
+### Tail: SubCmd / raise_or_run
+################################################################################
+
+
+################################################################################
+### Head: Model / focus / sakura
+##
+
+mod_focus_the_sakura () {
+
+	mod_raise_or_run "sakura" "sakura -m"
+
+}
+
+
+##
+### Tail: Model / focus / sakura
+################################################################################
+
+
+################################################################################
+### Head: SubCmd / focus / sakura
+##
+
+sub_run_the_sakura () {
+	mod_focus_the_sakura "$@"
+}
+
+##
+### Tail: SubCmd / focus / sakura
+################################################################################
+
+
+
+
+################################################################################
+### Head: Model / focus / xfce4_terminal
+##
+
+mod_focus_the_xfce4_terminal () {
+
+	mod_raise_or_run "xfce4-terminal" "xfce4-terminal --maximize"
+
+}
+
+
+##
+### Tail: Model / focus / xfce4_terminal
+################################################################################
+
+
+################################################################################
+### Head: SubCmd / focus / xfce4_terminal
+##
+
+sub_run_the_xfce4_terminal () {
+	mod_focus_the_xfce4_terminal "$@"
+}
+
+##
+### Tail: SubCmd / focus / xfce4_terminal
+################################################################################
+
+
+################################################################################
+### Head: Model / focus / atom
+##
+
+mod_focus_the_atom () {
+
+	mod_raise_or_run "atom" "atom"
+
+}
+
+
+##
+### Tail: Model / focus / atom
+################################################################################
+
+
+################################################################################
+### Head: SubCmd / focus / atom
+##
+
+sub_run_the_atom () {
+	mod_focus_the_atom "$@"
+}
+
+##
+### Tail: SubCmd / focus / atom
+################################################################################
+
+
+
+################################################################################
+### Head: Model / focus / mousepad
+##
+
+mod_focus_the_mousepad () {
+
+	mod_raise_or_run "mousepad" "mousepad"
+
+}
+
+
+##
+### Tail: Model / focus / mousepad
+################################################################################
+
+
+################################################################################
+### Head: SubCmd / focus / mousepad
+##
+
+sub_run_the_mousepad () {
+	mod_focus_the_mousepad "$@"
+}
+
+##
+### Tail: SubCmd / focus / mousepad
+################################################################################
+
+
+################################################################################
+### Head: Model / focus / firefox
+##
+
+mod_focus_the_firefox () {
+
+	mod_raise_or_run "firefox" "firefox"
+
+}
+
+
+##
+### Tail: Model / focus / firefox
+################################################################################
+
+
+################################################################################
+### Head: SubCmd / focus / firefox
+##
+
+sub_run_the_firefox () {
+	mod_focus_the_firefox "$@"
+}
+
+##
+### Tail: SubCmd / focus / firefox
+################################################################################
+
+
+################################################################################
+### Head: Model / focus / pcmanfm_qt
+##
+
+mod_focus_the_pcmanfm_qt () {
+
+	mod_raise_or_run "pcmanfm-qt" "pcmanfm-qt"
+
+}
+
+
+##
+### Tail: Model / focus / pcmanfm_qt
+################################################################################
+
+
+################################################################################
+### Head: SubCmd / focus / pcmanfm_qt
+##
+
+sub_run_the_pcmanfm_qt () {
+	mod_focus_the_pcmanfm_qt "$@"
+}
+
+##
+### Tail: SubCmd / focus / pcmanfm_qt
+################################################################################
+
+
+################################################################################
+### Head: Model / focus / thunar
+##
+
+mod_focus_the_thunar () {
+
+	mod_raise_or_run "thunar" "thunar"
+
+}
+
+
+##
+### Tail: Model / focus / thunar
+################################################################################
+
+
+################################################################################
+### Head: SubCmd / focus / thunar
+##
+
+sub_run_the_thunar () {
+	mod_focus_the_thunar "$@"
+}
+
+##
+### Tail: SubCmd / focus / thunar
+################################################################################
+
+
+
+
+################################################################################
+### Head: SubCmd / self_actions
+##
+
+sub_run_self_actions () {
+	util_self_actions "$@"
+}
+
+##
+### Tail: SubCmd / self_actions
+################################################################################
+
+
+################################################################################
+### Head: SubCmd / help
+##
+
+sub_run_help () {
+	main_usage "$@"
+}
+
+##
+### Tail: SubCmd / help
+################################################################################
+
+
+################################################################################
+### Head: Util / SubCmd
+##
+
+sub_cmd_find_function_name () {
+	echo "sub_run_$1"
+}
+
+##
+### Tail: Util / SubCmd
+################################################################################
+
+
+################################################################################
+### Head: Main
+##
+
+main_usage () {
+	##local cmd_name="$0"
+	local cmd_name="openbox-focus-ctrl"
+
+cat << EOF
+Usage:
+	$ $cmd_name [action]
+
+Example:
+
+	$ $cmd_name
+	$ $cmd_name help
+
+	$ $cmd_name raise_or_run
+
+	$ $cmd_name the_sakura
+	$ $cmd_name the_xfce4_terminal
+	$ $cmd_name the_atom
+	$ $cmd_name the_mousepad
+	$ $cmd_name the_firefox
+	$ $cmd_name the_pcmanfm_qt
+	$ $cmd_name the_thunar
+
+
+
+Debug:
+	$ export DEBUG_OPENBOX=true
+
+EOF
+
+}
+
+main_check_args_size () {
+	if [ $1 -le 0 ]; then
+		shift
+		main_run_default_sub_cmd "$@"
+		exit 1
+	fi
+}
+
+main_run_default_sub_cmd () {
+	main_usage "$@"
+}
+
+main_run_sub_cmd () {
+
+	local sub_cmd="$1"
+
+	shift
+
+	local function_name="$(sub_cmd_find_function_name "$sub_cmd")"
+
+	if ! is_function_exist "$function_name" ; then
+		util_debug_echo "[Debug] sub_cmd_function_not_exist: sub_cmd=$sub_cmd; function_name=$function_name"
+
+		echo
+
+		main_run_default_sub_cmd "$@"
+
+		return 1
+
+	fi
+
+	"$function_name" "$@" ## run sub cmd function
+
+
+}
+
+## Start
+cmd_var_init "$@"
+
+main_check_args_size $# "$@"
+
+main_run_sub_cmd "$@"
+
+##
+### Tail: Main
+################################################################################
