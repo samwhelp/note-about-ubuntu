@@ -85,7 +85,7 @@ mod_style_config_install () {
 	## qt-style-follow-gtk
 	##
 
-	util_error_echo "install sudo -Dm644 ${THE_OVERLAY_DIR_PATH}/etc/profile.d/qt-style-follow-gtk.sh /etc/profile.d/qt-style-follow-gtk.sh"
+	util_error_echo "sudo install -Dm644 ${THE_OVERLAY_DIR_PATH}/etc/profile.d/qt-style-follow-gtk.sh /etc/profile.d/qt-style-follow-gtk.sh"
 	sudo install -Dm644 "${THE_OVERLAY_DIR_PATH}/etc/profile.d/qt-style-follow-gtk.sh" "/etc/profile.d/qt-style-follow-gtk.sh"
 
 

@@ -43,7 +43,11 @@ mod_wm_openbox_package_list_find_for_install () {
 	mod_wallpaper_package_list_find_for_install
 
 
+	##
+	## sudo
+	##
 	mod_style_package_list_find_for_install
+	mod_apt_package_list_find_for_install
 
 }
 
@@ -85,7 +89,11 @@ mod_wm_openbox_config_install () {
 	mod_wallpaper_config_install
 
 
+	##
+	## sudo
+	##
 	mod_style_config_install
+	mod_apt_config_install
 
 
 	util_error_echo
@@ -131,7 +139,11 @@ mod_wm_openbox_asset_install () {
 	mod_wallpaper_asset_install
 
 
+	##
+	## sudo
+	##
 	mod_style_asset_install
+	mod_apt_asset_install
 
 	util_error_echo
 
