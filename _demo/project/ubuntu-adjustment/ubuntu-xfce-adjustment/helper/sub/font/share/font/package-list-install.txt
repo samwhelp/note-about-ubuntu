@@ -1,0 +1,7 @@
+#fonts-noto
+fonts-noto-cjk
+fonts-noto-mono
+
+#fonts-noto-core
+#fonts-noto-extra
+fonts-noto-color-emoji
