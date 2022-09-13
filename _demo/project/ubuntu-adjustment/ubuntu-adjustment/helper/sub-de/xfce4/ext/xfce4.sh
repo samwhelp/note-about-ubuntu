@@ -47,8 +47,9 @@ mod_de_xfce4_package_list_find_for_install () {
 	##
 	## sudo
 	##
-	mod_style_package_list_find_for_install
 	mod_apt_package_list_find_for_install
+	mod_locale_package_list_find_for_install
+	mod_style_package_list_find_for_install
 
 }
 
@@ -93,8 +94,9 @@ mod_de_xfce4_config_install () {
 	##
 	## sudo
 	##
-	mod_style_config_install
 	mod_apt_config_install
+	mod_locale_config_install
+	mod_style_config_install
 
 
 	util_error_echo
@@ -142,8 +144,9 @@ mod_de_xfce4_asset_install () {
 	##
 	## sudo
 	##
-	mod_style_asset_install
 	mod_apt_asset_install
+	mod_locale_asset_install
+	mod_style_asset_install
 
 	util_error_echo
 
