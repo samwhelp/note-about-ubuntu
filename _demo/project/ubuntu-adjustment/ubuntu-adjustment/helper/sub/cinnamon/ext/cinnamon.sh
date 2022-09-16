@@ -57,13 +57,19 @@ mod_cinnamon_config_install () {
 
 	sys_cinnamon_config_install_cinnamon_config_main
 
+
 	sys_cinnamon_config_install_cinnamon_keybind_main
 	sys_cinnamon_config_install_cinnamon_keybind_custom
 
+
 	sys_cinnamon_config_install_cinnamon_favorite_apps
+
 
 	sys_cinnamon_config_install_cinnamon_theme_main
 	sys_cinnamon_config_install_cinnamon_wallpaper_default
+
+
+	sys_cinnamon_config_install_cinnamon_autostart_plank
 
 }
 
