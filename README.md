@@ -12,6 +12,7 @@
 ## 主題
 
 * [入門](#入門)
+* [專案](#專案)
 * [系統環境微調](#系統環境微調)
 * [外觀微調](#外觀微調)
 * [桌面環境微調](#桌面環境微調)
@@ -31,6 +32,13 @@
 | [Boot ISO By QEMU KVM](https://samwhelp.github.io/note-about-ubuntu/read/start/download/boot_iso_by_qemu_kvm.html) |
 | [Mount ISO](https://samwhelp.github.io/note-about-ubuntu/read/start/download/mount_iso.html) |
 | [Explore ISO](https://samwhelp.github.io/note-about-ubuntu/read/start/download/explore_iso.html) |
+
+
+## 專案
+
+| 專案 |
+| --- |
+| [ubuntu-adjustment](https://samwhelp.github.io/note-about-ubuntu/read/project/ubuntu-adjustment/) |
 
 
 ## Ubuntu Flavours
@@ -71,6 +79,7 @@
 | [cursor-theme](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/icon/cursor-theme.html) |
 | [grub-theme](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/grub-theme.html) |
 | [lightdm-theme](https://samwhelp.github.io/note-about-ubuntu/read/subject/theme/lightdm-theme.html) |
+| [sddm-theme](https://samwhelp.github.io/note-about-ubuntu/read/subject/dm/sddm/theme.html) |
 
 
 ## 桌面環境微調
