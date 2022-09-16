@@ -46,6 +46,7 @@ source "${THE_SUB_CINNAMON_EXT_DIR_PATH}/${THE_SUB_CINNAMON_MODULE_NAME}-theme-m
 source "${THE_SUB_CINNAMON_EXT_DIR_PATH}/${THE_SUB_CINNAMON_MODULE_NAME}-wallpaper-default.sh"
 
 source "${THE_SUB_CINNAMON_EXT_DIR_PATH}/${THE_SUB_CINNAMON_MODULE_NAME}-autostart-plank.sh"
+source "${THE_SUB_CINNAMON_EXT_DIR_PATH}/${THE_SUB_CINNAMON_MODULE_NAME}-autostart-cairo-dock.sh"
 
 
 ##
