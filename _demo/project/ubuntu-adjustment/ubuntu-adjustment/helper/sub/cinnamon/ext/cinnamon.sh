@@ -55,11 +55,12 @@ mod_cinnamon_config_install () {
 	#util_error_echo "cp -rfv ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/cinnamon/. ${HOME}/.config/cinnamon/"
 	#cp -rfv "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/cinnamon/." "${HOME}/.config/cinnamon/"
 
-	sys_cinnamon_config_install_config_main
+	sys_cinnamon_config_install_cinnamon_config_main
 
-	sys_cinnamon_config_install_keybind_main
-	sys_cinnamon_config_install_keybind_custom
+	sys_cinnamon_config_install_cinnamon_keybind_main
+	sys_cinnamon_config_install_cinnamon_keybind_custom
 
+	sys_cinnamon_config_install_cinnamon_favorite_apps
 
 }
 

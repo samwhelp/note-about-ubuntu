@@ -2,10 +2,10 @@
 ################################################################################
 ### Head: cinnamon
 ##
-sys_cinnamon_config_install_keybind_main () {
+sys_cinnamon_config_install_cinnamon_keybind_main () {
 
 	echo
-	echo "## Config: cinnamon"
+	echo "## Config: sys_cinnamon_config_install_cinnamon_keybind_main"
 	echo
 
 

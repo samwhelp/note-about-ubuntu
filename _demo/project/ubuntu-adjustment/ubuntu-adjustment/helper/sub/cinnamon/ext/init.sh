@@ -40,6 +40,8 @@ source "${THE_SUB_CINNAMON_EXT_DIR_PATH}/${THE_SUB_CINNAMON_MODULE_NAME}-config-
 source "${THE_SUB_CINNAMON_EXT_DIR_PATH}/${THE_SUB_CINNAMON_MODULE_NAME}-keybind-main.sh"
 source "${THE_SUB_CINNAMON_EXT_DIR_PATH}/${THE_SUB_CINNAMON_MODULE_NAME}-keybind-custom.sh"
 
+source "${THE_SUB_CINNAMON_EXT_DIR_PATH}/${THE_SUB_CINNAMON_MODULE_NAME}-favorite-apps.sh"
+
 ##
 ### Tail: Func / Init
 ################################################################################
