@@ -1,18 +1,19 @@
 
 
 ################################################################################
-### Head: Mod / Main / Package / Install
+### Head: Mod / Gnome-Shell / Package / Install
 ##
 
-mod_main_package_install () {
+mod_de_gnome_shell_package_install () {
 
 	util_error_echo
 	util_error_echo '##'
-	util_error_echo '## mod_main_package_install'
+	util_error_echo '## mod_de_gnome_shell_package_install'
 	util_error_echo '##'
 	util_error_echo
 
-	local package_list="$(mod_main_package_list_find_for_install)"
+
+	local package_list="$(mod_de_gnome_shell_package_list_find_for_install)"
 
 	#util_error_echo "$package_list"
 
@@ -21,7 +22,7 @@ mod_main_package_install () {
 
 }
 
-mod_main_package_list_find_for_install () {
+mod_de_gnome_shell_package_list_find_for_install () {
 
 
 	mod_sakura_package_list_find_for_install
@@ -38,22 +39,12 @@ mod_main_package_list_find_for_install () {
 	mod_tool_package_list_find_for_install
 	mod_helper_package_list_find_for_install
 	mod_wallpaper_package_list_find_for_install
-	mod_plank_package_list_find_for_install
 
 
 	##
 	## de
 	##
-	mod_xfce4_package_list_find_for_install
-	mod_cinnamon_package_list_find_for_install
-	mod_mate_package_list_find_for_install
 	mod_gnome_shell_package_list_find_for_install
-
-
-	##
-	## wm
-	##
-	mod_openbox_package_list_find_for_install
 
 
 	##
@@ -66,23 +57,22 @@ mod_main_package_list_find_for_install () {
 }
 
 ##
-### Tail: Mod / Main / Package / Install
+### Tail: Mod / Gnome-Shell / Package / Install
 ################################################################################
 
 
 
 
 ################################################################################
-### Head: Mod / Main / Config / Install
+### Head: Mod / Gnome-Shell / Config / Install
 ##
 
-mod_main_config_install () {
+mod_de_gnome_shell_config_install () {
 
 	util_error_echo
 	util_error_echo '##'
-	util_error_echo '## mod_main_config_install'
+	util_error_echo '## mod_de_gnome_shell_config_install'
 	util_error_echo '##'
-	util_error_echo
 	util_error_echo
 
 
@@ -100,20 +90,12 @@ mod_main_config_install () {
 	mod_tool_config_install
 	mod_helper_config_install
 	mod_wallpaper_config_install
-	mod_plank_config_install
 
 	##
 	## de
 	##
-	mod_xfce4_config_install
-	mod_cinnamon_config_install
-	mod_mate_config_install
 	mod_gnome_shell_config_install
 
-	##
-	## wm
-	##
-	mod_openbox_config_install
 
 	##
 	## sudo
@@ -125,27 +107,27 @@ mod_main_config_install () {
 
 	util_error_echo
 
+
 }
 
 ##
-### Tail: Mod / Main / Config / Install
+### Tail: Mod / Gnome-Shell / Config / Install
 ################################################################################
 
 
 
 
 ################################################################################
-### Head: Mod / Main / Asset / Install
+### Head: Mod / Gnome-Shell / Asset / Install
 ##
 
-mod_main_asset_install () {
+mod_de_gnome_shell_asset_install () {
 
 	util_error_echo
 	util_error_echo '##'
-	util_error_echo '## mod_main_asset_install'
+	util_error_echo '## mod_de_gnome_shell_asset_install'
 	util_error_echo '##'
 	util_error_echo
-
 
 
 	mod_sakura_asset_install
@@ -162,21 +144,11 @@ mod_main_asset_install () {
 	mod_tool_asset_install
 	mod_helper_asset_install
 	mod_wallpaper_asset_install
-	mod_plank_asset_install
 
 	##
 	## de
 	##
-	mod_xfce4_asset_install
-	mod_cinnamon_asset_install
-	mod_mate_asset_install
 	mod_gnome_shell_asset_install
-
-	##
-	## wm
-	##
-	mod_openbox_asset_install
-
 
 	##
 	## sudo
@@ -190,5 +162,5 @@ mod_main_asset_install () {
 }
 
 ##
-### Tail: Mod / Main / Asset / Install
+### Tail: Mod / Gnome-Shell / Asset / Install
 ################################################################################
