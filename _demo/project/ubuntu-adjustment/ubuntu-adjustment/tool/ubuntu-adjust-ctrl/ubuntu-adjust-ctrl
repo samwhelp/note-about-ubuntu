@@ -1,0 +1,1197 @@
+#!/usr/bin/env bash
+
+
+################################################################################
+### Head: Url
+##
+
+# * https://github.com/samwhelp/skel-project-plan/blob/gh-pages/demo/sh/standalone/bin/demo-ctrl
+
+##
+### Tail: Url
+################################################################################
+
+
+################################################################################
+### Head: Init
+##
+set -e ## for Exit immediately if a command exits with a non-zero status.
+THE_BASE_DIR_PATH="$(cd -- "$(dirname -- "$0")" ; pwd)"
+THE_CMD_FILE_NAME="$(basename "$0")"
+##
+### Tail: Init
+################################################################################
+
+
+################################################################################
+### Head: Util / Debug
+##
+
+util_debug_echo () {
+	if is_debug; then
+		echo "$@" 1>&2
+	fi
+}
+
+util_error_echo () {
+	echo "$@" 1>&2
+}
+
+##
+### Head: Util / Debug
+################################################################################
+
+
+################################################################################
+### Head: Base
+##
+
+## THE_BASE_DIR_PATH="$(cd -- "$(dirname -- "$0")" ; pwd)"
+
+find_dir_path () {
+	if ! [ -d "$(dirname -- "$1")" ]; then
+		dirname -- "$1"
+		return 1
+	fi
+	echo "$(cd -- "$(dirname -- "$1")" ; pwd)"
+}
+
+## THIS_BASE_DIR_PATH="$(find_dir_path "$0")"
+
+## $ export DEBUG_UBUNTU_ADJUST_CTRL=true
+is_debug () {
+	if [ "$DEBUG_UBUNTU_ADJUST_CTRL" = "true" ]; then
+		return 0
+	fi
+
+	return 1
+}
+
+is_not_debug () {
+	! is_debug
+}
+
+base_var_init () {
+
+	#THE_PLAN_DIR_PATH="$(find_dir_path "$THE_BASE_DIR_PATH/../.")"
+	THE_PLAN_DIR_PATH="$(find_dir_path "$THE_BASE_DIR_PATH/.")"
+
+	THE_CMD_VERSION='0.1'
+
+	THE_CMD_DIR_PATH="${THE_BASE_DIR_PATH}"
+
+	if [ "none${THE_CMD_FILE_NAME}" = 'none' ]; then
+		THE_CMD_FILE_NAME='ubuntu-adjust-ctrl'
+	fi
+
+	THE_CMD_FILE_PATH="${THE_CMD_DIR_PATH}/${THE_CMD_FILE_NAME}"
+
+	## https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/project/ubuntu-adjustment/tool/ubuntu-adjust-ctrl/ubuntu-adjust-ctrl
+	THE_SELF_UPDATE_URL='https://raw.githubusercontent.com/samwhelp/note-about-ubuntu/gh-pages/_demo/project/ubuntu-adjustment/tool/ubuntu-adjust-ctrl/ubuntu-adjust-ctrl'
+
+
+	THE_TMP_DIR_PATH="/tmp"
+
+
+	THE_ASSET_DIR_NAME="asset"
+	THE_ASSET_DIR_PATH="$THE_PLAN_DIR_PATH/$THE_ASSET_DIR_NAME"
+
+	THE_VAR_DIR_NAME="var"
+	THE_VAR_DIR_PATH="$THE_PLAN_DIR_PATH/$THE_VAR_DIR_NAME"
+
+	THE_PROFILE_DIR_NAME=".${THE_CMD_FILE_NAME}-profile"
+	THE_PROFILE_DIR_PATH="$HOME/$THE_PROFILE_DIR_NAME"
+
+	THE_PROJECT_DIR_NAME="${THE_CMD_FILE_NAME}"
+	THE_PROJECT_DIR_PATH="$HOME/.local/share/$THE_PROJECT_DIR_NAME"
+
+	THE_CONFIG_DIR_NAME="${THE_CMD_FILE_NAME}"
+	THE_CONFIG_DIR_PATH="$HOME/.config/$THE_CONFIG_DIR_NAME"
+
+	THE_CACHE_DIR_NAME="${THE_CMD_FILE_NAME}"
+	THE_CACHE_DIR_PATH="$HOME/.cache/$THE_CACHE_DIR_NAME"
+
+
+
+
+	## ubuntu-adjustment
+	THE_UBUNTU_ADJUSTMENT_PLAN_DIR_NAME="ubuntu-adjustment"
+	THE_UBUNTU_ADJUSTMENT_PLAN_SYSTEM_DIR_PATH="/usr/share/${THE_UBUNTU_ADJUSTMENT_PLAN_DIR_NAME}"
+	THE_UBUNTU_ADJUSTMENT_PLAN_PERSON_DIR_PATH="${HOME}/.config/${THE_UBUNTU_ADJUSTMENT_PLAN_DIR_NAME}"
+
+
+	THE_UBUNTU_ADJUSTMENT_HELPER_DIR_NAME="helper"
+	THE_UBUNTU_ADJUSTMENT_HELPER_SYSTEM_DIR_PATH="${THE_UBUNTU_ADJUSTMENT_PLAN_SYSTEM_DIR_PATH}/${THE_UBUNTU_ADJUSTMENT_HELPER_DIR_NAME}"
+	THE_UBUNTU_ADJUSTMENT_HELPER_PERSON_DIR_PATH="${THE_UBUNTU_ADJUSTMENT_PLAN_PERSON_DIR_PATH}/${THE_UBUNTU_ADJUSTMENT_HELPER_DIR_NAME}"
+
+
+	THE_UBUNTU_ADJUSTMENT_SUB_MODULE_ROOT_DIR_NAME="sub"
+
+
+}
+
+base_var_dump () {
+
+	is_not_debug && return 0
+
+	util_debug_echo
+	util_debug_echo "################################################################################"
+	util_debug_echo "### Head: var_dump"
+	util_debug_echo "##"
+	util_debug_echo "#"
+
+
+	util_debug_echo "THE_PLAN_DIR_PATH=$THE_PLAN_DIR_PATH"
+
+	util_debug_echo "THE_CMD_FILE_NAME=$THE_CMD_FILE_NAME"
+	util_debug_echo "THE_CMD_FILE_PATH=$THE_CMD_FILE_PATH"
+	util_debug_echo "THE_CMD_DIR_PATH=$THE_CMD_DIR_PATH"
+
+	util_debug_echo "THE_SELF_UPDATE_URL=$THE_SELF_UPDATE_URL"
+
+
+	util_debug_echo "THE_TMP_DIR_PATH=$THE_TMP_DIR_PATH"
+
+
+	util_debug_echo "THE_ASSET_DIR_NAME=$THE_ASSET_DIR_NAME"
+	util_debug_echo "THE_ASSET_DIR_PATH=$THE_ASSET_DIR_PATH"
+
+	util_debug_echo "THE_VAR_DIR_NAME=$THE_VAR_DIR_NAME"
+	util_debug_echo "THE_VAR_DIR_PATH=$THE_VAR_DIR_PATH"
+
+
+
+
+	util_debug_echo "THE_PROFILE_DIR_NAME=$THE_PROFILE_DIR_NAME"
+	util_debug_echo "THE_PROFILE_DIR_PATH=$THE_PROFILE_DIR_PATH"
+
+	util_debug_echo "THE_PROJECT_DIR_NAME=$THE_PROJECT_DIR_NAME"
+	util_debug_echo "THE_PROJECT_DIR_PATH=$THE_PROJECT_DIR_PATH"
+
+	util_debug_echo "THE_CONFIG_DIR_NAME=$THE_CONFIG_DIR_NAME"
+	util_debug_echo "THE_CONFIG_DIR_PATH=$THE_CONFIG_DIR_PATH"
+
+	util_debug_echo "THE_CACHE_DIR_NAME=$THE_CACHE_DIR_NAME"
+	util_debug_echo "THE_CACHE_DIR_PATH=$THE_CACHE_DIR_PATH"
+
+
+	## ubuntu-adjustment
+	util_debug_echo "THE_UBUNTU_ADJUSTMENT_PLAN_DIR_NAME=${THE_UBUNTU_ADJUSTMENT_PLAN_DIR_NAME}"
+	util_debug_echo "THE_UBUNTU_ADJUSTMENT_PLAN_SYSTEM_DIR_PATH=${THE_UBUNTU_ADJUSTMENT_PLAN_SYSTEM_DIR_PATH}"
+	util_debug_echo "THE_UBUNTU_ADJUSTMENT_PLAN_PERSON_DIR_PATH=${THE_UBUNTU_ADJUSTMENT_PLAN_PERSON_DIR_PATH}"
+
+	util_debug_echo "THE_UBUNTU_ADJUSTMENT_HELPER_DIR_NAME=${THE_UBUNTU_ADJUSTMENT_HELPER_DIR_NAME}"
+	util_debug_echo "THE_UBUNTU_ADJUSTMENT_HELPER_SYSTEM_DIR_PATH=${THE_UBUNTU_ADJUSTMENT_HELPER_SYSTEM_DIR_PATH}"
+	util_debug_echo "THE_UBUNTU_ADJUSTMENT_HELPER_PERSON_DIR_PATH=${THE_UBUNTU_ADJUSTMENT_HELPER_PERSON_DIR_PATH}"
+
+
+	util_debug_echo "THE_UBUNTU_ADJUSTMENT_SUB_MODULE_ROOT_DIR_NAME=${THE_UBUNTU_ADJUSTMENT_SUB_MODULE_ROOT_DIR_NAME}"
+
+
+
+	util_debug_echo "#"
+	util_debug_echo "##"
+	util_debug_echo "### Tail: var_dump"
+	util_debug_echo "################################################################################"
+	util_debug_echo
+}
+
+
+base_var_init
+
+base_var_dump
+
+##
+### Tail: Base
+################################################################################
+
+
+################################################################################
+### Head: Util / Command
+##
+
+is_function_exist () {
+	if type -p "$1" > /dev/null; then
+		return 0
+	else
+		return 1
+	fi
+}
+
+# is_command_exist () {
+# 	if command -v "$1" > /dev/null; then
+# 		return 0
+# 	else
+# 		return 1
+# 	fi
+# }
+
+is_command_exist () {
+	if [ -x "$(command -v $1)" ]; then
+		return 0
+	else
+		return 1
+	fi
+}
+
+##
+### Tail: Util / Command
+################################################################################
+
+
+################################################################################
+### Head: Util / Process
+##
+
+util_stop_all ()  {
+
+	if is_command_exist 'pkill'; then
+		util_stop_all_by_pkill "$1"
+		return 0
+	fi
+
+	if is_command_exist 'killall'; then
+		util_stop_all_by_killall "$1"
+		return 0
+	fi
+
+	return 0
+}
+
+util_stop_all_by_pkill () {
+
+	if pkill "$1"; then
+		return 0
+	fi
+
+	return 0
+}
+
+util_stop_all_by_killall () {
+
+	if killall -q -9 "$1"; then
+		return 0
+	fi
+
+	return 0
+
+}
+
+##
+### Tail: Util / Process
+################################################################################
+
+
+################################################################################
+### Head: Util / SubCmd
+##
+
+sub_cmd_find_function_name () {
+	echo "act_run_$1"
+}
+
+##
+### Tail: Util / SubCmd
+################################################################################
+
+
+################################################################################
+### Head: Util / SelfUpdate
+##
+
+util_make_bin_dir () {
+	mkdir -p "$HOME/bin"
+}
+
+util_make_tmp_dir () {
+	THE_TMP_DIR_PATH="/tmp/tmp.$$.$RANDOM"
+	mkdir "$THE_TMP_DIR_PATH"
+}
+
+util_self_update_download_to_tmp_dir () {
+
+	local tmp_file_path="${THE_TMP_DIR_PATH}/${THE_CMD_FILE_NAME}"
+
+	wget -c "$THE_SELF_UPDATE_URL" -O "$tmp_file_path"
+
+}
+
+util_self_update_install_from_tmp_dir () {
+
+	local tmp_file_path="${THE_TMP_DIR_PATH}/${THE_CMD_FILE_NAME}"
+
+	echo "install -m 755 $tmp_file_path $THE_CMD_FILE_PATH"
+	install -m 755 "$tmp_file_path" "$THE_CMD_FILE_PATH"
+
+}
+
+util_self_update_check_cmd_exists () {
+
+	if ! [ -f "$THE_CMD_FILE_PATH" ]; then ## file not exists
+		return 0
+	fi
+
+
+	echo "File is exists:" "$THE_CMD_FILE_PATH"
+	echo
+
+	echo "Try to backup:"
+	echo
+
+	local now=$(date +%Y%m%d_%s)
+	local bak_dir_path="${THE_CMD_FILE_PATH}.bak"
+	local bak_file_path="${bak_dir_path}/${THE_CMD_FILE_NAME}.bak.$now"
+
+	mkdir -p $bak_dir_path
+
+	mv -v "$THE_CMD_FILE_PATH" "${bak_file_path}"
+
+	if [ "$?" != "0" ]; then
+		echo
+		echo 'Backup Failure!'
+		exit 1
+	fi
+
+	echo
+
+	return 0
+}
+
+util_self_update_print_version () {
+	echo
+	echo "Current Version:"
+
+	"$THE_CMD_FILE_PATH" version
+}
+
+util_self_update () {
+
+	util_make_bin_dir
+
+	util_make_tmp_dir
+
+	util_self_update_download_to_tmp_dir
+
+	util_self_update_check_cmd_exists && util_self_update_install_from_tmp_dir
+
+
+	util_self_update_print_version
+
+}
+
+
+main_version () {
+	echo $THE_CMD_VERSION
+}
+
+util_self_actions () {
+	grep '^act_run' "${THE_CMD_FILE_PATH}" | cut -d ' ' -f 1 | awk -F 'act_run_' '{print $2}' | sort -u
+}
+
+##
+### Tail: Util / SelfUpdate
+################################################################################
+
+
+################################################################################
+### Head: Util / File Exist Check
+##
+
+util_check_target_file_exist () {
+
+	local target="$1"
+
+	##
+	## $ help test
+	##
+
+	#if [ "none${target}" = "none" ]; then
+	#	return 1
+	#fi
+
+	if [ -z "${target}" ]; then
+		util_error_echo
+		util_error_echo '##'
+		util_error_echo '## util_check_target_file_exist: Empty input'
+		util_error_echo '##'
+		util_error_echo
+		return 1
+	fi
+
+	if [ -f "${target}" ]; then
+		echo "${target}"
+		return 0
+	fi
+
+	return 1
+
+}
+
+##
+### Tail: Util / File Exist Check
+################################################################################
+
+
+################################################################################
+### Head: Util / Dir Exist Check
+##
+
+util_check_target_dir_exist () {
+
+	local target="$1"
+
+	##
+	## $ help test
+	##
+
+	#if [ "none${target}" = "none" ]; then
+	#	return 1
+	#fi
+
+	if [ -z "${target}" ]; then
+		util_error_echo
+		util_error_echo '##'
+		util_error_echo '## util_check_target_dir_exist: Empty input'
+		util_error_echo '##'
+		util_error_echo
+		return 1
+	fi
+
+	if [ -d "${target}" ]; then
+		echo "${target}"
+		return 0
+	fi
+
+	return 1
+
+}
+
+##
+### Tail: Util / Dir Exist Check
+################################################################################
+
+
+################################################################################
+### Head: Util / Module Dir Check
+##
+
+is_ubuntu_adjustment_module_dir () {
+
+	local target_dir_path="$1"
+	local check_file_path="${target_dir_path}/bin/install.sh"
+
+	if [ ! -f "${check_file_path}" ]; then
+		return 1
+	fi
+
+	return 0
+}
+
+is_not_ubuntu_adjustment_module_dir () {
+
+	local target_dir_path="$1"
+	local check_file_path="${target_dir_path}/bin/install.sh"
+
+	if [ -f "${check_file_path}" ]; then
+		return 1
+	fi
+
+	return 0
+
+}
+
+##
+### Tail: Util / Module Dir Check
+################################################################################
+
+
+################################################################################
+### Head: Sys / Module Name List
+##
+
+sys_ubuntu_adjustment_module_name_list () {
+
+	#util_error_echo "sys_ubuntu_adjustment_module_name_list"
+	#util_error_echo "$@"
+
+
+	local choose="$1"
+	local base_dir_path="$1"
+	local sub_dir_name=''
+	local sub_dir_path=''
+
+
+	if ! base_dir_path="$(util_check_target_dir_exist "${choose}")"; then
+		util_error_echo
+		util_error_echo '##'
+		util_error_echo '## Dir Not Exist: '
+		util_error_echo '##'
+		util_error_echo
+		util_error_echo "You choose dir: [${choose}]"
+		util_error_echo
+		return 0
+	fi
+
+
+	cd "${base_dir_path}"
+
+	####for sub_dir_name in *; do  ## not use this, if empty dir
+
+	for sub_dir_name in $(ls ./ -1); do
+
+		sub_dir_path="${base_dir_path}/${sub_dir_name}"
+
+		if is_not_ubuntu_adjustment_module_dir "${sub_dir_path}"; then
+			continue
+		fi
+
+		echo "${sub_dir_name}"
+	done
+
+	cd "${OLDPWD}"
+
+	##
+	## $ man cd | grep OLDPWD
+	##
+
+}
+
+##
+### Tail: Sys / Module Name List
+################################################################################
+
+
+################################################################################
+### Head: Sys / Target Script Execute
+##
+
+sys_ubuntu_adjustment_target_script_execute () {
+
+	#util_error_echo "sys_ubuntu_adjustment_target_script_execute"
+	#util_error_echo "$@"
+
+
+	local choose_file_path="$1"
+	local target_file_path="$1"
+
+
+	if ! target_file_path="$(util_check_target_file_exist $choose_file_path)"; then
+		util_error_echo
+		util_error_echo '##'
+		util_error_echo '## Script Not Exist: '
+		util_error_echo '##'
+		util_error_echo
+		util_error_echo "You choose file: [${choose_file_path}]"
+		util_error_echo
+		return 1
+	fi
+
+
+	if [ -x "$target_file_path" ]; then
+		util_error_echo
+		util_error_echo '##'
+		util_error_echo '## Execute Script: '
+		util_error_echo '##'
+		util_error_echo
+		util_error_echo "Script file: [${target_file_path}]"
+		util_error_echo
+
+		"$target_file_path"
+	fi
+
+	return 0
+
+}
+
+##
+### Tail: Sys / Target Script Execute
+################################################################################
+
+
+################################################################################
+### Head: Mod / Module Name List
+##
+
+mod_ubuntu_adjustment_module_name_list () {
+
+	#util_error_echo "mod_ubuntu_adjustment_module_name_list"
+	#util_error_echo "$@"
+
+	##
+	## ubuntu-adjust-ctrl list
+	##
+
+	local base_dir_path="${THE_UBUNTU_ADJUSTMENT_HELPER_SYSTEM_DIR_PATH}/${THE_UBUNTU_ADJUSTMENT_SUB_MODULE_ROOT_DIR_NAME}"
+
+
+	sys_ubuntu_adjustment_module_name_list "$base_dir_path"
+
+}
+
+##
+### Tail: Mod / Module Name List
+################################################################################
+
+
+################################################################################
+### Head: Mod / Module Action Execute
+##
+
+mod_ubuntu_adjustment_script_execute_by_module_action () {
+
+	#util_error_echo "mod_ubuntu_adjustment_script_execute_by_module_action"
+	#util_error_echo "$@"
+
+	local base_dir_path="${THE_UBUNTU_ADJUSTMENT_HELPER_SYSTEM_DIR_PATH}/${THE_UBUNTU_ADJUSTMENT_SUB_MODULE_ROOT_DIR_NAME}"
+
+	local choose_module="$1"
+	local choose_action="$2"
+	local script_file_path="${base_dir_path}/${choose_module}/bin/${choose_action}.sh"
+
+	sys_ubuntu_adjustment_target_script_execute "${script_file_path}"
+
+}
+
+##
+### Tail: Mod / Module Action Execute
+################################################################################
+
+
+################################################################################
+### Head: Mod / Module / install
+##
+
+mod_ubuntu_adjustment_module_install () {
+
+	#util_error_echo "mod_ubuntu_adjustment_module_install"
+	#util_error_echo "$@"
+
+
+	local choose_module="$1"
+	local choose_action="install"
+
+	util_error_echo
+	util_error_echo '##'
+	util_error_echo "## Module: ${choose_module}"
+	util_error_echo "## Action: ${choose_action}"
+	util_error_echo '##'
+	util_error_echo
+
+
+	mod_ubuntu_adjustment_script_execute_by_module_action "${choose_module}" "${choose_action}"
+
+}
+
+##
+### Tail: Mod / Module / install
+################################################################################
+
+
+################################################################################
+### Head: Mod / Module / package-install
+##
+
+mod_ubuntu_adjustment_module_package_install () {
+
+	#util_error_echo "mod_ubuntu_adjustment_module_package_install"
+	#util_error_echo "$@"
+
+
+	local choose_module="$1"
+	local choose_action="package-install"
+
+	util_error_echo
+	util_error_echo '##'
+	util_error_echo "## Module: ${choose_module}"
+	util_error_echo "## Action: ${choose_action}"
+	util_error_echo '##'
+	util_error_echo
+
+
+	mod_ubuntu_adjustment_script_execute_by_module_action "${choose_module}" "${choose_action}"
+
+}
+
+##
+### Tail: Mod / Module / package-install
+################################################################################
+
+
+################################################################################
+### Head: Mod / Module / config-install
+##
+
+mod_ubuntu_adjustment_module_config_install () {
+
+	#util_error_echo "mod_ubuntu_adjustment_module_config_install"
+	#util_error_echo "$@"
+
+
+	local choose_module="$1"
+	local choose_action="config-install"
+
+	util_error_echo
+	util_error_echo '##'
+	util_error_echo "## Module: ${choose_module}"
+	util_error_echo "## Action: ${choose_action}"
+	util_error_echo '##'
+	util_error_echo
+
+
+	mod_ubuntu_adjustment_script_execute_by_module_action "${choose_module}" "${choose_action}"
+
+}
+
+##
+### Tail: Mod / Module / config-install
+################################################################################
+
+
+################################################################################
+### Head: Mod / Module / asset-install
+##
+
+mod_ubuntu_adjustment_module_asset_install () {
+
+	#util_error_echo "mod_ubuntu_adjustment_module_asset_install"
+	#util_error_echo "$@"
+
+
+	local choose_module="$1"
+	local choose_action="asset-install"
+
+	util_error_echo
+	util_error_echo '##'
+	util_error_echo "## Module: ${choose_module}"
+	util_error_echo "## Action: ${choose_action}"
+	util_error_echo '##'
+	util_error_echo
+
+
+	mod_ubuntu_adjustment_script_execute_by_module_action "${choose_module}" "${choose_action}"
+
+}
+
+##
+### Tail: Mod / Module / asset-install
+################################################################################
+
+
+################################################################################
+### Head: Mod / Fzf / Module / install
+##
+
+mod_ubuntu_adjustment_fzf_module_install () {
+
+	#util_error_echo "mod_ubuntu_adjustment_fzf_module_install"
+	#util_error_echo "$@"
+
+
+	if ! is_command_exist 'fzf'; then
+		util_error_echo
+		util_error_echo '##'
+		util_error_echo '## Need: fzf'
+		util_error_echo '## * https://github.com/junegunn/fzf'
+		util_error_echo '##'
+		util_error_echo '## Ubuntu Install:'
+		util_error_echo '## $ sudo pacman -Sy --needed fzf'
+		util_error_echo '##'
+		util_error_echo
+		return 1
+	fi
+
+	local choose_action="install"
+	local choose_module="$(mod_ubuntu_adjustment_module_name_list | fzf)"
+
+	util_error_echo
+	util_error_echo '##'
+	util_error_echo "## Selected: [${choose_module}]"
+	util_error_echo '##'
+
+
+	if [ -z "${choose_module}" ]; then
+		util_error_echo
+		util_error_echo "## Not Selected"
+		util_error_echo
+		return 1
+	fi
+
+	mod_ubuntu_adjustment_module_install "${choose_module}" "${choose_action}"
+
+}
+
+##
+### Tail: Mod / Fzf / Module / install
+################################################################################
+
+
+################################################################################
+### Head: Mod / Fzf / Module / package-install
+##
+
+mod_ubuntu_adjustment_fzf_module_package_install () {
+
+	#util_error_echo "mod_ubuntu_adjustment_fzf_module_package_install"
+	#util_error_echo "$@"
+
+
+	if ! is_command_exist 'fzf'; then
+		util_error_echo
+		util_error_echo '##'
+		util_error_echo '## Need: fzf'
+		util_error_echo '## * https://github.com/junegunn/fzf'
+		util_error_echo '##'
+		util_error_echo '## Ubuntu Install:'
+		util_error_echo '## $ sudo pacman -Sy --needed fzf'
+		util_error_echo '##'
+		util_error_echo
+		return 1
+	fi
+
+	local choose_action="package-install"
+	local choose_module="$(mod_ubuntu_adjustment_module_name_list | fzf)"
+
+	util_error_echo
+	util_error_echo '##'
+	util_error_echo "## Selected: [${choose_module}]"
+	util_error_echo '##'
+
+
+	if [ -z "${choose_module}" ]; then
+		util_error_echo
+		util_error_echo "## Not Selected"
+		util_error_echo
+		return 1
+	fi
+
+	mod_ubuntu_adjustment_module_package_install "${choose_module}" "${choose_action}"
+
+}
+
+##
+### Tail: Mod / Fzf / Module / package-install
+################################################################################
+
+
+################################################################################
+### Head: Mod / Fzf / Module / config-install
+##
+
+mod_ubuntu_adjustment_fzf_module_config_install () {
+
+	#util_error_echo "mod_ubuntu_adjustment_fzf_module_config_install"
+	#util_error_echo "$@"
+
+
+	if ! is_command_exist 'fzf'; then
+		util_error_echo
+		util_error_echo '##'
+		util_error_echo '## Need: fzf'
+		util_error_echo '## * https://github.com/junegunn/fzf'
+		util_error_echo '##'
+		util_error_echo '## Ubuntu Install:'
+		util_error_echo '## $ sudo pacman -Sy --needed fzf'
+		util_error_echo '##'
+		util_error_echo
+		return 1
+	fi
+
+	local choose_action="config-install"
+	local choose_module="$(mod_ubuntu_adjustment_module_name_list | fzf)"
+
+	util_error_echo
+	util_error_echo '##'
+	util_error_echo "## Selected: [${choose_module}]"
+	util_error_echo '##'
+
+
+	if [ -z "${choose_module}" ]; then
+		util_error_echo
+		util_error_echo "## Not Selected"
+		util_error_echo
+		return 1
+	fi
+
+	mod_ubuntu_adjustment_module_config_install "${choose_module}" "${choose_action}"
+
+}
+
+##
+### Tail: Mod / Fzf / Module / config-install
+################################################################################
+
+
+################################################################################
+### Head: Mod / Fzf / Module / asset-install
+##
+
+mod_ubuntu_adjustment_fzf_module_asset_install () {
+
+	#util_error_echo "mod_ubuntu_adjustment_fzf_module_asset_install"
+	#util_error_echo "$@"
+
+
+	if ! is_command_exist 'fzf'; then
+		util_error_echo
+		util_error_echo '##'
+		util_error_echo '## Need: fzf'
+		util_error_echo '## * https://github.com/junegunn/fzf'
+		util_error_echo '##'
+		util_error_echo '## Ubuntu Install:'
+		util_error_echo '## $ sudo pacman -Sy --needed fzf'
+		util_error_echo '##'
+		util_error_echo
+		return 1
+	fi
+
+	local choose_action="asset-install"
+	local choose_module="$(mod_ubuntu_adjustment_module_name_list | fzf)"
+
+	util_error_echo
+	util_error_echo '##'
+	util_error_echo "## Selected: [${choose_module}]"
+	util_error_echo '##'
+
+
+	if [ -z "${choose_module}" ]; then
+		util_error_echo
+		util_error_echo "## Not Selected"
+		util_error_echo
+		return 1
+	fi
+
+	mod_ubuntu_adjustment_module_asset_install "${choose_module}" "${choose_action}"
+
+}
+
+##
+### Tail: Mod / Fzf / Module / asset-install
+################################################################################
+
+
+################################################################################
+### Head: SubCmd
+##
+
+act_run_help () {
+	main_usage "$@"
+}
+
+act_run_version () {
+	main_version "$@"
+}
+
+act_run_self_update () {
+	util_self_update "$@"
+}
+
+act_run_self_actions () {
+	util_self_actions "$@"
+}
+
+
+
+act_run_install () {
+	util_error_echo "act_run_install"
+	#mod_ubuntu_adjustment_all_install "$@"
+}
+
+
+act_run_package_install () {
+	util_error_echo "act_run_package_install"
+	#mod_ubuntu_adjustment_all_package_install "$@"
+}
+
+
+act_run_config_install () {
+	util_error_echo "act_run_config_install"
+	#mod_ubuntu_adjustment_all_config_install "$@"
+}
+
+
+act_run_asset_install () {
+	util_error_echo "act_run_asset_install"
+	#mod_ubuntu_adjustment_all_asset_install "$@"
+}
+
+
+act_run_sub_list () {
+	#util_error_echo "act_run_sub_list"
+	mod_ubuntu_adjustment_module_name_list "$@"
+}
+
+
+act_run_sub_install () {
+	#util_error_echo "act_run_sub_install"
+	mod_ubuntu_adjustment_module_install "$@"
+}
+
+
+act_run_sub_package_install () {
+	#util_error_echo "act_run_sub_package_install"
+	mod_ubuntu_adjustment_module_package_install "$@"
+}
+
+
+act_run_sub_config_install () {
+	#util_error_echo "act_run_sub_config_install"
+	mod_ubuntu_adjustment_module_config_install "$@"
+}
+
+
+act_run_sub_asset_install () {
+	#util_error_echo "act_run_sub_asset_install"
+	mod_ubuntu_adjustment_module_asset_install "$@"
+}
+
+
+act_run_fzf_install () {
+	#util_error_echo "act_run_fzf_install"
+	mod_ubuntu_adjustment_fzf_module_install "$@"
+}
+
+
+act_run_fzf_package_install () {
+	#util_error_echo "act_run_fzf_package_install"
+	mod_ubuntu_adjustment_fzf_module_package_install "$@"
+}
+
+
+act_run_fzf_config_install () {
+	#util_error_echo "act_run_fzf_config_install"
+	mod_ubuntu_adjustment_fzf_module_config_install "$@"
+}
+
+
+act_run_fzf_asset_install () {
+	#util_error_echo "act_run_fzf_asset_install"
+	mod_ubuntu_adjustment_fzf_module_asset_install "$@"
+}
+
+##
+### Tail: SubCmd
+################################################################################
+
+
+################################################################################
+### Head: Main
+##
+
+main_usage () {
+	##local cmd_name="$0"
+	local cmd_name="$THE_CMD_FILE_NAME"
+
+cat << EOF
+Usage:
+	$ $cmd_name [action]
+
+Example:
+
+	## help
+
+		$ $cmd_name
+		$ $cmd_name help
+
+	## version
+
+		$ $cmd_name version
+
+	## self_update
+
+		$ $cmd_name self_update
+
+	## self_actions
+
+		$ $cmd_name self_actions
+
+
+
+	## main
+
+		$ $cmd_name install
+
+		$ $cmd_name package_install
+
+		$ $cmd_name confg_install
+
+		$ $cmd_name asset_install
+
+
+	## sub module
+
+		$ $cmd_name sub_list
+
+		$ $cmd_name sub_install {module_name}
+
+		$ $cmd_name sub_package_install {module_name}
+
+		$ $cmd_name sub_confg_install {module_name}
+
+		$ $cmd_name sub_asset_install {module_name}
+
+
+	## fzf module
+
+		$ $cmd_name fzf_install
+
+		$ $cmd_name fzf_package_install
+
+		$ $cmd_name fzf_confg_install
+
+		$ $cmd_name fzf_asset_install
+
+
+Debug:
+	$ export DEBUG_UBUNTU_ADJUST_CTRL=true
+
+EOF
+
+}
+
+main_check_args_size () {
+	if [ $1 -le 0 ]; then
+		shift
+		main_run_default_sub_cmd "$@"
+		exit 1
+	fi
+}
+
+main_run_default_sub_cmd () {
+	main_usage "$@"
+}
+
+main_run_sub_cmd () {
+
+	local sub_cmd="$1"
+
+	shift
+
+	local function_name="$(sub_cmd_find_function_name "$sub_cmd")"
+
+	if ! is_function_exist "$function_name" ; then
+
+		util_debug_echo
+		util_debug_echo '##'
+		util_debug_echo "## [Debug] sub_cmd_function_not_exist: sub_cmd=$sub_cmd; function_name=$function_name"
+		util_debug_echo '##'
+		util_debug_echo
+
+		main_run_default_sub_cmd "$@"
+
+		return 1
+
+	fi
+
+	"$function_name" "$@" ## run sub cmd function
+
+
+}
+
+## Start
+main_check_args_size $# "$@"
+
+main_run_sub_cmd "$@"
+
+##
+### Tail: Main
+################################################################################

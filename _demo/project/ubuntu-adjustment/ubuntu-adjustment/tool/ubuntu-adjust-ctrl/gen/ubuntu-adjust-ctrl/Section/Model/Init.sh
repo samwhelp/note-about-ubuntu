@@ -1,0 +1,13 @@
+<?php include_once(__DIR__ . '/install/Core.sh'); ?>
+<?php include_once(__DIR__ . '/package_install/Core.sh'); ?>
+<?php include_once(__DIR__ . '/config_install/Core.sh'); ?>
+<?php include_once(__DIR__ . '/asset_install/Core.sh'); ?>
+<?php include_once(__DIR__ . '/sub_list/Core.sh'); ?>
+<?php include_once(__DIR__ . '/sub_install/Core.sh'); ?>
+<?php include_once(__DIR__ . '/sub_package_install/Core.sh'); ?>
+<?php include_once(__DIR__ . '/sub_config_install/Core.sh'); ?>
+<?php include_once(__DIR__ . '/sub_asset_install/Core.sh'); ?>
+<?php include_once(__DIR__ . '/fzf_install/Core.sh'); ?>
+<?php include_once(__DIR__ . '/fzf_package_install/Core.sh'); ?>
+<?php include_once(__DIR__ . '/fzf_config_install/Core.sh'); ?>
+<?php include_once(__DIR__ . '/fzf_asset_install/Core.sh'); ?>

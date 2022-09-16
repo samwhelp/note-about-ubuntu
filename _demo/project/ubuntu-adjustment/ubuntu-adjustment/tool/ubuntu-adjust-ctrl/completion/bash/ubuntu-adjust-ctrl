@@ -1,0 +1,21 @@
+
+##
+## ## Ubuntu (Debian)
+## /etc/bash_completion.d/ubuntu-adjust-ctrl
+## $ sudo install -Dm644 ./ubuntu-adjust-ctrl /etc/bash_completion.d/ubuntu-adjust-ctrl
+##
+
+_ubuntu_adjust_ctrl () {
+
+	local cur prev words cword
+	_init_completion || return
+
+	if [ "$cword" = "1" ]; then
+		local action_list=$(DEBUG_UBUNTU_ADJUST_CTRL=false ubuntu-adjust-ctrl self_actions)
+		COMPREPLY=( $( compgen -W "$action_list" -- "$cur" ) )
+	fi
+
+	return 0
+}
+
+complete -F _ubuntu_adjust_ctrl ubuntu-adjust-ctrl
