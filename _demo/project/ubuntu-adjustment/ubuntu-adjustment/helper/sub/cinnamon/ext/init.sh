@@ -42,6 +42,9 @@ source "${THE_SUB_CINNAMON_EXT_DIR_PATH}/${THE_SUB_CINNAMON_MODULE_NAME}-keybind
 
 source "${THE_SUB_CINNAMON_EXT_DIR_PATH}/${THE_SUB_CINNAMON_MODULE_NAME}-favorite-apps.sh"
 
+source "${THE_SUB_CINNAMON_EXT_DIR_PATH}/${THE_SUB_CINNAMON_MODULE_NAME}-theme-main.sh"
+
+
 ##
 ### Tail: Func / Init
 ################################################################################
