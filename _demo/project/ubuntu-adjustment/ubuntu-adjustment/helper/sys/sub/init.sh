@@ -40,6 +40,7 @@ source "${THE_SUB_DIR_PATH}/wallpaper/ext/init.sh"
 ## de
 ##
 source "${THE_SUB_DIR_PATH}/cinnamon/ext/init.sh"
+source "${THE_SUB_DIR_PATH}/mate/ext/init.sh"
 
 ##
 ## wm
