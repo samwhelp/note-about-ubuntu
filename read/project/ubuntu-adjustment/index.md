@@ -1,7 +1,7 @@
 ---
 title: ubuntu-adjustment
 nav_order: 8010
-has_children: false
+has_children: true
 parent: 專案
 ---
 
