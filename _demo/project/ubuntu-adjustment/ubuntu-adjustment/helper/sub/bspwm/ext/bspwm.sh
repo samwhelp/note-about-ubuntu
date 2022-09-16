@@ -49,8 +49,8 @@ mod_bspwm_config_install () {
 
 
 
-	#util_error_echo "cp -rf ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/bspwm/. ${HOME}/.config/bspwm/"
-	#cp -rf "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/bspwm/." "${HOME}/.config/bspwm/"
+	util_error_echo "cp -rf ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/bspwm/. ${HOME}/.config/bspwm/"
+	cp -rf "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/bspwm/." "${HOME}/.config/bspwm/"
 
 	#util_error_echo "cp -rfv ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/bspwm/. ${HOME}/.config/bspwm/"
 	#cp -rfv "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/bspwm/." "${HOME}/.config/bspwm/"
