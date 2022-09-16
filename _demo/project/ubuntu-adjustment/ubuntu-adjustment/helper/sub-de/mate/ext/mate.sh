@@ -1,19 +1,19 @@
 
 
 ################################################################################
-### Head: Mod / Xfce4 / Package / Install
+### Head: Mod / Mate / Package / Install
 ##
 
-mod_de_xfce4_package_install () {
+mod_de_mate_package_install () {
 
 	util_error_echo
 	util_error_echo '##'
-	util_error_echo '## mod_de_xfce4_package_install'
+	util_error_echo '## mod_de_mate_package_install'
 	util_error_echo '##'
 	util_error_echo
 
 
-	local package_list="$(mod_de_xfce4_package_list_find_for_install)"
+	local package_list="$(mod_de_mate_package_list_find_for_install)"
 
 	#util_error_echo "$package_list"
 
@@ -22,7 +22,7 @@ mod_de_xfce4_package_install () {
 
 }
 
-mod_de_xfce4_package_list_find_for_install () {
+mod_de_mate_package_list_find_for_install () {
 
 
 	mod_sakura_package_list_find_for_install
@@ -44,7 +44,7 @@ mod_de_xfce4_package_list_find_for_install () {
 	##
 	## de
 	##
-	mod_xfce4_package_list_find_for_install
+	mod_mate_package_list_find_for_install
 
 
 	##
@@ -57,21 +57,21 @@ mod_de_xfce4_package_list_find_for_install () {
 }
 
 ##
-### Tail: Mod / Xfce4 / Package / Install
+### Tail: Mod / Mate / Package / Install
 ################################################################################
 
 
 
 
 ################################################################################
-### Head: Mod / Xfce4 / Config / Install
+### Head: Mod / Mate / Config / Install
 ##
 
-mod_de_xfce4_config_install () {
+mod_de_mate_config_install () {
 
 	util_error_echo
 	util_error_echo '##'
-	util_error_echo '## mod_de_xfce4_config_install'
+	util_error_echo '## mod_de_mate_config_install'
 	util_error_echo '##'
 	util_error_echo
 
@@ -94,7 +94,7 @@ mod_de_xfce4_config_install () {
 	##
 	## de
 	##
-	mod_xfce4_config_install
+	mod_mate_config_install
 
 
 	##
@@ -111,21 +111,21 @@ mod_de_xfce4_config_install () {
 }
 
 ##
-### Tail: Mod / Xfce4 / Config / Install
+### Tail: Mod / Mate / Config / Install
 ################################################################################
 
 
 
 
 ################################################################################
-### Head: Mod / Xfce4 / Asset / Install
+### Head: Mod / Mate / Asset / Install
 ##
 
-mod_de_xfce4_asset_install () {
+mod_de_mate_asset_install () {
 
 	util_error_echo
 	util_error_echo '##'
-	util_error_echo '## mod_de_xfce4_asset_install'
+	util_error_echo '## mod_de_mate_asset_install'
 	util_error_echo '##'
 	util_error_echo
 
@@ -148,7 +148,7 @@ mod_de_xfce4_asset_install () {
 	##
 	## de
 	##
-	mod_xfce4_asset_install
+	mod_mate_asset_install
 
 	##
 	## sudo
@@ -162,5 +162,5 @@ mod_de_xfce4_asset_install () {
 }
 
 ##
-### Tail: Mod / Xfce4 / Asset / Install
+### Tail: Mod / Mate / Asset / Install
 ################################################################################
