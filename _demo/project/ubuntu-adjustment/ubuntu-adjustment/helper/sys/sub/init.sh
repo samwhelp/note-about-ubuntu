@@ -43,6 +43,7 @@ source "${THE_SUB_DIR_PATH}/plank/ext/init.sh"
 source "${THE_SUB_DIR_PATH}/cinnamon/ext/init.sh"
 source "${THE_SUB_DIR_PATH}/mate/ext/init.sh"
 source "${THE_SUB_DIR_PATH}/gnome-shell/ext/init.sh"
+source "${THE_SUB_DIR_PATH}/gnome-flashback/ext/init.sh"
 
 ##
 ## wm

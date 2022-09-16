@@ -48,6 +48,7 @@ mod_main_package_list_find_for_install () {
 	mod_cinnamon_package_list_find_for_install
 	mod_mate_package_list_find_for_install
 	mod_gnome_shell_package_list_find_for_install
+	mod_gnome_flashback_package_list_find_for_install
 
 
 	##
@@ -109,6 +110,7 @@ mod_main_config_install () {
 	mod_cinnamon_config_install
 	mod_mate_config_install
 	mod_gnome_shell_config_install
+	mod_gnome_flashback_config_install
 
 	##
 	## wm
@@ -171,6 +173,7 @@ mod_main_asset_install () {
 	mod_cinnamon_asset_install
 	mod_mate_asset_install
 	mod_gnome_shell_asset_install
+	mod_gnome_flashback_asset_install
 
 	##
 	## wm
