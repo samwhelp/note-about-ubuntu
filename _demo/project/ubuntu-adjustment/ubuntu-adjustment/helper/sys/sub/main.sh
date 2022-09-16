@@ -40,10 +40,16 @@ mod_main_package_list_find_for_install () {
 	mod_wallpaper_package_list_find_for_install
 
 
-
+	##
+	## de
+	##
 	mod_xfce4_package_list_find_for_install
+	mod_cinnamon_package_list_find_for_install
 
 
+	##
+	## wm
+	##
 	mod_openbox_package_list_find_for_install
 
 
@@ -91,10 +97,15 @@ mod_main_config_install () {
 	mod_helper_config_install
 	mod_wallpaper_config_install
 
-
+	##
+	## de
+	##
 	mod_xfce4_config_install
+	mod_cinnamon_config_install
 
-
+	##
+	## wm
+	##
 	mod_openbox_config_install
 
 	##
@@ -144,10 +155,15 @@ mod_main_asset_install () {
 	mod_helper_asset_install
 	mod_wallpaper_asset_install
 
-
+	##
+	## de
+	##
 	mod_xfce4_asset_install
+	mod_cinnamon_asset_install
 
-
+	##
+	## wm
+	##
 	mod_openbox_asset_install
 
 

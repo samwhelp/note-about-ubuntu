@@ -36,6 +36,14 @@ source "${THE_SUB_DIR_PATH}/helper/ext/init.sh"
 source "${THE_SUB_DIR_PATH}/wallpaper/ext/init.sh"
 
 
+##
+## de
+##
+source "${THE_SUB_DIR_PATH}/cinnamon/ext/init.sh"
+
+##
+## wm
+##
 source "${THE_SUB_DIR_PATH}/openbox/ext/init.sh"
 
 ##
