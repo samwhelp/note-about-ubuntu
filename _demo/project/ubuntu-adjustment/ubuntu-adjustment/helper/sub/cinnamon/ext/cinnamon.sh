@@ -57,6 +57,7 @@ mod_cinnamon_config_install () {
 
 
 	sys_cinnamon_config_install_keybind_main
+	sys_cinnamon_config_install_keybind_custom
 
 
 }
