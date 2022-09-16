@@ -1,0 +1,14 @@
+
+
+[org.cinnamon]
+workspace-expo-view-as-grid=true
+
+
+[org.cinnamon.desktop.wm.preferences]
+num-workspaces=5
+workspace-names=['File', 'Edit', 'Web', 'Term', 'Misc']
+
+
+[org.cinnamon.muffin]
+dynamic-workspaces=false
+workspace-cycle=true
