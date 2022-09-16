@@ -48,6 +48,7 @@ source "${THE_SUB_CINNAMON_EXT_DIR_PATH}/${THE_SUB_CINNAMON_MODULE_NAME}-wallpap
 source "${THE_SUB_CINNAMON_EXT_DIR_PATH}/${THE_SUB_CINNAMON_MODULE_NAME}-autostart-plank.sh"
 source "${THE_SUB_CINNAMON_EXT_DIR_PATH}/${THE_SUB_CINNAMON_MODULE_NAME}-autostart-cairo-dock.sh"
 
+source "${THE_SUB_CINNAMON_EXT_DIR_PATH}/${THE_SUB_CINNAMON_MODULE_NAME}-hot-corner.sh"
 
 ##
 ### Tail: Func / Init
