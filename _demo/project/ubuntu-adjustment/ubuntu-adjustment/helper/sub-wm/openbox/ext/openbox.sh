@@ -24,15 +24,25 @@ mod_wm_openbox_package_install () {
 
 mod_wm_openbox_package_list_find_for_install () {
 
-
+	##
+	## wm
+	##
 	mod_openbox_package_list_find_for_install
 
 
+	##
+	## tool
+	##
 	mod_sakura_package_list_find_for_install
 	mod_pcmanfm_qt_package_list_find_for_install
 	mod_pcmanfm_package_list_find_for_install
 	mod_viewnior_package_list_find_for_install
 	mod_mpv_package_list_find_for_install
+
+
+	##
+	## env
+	##
 	mod_fcitx5_package_list_find_for_install
 	mod_font_package_list_find_for_install
 	mod_rofi_package_list_find_for_install

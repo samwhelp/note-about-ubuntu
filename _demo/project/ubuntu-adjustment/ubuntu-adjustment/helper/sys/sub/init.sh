@@ -49,6 +49,7 @@ source "${THE_SUB_DIR_PATH}/gnome-flashback/ext/init.sh"
 ## wm
 ##
 source "${THE_SUB_DIR_PATH}/openbox/ext/init.sh"
+source "${THE_SUB_DIR_PATH}/bspwm/ext/init.sh"
 
 ##
 ## sudo
