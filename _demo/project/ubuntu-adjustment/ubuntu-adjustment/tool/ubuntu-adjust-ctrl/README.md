@@ -16,6 +16,15 @@ chmod 755 "$HOME/.local/bin/ubuntu-adjust-ctrl"
 Or Run
 
 ``` sh
+curl -fLo "$HOME/.local/bin/ubuntu-adjust-ctrl" --create-dirs \
+	'https://raw.githubusercontent.com/samwhelp/note-about-ubuntu/gh-pages/_demo/project/ubuntu-adjustment/ubuntu-adjustment/tool/ubuntu-adjust-ctrl/ubuntu-adjust-ctrl'
+
+chmod 755 "$HOME/.local/bin/ubuntu-adjust-ctrl"
+```
+
+Or Run
+
+``` sh
 curl -fsSL 'https://raw.githubusercontent.com/samwhelp/note-about-ubuntu/gh-pages/_demo/project/ubuntu-adjustment/ubuntu-adjustment/tool/ubuntu-adjust-ctrl/remote-install.sh' | bash
 ```
 
