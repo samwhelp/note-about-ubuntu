@@ -5,10 +5,10 @@
 ##
 
 ##
-## * https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/project/ubuntu-adjustment/tool/ubuntu-adjust-ctrl/remote-install.sh
-## * https://raw.githubusercontent.com/samwhelp/note-about-ubuntu/gh-pages/_demo/project/ubuntu-adjustment/tool/ubuntu-adjust-ctrl/remote-install.sh
-## * https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/project/ubuntu-adjustment/tool/ubuntu-adjust-ctrl/ubuntu-adjust-ctrl
-## * https://raw.githubusercontent.com/samwhelp/note-about-ubuntu/gh-pages/_demo/project/ubuntu-adjustment/tool/ubuntu-adjust-ctrl/ubuntu-adjust-ctrl
+## * https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/project/ubuntu-adjustment/ubuntu-adjustment/tool/ubuntu-adjust-ctrl/remote-install.sh
+## * https://raw.githubusercontent.com/samwhelp/note-about-ubuntu/gh-pages/_demo/project/ubuntu-adjustment/ubuntu-adjustment/tool/ubuntu-adjust-ctrl/remote-install.sh
+## * https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/project/ubuntu-adjustment/ubuntu-adjustment/tool/ubuntu-adjust-ctrl/ubuntu-adjust-ctrl
+## * https://raw.githubusercontent.com/samwhelp/note-about-ubuntu/gh-pages/_demo/project/ubuntu-adjustment/ubuntu-adjustment/tool/ubuntu-adjust-ctrl/ubuntu-adjust-ctrl
 ##
 
 ##
@@ -94,8 +94,8 @@ base_var_init () {
 
 
 	## Target
-	## https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/project/ubuntu-adjustment/tool/ubuntu-adjust-ctrl/ubuntu-adjust-ctrl
-	THE_TARGET_DOWNLOAD_URL='https://raw.githubusercontent.com/samwhelp/note-about-ubuntu/gh-pages/_demo/project/ubuntu-adjustment/tool/ubuntu-adjust-ctrl/ubuntu-adjust-ctrl'
+	## https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/project/ubuntu-adjustment/ubuntu-adjustment/tool/ubuntu-adjust-ctrl/ubuntu-adjust-ctrl
+	THE_TARGET_DOWNLOAD_URL='https://raw.githubusercontent.com/samwhelp/note-about-ubuntu/gh-pages/_demo/project/ubuntu-adjustment/ubuntu-adjustment/tool/ubuntu-adjust-ctrl/ubuntu-adjust-ctrl'
 
 
 	THE_TARGET_FILE_NAME="ubuntu-adjust-ctrl"

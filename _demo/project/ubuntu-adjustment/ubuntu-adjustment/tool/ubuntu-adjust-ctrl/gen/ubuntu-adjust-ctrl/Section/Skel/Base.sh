@@ -63,8 +63,8 @@ base_var_init () {
 
 	THE_CMD_FILE_PATH="${THE_CMD_DIR_PATH}/${THE_CMD_FILE_NAME}"
 
-	## https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/project/ubuntu-adjustment/tool/ubuntu-adjust-ctrl/ubuntu-adjust-ctrl
-	THE_SELF_UPDATE_URL='https://raw.githubusercontent.com/samwhelp/note-about-ubuntu/gh-pages/_demo/project/ubuntu-adjustment/tool/ubuntu-adjust-ctrl/ubuntu-adjust-ctrl'
+	## https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/project/ubuntu-adjustment/ubuntu-adjustment/tool/ubuntu-adjust-ctrl/ubuntu-adjust-ctrl
+	THE_SELF_UPDATE_URL='https://raw.githubusercontent.com/samwhelp/note-about-ubuntu/gh-pages/_demo/project/ubuntu-adjustment/ubuntu-adjustment/tool/ubuntu-adjust-ctrl/ubuntu-adjust-ctrl'
 
 
 	THE_TMP_DIR_PATH="/tmp"
