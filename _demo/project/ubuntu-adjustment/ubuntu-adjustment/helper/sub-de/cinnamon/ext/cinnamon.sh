@@ -39,6 +39,7 @@ mod_de_cinnamon_package_list_find_for_install () {
 	mod_tool_package_list_find_for_install
 	mod_helper_package_list_find_for_install
 	mod_wallpaper_package_list_find_for_install
+	mod_plank_package_list_find_for_install
 
 
 	##
@@ -90,6 +91,7 @@ mod_de_cinnamon_config_install () {
 	mod_tool_config_install
 	mod_helper_config_install
 	mod_wallpaper_config_install
+	mod_plank_config_install
 
 	##
 	## de
@@ -144,6 +146,7 @@ mod_de_cinnamon_asset_install () {
 	mod_tool_asset_install
 	mod_helper_asset_install
 	mod_wallpaper_asset_install
+	mod_plank_asset_install
 
 
 	##
