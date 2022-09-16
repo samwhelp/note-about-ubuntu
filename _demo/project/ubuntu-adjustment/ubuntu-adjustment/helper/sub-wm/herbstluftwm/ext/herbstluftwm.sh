@@ -1,18 +1,19 @@
 
 
 ################################################################################
-### Head: Mod / Main / Package / Install
+### Head: Mod / Herbstluftwm / Package / Install
 ##
 
-mod_main_package_install () {
+mod_wm_herbstluftwm_package_install () {
 
 	util_error_echo
 	util_error_echo '##'
-	util_error_echo '## mod_main_package_install'
+	util_error_echo '## mod_wm_herbstluftwm_package_install'
 	util_error_echo '##'
 	util_error_echo
 
-	local package_list="$(mod_main_package_list_find_for_install)"
+
+	local package_list="$(mod_wm_herbstluftwm_package_list_find_for_install)"
 
 	#util_error_echo "$package_list"
 
@@ -21,7 +22,13 @@ mod_main_package_install () {
 
 }
 
-mod_main_package_list_find_for_install () {
+mod_wm_herbstluftwm_package_list_find_for_install () {
+
+	##
+	## wm
+	##
+	mod_herbstluftwm_package_list_find_for_install
+
 
 	##
 	## tool
@@ -31,6 +38,7 @@ mod_main_package_list_find_for_install () {
 	mod_pcmanfm_package_list_find_for_install
 	mod_viewnior_package_list_find_for_install
 	mod_mpv_package_list_find_for_install
+
 
 	##
 	## env
@@ -43,25 +51,6 @@ mod_main_package_list_find_for_install () {
 	mod_tool_package_list_find_for_install
 	mod_helper_package_list_find_for_install
 	mod_wallpaper_package_list_find_for_install
-	mod_plank_package_list_find_for_install
-
-
-	##
-	## de
-	##
-	mod_xfce4_package_list_find_for_install
-	mod_cinnamon_package_list_find_for_install
-	mod_mate_package_list_find_for_install
-	mod_gnome_shell_package_list_find_for_install
-	mod_gnome_flashback_package_list_find_for_install
-
-
-	##
-	## wm
-	##
-	mod_openbox_package_list_find_for_install
-	mod_bspwm_package_list_find_for_install
-	mod_herbstluftwm_package_list_find_for_install
 
 
 	##
@@ -74,24 +63,28 @@ mod_main_package_list_find_for_install () {
 }
 
 ##
-### Tail: Mod / Main / Package / Install
+### Tail: Mod / Herbstluftwm / Package / Install
 ################################################################################
 
 
 
 
 ################################################################################
-### Head: Mod / Main / Config / Install
+### Head: Mod / Herbstluftwm / Config / Install
 ##
 
-mod_main_config_install () {
+mod_wm_herbstluftwm_config_install () {
 
 	util_error_echo
 	util_error_echo '##'
-	util_error_echo '## mod_main_config_install'
+	util_error_echo '## mod_wm_herbstluftwm_config_install'
 	util_error_echo '##'
 	util_error_echo
-	util_error_echo
+
+	##
+	## wm
+	##
+	mod_herbstluftwm_config_install
 
 
 	##
@@ -114,23 +107,7 @@ mod_main_config_install () {
 	mod_tool_config_install
 	mod_helper_config_install
 	mod_wallpaper_config_install
-	mod_plank_config_install
 
-	##
-	## de
-	##
-	mod_xfce4_config_install
-	mod_cinnamon_config_install
-	mod_mate_config_install
-	mod_gnome_shell_config_install
-	mod_gnome_flashback_config_install
-
-	##
-	## wm
-	##
-	mod_openbox_config_install
-	mod_bspwm_config_install
-	mod_herbstluftwm_config_install
 
 	##
 	## sudo
@@ -142,27 +119,33 @@ mod_main_config_install () {
 
 	util_error_echo
 
+
 }
 
 ##
-### Tail: Mod / Main / Config / Install
+### Tail: Mod / Herbstluftwm / Config / Install
 ################################################################################
 
 
 
 
 ################################################################################
-### Head: Mod / Main / Asset / Install
+### Head: Mod / Herbstluftwm / Asset / Install
 ##
 
-mod_main_asset_install () {
+mod_wm_herbstluftwm_asset_install () {
 
 	util_error_echo
 	util_error_echo '##'
-	util_error_echo '## mod_main_asset_install'
+	util_error_echo '## mod_wm_herbstluftwm_asset_install'
 	util_error_echo '##'
 	util_error_echo
 
+
+	##
+	## wm
+	##
+	mod_herbstluftwm_asset_install
 
 	##
 	## tool
@@ -185,24 +168,6 @@ mod_main_asset_install () {
 	mod_tool_asset_install
 	mod_helper_asset_install
 	mod_wallpaper_asset_install
-	mod_plank_asset_install
-
-	##
-	## de
-	##
-	mod_xfce4_asset_install
-	mod_cinnamon_asset_install
-	mod_mate_asset_install
-	mod_gnome_shell_asset_install
-	mod_gnome_flashback_asset_install
-
-
-	##
-	## wm
-	##
-	mod_openbox_asset_install
-	mod_bspwm_asset_install
-	mod_herbstluftwm_asset_install
 
 
 	##
@@ -212,10 +177,11 @@ mod_main_asset_install () {
 	mod_locale_asset_install
 	mod_style_asset_install
 
+
 	util_error_echo
 
 }
 
 ##
-### Tail: Mod / Main / Asset / Install
+### Tail: Mod / Herbstluftwm / Asset / Install
 ################################################################################
