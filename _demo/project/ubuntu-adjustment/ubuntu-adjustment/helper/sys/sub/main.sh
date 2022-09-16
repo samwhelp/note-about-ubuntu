@@ -29,6 +29,7 @@ mod_main_package_list_find_for_install () {
 	mod_pcmanfm_package_list_find_for_install
 	mod_viewnior_package_list_find_for_install
 	mod_mpv_package_list_find_for_install
+
 	mod_fcitx5_package_list_find_for_install
 	mod_font_package_list_find_for_install
 	mod_rofi_package_list_find_for_install
