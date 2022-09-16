@@ -49,8 +49,8 @@ mod_herbstluftwm_config_install () {
 
 
 
-	#util_error_echo "cp -rf ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/herbstluftwm/. ${HOME}/.config/herbstluftwm/"
-	#cp -rf "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/herbstluftwm/." "${HOME}/.config/herbstluftwm/"
+	util_error_echo "cp -rf ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/herbstluftwm/. ${HOME}/.config/herbstluftwm/"
+	cp -rf "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/herbstluftwm/." "${HOME}/.config/herbstluftwm/"
 
 	#util_error_echo "cp -rfv ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/herbstluftwm/. ${HOME}/.config/herbstluftwm/"
 	#cp -rfv "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/herbstluftwm/." "${HOME}/.config/herbstluftwm/"
