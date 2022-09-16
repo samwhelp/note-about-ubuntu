@@ -1,0 +1,1095 @@
+
+
+################################################################################
+### Head: Note / Main / Link
+##
+
+##
+## * https://github.com/samwhelp/note-about-i3wm/blob/gh-pages/_demo/config/i3wm-config/main/config/i3/config
+##
+
+##
+### Tail: Note / Main / Link
+################################################################################
+
+
+################################################################################
+### Head: Note / System / Link
+##
+
+## * https://i3wm.org/docs/userguide.html#list_of_commands
+
+##
+### Tail: Note / System / Link
+################################################################################
+
+
+################################################################################
+### Head: Attribute / System / Font
+##
+
+
+## https://github.com/archcraft-os/archcraft-i3wm/blob/main/src/archcraft-i3wm/i3/config#L9
+
+
+font pango:JetBrains Mono Medium 10
+
+##
+### Tail: Attribute / System / Font
+################################################################################
+
+
+################################################################################
+### Head: Attribute / Window / Color
+##
+
+
+## https://github.com/archcraft-os/archcraft-i3wm/blob/main/src/archcraft-i3wm/i3/config#L32
+
+# class                 border  backgr. text    indicator child_border
+client.focused          #DA6E89 #DA6E89 #FFFFFF #98C379   #DA6E89
+client.focused_inactive #61AFEF #61AFEF #1E222A #98C379   #61AFEF
+client.unfocused        #2C3038 #2C3038 #FFFFFF #98C379   #2C3038
+client.urgent           #C678DD #C678DD #FFFFFF #98C379   #C678DD
+client.placeholder      #1E222A #1E222A #FFFFFF #98C379   #1E222A
+
+client.background       #1E222A
+
+##
+### Tail: Attribute / Window / Colo
+################################################################################
+
+
+################################################################################
+### Head: Attribute / Window
+##
+
+
+## https://i3wm.org/docs/userguide.html#_focus_follows_mouse
+
+focus_follows_mouse no
+
+
+##
+### Tail: Attribute / Window
+################################################################################
+
+
+################################################################################
+### Head: Attribute / Window / Floating
+##
+
+
+
+## floating_modifier
+## Use Mouse+Mod1 to drag floating windothe_workspace_ to their wanted position
+## Alt
+##floating_modifier Mod1
+
+## Win
+floating_modifier Mod4
+
+
+##
+### Tail: Attribute / Window / Floating
+################################################################################
+
+
+################################################################################
+### Head: Attribute / Workspace / Define / By Name
+##
+
+
+##
+## * https://i3wm.org/docs/userguide.html#workspace_auto_back_and_forth
+##
+
+#workspace_auto_back_and_forth yes
+workspace_auto_back_and_forth no
+
+
+
+
+##
+## Define names for default workspaces for which we configure key bindings later on.
+## We use variables to avoid repeating the names in multiple places.
+##
+
+
+set $the_workspace_1 1:File
+set $the_workspace_2 2:Edit
+set $the_workspace_3 3:Web
+set $the_workspace_4 4:Term
+set $the_workspace_5 5:Misc
+set $the_workspace_6 6:Image
+set $the_workspace_7 7:Video
+set $the_workspace_8 8:Audio
+set $the_workspace_9 9:Chat
+set $the_workspace_10 10:Game
+
+
+#workspace $the_workspace_1
+#workspace $the_workspace_2
+#workspace $the_workspace_3
+#workspace $the_workspace_4
+#workspace $the_workspace_5
+#workspace $the_workspace_6
+#workspace $the_workspace_7
+#workspace $the_workspace_8
+#workspace $the_workspace_9
+#workspace $the_workspace_10
+
+
+
+##
+### Tail: Attribute / Workspace / Define / By Name
+################################################################################
+
+
+################################################################################
+### Head: Autostart / System / Main
+##
+
+exec_always --no-startup-id ~/.config/i3/autostart
+
+##
+### Tail: Autostart / System / Main
+################################################################################
+
+
+################################################################################
+### Head: Keybind / System
+##
+
+
+## Reload
+## Alt + Ctrl + c
+# reload the configuration file
+bindsym Mod1+Ctrl+c reload
+
+
+## Restart
+## Alt + Shift + c
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym Mod1+Shift+c restart
+
+
+## Logout
+## Alt + Shift + x
+# exit i3 (logs you out of your X session)
+bindsym Mod1+Shift+x exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+
+#bindsym Mod1+Shift+x exec obsession-logout
+#bindsym Mod1+Shift+x exec lxsession-logout
+#bindsym Mod1+Shift+x exec gnome-session-quit --logout
+
+
+## Shutdown
+## Alt + Shift + z
+bindsym Mod1+Shift+z exec systemctl poweroff
+
+
+##
+### Tail: Keybind / System
+################################################################################
+
+
+################################################################################
+### Head: Keybind / Application / Terminal
+##
+
+
+## Launch sakura
+## Alt + Enter
+bindsym Mod1+Return exec sakura
+
+
+## Launch sakura
+## Alt + Shift + a
+bindsym Mod1+Shift+a exec sakura
+
+
+## Launch xfce4-terminal
+## Alt + Ctrl + a
+bindsym Mod1+Ctrl+a exec xfce4-terminal
+
+
+## Launch xterm
+## Alt + Shift + t
+bindsym Mod1+Shift+t exec xterm
+
+
+## Launch urxvt
+## Alt + Ctrl + t
+bindsym Mod1+Ctrl+t exec urxvt
+
+##
+### Tail: Keybind / Application / Terminal
+################################################################################
+
+
+################################################################################
+### Head: Keybind / Application / Rofi
+##
+
+## Launch Rofi (rofi -show run)
+## Alt + Shift + r
+bindsym Mod1+Shift+r exec rofi -show run
+
+
+## Launch Rofi (rofi -show window -show-icons)
+## Alt + Shift + w
+bindsym Mod1+Shift+w exec rofi -show window -show-icons
+
+
+## Launch Rofi (rofi -show drun -show-icons)
+## Alt + Shift + d
+bindsym Mod1+Shift+d exec rofi -show drun -show-icons
+
+##
+### Tail: Keybind / Application / Rofi
+################################################################################
+
+
+################################################################################
+### Head: Keybind / Application / Dmenu
+##
+
+## Launch Dmenu
+## Alt + Shift + i
+bindsym Mod1+Shift+i exec --no-startup-id dmenu_run
+
+##
+### Tail: Keybind / Application / Dmenu
+################################################################################
+
+
+################################################################################
+### Head: Keybind / Application / Favorite
+##
+
+## Launch File Manager (pcmanfm-qt)
+## Alt + Shift + f
+bindsym Mod1+Shift+f exec pcmanfm-qt
+
+
+## Launch File Manager (thunar)
+## Alt + Shift + g
+bindsym Mod1+Shift+g exec thunar
+
+
+## Launch Text Editor (mousepad)
+## Alt + Shift + e
+bindsym Mod1+Shift+e exec mousepad
+
+
+## Launch Web Browser (firefox)
+## Alt + Shift + b
+bindsym Mod1+Shift+b exec firefox
+
+##
+### Tail: Keybind / Application / Favorite
+################################################################################
+
+
+################################################################################
+### Head: Keybind / Window / Close
+##
+
+## Window Close
+## Win + q
+bindsym Mod4+q kill
+
+## Window Kill
+## Win + Shift + q
+bindsym Mod4+Shift+q kill
+
+##
+### Tail: Keybind / Window / Close
+################################################################################
+
+
+################################################################################
+### Head: Keybind / Window / FullScreen
+##
+
+## Window FullScreen
+## Win + f
+bindsym Mod4+f fullscreen toggle
+
+##
+### Tail: Keybind / Window / FullScreen
+################################################################################
+
+
+################################################################################
+### Head: Keybind / Window / FloatingToggle
+##
+
+## https://i3wm.org/docs/userguide.html#manipulating_layout
+
+## Window toggle floating or tited
+## Win + n
+bindsym Mod4+n floating toggle
+
+
+## Window toggle floating or tited
+## Win + `
+bindsym Mod4+grave floating toggle
+
+##
+### Tail: Keybind / Window / FloatingToggle
+################################################################################
+
+
+################################################################################
+### Head: Keybind / Window / Focus
+##
+
+## https://i3wm.org/docs/userguide.html#_focusing_moving_containers
+
+
+## focus mode_toggle
+## Win + v
+## change focus between tiling / floating windows
+bindsym Mod4+v focus mode_toggle
+
+
+## focus mode_toggle
+## Win + m
+## change focus between tiling / floating windows
+bindsym Mod4+m focus mode_toggle
+
+
+
+## Focus to parent Container
+## Win + p
+bindsym Mod4+p focus parent
+
+
+## Focus to child Container/Window
+## Win + c
+bindsym Mod4+c focus child
+
+
+## Focus to Previous Window
+## Win + a
+bindsym Mod4+a focus prev
+
+
+## Focus to Next Window
+## Win + s
+bindsym Mod4+s focus next
+
+
+## Focus to Up Window
+## Win + k
+bindsym Mod4+k focus up
+
+
+## Focus to Down Window
+## Win + j
+bindsym Mod4+j focus down
+
+
+## Focus to Left Window
+## Win + h
+bindsym Mod4+h focus left
+
+
+## Focus to Right Window
+## Win + l
+bindsym Mod4+l focus right
+
+
+##
+### Tail: Keybind / Window / Focus
+################################################################################
+
+
+################################################################################
+### Head: Keybind / Window / Focus / Arrow
+##
+
+## https://i3wm.org/docs/userguide.html#_focusing_moving_containers
+
+
+
+## Focus to Previous Window
+## Win + [
+bindsym Mod4+bracketleft focus prev
+
+## Focus to Next Window
+## Win + ]
+bindsym Mod4+bracketright focus next
+
+
+## Must
+## Focus to Up Window
+## Win + Up
+bindsym Mod4+Up focus up
+
+
+## Focus to Down Window
+## Win + Down
+bindsym Mod4+Down focus down
+
+
+## Focus to Left Window
+## Win + Left
+bindsym Mod4+Left focus left
+
+
+## Focus to Right Window
+## Win + Right
+bindsym Mod4+Right focus right
+
+
+##
+### Tail: Keybind / Window / Focus / Arrow
+################################################################################
+
+
+################################################################################
+### Head: Keybind / Window / Resize / kjhl
+##
+
+## https://i3wm.org/docs/userguide.html#resizingconfig
+
+## Window Resize
+## Win + Ctrl + k
+bindsym Mod4+Ctrl+k resize shrink height 20 px
+
+
+## Window Resize
+## Win + Ctrl + j
+bindsym Mod4+Ctrl+j resize grow height 20 px
+
+
+## Window Resize
+## Win + Ctrl + h
+bindsym Mod4+Ctrl+h resize shrink width 20 px
+
+
+## Window Resize
+## Win + Ctrl + l
+bindsym Mod4+Ctrl+l resize grow width 20 px
+
+
+
+##
+### Tail: Keybind / Window / Resize / kjhl
+################################################################################
+
+
+################################################################################
+### Head: Keybind / Window / Resize / Arrow
+##
+
+
+## Window Resize
+## Win + Ctrl + Up
+bindsym Mod4+Ctrl+Up resize shrink height 20 px
+
+
+## Window Resize
+## Win + Ctrl + Down
+bindsym Mod4+Ctrl+Down resize grow height 20 px
+
+
+## Window Resize
+## Win + Ctrl + Left
+bindsym Mod4+Ctrl+Left resize shrink width 20 px
+
+
+## Window Resize
+## Win + Ctrl + Right
+bindsym Mod4+Ctrl+Right resize grow width 20 px
+
+
+
+##
+### Tail: Keybind / Window / Resize / Arrow
+################################################################################
+
+
+################################################################################
+### Head: Keybind / Window / Move / kjhl
+##
+
+##
+## * https://i3wm.org/docs/userguide.html#_moving_containers
+##
+
+
+## Window Move
+## Win + Shift + k
+bindsym Mod4+Shift+k move up 20 px
+
+
+## Window Move
+## Win + Shift + j
+bindsym Mod4+Shift+j move down 20 px
+
+
+## Window Move
+## Win + Shift + h
+bindsym Mod4+Shift+h move left 20 px
+
+
+## Window Move
+## Win + Shift + l
+bindsym Mod4+Shift+l move right 20 px
+
+
+
+##
+### Tail: Keybind / Window / Move / kjhl
+################################################################################
+
+
+################################################################################
+### Head: Keybind / Window / Move / Arrow
+##
+
+
+## Window Move
+## Win + Shift + Up
+bindsym Mod4+Shift+Up move up 20 px
+
+
+## Window Move
+## Win + Shift + Down
+bindsym Mod4+Shift+Down move down 20 px
+
+
+## Window Move
+## Win + Shift + Left
+bindsym Mod4+Shift+Left move left 20 px
+
+
+## Window Move
+## Win + Shift + Right
+bindsym Mod4+Shift+Right move right 20 px
+
+
+
+##
+### Tail: Keybind / Window / Move / Arrow
+################################################################################
+
+
+################################################################################
+### Head: Keybind / Window / Move / Center
+##
+
+
+## Window Move
+## Win + Shift + m
+bindsym Mod4+Shift+m move absolute position center
+
+
+##
+### Tail: Keybind / Window / Move / Center
+################################################################################
+
+
+################################################################################
+### Head: Keybind / Workspace / QuickSwitch / Prior
+##
+
+## https://i3wm.org/docs/userguide.html#_changing_named_workspaces_moving_to_workspaces
+
+## Switch to Prior Workspace
+## Alt + z
+bindsym Mod1+z workspace back_and_forth
+
+##
+### Tail: Keybind / Workspace / QuickSwitch / Prior
+################################################################################
+
+
+################################################################################
+### Head: Keybind / Workspace / QuickSwitch / Cycle
+##
+
+# Switch to Previous Workspace
+## Alt + a
+bindsym Mod1+a workspace prev
+
+
+## Switch to Next Workspace
+## Alt + s
+bindsym Mod1+s workspace next
+
+
+## Switch to Previous Workspace
+## Alt + h
+bindsym Mod1+h workspace prev
+
+
+## Switch to Next Workspace
+## Alt + l
+bindsym Mod1+l workspace next
+
+
+## Switch to Previous Workspace
+## Alt + Left
+bindsym Mod1+Left workspace prev
+
+
+## Switch to Next Workspace
+## Alt + Right
+bindsym Mod1+Right workspace next
+
+
+##
+### Tail: Keybind / Workspace / QuickSwitch / Cycle
+################################################################################
+
+
+################################################################################
+### Head: Keybind / Workspace / SwitchTo / Specific
+##
+
+
+##
+##  | Workspace | Title |
+##  | --- | --- |
+##  | 1 | Term |
+##  | 2 | Edit |
+##  | 3 | Web |
+##  | 4 | File |
+##  | 5 | Misc |
+##
+
+## Switch to Workspace 1 (Term)
+## Alt + 1
+bindsym Mod1+1 workspace $the_workspace_1
+
+## Switch to Workspace 2 (Edit)
+## Alt + 2
+bindsym Mod1+2 workspace $the_workspace_2
+
+
+## Switch to Workspace 3 (Web)
+## Alt + 3
+bindsym Mod1+3 workspace $the_workspace_3
+
+
+## Switch to Workspace 4 (File)
+## Alt + 4
+bindsym Mod1+4 workspace $the_workspace_4
+
+
+## Switch to Workspace 5 (Misc)
+## Alt + 5
+bindsym Mod1+5 workspace $the_workspace_5
+
+
+## Switch to Workspace 6
+## Alt + 6
+#bindsym Mod1+6 workspace $the_workspace_6
+
+
+## Switch to Workspace 7
+## Alt + 7
+#bindsym Mod1+7 workspace $the_workspace_7
+
+
+## Switch to Workspace 8
+## Alt + 8
+#bindsym Mod1+8 workspace $the_workspace_8
+
+
+## Switch to Workspace 9
+## Alt + 9
+#bindsym Mod1+9 workspace $the_workspace_9
+
+
+## Switch to Workspace 10
+## Alt + 0
+#bindsym Mod1+10 workspace $the_workspace_10
+
+
+##
+### Tail: Keybind / Workspace / SwitchTo / Specific
+################################################################################
+
+
+################################################################################
+### Head: Keybind / Window / MoveToWorkspace
+##
+
+## Move Focused Window to Workspace 1 (Term)
+## Win + 1
+bindsym Mod4+1 move container to workspace $the_workspace_1
+
+
+## Move Focused Window to Workspace 2 (Edit)
+## Win + 2
+bindsym Mod4+2 move container to workspace $the_workspace_2
+
+
+## Move Focused Window to Workspace 3 (Web)
+## Win + 3
+bindsym Mod4+3 move container to workspace $the_workspace_3
+
+
+## Move Focused Window to Workspace 4 (File)
+## Win + 4
+bindsym Mod4+4 move container to workspace $the_workspace_4
+
+
+## Move Focused Window to Workspace 5 (Misc)
+## Win + 5
+bindsym Mod4+5 move container to workspace $the_workspace_5
+
+
+## Move Focused Window to Workspace 6
+## Win + 6
+#bindsym Mod4+6 move container to workspace $the_workspace_6
+
+
+## Move Focused Window to Workspace 7
+## Win + 7
+#bindsym Mod4+7 move container to workspace $the_workspace_7
+
+
+## Move Focused Window to Workspace 8
+## Win + 8
+#bindsym Mod4+8 move container to workspace $the_workspace_8
+
+
+## Move Focused Window to Workspace 9
+## Win + 9
+#bindsym Mod4+9 move container to workspace $the_workspace_9
+
+
+## Move Focused Window to Workspace 10
+## Win + 0
+#bindsym Mod4+0 move container to workspace $the_workspace_10
+
+
+## Move Focused Window To Previous Workspace
+## Win + Alt + h
+#bindsym Mod4+Mod1+h move container to workspace $the_workspace_1
+
+
+## Move Focused Window o Next Workspace
+## Win + Alt + l
+#bindsym Mod4+Mod1+l move container to workspace $the_workspace_1
+
+##
+### Tail: Keybind / Window / MoveToWorkspace
+################################################################################
+
+
+################################################################################
+### Head: Keybind / Layout / SwitchTo / Specific
+##
+
+## https://i3wm.org/docs/userguide.html#manipulating_layout
+
+## Switch to Stacking
+## Win + `
+#bindsym Mod4+grave layout stacking
+
+
+## Switch to Tabbed
+## Win + Tab
+#bindsym Mod4+Tab layout tabbed
+
+
+## Layout toggle tabbed stacking
+## Alt + `
+bindsym Mod1+grave layout toggle tabbed stacking
+
+## Layout toggle split
+## Alt + Tab
+bindsym Mod1+Tab layout toggle split
+
+
+## Layout Cycle
+## Win + Tab
+bindsym Mod4+Tab layout toggle all
+
+
+## Layout toggle max
+## Win + w
+bindsym Mod4+w layout toggle tabbed split
+
+
+##
+### Tail: Keybind / Layout / SwitchTo / Specific
+################################################################################
+
+
+################################################################################
+### Head: Keybind / Layout / SwitchTo / Cycle
+##
+
+## https://i3wm.org/docs/userguide.html#manipulating_layout
+
+
+## Layout Toggle All
+## Alt + k
+bindsym Mod1+k layout toggle all
+
+
+## SLayout Toggle All
+## Alt + j
+bindsym Mod1+j layout toggle all
+
+
+## Layout Toggle All
+## Alt + Up
+bindsym Mod1+Up layout toggle all
+
+
+## Layout Toggle All
+## Alt + Down
+bindsym Mod1+Down layout toggle all
+
+
+
+##
+### Tail: Keybind / Layout / SwitchTo / Cycle
+################################################################################
+
+
+################################################################################
+### Head: Keybind / Layout / Split
+##
+
+
+## https://i3wm.org/docs/userguide.html#_splitting_containers
+
+## Set Layout Split Orientation To Down Side (Vertical)
+## Alt + u
+bindsym Mod1+u split vertical
+
+
+## Set Layout Split Orientation To Right Side (Horizontal)
+## Alt + o
+bindsym Mod1+o split horizontal
+
+
+## Set Layout Split Orientation Toggle
+## Alt + i
+bindsym Mod1+i split toggle
+
+
+## Set Layout Split Orientation To None
+## Alt + y
+#bindsym Mod1+y split none
+
+
+### Head: Keybind / Layout / Split
+################################################################################
+
+
+################################################################################
+### Head: Keybind / Volume
+##
+
+
+##
+## https://wiki.archlinux.org/index.php/Xbindkeys
+## https://wiki.archlinux.org/title/Feh
+##
+
+## Wallpaper Select Shuf
+## Alt + w
+bindsym Mod1+w exec --no-startup-id feh --bg-fill --randomize ~/Pictures/Wallpaper
+
+
+## Wallpaper Select Default
+## Alt + Ctrl + w
+bindsym Mod1+Ctrl+w exec --no-startup-id feh --bg-fill ~/Pictures/Wallpaper/default.jpg
+
+##
+### Tail: Keybind / Volume
+################################################################################
+
+
+################################################################################
+### Head: Keybind / Volume
+##
+
+## Screenshot
+## Print
+bindsym Print exec --no-startup-id scrot
+
+
+## Screenshot Selected Area
+## Alt + Print
+bindsym Mod1+Print exec --no-startup-id scrot -s
+
+##
+### Tail: Keybind / Volume
+################################################################################
+
+
+################################################################################
+### Head: Keybind / Volume
+##
+
+
+##
+## https://wiki.archlinux.org/index.php/Xbindkeys
+## https://wiki.archlinux.org/index.php/Advanced_Linux_Sound_Architecture#Keyboard_volume_control
+## https://wiki.archlinux.org/index.php/PulseAudio#Keyboard_volume_control
+## https://zh.wikipedia.org/zh-tw/ALSA
+## https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture
+## https://zh.wikipedia.org/zh-tw/PulseAudio
+## https://en.wikipedia.org/wiki/PulseAudio
+##
+
+##
+## alsamixer (Package: alsa-utils)
+## amixer (Package: alsa-utils)
+## pactl (Package: pulseaudio-utils)
+## pavucontrol (Package: pavucontrol)
+## pavucontrol-qt (Package: pavucontrol-qt)
+## mate-volume-control (Package: mate-media)
+##
+
+
+## VolumeControl
+## Alt + Shift + v
+bindsym Mod1+Shift+v exec mate-volume-control
+#bindsym Mod1+Shift+v exec pavucontrol
+#bindsym Mod1+Shift+v exec pavucontrol-qt
+
+
+
+##
+# https://askubuntu.com/questions/65764/how-do-i-toggle-sound-with-amixer
+# https://wiki.archlinux.org/index.php/PulseAudio#volume_control
+# amixer set Master toggle
+# amixer -D pulse set Master 1+ toggle
+# https://askubuntu.com/questions/872014/mute-button-doesnt-unmute
+##
+
+## VolumeToggleMute
+## Alt + m
+bindsym Mod1+m exec --no-startup-id amixer -q -D pulse sset Master toggle
+
+
+## VolumeDecrease
+## Alt + Shift + ,  (<)
+bindsym Mod1+Shift+comma exec --no-startup-id amixer -q -D pulse sset Master 5%- unmute
+
+
+## VolumeIncrease
+## Alt + Shift + .  (>)
+bindsym Mod1+Shift+period exec --no-startup-id amixer -q -D pulse sset Master 5%+ unmute
+
+
+## VolumeDecreaseSlowly
+## Alt + Ctrl + .  (>)
+bindsym Mod1+Ctrl+comma exec --no-startup-id amixer -q -D pulse sset Master 1%- unmute
+
+
+## VolumeIncreaseSlowly
+## Alt + Ctrl + .  (>)
+bindsym Mod1+Ctrl+period exec --no-startup-id amixer -q -D pulse sset Master 1%+ unmute
+
+
+##
+# collision occurs on bash emacs mode
+# * `Alt + ,`
+# * `Alt + .`
+# * http://manpages.ubuntu.com/manpages/bionic/en/man3/readline.3readline.html#default%20key%20bindings
+# * http://manpages.ubuntu.com/manpages/bionic/en/man1/bash.1.html#readline
+##
+
+
+## VolumeToggleMute
+## XF86AudioMute
+bindsym XF86AudioMute exec --no-startup-id amixer -q -D pulse sset Master toggle
+
+
+## VolumeDecrease
+## XF86AudioLowerVolume
+bindsym XF86AudioLowerVolume exec --no-startup-id amixer -q -D pulse sset Master 5%- unmute
+
+
+## VolumeIncrease
+## XF86AudioRaiseVolume
+bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -q -D pulse sset Master 5%+ unmute
+
+
+##
+### Tail: Keybind / Volume
+################################################################################
+
+
+################################################################################
+### Head: Rule / Workspace / File
+##
+
+assign [class="pcmanfm-qt"] 1
+assign [class="thunr"] 1
+
+##
+### Tail: Rule / Workspace / File
+################################################################################
+
+
+################################################################################
+### Head: Rule / Workspace / Edit
+##
+
+assign [class="Atom"] 2
+
+##
+### Tail: Rule / Workspace / Edit
+################################################################################
+
+
+################################################################################
+### Head: Rule / Workspace / Web
+##
+
+assign [class="Navigator|firefox"] 3
+
+##
+### Tail: Rule / Workspace / Web
+################################################################################
+
+
+################################################################################
+### Head: Rule / Workspace / Term
+##
+
+#assign [class="Sakura"] 4
+#assign [class="Xfce4-terminal"] 4
+
+##
+### Tail: Rule / Workspace / Term
+################################################################################
+
+
+################################################################################
+### Head: Rule / Workspace / Misc
+##
+
+
+
+##
+### Tail: Rule / Workspace / Misc
+################################################################################
+
+
+################################################################################
+### Head: Rule / Window / Dialog
+##
+
+for_window [window_role="pop-up"] floating enable
+for_window [window_role="task_dialog"] floating enable
+
+##
+### Tail: Rule / Window / Dialog
+################################################################################

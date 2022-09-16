@@ -49,8 +49,8 @@ mod_i3wm_config_install () {
 
 
 
-	#util_error_echo "cp -rf ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/i3/. ${HOME}/.config/i3/"
-	#cp -rf "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/i3/." "${HOME}/.config/i3/"
+	util_error_echo "cp -rf ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/i3/. ${HOME}/.config/i3/"
+	cp -rf "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/i3/." "${HOME}/.config/i3/"
 
 	#util_error_echo "cp -rfv ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/i3/. ${HOME}/.config/i3/"
 	#cp -rfv "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/i3/." "${HOME}/.config/i3/"
