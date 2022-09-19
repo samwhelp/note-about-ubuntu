@@ -30,6 +30,7 @@ gnome_shell_config_install () {
 
 gnome_shell_theme_main_config () {
 
+	#gnome_shell_theme_yaru_prussiangreen_dark
 	#gnome_shell_theme_dracula
 	gnome_shell_theme_gruvbox
 
@@ -79,6 +80,27 @@ gnome_shell_theme_dracula () {
 	gsettings set org.gnome.desktop.wm.preferences theme 'Dracula'
 	gsettings set org.gnome.desktop.interface gtk-theme 'Dracula'
 	gsettings set org.gnome.desktop.interface icon-theme 'Dracula'
+	gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
+	gsettings set org.gnome.desktop.interface cursor-size 24
+
+}
+
+##
+### Tail: gnome-shell / theme / dracula
+################################################################################
+
+
+################################################################################
+### Head: gnome-shell / theme / dracula
+##
+
+gnome_shell_theme_yaru_prussiangreen_dark () {
+
+	gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+
+	gsettings set org.gnome.desktop.wm.preferences theme 'Yaru-prussiangreen-dark'
+	gsettings set org.gnome.desktop.interface gtk-theme 'Yaru-prussiangreen-dark'
+	gsettings set org.gnome.desktop.interface icon-theme 'Yaru-prussiangreen-dark'
 	gsettings set org.gnome.desktop.interface cursor-theme 'Breeze'
 	gsettings set org.gnome.desktop.interface cursor-size 24
 
