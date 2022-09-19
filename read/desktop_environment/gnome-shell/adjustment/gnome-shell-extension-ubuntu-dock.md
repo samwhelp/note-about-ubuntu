@@ -16,6 +16,9 @@ grand_parent: 桌面環境
 
 * [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-shell/part/gnome-shell-extension-ubuntu-dock)
 
+## 應用程式圖示項目
+
+> 若要使用指令來設定有那些「應用程式圖示項目」，請參考「[favorite-apps](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/gnome-shell/adjustment/favorite-apps.html)」的設定。
 
 ## 圖形使用者介面程式
 
