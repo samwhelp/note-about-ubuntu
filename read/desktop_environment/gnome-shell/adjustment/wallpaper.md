@@ -39,11 +39,13 @@ gnome-control-center background
 gsettings set org.gnome.desktop.background picture-uri 'file:///usr/share/backgrounds/Blue_flower_by_Elena_Stravoravdi.jpg'
 ```
 
-在測試的過程中發現，若使用「暗色系」的「佈景主題」，則要執行下面指令
+在測試的過程中發現，若使用「佈景主題」的「暗色系」，則要執行下面指令
 
 ``` sh
 gsettings set org.gnome.desktop.background picture-uri-dark 'file:///usr/share/backgrounds/Blue_flower_by_Elena_Stravoravdi.jpg'
 ```
+
+> 當設定「`gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'`」，會優先採用「佈景主題」的「暗色系」，請參考「[theme / color-scheme](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/gnome-shell/adjustment/theme.html#color-scheme)」
 
 > 相關應用：「[wallpaper-select-gnome](https://samwhelp.github.io/note-about-fzf/read/project/wallpaper-select/wallpaper-select-gnome)」
 
