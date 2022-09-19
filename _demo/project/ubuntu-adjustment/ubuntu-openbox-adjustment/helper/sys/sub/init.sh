@@ -20,12 +20,20 @@ source "${THE_SYS_SUB_DIR_PATH}/main.sh"
 source "${THE_SUB_DIR_PATH}/xfce4/ext/init.sh"
 source "${THE_SUB_DIR_PATH}/xfce4-terminal/ext/init.sh"
 
+
+##
+## tool
+##
 source "${THE_SUB_DIR_PATH}/sakura/ext/init.sh"
 source "${THE_SUB_DIR_PATH}/pcmanfm-qt/ext/init.sh"
 source "${THE_SUB_DIR_PATH}/pcmanfm/ext/init.sh"
+source "${THE_SUB_DIR_PATH}/mousepad/ext/init.sh"
 source "${THE_SUB_DIR_PATH}/viewnior/ext/init.sh"
 source "${THE_SUB_DIR_PATH}/mpv/ext/init.sh"
 
+##
+## env
+##
 source "${THE_SUB_DIR_PATH}/fcitx5/ext/init.sh"
 source "${THE_SUB_DIR_PATH}/font/ext/init.sh"
 source "${THE_SUB_DIR_PATH}/rofi/ext/init.sh"
@@ -35,9 +43,10 @@ source "${THE_SUB_DIR_PATH}/tool/ext/init.sh"
 source "${THE_SUB_DIR_PATH}/helper/ext/init.sh"
 source "${THE_SUB_DIR_PATH}/wallpaper/ext/init.sh"
 
-
+##
+## wm
+##
 source "${THE_SUB_DIR_PATH}/openbox/ext/init.sh"
-
 
 ##
 ## sudo
