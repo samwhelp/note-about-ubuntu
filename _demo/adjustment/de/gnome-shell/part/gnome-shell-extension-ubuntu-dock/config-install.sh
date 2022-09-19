@@ -70,13 +70,12 @@ gnome_shell_extension_ubuntu_dock_config_install () {
 	echo "gsettings set org.gnome.shell.extensions.dash-to-dock transparency-mode 'DYNAMIC'"
 	gsettings set org.gnome.shell.extensions.dash-to-dock transparency-mode 'DYNAMIC'
 
-	#echo "gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 24"
-	#gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 24
 
-	echo "gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 36"
-	gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 36
+	#echo "gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 36"
+	#gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 36
 
-
+	echo "gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 24"
+	gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 24
 
 
 
