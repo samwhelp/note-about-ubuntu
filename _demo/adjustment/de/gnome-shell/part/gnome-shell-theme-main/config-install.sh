@@ -49,6 +49,11 @@ gnome_shell_theme_main_config () {
 
 gnome_shell_theme_gruvbox () {
 
+	## $ grep 'color-scheme' /usr/share/glib-2.0/schemas/org.gnome.desktop.interface.gschema.xml -A 7
+	#gsettings set org.gnome.desktop.interface color-scheme 'default'
+	#gsettings set org.gnome.desktop.interface color-scheme 'prefer-light'
+	gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+
 	gsettings set org.gnome.desktop.wm.preferences theme 'Gruvbox'
 	gsettings set org.gnome.desktop.interface gtk-theme 'Gruvbox'
 	gsettings set org.gnome.desktop.interface icon-theme 'Gruvbox-Dark'
@@ -68,6 +73,8 @@ gnome_shell_theme_gruvbox () {
 ##
 
 gnome_shell_theme_dracula () {
+
+	gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 
 	gsettings set org.gnome.desktop.wm.preferences theme 'Dracula'
 	gsettings set org.gnome.desktop.interface gtk-theme 'Dracula'
