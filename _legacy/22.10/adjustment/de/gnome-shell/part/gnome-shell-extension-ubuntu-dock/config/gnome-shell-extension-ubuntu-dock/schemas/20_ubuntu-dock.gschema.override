@@ -1,0 +1,18 @@
+[org.gnome.shell.extensions.dash-to-dock:ubuntu]
+autohide-in-fullscreen=true
+click-action='minimize'
+dash-max-icon-size=36
+dock-fixed=true
+dock-position='BOTTOM'
+extend-height=false
+isolate-locations=true
+middle-click-action='cycle-windows'
+scroll-action='switch-workspace'
+shortcut=['']
+shortcut-text=''
+show-mounts=false
+show-trash=false
+transparency-mode='DYNAMIC'
+
+[org.gnome.shell]
+favorite-apps=['pcmanfm-qt.desktop', 'atom.desktop', 'firefox_firefox.desktop', 'sakura.desktop', 'gnome-control-center.desktop', 'toggle-show-desktop.xdotool.desktop']

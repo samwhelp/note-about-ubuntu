@@ -1,0 +1,3 @@
+ibus-chewing
+#ibus-libzhuyin
+#gsettings-desktop-schemas
