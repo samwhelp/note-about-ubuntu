@@ -36,13 +36,15 @@ nautilus_config_install () {
 	echo "gsettings set org.gnome.nautilus.list-view use-tree-view false"
 	gsettings set org.gnome.nautilus.list-view use-tree-view false
 
-	echo "gsettings set org.gnome.nautilus.icon-view default-zoom-level 'standard'"
-	gsettings set org.gnome.nautilus.list-view default-zoom-level 'standard'
+	echo "gsettings set org.gnome.nautilus.icon-view default-zoom-level 'large'"
+	gsettings set org.gnome.nautilus.list-view default-zoom-level 'large'
 
 
-	echo "gsettings set org.gnome.nautilus.icon-view default-zoom-level 'larger'"
-	gsettings set org.gnome.nautilus.icon-view default-zoom-level 'larger'
+	#echo "gsettings set org.gnome.nautilus.icon-view default-zoom-level 'extra-large'"
+	#gsettings set org.gnome.nautilus.icon-view default-zoom-level 'extra-large'
 
+	echo "gsettings set org.gnome.nautilus.icon-view default-zoom-level 'large'"
+	gsettings set org.gnome.nautilus.icon-view default-zoom-level 'large'
 
 
 

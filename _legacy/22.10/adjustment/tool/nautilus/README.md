@@ -84,11 +84,10 @@ show
 ```
 org.gnome.nautilus.compression default-compression-format 'zip'
 org.gnome.nautilus.icon-view captions ['none', 'none', 'none']
-org.gnome.nautilus.icon-view default-zoom-level 'larger'
-org.gnome.nautilus.icon-view text-ellipsis-limit ['3']
+org.gnome.nautilus.icon-view default-zoom-level 'small'
 org.gnome.nautilus.list-view default-column-order ['name', 'size', 'type', 'owner', 'group', 'permissions', 'mime_type', 'where', 'date_modified', 'date_modified_with_time', 'date_accessed', 'date_created', 'recency', 'starred']
-org.gnome.nautilus.list-view default-visible-columns ['name', 'size', 'date_modified', 'starred']
-org.gnome.nautilus.list-view default-zoom-level 'standard'
+org.gnome.nautilus.list-view default-visible-columns ['name', 'size', 'date_modified']
+org.gnome.nautilus.list-view default-zoom-level 'medium'
 org.gnome.nautilus.list-view use-tree-view false
 org.gnome.nautilus.preferences always-use-location-entry false
 org.gnome.nautilus.preferences click-policy 'double'
@@ -100,23 +99,19 @@ org.gnome.nautilus.preferences install-mime-activation true
 org.gnome.nautilus.preferences mouse-back-button 8
 org.gnome.nautilus.preferences mouse-forward-button 9
 org.gnome.nautilus.preferences mouse-use-extra-buttons true
-org.gnome.nautilus.preferences open-folder-on-dnd-hover true
+org.gnome.nautilus.preferences open-folder-on-dnd-hover false
 org.gnome.nautilus.preferences recursive-search 'local-only'
 org.gnome.nautilus.preferences search-filter-time-type 'last_modified'
 org.gnome.nautilus.preferences search-view 'list-view'
 org.gnome.nautilus.preferences show-create-link false
 org.gnome.nautilus.preferences show-delete-permanently false
 org.gnome.nautilus.preferences show-directory-item-counts 'local-only'
-org.gnome.nautilus.preferences show-hidden-files false
+org.gnome.nautilus.preferences show-hidden-files true
 org.gnome.nautilus.preferences show-image-thumbnails 'local-only'
-org.gnome.nautilus.preferences tabs-open-position 'after-current-tab'
 org.gnome.nautilus.preferences thumbnail-limit uint64 50
-org.gnome.nautilus.preferences use-experimental-views false
-org.gnome.nautilus.window-state initial-size (853, 550)
+org.gnome.nautilus.window-state initial-size (601, 550)
 org.gnome.nautilus.window-state maximized false
-org.gnome.nautilus.window-state sidebar-width 188
 org.gnome.nautilus.window-state start-with-location-bar true
-org.gnome.nautilus.window-state start-with-sidebar true
 ```
 
 
