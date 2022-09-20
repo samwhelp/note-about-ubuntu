@@ -1,5 +1,7 @@
 
 
-## cinnamon
+##
+## gnome-shell
+##
 
-cinnamon-desktop-environment
+#gnome-shell
