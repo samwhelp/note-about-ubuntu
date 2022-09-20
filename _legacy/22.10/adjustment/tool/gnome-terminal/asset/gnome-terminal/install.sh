@@ -8,15 +8,14 @@ set -e
 gnome_terminal_pkg_install () {
 
 	echo
-
-	echo '### Head: gnome_terminal_pkg_install ###########################################'
-	echo '#'
+	echo "##"
+	echo "## Config: gnome-terminal / gnome_terminal_pkg_install"
+	echo "##"
+	echo
 
 	sudo apt-get install gnome-terminal
 
-	echo '#'
-	echo '### Tail: gnome_terminal_pkg_install ###########################################'
-	echo
+
 
 }
 #
@@ -27,12 +26,13 @@ gnome_terminal_pkg_install () {
 #
 gnome_terminal_conf_set () {
 
+
+
 	echo
-
-	echo '### Head: gnome_terminal_conf_set ##############################################'
-	echo '#'
-
-
+	echo "##"
+	echo "## Config: gnome-terminal / gnome_terminal_conf_set"
+	echo "##"
+	echo
 
 	echo
 	echo 'gsettings set org.gnome.Terminal.Legacy.Settings default-show-menubar false'
@@ -57,7 +57,7 @@ gnome_terminal_conf_set () {
 	gsettings set "org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:${profile}/" scrollbar-policy 'never'
 
 	echo
-	echo 'gsettings set "org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:${profile}/" use-theme-colors false'
+	echo "gsettings set \"org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:${profile}/\" use-theme-colors false"
 	gsettings set "org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:${profile}/" use-theme-colors false
 
 
@@ -104,9 +104,17 @@ gnome_terminal_conf_set () {
 	gsettings set "org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:${profile}/" scrollback-unlimited true
 
 
-	echo '#'
-	echo '### Tail: gnome_terminal_conf_set ##############################################'
 	echo
+	echo "gsettings set \"org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:${profile}/\" audible-bell false"
+	gsettings set "org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:${profile}/" audible-bell false
+
+
+	echo
+	echo "gsettings set \"org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:${profile}/\" palette \"['rgb(46,52,54)', 'rgb(204,0,0)', 'rgb(78,154,6)', 'rgb(196,160,0)', 'rgb(52,101,164)', 'rgb(117,80,123)', 'rgb(6,152,154)', 'rgb(211,215,207)', 'rgb(85,87,83)', 'rgb(239,41,41)', 'rgb(138,226,52)', 'rgb(252,233,79)', 'rgb(114,159,207)', 'rgb(173,127,168)', 'rgb(52,226,226)', 'rgb(238,238,236)']\""
+	gsettings set "org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:${profile}/" palette "['rgb(46,52,54)', 'rgb(204,0,0)', 'rgb(78,154,6)', 'rgb(196,160,0)', 'rgb(52,101,164)', 'rgb(117,80,123)', 'rgb(6,152,154)', 'rgb(211,215,207)', 'rgb(85,87,83)', 'rgb(239,41,41)', 'rgb(138,226,52)', 'rgb(252,233,79)', 'rgb(114,159,207)', 'rgb(173,127,168)', 'rgb(52,226,226)', 'rgb(238,238,236)']"
+
+
+
 
 }
 #
