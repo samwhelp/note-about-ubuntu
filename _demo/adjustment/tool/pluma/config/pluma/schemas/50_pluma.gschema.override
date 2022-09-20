@@ -1,0 +1,27 @@
+[org.mate.pluma]
+use-default-font=false
+editor-font='Monospace 14'
+print-font-body-pango='Ubuntu Mono 9'
+print-font-header-pango='Ubuntu 11'
+print-font-numbers-pango='Ubuntu 8'
+color-scheme='oblivion'
+insert-spaces=false
+tabs-size=4
+side-pane-visible=true
+highlight-current-line=true
+display-line-numbers=true
+display-overview-map=true
+display-right-margin=true
+right-margin-position=80
+enable-space-drawer-nbsp='show-none'
+enable-space-drawer-newline=false
+enable-space-drawer-space='show-all'
+enable-space-drawer-tab='show-trailing'
+auto-detected-encodings=['UTF-8', 'ISO-8859-15', 'UTF-16', 'BIG5', 'GB2312']
+shown-in-menu-encodings=['UTF-8', 'ISO-8859-15', 'UTF-16', 'BIG5', 'GB2312']
+active-plugins=['filebrowser', 'spell', 'modelines', 'externaltools', 'docinfo', 'time']
+
+
+[org.mate.pluma.plugins.pythonconsole]
+font='Monospace 14'
+use-system-font=false

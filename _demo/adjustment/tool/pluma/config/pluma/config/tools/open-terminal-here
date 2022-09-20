@@ -1,0 +1,23 @@
+#!/bin/sh
+# [Pluma Tool]
+# Name=Open terminal here
+# Comment=Open a terminal in the document location
+# Input=nothing
+# Output=output-panel
+# Applicability=local
+# Save-files=nothing
+# Languages=
+# Shortcut=F4
+
+
+#TODO: use "mateconftool-2 -g /desktop/mate/applications/terminal/exec"
+#mate-terminal --working-directory=$PLUMA_CURRENT_DOCUMENT_DIR &
+
+#gnome-terminal --working-directory="$PLUMA_CURRENT_DOCUMENT_DIR" &
+#gnome-terminal --tab --working-directory="$PLUMA_CURRENT_DOCUMENT_DIR" &
+
+xfce4-terminal --tab --working-directory="$PLUMA_CURRENT_DOCUMENT_DIR" &
+
+#sakura --working-directory="$PLUMA_CURRENT_DOCUMENT_DIR" &
+
+#x-terminal-emulator --working-directory="$PLUMA_CURRENT_DOCUMENT_DIR" &
