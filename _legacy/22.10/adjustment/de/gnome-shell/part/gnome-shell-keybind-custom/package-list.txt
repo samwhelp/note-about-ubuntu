@@ -1,5 +1,24 @@
 
 
+##
 ## gnome-shell
+##
 
 gnome-shell
+
+
+##
+## terminal
+##
+
+gnome-terminal
+#sakura
+#terminator
+#xfce4-terminal
+
+
+##
+## rofi
+##
+
+#rofi
