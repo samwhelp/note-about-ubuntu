@@ -1,0 +1,14 @@
+[org/gnome/nautilus/preferences]
+show-hidden-files=true
+default-folder-viewer='list-view'
+search-view='list-view'
+search-filter-time-type='last_modified'
+
+
+[org/gnome/nautilus/list-view]
+default-zoom-level='standard'
+use-tree-view=false
+
+
+[org/gnome/nautilus/icon-view]
+default-zoom-level='larger'
