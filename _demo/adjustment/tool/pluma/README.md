@@ -225,6 +225,10 @@ show
 * ~/.config/dconf/user
 
 
+``` sh
+dconf dump / | grep 'org/mate/pluma' -A 32
+```
+
 ## Package
 
 run
