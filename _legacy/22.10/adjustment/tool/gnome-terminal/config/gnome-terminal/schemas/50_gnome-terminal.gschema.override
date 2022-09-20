@@ -1,0 +1,8 @@
+
+
+[org.gnome.Terminal.Legacy]
+default-show-menubar=false
+
+
+[org.gnome.Terminal.Legacy.Settings]
+unified-menu=false
