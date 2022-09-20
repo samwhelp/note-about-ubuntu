@@ -78,16 +78,22 @@ gnome_shell_extension_ubuntu_dock_config_install () {
 	gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 24
 
 
+	##
+	## mouse middle scroll
+	##
 
-	echo "gsettings set org.gnome.shell.extensions.dash-to-dock scroll-action 'switch-workspace'"
-	gsettings set org.gnome.shell.extensions.dash-to-dock scroll-action 'switch-workspace'
+	#echo "gsettings set org.gnome.shell.extensions.dash-to-dock scroll-action 'switch-workspace'"
+	#gsettings set org.gnome.shell.extensions.dash-to-dock scroll-action 'switch-workspace'
 
-	#echo "gsettings set org.gnome.shell.extensions.dash-to-dock scroll-action 'cycle-windows'"
-	#gsettings set org.gnome.shell.extensions.dash-to-dock scroll-action 'cycle-windows'
-
-
+	echo "gsettings set org.gnome.shell.extensions.dash-to-dock scroll-action 'cycle-windows'"
+	gsettings set org.gnome.shell.extensions.dash-to-dock scroll-action 'cycle-windows'
 
 
+
+
+	##
+	## mouse left click
+	##
 
 	#echo "gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'focus-or-previews'"
 	#gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'focus-or-previews'
@@ -103,12 +109,17 @@ gnome_shell_extension_ubuntu_dock_config_install () {
 
 
 
+	##
+	## mouse middle click
+	##
 
-	#echo "gsettings set org.gnome.shell.extensions.dash-to-dock middle-click-action 'launch'"
-	#gsettings set org.gnome.shell.extensions.dash-to-dock middle-click-action 'launch'
+	echo "gsettings set org.gnome.shell.extensions.dash-to-dock middle-click-action 'launch'"
+	gsettings set org.gnome.shell.extensions.dash-to-dock middle-click-action 'launch'
 
-	echo "gsettings set org.gnome.shell.extensions.dash-to-dock middle-click-action 'cycle-windows'"
-	gsettings set org.gnome.shell.extensions.dash-to-dock middle-click-action 'cycle-windows'
+	#echo "gsettings set org.gnome.shell.extensions.dash-to-dock middle-click-action 'cycle-windows'"
+	#gsettings set org.gnome.shell.extensions.dash-to-dock middle-click-action 'cycle-windows'
+
+
 
 
 	echo "gsettings set org.gnome.shell.extensions.dash-to-dock show-mounts false"
