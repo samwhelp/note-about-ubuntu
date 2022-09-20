@@ -184,7 +184,7 @@ show
 
 ## gschema
 
-* /usr/share/glib-2.0/schemas/20_org.gnome.gedit.gschema.override
+* /usr/share/glib-2.0/schemas/50_gedit.gschema.override
 * ~/.config/dconf/user
 
 
