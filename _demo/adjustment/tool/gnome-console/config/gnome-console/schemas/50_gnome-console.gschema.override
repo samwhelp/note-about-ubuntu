@@ -1,0 +1,4 @@
+[org.gnome.Console]
+font-scale=1.0
+scrollback-lines=int64 10000
+theme='night'
