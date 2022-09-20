@@ -16,7 +16,7 @@ gedit_config_install () {
 
 
 	##
-	## dconf dump / | grep gedit -A 10
+	## dconf dump / | grep 'org/gnome/gedit' -A 38
 	##
 	## gsettings list-recursively | grep org.gnome.gedit | sort
 	##

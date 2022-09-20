@@ -187,6 +187,9 @@ show
 * /usr/share/glib-2.0/schemas/50_gedit.gschema.override
 * ~/.config/dconf/user
 
+``` sh
+dconf dump / | grep 'org/gnome/gedit' -A 38
+```
 
 ## Package
 
