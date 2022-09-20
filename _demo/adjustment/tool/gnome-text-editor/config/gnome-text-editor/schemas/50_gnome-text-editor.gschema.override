@@ -1,0 +1,14 @@
+[org.gnome.TextEditor]
+custom-font='Monospace 14'
+highlight-current-line=true
+indent-style='tab'
+indent-width=-1
+right-margin-position=80
+show-grid=false
+show-line-numbers=true
+show-map=true
+show-right-margin=true
+style-scheme='oblivion'
+style-variant='dark'
+tab-width=4
+use-system-font=false
