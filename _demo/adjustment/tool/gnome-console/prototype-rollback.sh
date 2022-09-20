@@ -6,7 +6,7 @@ set -e
 ################################################################################
 ### Head: gnome-console
 ##
-gnome_text_editor_prototype_rollback () {
+gnome_console_prototype_rollback () {
 
 	##
 	## /usr/share/glib-2.0/schemas/50_gnome-console.gschema.override
@@ -36,7 +36,7 @@ gnome_text_editor_prototype_rollback () {
 ### Head: main
 ##
 main_prototype_rollback () {
-	gnome_text_editor_prototype_rollback
+	gnome_console_prototype_rollback
 }
 ## start
 main_prototype_rollback

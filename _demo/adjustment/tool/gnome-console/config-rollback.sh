@@ -6,7 +6,7 @@ set -e
 ################################################################################
 ### Head: gnome-console
 ##
-gnome_text_editor_config_rollback () {
+gnome_console_config_rollback () {
 
 
 	echo
@@ -31,7 +31,7 @@ gnome_text_editor_config_rollback () {
 ### Head: main
 ##
 main_config_rollback () {
-	gnome_text_editor_config_rollback
+	gnome_console_config_rollback
 }
 ## start
 main_config_rollback

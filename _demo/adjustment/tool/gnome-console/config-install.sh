@@ -6,7 +6,7 @@ set -e
 ################################################################################
 ### Head: gnome-console
 ##
-gnome_text_editor_config_install () {
+gnome_console_config_install () {
 
 	echo
 	echo "##"
@@ -53,7 +53,7 @@ gnome_text_editor_config_install () {
 ### Head: main
 ##
 main_config_install () {
-	gnome_text_editor_config_install
+	gnome_console_config_install
 }
 ## start
 main_config_install

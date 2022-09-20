@@ -6,7 +6,7 @@ set -e
 ################################################################################
 ### Head: gnome-console
 ##
-gnome_text_editor_prototype_install () {
+gnome_console_prototype_install () {
 
 	##
 	## /usr/share/glib-2.0/schemas/50_gnome-console.gschema.override
@@ -38,7 +38,7 @@ gnome_text_editor_prototype_install () {
 ### Head: main
 ##
 main_prototype_install () {
-	gnome_text_editor_prototype_install
+	gnome_console_prototype_install
 }
 ## start
 main_prototype_install
