@@ -99,10 +99,18 @@ NVIM v0.8.0-dev
 
 ## 安裝  LunarVim
 
+run
 
 ``` sh
 sudo apt-get install yarn make
 ```
+
+run
+
+``` sh
+sudo apt-get install build-essential
+```
+
 
 > [LunarVim](https://github.com/LunarVim/LunarVim)
 
