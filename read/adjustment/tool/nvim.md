@@ -121,7 +121,7 @@ curl -fLo "$HOME/.config/lvim/config.lua" --create-dirs \
 
 
 ``` sh
-mkdir ~/.local/bin/
+mkdir -p ~/.local/bin/
 cd ~/.local/bin/
 ln -sf lvim vi
 ```
