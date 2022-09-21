@@ -58,8 +58,8 @@ sudo apt update
 source-list
 
 ```
-deb https://ppa.launchpadcontent.net/neovim-ppa/stable/ubuntu jammy main 
-deb-src https://ppa.launchpadcontent.net/neovim-ppa/stable/ubuntu jammy main 
+deb https://ppa.launchpadcontent.net/neovim-ppa/stable/ubuntu jammy main
+deb-src https://ppa.launchpadcontent.net/neovim-ppa/stable/ubuntu jammy main
 ```
 
 
@@ -101,7 +101,7 @@ NVIM v0.8.0-dev
 
 
 ``` sh
-sudo apt-get install yarn
+sudo apt-get install yarn make
 ```
 
 > [LunarVim](https://github.com/LunarVim/LunarVim)
@@ -146,4 +146,3 @@ curl -fLo "$HOME/.local/share/fonts/nerd-fonts/Literation Mono Nerd Font Complet
 ``` sh
 fc-cache -fv ~/.local/share/fonts/
 ```
-
