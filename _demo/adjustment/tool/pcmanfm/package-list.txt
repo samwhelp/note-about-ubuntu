@@ -1,2 +1,20 @@
+
+##
+## File Manager
+##
+
 pcmanfm
-youtube-dl
+
+
+##
+## Terminal
+##
+
+sakura
+
+
+##
+## Archiver
+##
+
+engrampa
