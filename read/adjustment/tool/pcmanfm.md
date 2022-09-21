@@ -25,9 +25,6 @@ grand_parent: 微調
 ## 設定檔路徑
 
 * [~/.config/pcmanfm/default/pcmanfm.conf](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/tool/pcmanfm-qt/config/pcmanfm/default/pcmanfm.conf)
+* [~/.config/libfm/libfm.conf](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/tool/pcmanfm-qt/config/libfm/libfm.conf)
 
-
-## libfm
-
-* ~/.config/libfm/libfm.conf
 
