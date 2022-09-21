@@ -30,9 +30,9 @@ gnome_shell_config_install () {
 
 gnome_shell_theme_main_config () {
 
-	#gnome_shell_theme_yaru_prussiangreen_dark
+	gnome_shell_theme_yaru_prussiangreen_dark
 	#gnome_shell_theme_dracula
-	gnome_shell_theme_gruvbox
+	#gnome_shell_theme_gruvbox
 
 
 }
