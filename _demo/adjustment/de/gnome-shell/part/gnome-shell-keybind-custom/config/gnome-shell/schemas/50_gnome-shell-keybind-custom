@@ -1,0 +1,10 @@
+
+
+[org/gnome/settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal/']
+
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal]
+binding='<Alt>Return'
+command='sakura -m'
+name='Terminal'
