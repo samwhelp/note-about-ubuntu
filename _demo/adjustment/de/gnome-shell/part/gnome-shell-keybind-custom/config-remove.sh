@@ -54,9 +54,9 @@ gnome_shell_keybind_custom_remove () {
 	## Dump all
 	#dconf dump /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/
 
-	#gsettings reset org.gnome.settings-daemon.plugins.media-keys custom-keybindings
+	gsettings reset org.gnome.settings-daemon.plugins.media-keys custom-keybindings
 
-	gsettings set org.gnome.settings-daemon.plugins.media-keys custom-keybindings "[]"
+	#gsettings set org.gnome.settings-daemon.plugins.media-keys custom-keybindings "[]"
 
 
 
