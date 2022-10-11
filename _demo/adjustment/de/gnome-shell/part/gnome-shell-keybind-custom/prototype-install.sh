@@ -22,8 +22,8 @@ gnome_shell_prototype_install () {
 	echo "sudo mkdir -p /etc/dconf/profile"
 	sudo mkdir -p "/etc/dconf/profile"
 
-	echo "sudo install -Dm644 ./config/gnome-shell/profile/user /etc/dconf/profile"
-	sudo install -Dm644 "./config/gnome-shell/profile/user" "/etc/dconf/profile"
+	echo "sudo install -Dm644 ./config/gnome-shell/profile/user /etc/dconf/profile/user"
+	sudo install -Dm644 "./config/gnome-shell/profile/user" "/etc/dconf/profile/user"
 
 
 	echo "sudo mkdir -p /etc/dconf/db/site.d"
