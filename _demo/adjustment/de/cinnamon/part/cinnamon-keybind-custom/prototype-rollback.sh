@@ -9,7 +9,7 @@ set -e
 cinnamon_prototype_rollback () {
 
 	##
-	## /usr/share/glib-2.0/schemas/50_cinnamon-keybind-custom.gschema.override
+	## /etc/dconf/db/site.d/50_cinnamon-keybind-custom
 	##
 
 	echo
@@ -19,13 +19,24 @@ cinnamon_prototype_rollback () {
 	echo
 
 
-	echo "sudo rm -rf /usr/share/glib-2.0/schemas/50_cinnamon-keybind-custom.gschema.override"
-	sudo rm -rf "/usr/share/glib-2.0/schemas/50_cinnamon-keybind-custom.gschema.override"
+	echo "sudo rm -rf /etc/dconf/db/site.d/50_cinnamon-keybind-custom"
+	sudo rm -rf "/etc/dconf/db/site.d/50_cinnamon-keybind-custom"
 
-	echo "sudo glib-compile-schemas /usr/share/glib-2.0/schemas/"
-	sudo glib-compile-schemas /usr/share/glib-2.0/schemas/
+	echo "sudo dconf update"
+	sudo dconf update
 
 	echo
+	echo
+
+	echo "dconf dump /org/cinnamon/desktop/keybindings/"
+	dconf dump /org/cinnamon/desktop/keybindings/
+
+	#echo "dconf dump / | grep 'org/cinnamon/desktop/keybindings' -A 4"
+	#dconf dump / | grep 'org/cinnamon/desktop/keybindings' -A 4
+
+
+	echo
+
 }
 ##
 ### Tail: cinnamon

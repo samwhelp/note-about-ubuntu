@@ -9,7 +9,7 @@ set -e
 cinnamon_prototype_install () {
 
 	##
-	## /usr/share/glib-2.0/schemas/50_cinnamon-keybind-custom.gschema.override
+	## /etc/dconf/db/site.d/50_cinnamon-keybind-custom
 	##
 
 
@@ -19,16 +19,35 @@ cinnamon_prototype_install () {
 	echo "##"
 	echo
 
-	echo "sudo mkdir -p /usr/share/glib-2.0/schemas"
-	sudo mkdir -p "/usr/share/glib-2.0/schemas"
+	echo "sudo mkdir -p /etc/dconf/profile"
+	sudo mkdir -p "/etc/dconf/profile"
 
-	echo "sudo install -Dm644 ./config/cinnamon/schemas/50_cinnamon-keybind-custom.gschema.override /usr/share/glib-2.0/schemas/50_cinnamon-keybind-custom.gschema.override"
-	sudo install -Dm644 "./config/cinnamon/schemas/50_cinnamon-keybind-custom.gschema.override" "/usr/share/glib-2.0/schemas/50_cinnamon-keybind-custom.gschema.override"
+	echo "sudo install -Dm644 ./config/cinnamon/profile/user /etc/dconf/profile/user"
+	sudo install -Dm644 "./config/cinnamon/profile/user" "/etc/dconf/profile/user"
 
-	echo "sudo glib-compile-schemas /usr/share/glib-2.0/schemas/"
-	sudo glib-compile-schemas /usr/share/glib-2.0/schemas/
+
+	echo "sudo mkdir -p /etc/dconf/db/site.d"
+	sudo mkdir -p "/etc/dconf/db/site.d"
+
+	echo "sudo install -Dm644 ./config/cinnamon/schemas/50_cinnamon-keybind-custom /etc/dconf/db/site.d/50_cinnamon-keybind-custom"
+	sudo install -Dm644 "./config/cinnamon/schemas/50_cinnamon-keybind-custom" "/etc/dconf/db/site.d/50_cinnamon-keybind-custom"
+
+
+	echo "sudo dconf update"
+	sudo dconf update
 
 	echo
+	echo
+
+	echo "dconf dump /org/cinnamon/desktop/keybindings/"
+	dconf dump /org/cinnamon/desktop/keybindings/
+
+	#echo "dconf dump / | grep 'org/cinnamon/desktop/keybindings' -A 4"
+	#dconf dump / | grep 'org/cinnamon/desktop/keybindings' -A 4
+
+
+	echo
+
 }
 ##
 ### Tail: cinnamon
