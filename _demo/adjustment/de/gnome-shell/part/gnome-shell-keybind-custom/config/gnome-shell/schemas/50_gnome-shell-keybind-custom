@@ -33,7 +33,7 @@ name='Rofi_Show_Window'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/settings-shortcuts]
 binding='<Shift><Alt>s'
-command='io.elementary.switchboard settings://input/keyboard/shortcuts'
+command='gnome-control-center keyboard'
 name='Settings_Shortcuts'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/system-logout]
