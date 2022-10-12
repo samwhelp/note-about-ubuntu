@@ -26,7 +26,7 @@ binding='<Shift><Alt>w'
 name='Rofi_Show_Window'
 
 [org/mate/desktop/keybindings/settings-shortcuts]
-action='mate-settings keyboard'
+action='mate-control-center'
 binding='<Shift><Alt>s'
 name='Settings_Shortcuts'
 

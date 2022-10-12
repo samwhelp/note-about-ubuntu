@@ -86,7 +86,7 @@ mate_keybind_custom_config () {
 
 	## Settings Shortcuts
 	dconf write /org/mate/desktop/keybindings/settings-shortcuts/name "'Settings_Shortcuts'"
-	dconf write /org/mate/desktop/keybindings/settings-shortcuts/action "'mate-settings keyboard'"
+	dconf write /org/mate/desktop/keybindings/settings-shortcuts/action "'mate-control-center'"
 	dconf write /org/mate/desktop/keybindings/settings-shortcuts/binding "'<Shift><Alt>s'"
 
 
