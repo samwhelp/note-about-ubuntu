@@ -4,15 +4,15 @@ set -e
 
 
 ################################################################################
-### Head: cinnamon
+### Head: mate
 ##
-cinnamon_config_remove () {
+mate_config_remove () {
 
 	echo
-	echo "## Config: cinnamon"
+	echo "## Config: mate"
 	echo
 
-	cinnamon_keybind_custom_remove
+	mate_keybind_custom_remove
 
 	return 0
 
@@ -29,34 +29,34 @@ cinnamon_config_remove () {
 
 
 
-cinnamon_keybind_custom_remove () {
+mate_keybind_custom_remove () {
 
 
 
 
 	##
-	## $ gsettings list-recursively org.cinnamon.desktop.keybindings.custom-keybinding:/
+	## $ gsettings list-recursively org.mate.desktop.keybindings.custom-keybinding:/
 	##
 	## ```
-	## org.cinnamon.desktop.keybindings.custom-keybinding binding @as []
-	## org.cinnamon.desktop.keybindings.custom-keybinding command ''
-	## org.cinnamon.desktop.keybindings.custom-keybinding name ''
+	## org.mate.desktop.keybindings.custom-keybinding binding @as []
+	## org.mate.desktop.keybindings.custom-keybinding command ''
+	## org.mate.desktop.keybindings.custom-keybinding name ''
 	## ```
 	##
-	## $ gsettings list-recursively org.cinnamon.desktop.keybindings.custom-keybinding:/org/cinnamon/desktop/keybindings/custom-keybindings/
+	## $ gsettings list-recursively org.mate.desktop.keybindings.custom-keybinding:/org/mate/desktop/keybindings/
 	##
 	##
 
 
 	## Clear old
-	dconf reset -f /org/cinnamon/desktop/keybindings/custom-keybindings/
+	dconf reset -f /org/mate/desktop/keybindings/
 
 	## Dump all
-	#dconf dump /org/cinnamon/desktop/keybindings/custom-keybindings/
+	#dconf dump /org/mate/desktop/keybindings/
 
-	#gsettings reset org.cinnamon.desktop.keybindings custom-list
+	#gsettings reset org.mate.desktop.keybindings custom-list
 
-	gsettings set org.cinnamon.desktop.keybindings custom-list "['__dummy__']"
+	#gsettings set org.mate.desktop.keybindings custom-list "['__dummy__']"
 
 
 
@@ -66,21 +66,21 @@ cinnamon_keybind_custom_remove () {
 	echo "## Dump: keybindings_custom"
 	echo "##"
 	echo
-	echo "dconf dump /org/cinnamon/desktop/keybindings/custom-keybindings/"
+	echo "dconf dump /org/mate/desktop/keybindings/"
 	echo
-	dconf dump /org/cinnamon/desktop/keybindings/custom-keybindings/
+	dconf dump /org/mate/desktop/keybindings/
 	echo
 
 	echo
-	echo "gsettings get org.cinnamon.desktop.keybindings custom-list"
+	#echo "gsettings get org.mate.desktop.keybindings custom-list"
 	echo
-	gsettings get org.cinnamon.desktop.keybindings custom-list
+	#gsettings get org.mate.desktop.keybindings custom-list
 	echo
 
 }
 
 ##
-### Tail: cinnamon
+### Tail: mate
 ################################################################################
 
 
@@ -94,7 +94,7 @@ cinnamon_keybind_custom_remove () {
 ##
 main_config_remove () {
 
-	cinnamon_config_remove
+	mate_config_remove
 
 	return 0
 
