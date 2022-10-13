@@ -1,0 +1,127 @@
+
+
+[org/gnome/settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/system-logout/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/system-shutdown/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/wallpaper-shuf/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/wallpaper-default/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/toggle-show-desktop/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/settings-shortcuts/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/rofi-show-run/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/rofi-show-window/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/rofi-show-drun/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal-1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal-2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal-3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal-4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/text-editor/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/web-browser/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/file-manager/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/file-manager-1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/volume-control/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/volume-toggle-mute/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/volume-decrease/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/volume-increase/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/volume-decrease-slowly/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/volume-increase-slowly/']
+
+
+
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/file-manager-1]
+binding='<Shift><Alt>g'
+command='thunar'
+name='File_Manager-1'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/file-manager]
+binding='<Shift><Alt>f'
+command='pcmanfm-qt'
+name='File_Manager'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/rofi-show-drun]
+binding='<Shift><Alt>d'
+command='rofi -show drun -show-icons'
+name='Rofi_Show_Drun'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/rofi-show-run]
+binding='<Shift><Alt>r'
+command='rofi -show run'
+name='Rofi_Show_Run'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/rofi-show-window]
+binding='<Shift><Alt>w'
+command='rofi -show window -show-icons'
+name='Rofi_Show_Window'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/settings-shortcuts]
+binding='<Shift><Alt>s'
+command='gnome-control-center keyboard'
+name='Settings_Shortcuts'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/system-logout]
+binding='<Shift><Alt>x'
+command='gnome-session-quit --logout'
+name='System_Logout'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/system-shutdown]
+binding='<Shift><Alt>z'
+command='gnome-session-quit --power-off'
+name='System_Shutdown'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal-1]
+binding='<Shift><Alt>a'
+command='sakura -m'
+name='Terminal-1'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal-2]
+binding='<Control><Alt>a'
+command='xfce4-terminal --maximize'
+name='Terminal-2'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal-3]
+binding='<Shift><Alt>t'
+command='xterm'
+name='Terminal-3'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal-4]
+binding='<Control><Alt>t'
+command='urxvt'
+name='Terminal-4'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal]
+binding='<Alt>Return'
+command='sakura -m'
+name='Terminal'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/text-editor]
+binding='<Shift><Alt>e'
+command='mousepad'
+name='Text_Editor'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/toggle-show-desktop]
+binding='<Super>d'
+command='toggle-show-desktop.sh'
+name='Toggle_Show_Desktop'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/volume-control]
+binding='<Shift><Alt>v'
+command='mate-volume-control'
+name='Volume_Control'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/volume-decrease-slowly]
+binding='<Control><Alt>comma'
+command='amixer -q -D pulse sset Master 1%- unmute'
+name='Volume_Decrease_Slowly'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/volume-decrease]
+binding='<Shift><Alt>comma'
+command='amixer -q -D pulse sset Master 5%- unmute'
+name='Volume_Decrease'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/volume-increase-slowly]
+binding='<Control><Alt>period'
+command='amixer -q -D pulse sset Master 1%+ unmute'
+name='Volume_Increase_Slowly'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/volume-increase]
+binding='<Shift><Alt>period'
+command='amixer -q -D pulse sset Master 5%+ unmute'
+name='Volume_Decrease'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/volume-toggle-mute]
+binding='<Alt>m'
+command='amixer -q -D pulse sset Master toggle'
+name='Volume_Toggle_Mute'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/wallpaper-default]
+binding='<Control><Alt>w'
+command='wallpaper-select-gnome default'
+name='Wallpaper_Default'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/wallpaper-shuf]
+binding='<Alt>w'
+command='wallpaper-select-gnome shuf_favorite'
+name='Wallpaper_Shuf'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/web-browser]
+binding='<Shift><Alt>b'
+command='falkon --new-tab about:blank'
+name='Web_Browser'

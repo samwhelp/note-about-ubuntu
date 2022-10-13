@@ -1,0 +1,116 @@
+
+
+[org/mate/desktop/keybindings/file-manager-1]
+action='thunar'
+binding='<Shift><Alt>g'
+name='File_Manager-1'
+
+[org/mate/desktop/keybindings/file-manager]
+action='pcmanfm-qt'
+binding='<Shift><Alt>f'
+name='File_Manager'
+
+[org/mate/desktop/keybindings/rofi-show-drun]
+action='rofi -show drun -show-icons'
+binding='<Shift><Alt>d'
+name='Rofi_Show_Drun'
+
+[org/mate/desktop/keybindings/rofi-show-run]
+action='rofi -show run'
+binding='<Shift><Alt>r'
+name='Rofi_Show_Run'
+
+[org/mate/desktop/keybindings/rofi-show-window]
+action='rofi -show window -show-icons'
+binding='<Shift><Alt>w'
+name='Rofi_Show_Window'
+
+[org/mate/desktop/keybindings/settings-shortcuts]
+action='mate-control-center'
+binding='<Shift><Alt>s'
+name='Settings_Shortcuts'
+
+[org/mate/desktop/keybindings/system-logout]
+action='mate-session-save --logout-dialog'
+binding='<Shift><Alt>x'
+name='System_Logout'
+
+[org/mate/desktop/keybindings/system-shutdown]
+action='mate-session-save --shutdown-dialog'
+binding='<Shift><Alt>z'
+name='System_Shutdown'
+
+[org/mate/desktop/keybindings/terminal-1]
+action='sakura -m'
+binding='<Shift><Alt>a'
+name='Terminal-1'
+
+[org/mate/desktop/keybindings/terminal-2]
+action='xfce4-terminal --maximize'
+binding='<Control><Alt>a'
+name='Terminal-2'
+
+[org/mate/desktop/keybindings/terminal-3]
+action='xterm'
+binding='<Shift><Alt>t'
+name='Terminal-3'
+
+[org/mate/desktop/keybindings/terminal-4]
+action='urxvt'
+binding='<Control><Alt>t'
+name='Terminal-4'
+
+[org/mate/desktop/keybindings/terminal]
+action='sakura -m'
+binding='<Alt>Return'
+name='Terminal'
+
+[org/mate/desktop/keybindings/text-editor]
+action='mousepad'
+binding='<Shift><Alt>e'
+name='Text_Editor'
+
+[org/mate/desktop/keybindings/volume-control]
+action='mate-volume-control'
+binding='<Shift><Alt>v'
+name='Volume_Control'
+
+[org/mate/desktop/keybindings/volume-decrease-slowly]
+action='amixer -q -D pulse sset Master 1%- unmute'
+binding='<Control><Alt>comma'
+name='Volume_Decrease_Slowly'
+
+[org/mate/desktop/keybindings/volume-decrease]
+action='amixer -q -D pulse sset Master 5%- unmute'
+binding='<Shift><Alt>comma'
+name='Volume_Decrease'
+
+[org/mate/desktop/keybindings/volume-increase-slowly]
+action='amixer -q -D pulse sset Master 1%+ unmute'
+binding='<Control><Alt>period'
+name='Volume_Increase_Slowly'
+
+[org/mate/desktop/keybindings/volume-increase]
+action='amixer -q -D pulse sset Master 5%+ unmute'
+binding='<Shift><Alt>period'
+name='Volume_Decrease'
+
+[org/mate/desktop/keybindings/volume-toggle-mute]
+action='amixer -q -D pulse sset Master toggle'
+binding='<Alt>m'
+name='Volume_Toggle_Mute'
+
+[org/mate/desktop/keybindings/wallpaper-default]
+action='wallpaper-select-gnome default'
+binding='<Control><Alt>w'
+name='Wallpaper_Default'
+
+[org/mate/desktop/keybindings/wallpaper-shuf]
+action='wallpaper-select-gnome shuf_favorite'
+binding='<Alt>w'
+name='Wallpaper_Shuf'
+
+[org/mate/desktop/keybindings/web-browser]
+action='falkon --new-tab about:blank'
+binding='<Shift><Alt>b'
+name='Web_Browser'
