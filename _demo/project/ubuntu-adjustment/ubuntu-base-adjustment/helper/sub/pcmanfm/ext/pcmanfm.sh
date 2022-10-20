@@ -48,6 +48,10 @@ mod_pcmanfm_config_install () {
 	install -Dm644 "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/pcmanfm/default/pcmanfm.conf" "${HOME}/.config/pcmanfm/default/pcmanfm.conf"
 
 
+	echo "install -Dm644 ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/libfm/libfm.conf ${HOME}/.config/libfm/libfm.conf"
+	install -Dm644 "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/libfm/libfm.conf" "${HOME}/.config/libfm/libfm.conf"
+
+
 	#util_error_echo "cp -rf ${THE_OVERLAY_DIR_PATH}/etc/skel/.config/pcmanfm/. ${HOME}/.config/pcmanfm/"
 	#cp -rf "${THE_OVERLAY_DIR_PATH}/etc/skel/.config/pcmanfm/." "${HOME}/.config/pcmanfm/"
 
