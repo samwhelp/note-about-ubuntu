@@ -1,6 +1,6 @@
 ---
-title: live-remix
-nav_order: 9011
+title: iso-remix
+nav_order: 9012
 has_children: false
 parent: 連結
 ---
