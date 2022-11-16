@@ -10,7 +10,9 @@ pcmanfm
 ## Terminal
 ##
 
-sakura
+#sakura
+lxterminal
+
 
 
 ##
