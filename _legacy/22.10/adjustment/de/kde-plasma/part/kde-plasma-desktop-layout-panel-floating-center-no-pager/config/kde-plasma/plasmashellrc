@@ -4,8 +4,9 @@ PreloadWeight=42
 [PlasmaViews][Panel 2]
 alignment=132
 floating=1
+panelOpacity=2
 
 [PlasmaViews][Panel 2][Defaults]
 maxLength=1366
-minLength=977
+minLength=128
 thickness=44
