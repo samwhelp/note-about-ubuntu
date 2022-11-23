@@ -9,10 +9,12 @@ set -e
 kde_plasma_config_install () {
 
 	echo
-	echo "#gsettings set Config: kde-plasma"
+	echo "##"
+	echo "## Config Start: kde-plasma"
+	echo "##"
 	echo
 
-	#kde_config_install_kde_keybind
+	kde_config_install_kde_keybind
 	kde_config_install_kde_desktop
 
 
