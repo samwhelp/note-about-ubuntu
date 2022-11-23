@@ -15,3 +15,6 @@ LayoutMode=1
 
 [Effect-presentwindows]
 LayoutMode=1
+
+[MouseBindings]
+CommandTitlebarWheel=Shade/Unshade
