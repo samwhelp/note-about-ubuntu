@@ -55,17 +55,18 @@ openbox_config_install_openboxrc_download () {
 
 openbox_config_install_openboxrc_install () {
 	echo
-	
-	make -C tmp/Openboxrc_Source/_demo/config/openbox-config/plan config-install
+
+	#make -C tmp/Openboxrc_Source/_demo/config/openbox-config/plan config-install
+	make -C tmp/Openboxrc_Source/_demo/config/openbox-config/main config-install
 
 }
 
 openbox_config_install_openboxrc_change_theme () {
-	
+
 	echo
-	
+
 	## https://github.com/archcraft-os/archcraft-openbox/blob/main/files/scripts/Forest.sh
-	
+
 	local openbox_path="$HOME/.config/openbox"
 	local namespace="http://openbox.org/3.4/rc"
 	local config="$openbox_path/rc.xml"
@@ -519,7 +520,7 @@ gtk2_config_install () {
 ##
 main_config_install () {
 	openbox_config_install
-	
+
 	return
 
 	xfce4_config_install
