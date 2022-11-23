@@ -1,5 +1,4 @@
 [ActionPlugins][0]
-LeftButton;NoModifier=org.kde.applauncher
 MiddleButton;ControlModifier=org.kde.switchdesktop
 MiddleButton;NoModifier=switchwindow
 RightButton;ControlModifier=org.kde.applauncher
