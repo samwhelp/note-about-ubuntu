@@ -1,4 +1,5 @@
 [ActionPlugins][0]
+MiddleButton;NoModifier=switchwindow
 RightButton;NoModifier=org.kde.contextmenu
 wheel:Vertical;NoModifier=org.kde.switchdesktop
 
