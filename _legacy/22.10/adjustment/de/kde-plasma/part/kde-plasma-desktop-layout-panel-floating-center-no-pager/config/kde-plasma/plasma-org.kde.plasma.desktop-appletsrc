@@ -35,6 +35,12 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
+[Containments][2][Applets][20][Configuration][Appearance]
+customDateFormat=yyyy-MM-dd
+dateFormat=custom
+showSeconds=true
+use24hFormat=2
+
 [Containments][2][Applets][21]
 immutability=1
 plugin=org.kde.plasma.minimizeall
