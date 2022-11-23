@@ -1,0 +1,5 @@
+[Favorites-org.kde.plasma.kickoff.favorites.instance-3-9d8ae070-8a25-4665-b7fc-5c80a2a1336e]
+ordering=applications:pcmanfm-qt.desktop,applications:org.kde.kate.desktop,preferred://browser,applications:sakura.desktop,applications:systemsettings.desktop,applications:org.kde.discover.desktop,applications:org.kde.plasma-systemmonitor.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.konsole.desktop
+
+[Favorites-org.kde.plasma.kickoff.favorites.instance-3-global]
+ordering=applications:pcmanfm-qt.desktop,applications:org.kde.kate.desktop,preferred://browser,applications:sakura.desktop,applications:systemsettings.desktop,applications:org.kde.discover.desktop,applications:org.kde.plasma-systemmonitor.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.konsole.desktop
