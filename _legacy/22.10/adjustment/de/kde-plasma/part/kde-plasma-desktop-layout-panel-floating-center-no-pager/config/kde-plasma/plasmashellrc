@@ -9,8 +9,3 @@ floating=1
 maxLength=1366
 minLength=977
 thickness=44
-
-[PlasmaViews][Panel 2][Horizontal1366]
-maxLength=1366
-minLength=977
-thickness=44
