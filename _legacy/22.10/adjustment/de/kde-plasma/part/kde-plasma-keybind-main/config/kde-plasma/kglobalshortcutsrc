@@ -294,15 +294,6 @@ kcm-users=none,none,Users
 powerdevilprofilesconfig=none,none,Energy Saving
 screenlocker=none,none,Screen Locking
 
-[systemsettings.desktop]
-_k_friendly_name=System Settings
-_launch=Tools,Tools,System Settings
-kcm-kscreen=none,none,Display Configuration
-kcm-lookandfeel=none,none,Global Theme
-kcm-users=none,none,Users
-powerdevilprofilesconfig=none,none,Energy Saving
-screenlocker=none,none,Screen Locking
-
 [wacomtablet]
 Map to fullscreen=none,Meta+Ctrl+F,Map to fullscreen
 Map to screen 1=none,Meta+Ctrl+1,Map to screen 1
