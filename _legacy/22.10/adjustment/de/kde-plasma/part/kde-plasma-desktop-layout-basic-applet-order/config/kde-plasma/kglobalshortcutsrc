@@ -304,14 +304,14 @@ powerdevilprofilesconfig=none,none,Energy Saving
 screenlocker=none,none,Screen Locking
 
 [wacomtablet]
-Map to fullscreen=Meta+Ctrl+F,Meta+Ctrl+F,Map to fullscreen
-Map to screen 1=Meta+Ctrl+1,Meta+Ctrl+1,Map to screen 1
-Map to screen 2=Meta+Ctrl+2,Meta+Ctrl+2,Map to screen 2
-Next Profile=Meta+Ctrl+N,Meta+Ctrl+N,Next profile
-Previous Profile=Meta+Ctrl+P,Meta+Ctrl+P,Previous Profile
-Toggle screen map selection=Meta+Ctrl+M,Meta+Ctrl+M,Toggle between all screens
-Toggle stylus mode=Meta+Ctrl+S,Meta+Ctrl+S,Toggle the Stylus Tool Relative/Absolute
-Toggle touch tool=Meta+Ctrl+T,Meta+Ctrl+T,Enable/Disable the Touch Tool
+Map to fullscreen=none,Meta+Ctrl+F,Map to fullscreen
+Map to screen 1=none,Meta+Ctrl+1,Map to screen 1
+Map to screen 2=none,Meta+Ctrl+2,Map to screen 2
+Next Profile=none,Meta+Ctrl+N,Next profile
+Previous Profile=none,Meta+Ctrl+P,Previous Profile
+Toggle screen map selection=none,Meta+Ctrl+M,Toggle between all screens
+Toggle stylus mode=none,Meta+Ctrl+S,Toggle the Stylus Tool Relative/Absolute
+Toggle touch tool=none,Meta+Ctrl+T,Enable/Disable the Touch Tool
 _k_friendly_name=Wacom Tablet
 
 [yakuake]
