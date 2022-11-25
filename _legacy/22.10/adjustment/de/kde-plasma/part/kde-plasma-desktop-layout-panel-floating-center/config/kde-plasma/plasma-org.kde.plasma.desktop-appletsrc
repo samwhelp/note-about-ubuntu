@@ -110,7 +110,7 @@ DialogHeight=84
 DialogWidth=1366
 
 [Containments][2][General]
-AppletOrder=3;5;4;6;7;20;21
+AppletOrder=3;4;5;6;7;20;21
 
 [Containments][22]
 ItemGeometries-1024x768=
