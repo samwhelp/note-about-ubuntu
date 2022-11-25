@@ -14,7 +14,7 @@ kde_plasma_config_install () {
 	echo "##"
 	echo
 
-	kde_config_install_kde_keybind
+	#kde_config_install_kde_keybind
 	kde_config_install_kde_desktop
 
 
@@ -50,8 +50,8 @@ kde_config_install_kde_keybind_raw () {
 	mkdir -p "${HOME}/.config/"
 
 
-	echo "install -Dm644 ./config/kde-plasma/kglobalshortcutsrc ${HOME}/.config/kglobalshortcutsrc"
-	install -Dm644 "./config/kde-plasma/kglobalshortcutsrc" "${HOME}/.config/kglobalshortcutsrc"
+	echo "install -Dm644 ./config/kde-plasma-keybind/skel/.config/kglobalshortcutsrc ${HOME}/.config/kglobalshortcutsrc"
+	install -Dm644 "./config/kde-plasma-keybind/skel/.config/kglobalshortcutsrc" "${HOME}/.config/kglobalshortcutsrc"
 
 
 	echo
@@ -146,8 +146,12 @@ kde_config_install_kde_desktop_raw () {
 	mkdir -p "${HOME}/.config/"
 
 
-	echo "cp -rf ./config/kde-plasma/. ${HOME}/.config/"
-	cp -rf "./config/kde-plasma/." "${HOME}/.config/"
+	echo "cp -rf ./config/kde-plasma-desktop/skel/.config/. ${HOME}/.config/"
+	cp -rf "./config/kde-plasma-desktop/skel/.config/." "${HOME}/.config/"
+
+
+	#echo "install -Dm644 ./config/kde-plasma-desktop/skel/.gtkrc-2.0 ${HOME}/.gtkrc-2.0"
+	#install -Dm644 "./config/kde-plasma-desktop/skel/.gtkrc-2.0" "${HOME}/.gtkrc-2.0"
 
 
 	echo
