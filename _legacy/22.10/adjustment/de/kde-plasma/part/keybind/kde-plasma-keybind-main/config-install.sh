@@ -9,10 +9,13 @@ set -e
 kde_plasma_config_install () {
 
 	echo
-	echo "#gsettings set Config: kde-plasma"
+	echo "##"
+	echo "## Config Start: kde-plasma"
+	echo "##"
 	echo
 
 	kde_config_install_kde_keybind
+	#kde_config_install_kde_desktop
 
 
 	echo
@@ -47,8 +50,8 @@ kde_config_install_kde_keybind_raw () {
 	mkdir -p "${HOME}/.config/"
 
 
-	echo "install -Dm644 ./config/kde-plasma/kglobalshortcutsrc ${HOME}/.config/kglobalshortcutsrc"
-	install -Dm644 "./config/kde-plasma/kglobalshortcutsrc" "${HOME}/.config/kglobalshortcutsrc"
+	echo "install -Dm644 ./config/kde-plasma-keybind/skel/.config/kglobalshortcutsrc ${HOME}/.config/kglobalshortcutsrc"
+	install -Dm644 "./config/kde-plasma-keybind/skel/.config/kglobalshortcutsrc" "${HOME}/.config/kglobalshortcutsrc"
 
 
 	echo
@@ -114,6 +117,107 @@ kde_global_shortcuts_server_restart () {
 }
 ##
 ### Tail: kde / global shortcuts server
+################################################################################
+
+
+
+
+################################################################################
+### Head: kde / desktop
+##
+kde_config_install_kde_desktop () {
+
+	kde_plasma_shell_stop
+	kde_config_install_kde_desktop_raw
+	kde_plasma_shell_start
+
+}
+
+kde_config_install_kde_desktop_raw () {
+
+	echo
+	echo "##"
+	echo "## Config: kde_config_install_kde_desktop"
+	echo "##"
+	echo
+
+
+	echo "mkdir -p ${HOME}/.config/"
+	mkdir -p "${HOME}/.config/"
+
+
+	echo "cp -rf ./config/kde-plasma-desktop/skel/.config/. ${HOME}/.config/"
+	cp -rf "./config/kde-plasma-desktop/skel/.config/." "${HOME}/.config/"
+
+
+	echo "install -Dm644 ./config/kde-plasma-desktop/skel/.gtkrc-2.0 ${HOME}/.gtkrc-2.0"
+	install -Dm644 "./config/kde-plasma-desktop/skel/.gtkrc-2.0" "${HOME}/.gtkrc-2.0"
+
+
+	echo
+}
+##
+### Tail: kde / desktop
+################################################################################
+
+
+
+################################################################################
+### Head: kde / plasma shell
+##
+kde_plasma_shell_stop () {
+
+	echo
+	echo "##"
+	echo "## Prepare: kde_plasma_shell_stop"
+	echo "##"
+	echo
+
+
+	echo "systemctl --user stop plasma-plasmashell.service"
+	systemctl --user stop plasma-plasmashell.service
+
+
+	echo
+}
+
+kde_plasma_shell_start () {
+
+	echo
+	echo "##"
+	echo "## Prepare: kde_plasma_shell_start"
+	echo "##"
+	echo
+
+
+	echo "systemctl --user start plasma-plasmashell.service"
+	systemctl --user start plasma-plasmashell.service
+
+
+	echo
+}
+
+kde_plasma_shell_restart () {
+	#kde_plasma_shell_stop
+	#kde_plasma_shell_start
+
+
+	echo
+	echo "##"
+	echo "## Prepare: kde_plasma_shell_stop"
+	echo "##"
+	echo
+
+
+	echo "systemctl --user restart plasma-plasmashell.service"
+	systemctl --user restart plasma-plasmashell.service
+
+
+	echo
+
+}
+##
+### Tail: kde / global plasma shell
 ################################################################################
 
 
