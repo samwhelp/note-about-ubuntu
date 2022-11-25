@@ -19,3 +19,6 @@ LayoutMode=1
 
 [MouseBindings]
 CommandTitlebarWheel=Shade/Unshade
+
+[Windows]
+RollOverDesktops=true
