@@ -85,6 +85,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][2][Applets][5][Configuration][General]
+forceStripes=true
 launchers=applications:pcmanfm-qt.desktop,applications:atom.desktop,preferred://browser,applications:sakura.desktop,applications:systemsettings.desktop,applications:org.kde.discover.desktop
 maxStripes=1
 showOnlyCurrentActivity=true
