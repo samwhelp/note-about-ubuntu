@@ -1,0 +1,11 @@
+[Daemon]
+LockGrace=10
+Timeout=10
+
+[Greeter]
+Theme=org.kde.breeze.desktop
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=/usr/share/wallpapers/SafeLanding/
+PreviewImage=/usr/share/wallpapers/SafeLanding/
+SlidePaths=/usr/share/wallpapers/
