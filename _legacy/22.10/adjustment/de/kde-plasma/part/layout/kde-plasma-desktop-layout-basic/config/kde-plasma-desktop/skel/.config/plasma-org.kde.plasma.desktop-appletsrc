@@ -74,7 +74,9 @@ DialogWidth=720
 
 [Containments][2][Applets][4][Configuration][General]
 currentDesktopSelected=ShowDesktop
+showOnlyCurrentScreen=true
 showWindowIcons=true
+wrapPage=true
 
 [Containments][2][Applets][5]
 immutability=1
