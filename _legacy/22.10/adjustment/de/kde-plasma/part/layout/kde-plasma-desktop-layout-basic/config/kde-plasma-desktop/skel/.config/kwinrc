@@ -17,6 +17,9 @@ LayoutMode=1
 [Effect-presentwindows]
 LayoutMode=1
 
+[ModifierOnlyShortcuts]
+Meta=
+
 [MouseBindings]
 CommandTitlebarWheel=Shade/Unshade
 
