@@ -136,7 +136,10 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [General]
-ColorSchemeHash=d2f9f23c62b2c7529878a3b4c96c2902e98086db
+ColorScheme=BreezeDark
+
+[Icons]
+Theme=breeze-dark
 
 [KDE]
 LookAndFeelPackage=org.kde.breezedark.desktop
