@@ -2,6 +2,37 @@
 # plank
 
 
+## property
+
+``` sh
+gsettings list-recursively  net.launchpad.plank.dock.settings:/net/launchpad/plank/docks/dock1/
+```
+
+## position
+
+``` sh
+gsettings get net.launchpad.plank.dock.settings:/net/launchpad/plank/docks/dock1/ position
+```
+
+``` sh
+gsettings reset net.launchpad.plank.dock.settings:/net/launchpad/plank/docks/dock1/ position
+```
+
+``` sh
+gsettings set net.launchpad.plank.dock.settings:/net/launchpad/plank/docks/dock1/ position "top"
+```
+
+``` sh
+gsettings set net.launchpad.plank.dock.settings:/net/launchpad/plank/docks/dock1/ position "bottom"
+```
+
+``` sh
+gsettings set net.launchpad.plank.dock.settings:/net/launchpad/plank/docks/dock1/ position "left"
+```
+
+``` sh
+gsettings set net.launchpad.plank.dock.settings:/net/launchpad/plank/docks/dock1/ position "right"
+```
 
 
 ## Howto

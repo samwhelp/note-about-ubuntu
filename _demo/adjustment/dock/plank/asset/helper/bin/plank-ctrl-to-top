@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+
+gsettings set net.launchpad.plank.dock.settings:/net/launchpad/plank/docks/dock1/ position "top"
