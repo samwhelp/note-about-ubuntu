@@ -1,6 +1,6 @@
 ---
 title: xfce
-nav_order: 3040
+nav_order: 3050
 has_children: true
 parent: 桌面環境
 ---

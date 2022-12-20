@@ -1,6 +1,6 @@
 ---
 title: kde
-nav_order: 3050
+nav_order: 3060
 has_children: true
 parent: 桌面環境
 ---
