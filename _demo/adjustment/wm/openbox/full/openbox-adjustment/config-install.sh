@@ -54,10 +54,16 @@ openbox_config_install_openboxrc_download () {
 }
 
 openbox_config_install_openboxrc_install () {
+
+	echo
+	echo "make -C tmp/Openboxrc_Source/_demo/config/openbox-config/main install"
 	echo
 
-	#make -C tmp/Openboxrc_Source/_demo/config/openbox-config/plan config-install
-	make -C tmp/Openboxrc_Source/_demo/config/openbox-config/main config-install
+	make -C tmp/Openboxrc_Source/_demo/config/openbox-config/main install
+
+
+
+	echo
 
 }
 
