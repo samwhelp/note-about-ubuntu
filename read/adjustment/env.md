@@ -26,6 +26,6 @@ parent: 微調
 
 ## Link
 
-* Arch Wiki / [Environment variables](https://wiki.archlinux.org/index.php/environment_variables) / [Using pam_env](https://wiki.archlinux.org/title/environment_variables#Using_pam_env)
-* Arch Wiki / Systemd / User / [Environment_variables](https://wiki.archlinux.org/index.php/Systemd/User#Environment_variables)
-* Arch Wiki / Bash / [Configuration files](https://wiki.archlinux.org/index.php/Bash#Configuration_files)
+* Arch Wiki / [Environment variables](https://wiki.archlinux.org/title/environment_variables)
+* Arch Wiki / Systemd / User / [Environment_variables](https://wiki.archlinux.org/title/Systemd/User#Environment_variables)
+* Arch Wiki / Bash / [Configuration files](https://wiki.archlinux.org/title/Bash#Configuration_files)
