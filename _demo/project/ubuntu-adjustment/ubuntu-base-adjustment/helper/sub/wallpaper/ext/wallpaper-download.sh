@@ -50,6 +50,8 @@ mod_wallpaper_asset_install_wallpaper_download_each () {
 
 	mod_wallpaper_asset_install_wallpaper_download_the_Fareeha_Amari
 
+	mod_wallpaper_asset_install_wallpaper_download_the_Amiya
+
 }
 
 mod_wallpaper_asset_install_wallpaper_download_the_k_MglpZKg3s () {
@@ -129,6 +131,18 @@ mod_wallpaper_asset_install_wallpaper_download_the_Qu_Que_Ling () {
 	##
 
 	wget -c 'http://cdnimg01.yingxiong.com/M00/1A/10/ChpCl2CZD0SECU6sAAAAAIlzqu8408.jpg' -O 'Qu_Que_Ling.jpg'
+
+}
+
+
+mod_wallpaper_asset_install_wallpaper_download_the_Amiya () {
+
+	##
+	## 明日方舟 黎明前奏 / 阿米婭 (Amiya)
+	## * https://ak.hypergryph.com/anime/
+	##
+
+	wget -c 'https://web.hycdn.cn/arknights/anime/official/assets/img/KV.a8b13e.jpg' -O 'Amiya.jpg'
 
 }
 
