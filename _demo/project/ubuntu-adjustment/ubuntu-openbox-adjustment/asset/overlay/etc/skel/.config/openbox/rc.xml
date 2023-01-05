@@ -381,53 +381,115 @@ h l
         <to>right</to>
       </action>
     </keybind>
+    <!-- For Simple [1-10] //-->
+    <!--
+	<keybind key="A-1">
+		<action name="GoToDesktop">
+			<to>1</to>
+		</action>
+	</keybind>
+
+	<keybind key="A-2">
+		<action name="GoToDesktop">
+			<to>2</to>
+		</action>
+	</keybind>
+
+	<keybind key="A-3">
+		<action name="GoToDesktop">
+			<to>3</to>
+		</action>
+	</keybind>
+
+	<keybind key="A-4">
+		<action name="GoToDesktop">
+			<to>4</to>
+		</action>
+	</keybind>
+
+	<keybind key="A-5">
+		<action name="GoToDesktop">
+			<to>5</to>
+		</action>
+	</keybind>
+
+	<keybind key="A-6">
+		<action name="GoToDesktop">
+			<to>6</to>
+		</action>
+	</keybind>
+
+	<keybind key="A-7">
+		<action name="GoToDesktop">
+			<to>7</to>
+		</action>
+	</keybind>
+
+	<keybind key="A-8">
+		<action name="GoToDesktop">
+			<to>8</to>
+		</action>
+	</keybind>
+
+	<keybind key="A-9">
+		<action name="GoToDesktop">
+			<to>9</to>
+		</action>
+	</keybind>
+
+	<keybind key="A-0">
+		<action name="GoToDesktop">
+			<to>10</to>
+		</action>
+	</keybind>
+	//-->
     <!-- For [1-10] //-->
-    <keybind key="A-1">
+    <keybind key="A-C-1">
       <action name="GoToDesktop">
         <to>1</to>
       </action>
     </keybind>
-    <keybind key="A-2">
+    <keybind key="A-C-2">
       <action name="GoToDesktop">
         <to>2</to>
       </action>
     </keybind>
-    <keybind key="A-3">
+    <keybind key="A-C-3">
       <action name="GoToDesktop">
         <to>3</to>
       </action>
     </keybind>
-    <keybind key="A-4">
+    <keybind key="A-C-4">
       <action name="GoToDesktop">
         <to>4</to>
       </action>
     </keybind>
-    <keybind key="A-5">
+    <keybind key="A-C-5">
       <action name="GoToDesktop">
         <to>5</to>
       </action>
     </keybind>
-    <keybind key="A-6">
+    <keybind key="A-C-6">
       <action name="GoToDesktop">
         <to>6</to>
       </action>
     </keybind>
-    <keybind key="A-7">
+    <keybind key="A-C-7">
       <action name="GoToDesktop">
         <to>7</to>
       </action>
     </keybind>
-    <keybind key="A-8">
+    <keybind key="A-C-8">
       <action name="GoToDesktop">
         <to>8</to>
       </action>
     </keybind>
-    <keybind key="A-9">
+    <keybind key="A-C-9">
       <action name="GoToDesktop">
         <to>9</to>
       </action>
     </keybind>
-    <keybind key="A-0">
+    <keybind key="A-C-0">
       <action name="GoToDesktop">
         <to>10</to>
       </action>
@@ -532,53 +594,115 @@ h l
         <to>10</to>
       </action>
     </keybind>
+    <!-- Simple For Simple [1-10] //-->
+    <!--
+	<keybind key="W-1">
+		<action name="SendToDesktop">
+			<to>1</to>
+		</action>
+	</keybind>
+
+	<keybind key="W-2">
+		<action name="SendToDesktop">
+			<to>2</to>
+		</action>
+	</keybind>
+
+	<keybind key="W-3">
+		<action name="SendToDesktop">
+			<to>3</to>
+		</action>
+	</keybind>
+
+	<keybind key="W-4">
+		<action name="SendToDesktop">
+			<to>4</to>
+		</action>
+	</keybind>
+
+	<keybind key="W-5">
+		<action name="SendToDesktop">
+			<to>5</to>
+		</action>
+	</keybind>
+
+	<keybind key="W-6">
+		<action name="SendToDesktop">
+			<to>6</to>
+		</action>
+	</keybind>
+
+	<keybind key="W-7">
+		<action name="SendToDesktop">
+			<to>7</to>
+		</action>
+	</keybind>
+
+	<keybind key="W-8">
+		<action name="SendToDesktop">
+			<to>8</to>
+		</action>
+	</keybind>
+
+	<keybind key="W-9">
+		<action name="SendToDesktop">
+			<to>9</to>
+		</action>
+	</keybind>
+
+	<keybind key="W-0">
+		<action name="SendToDesktop">
+			<to>10</to>
+		</action>
+	</keybind>
+	//-->
     <!-- Simple For [1-10] //-->
-    <keybind key="W-1">
+    <keybind key="A-S-1">
       <action name="SendToDesktop">
         <to>1</to>
       </action>
     </keybind>
-    <keybind key="W-2">
+    <keybind key="A-S-2">
       <action name="SendToDesktop">
         <to>2</to>
       </action>
     </keybind>
-    <keybind key="W-3">
+    <keybind key="A-S-3">
       <action name="SendToDesktop">
         <to>3</to>
       </action>
     </keybind>
-    <keybind key="W-4">
+    <keybind key="A-S-4">
       <action name="SendToDesktop">
         <to>4</to>
       </action>
     </keybind>
-    <keybind key="W-5">
+    <keybind key="A-S-5">
       <action name="SendToDesktop">
         <to>5</to>
       </action>
     </keybind>
-    <keybind key="W-6">
+    <keybind key="A-S-6">
       <action name="SendToDesktop">
         <to>6</to>
       </action>
     </keybind>
-    <keybind key="W-7">
+    <keybind key="A-S-7">
       <action name="SendToDesktop">
         <to>7</to>
       </action>
     </keybind>
-    <keybind key="W-8">
+    <keybind key="A-S-8">
       <action name="SendToDesktop">
         <to>8</to>
       </action>
     </keybind>
-    <keybind key="W-9">
+    <keybind key="A-S-9">
       <action name="SendToDesktop">
         <to>9</to>
       </action>
     </keybind>
-    <keybind key="W-0">
+    <keybind key="A-S-0">
       <action name="SendToDesktop">
         <to>10</to>
       </action>
@@ -1691,12 +1815,30 @@ sudo cp clicksnap /usr/local/bin/clicksnap
 
 
 //-->
-      <mousebind action="Press" button="A-Left">
-        <action name="UnmaximizeFull"/>
-        <action name="Execute">
-          <command>clicksnap</command>
-        </action>
-      </mousebind>
+      <!--
+		<mousebind action="Press" button="A-Left">
+			<action name="UnmaximizeFull"/>
+			<action name="Execute">
+				<command>clicksnap</command>
+			</action>
+		</mousebind>
+		//-->
+      <!--
+		<mousebind action="Press" button="C-S-Left">
+			<action name="UnmaximizeFull"/>
+			<action name="Execute">
+				<command>snapwin</command>
+			</action>
+		</mousebind>
+		//-->
+      <!--
+		<mousebind action="Press" button="A-S-Left">
+			<action name="UnmaximizeFull"/>
+			<action name="Execute">
+				<command>deskgrid</command>
+			</action>
+		</mousebind>
+		//-->
       <mousebind button="W-Left" action="Press">
         <action name="Focus"/>
         <action name="Raise"/>
@@ -1707,8 +1849,21 @@ sudo cp clicksnap /usr/local/bin/clicksnap
 		</mousebind>
 		//-->
       <mousebind button="W-Left" action="Drag">
-        <action name="UnmaximizeFull"/>
-        <action name="Move"/>
+        <action name="if">
+          <maximized>yes</maximized>
+          <then>
+            <action name="UnmaximizeFull"/>
+            <action name="MoveResizeTo">
+              <x>center</x>
+              <y>current</y>
+            </action>
+            <action name="Move"/>
+          </then>
+          <else>
+            <!-- <action name="UnmaximizeFull"/> //-->
+            <action name="Move"/>
+          </else>
+        </action>
       </mousebind>
       <!--
 		<mousebind button="W-Right" action="Press">
@@ -1718,7 +1873,7 @@ sudo cp clicksnap /usr/local/bin/clicksnap
 		</mousebind>
 		//-->
       <mousebind button="W-Right" action="Drag">
-        <action name="UnmaximizeFull"/>
+        <!-- <action name="UnmaximizeFull"/> //-->
         <action name="Resize"/>
       </mousebind>
       <mousebind button="W-Middle" action="Press">
@@ -1758,13 +1913,48 @@ sudo cp clicksnap /usr/local/bin/clicksnap
     </context>
     <context name="Titlebar">
       <mousebind button="Left" action="Drag">
-        <action name="UnmaximizeFull"/>
-        <action name="Move"/>
+        <action name="if">
+          <maximized>yes</maximized>
+          <then>
+            <action name="UnmaximizeFull"/>
+            <action name="MoveResizeTo">
+              <x>center</x>
+              <y>current</y>
+            </action>
+            <action name="Move"/>
+          </then>
+          <else>
+            <!-- <action name="UnmaximizeFull"/> //-->
+            <action name="Move"/>
+          </else>
+        </action>
       </mousebind>
       <mousebind button="Left" action="DoubleClick">
         <action name="ToggleMaximize"/>
       </mousebind>
       <mousebind button="Up" action="Click">
+        <action name="if">
+          <shaded>no</shaded>
+          <then>
+            <action name="Shade"/>
+            <!--
+					<action name="FocusToBottom"/>
+					<action name="Unfocus"/>
+					<action name="Lower"/>
+					//-->
+          </then>
+        </action>
+      </mousebind>
+      <mousebind button="Down" action="Click">
+        <action name="if">
+          <shaded>yes</shaded>
+          <then>
+            <action name="Unshade"/>
+            <action name="Raise"/>
+          </then>
+        </action>
+      </mousebind>
+      <mousebind button="W-Up" action="Click">
         <action name="if">
           <shaded>no</shaded>
           <then>
@@ -1775,7 +1965,7 @@ sudo cp clicksnap /usr/local/bin/clicksnap
           </then>
         </action>
       </mousebind>
-      <mousebind button="Down" action="Click">
+      <mousebind button="W-Down" action="Click">
         <action name="if">
           <shaded>yes</shaded>
           <then>
