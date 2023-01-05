@@ -21,3 +21,11 @@ parent: 微調
 | [qt-style-follow-gtk 設定](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/qt-style-follow-gtk.html) | [設定腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/part/qt-style-follow-gtk) |
 | [xsettingsd 設定](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/xsettings/xsettingsd.html) | [設定範例](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/xsettings/xsettingsd) |
 | [xfsettingsd - xsettings 設定 ](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/xsettings/xfsettingsd.html) | [設定範例](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/xfce/config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml) |
+
+
+
+## Link
+
+* Arch Wiki / [Environment variables](https://wiki.archlinux.org/index.php/environment_variables) / [Using pam_env](https://wiki.archlinux.org/title/environment_variables#Using_pam_env)
+* Arch Wiki / Systemd / User / [Environment_variables](https://wiki.archlinux.org/index.php/Systemd/User#Environment_variables)
+* Arch Wiki / Bash / [Configuration files](https://wiki.archlinux.org/index.php/Bash#Configuration_files)
