@@ -105,12 +105,20 @@
 		</item>
 //-->
 	</menu>
-	<!-- This requires the presence of the 'openbox-menu' package to work -->
+
 	<separator />
-	<menu id="applications-menu" label="Applications" execute="/usr/bin/obamenu" icon="/usr/share/icons/Numix/24/categories/applications-utilities.svg" />
+
+	<!-- This requires the presence of the 'openbox-menu' package to work -->
+
+	<menu id="applications-menu-for-debian" label="Applications" execute="/usr/bin/obamenu" icon="/usr/share/icons/Numix/24/categories/applications-utilities.svg" />
+
+
+	<!-- This requires the presence of the 'obmenu-generator' package to work. Install: `yay -S obmenu-generator` -->
+
 <!--
-	<menu execute="obmenu-generator -i" id="app-menu" label="Applications" icon="/usr/share/icons/Numix/24/categories/applications-utilities.svg" />
+	<menu id="applications-menu-for-arch" label="Applications" execute="obmenu-generator -i" icon="/usr/share/icons/Numix/24/categories/applications-utilities.svg" />
 //-->
+
 	<separator />
 <!--
 	<menu id="fcitx-menu" label="Fcitx" icon="/usr/share/icons/hicolor/scalable/apps/fcitx.svg">
