@@ -37,7 +37,7 @@ Example:
 
 	$ make package-install
 
-	$ make assset-install
+	$ make asset-install
 
 
 Debug:
