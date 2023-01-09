@@ -1,6 +1,6 @@
 ---
 title: gsettings
-nav_order: 9060
+nav_order: 9000
 has_children: false
 parent: 連結
 ---
