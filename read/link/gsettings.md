@@ -26,3 +26,17 @@ parent: 連結
 
 * [Introduction to the dconf configuration system](https://linuxconfig.org/introduction-to-the-dconf-configuration-system)
 * [How do I use the plain-text mode of dconf?](https://unix.stackexchange.com/questions/426322/how-do-i-use-the-plain-text-mode-of-dconf)
+
+
+## Case
+
+### TROMjaro
+
+* TROMjaro / gconf-settings / schemas / [user](https://git.trom.tf/TROMjaro/gconf-settings/src/branch/master/schemas/user)
+* TROMjaro / gconf-package / [PKGBUILD](https://git.trom.tf/TROMjaro/gconf-package/src/branch/master/PKGBUILD#L27)
+
+
+### gnome-shell-keybind-custom
+
+* gnome-shell-keybind-custom / [prototype-install.sh](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/gnome-shell/part/gnome-shell-keybind-custom/prototype-install.sh#L26)
+* gnome-shell-keybind-custom / profile / [user](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/gnome-shell/part/gnome-shell-keybind-custom/config/gnome-shell/profile/user)
