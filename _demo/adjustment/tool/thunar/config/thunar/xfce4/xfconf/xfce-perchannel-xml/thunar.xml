@@ -20,4 +20,6 @@
   <property name="misc-date-style" type="string" value="THUNAR_DATE_STYLE_YYYYMMDD"/>
   <property name="shortcuts-icon-size" type="string" value="THUNAR_ICON_SIZE_32"/>
   <property name="tree-icon-size" type="string" value="THUNAR_ICON_SIZE_24"/>
+  <property name="last-toolbar-item-order" type="string" value="0,1,2,3,4,17,11,10,12,13,8,7,9,5,6,19,18,15,14,16"/>
+  <property name="last-toolbar-visible-buttons" type="string" value="0,1,1,1,1,1,1,1,0,1,1,1,1,0,0,0,0,1,1,1"/>
 </channel>
