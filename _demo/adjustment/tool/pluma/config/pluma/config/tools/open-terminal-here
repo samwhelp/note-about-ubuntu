@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/sh
 # [Pluma Tool]
 # Name=Open terminal here
 # Comment=Open a terminal in the document location
