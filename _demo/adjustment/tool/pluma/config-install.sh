@@ -142,10 +142,6 @@ pluma_config_install () {
 
 
 
-
-
-
-
 	echo
 }
 
@@ -153,9 +149,11 @@ pluma_config_install () {
 
 pluma_config_install_tools () {
 
+	echo
 	echo "mkdir -p $HOME/.config/pluma/tools"
 	mkdir -p "$HOME/.config/pluma/tools"
 
+	echo
 	echo "install -Dm644 ./config/pluma/config/tools/open-terminal-here $HOME/.config/pluma/tools/open-terminal-here"
 	install -Dm755 "./config/pluma/config/tools/open-terminal-here" "$HOME/.config/pluma/tools/open-terminal-here"
 

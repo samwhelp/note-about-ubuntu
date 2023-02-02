@@ -21,8 +21,8 @@ pluma_prototype_install () {
 	echo "sudo mkdir -p /usr/share/glib-2.0/schemas"
 	sudo mkdir -p "/usr/share/glib-2.0/schemas"
 
-	echo "sudo install -Dm644 ./config/pluma/schemas/50_pluma.gschema.override /usr/share/glib-2.0/schemas/50_pluma.gschema.override"
-	sudo install -Dm644 "./config/pluma/schemas/50_pluma.gschema.override" "/usr/share/glib-2.0/schemas/50_pluma.gschema.override"
+	echo "sudo install -Dm644 ./config/pluma/schema/gschema-override/50_pluma.gschema.override /usr/share/glib-2.0/schemas/50_pluma.gschema.override"
+	sudo install -Dm644 "./config/pluma/schema/gschema-override/50_pluma.gschema.override" "/usr/share/glib-2.0/schemas/50_pluma.gschema.override"
 
 	echo "sudo glib-compile-schemas /usr/share/glib-2.0/schemas/"
 	sudo glib-compile-schemas /usr/share/glib-2.0/schemas/
