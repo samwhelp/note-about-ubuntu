@@ -15,7 +15,7 @@
 
 ##
 ## Terminal
-## 
+##
 
 #mate-terminal --working-directory=$PLUMA_CURRENT_DOCUMENT_DIR &
 
