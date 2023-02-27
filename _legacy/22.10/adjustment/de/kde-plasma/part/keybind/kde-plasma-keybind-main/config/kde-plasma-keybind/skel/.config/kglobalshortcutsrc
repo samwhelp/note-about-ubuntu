@@ -213,7 +213,7 @@ _launch=Ctrl+Alt+T,Ctrl+Alt+T,Konsole
 [org.kde.krunner.desktop]
 RunClipboard=Alt+Shift+F2,Alt+Shift+F2,Run command on clipboard contents
 _k_friendly_name=KRunner
-_launch=Alt+Shift+D\tSearch\tAlt+F2,Alt+Space\tAlt+F2\tSearch,KRunner
+_launch=Alt+F2\tSearch,Alt+Space\tAlt+F2\tSearch,KRunner
 
 [org.kde.plasma.emojier.desktop]
 _k_friendly_name=Emoji Selector
@@ -269,7 +269,7 @@ cycle-panels=Meta+Alt+P,Meta+Alt+P,Move keyboard focus between panels
 cycleNextAction=none,none,Next History Item
 cyclePrevAction=none,none,Previous History Item
 edit_clipboard=none,none,Edit Contents…
-manage activities=Alt+Shift+W,Meta+Q,Show Activity Switcher
+manage activities=Alt+Shift+Q,Meta+Q,Show Activity Switcher
 next activity=none,none,Walk through activities
 previous activity=none,none,Walk through activities (Reverse)
 repeat_action=Meta+Ctrl+R,Meta+Ctrl+R,Manually Invoke Action on Current Clipboard
@@ -280,6 +280,18 @@ stop current activity=none,Meta+S,Stop Current Activity
 switch to next activity=Alt+Tab,none,Switch to Next Activity
 switch to previous activity=Alt+`,none,Switch to Previous Activity
 toggle do not disturb=none,none,Toggle do not disturb
+
+[rofi-show-drun.desktop]
+_k_friendly_name=Rofi Show Drun
+_launch=Alt+Shift+D,none,Rofi Show Drun
+
+[rofi-show-run.desktop]
+_k_friendly_name=Rofi Show Run
+_launch=Alt+Shift+R,none,Rofi Show Run
+
+[rofi-show-window.desktop]
+_k_friendly_name=Rofi Show Window
+_launch=Alt+Shift+W,none,Rofi Show Window
 
 [sakura.desktop]
 _k_friendly_name=Sakura
