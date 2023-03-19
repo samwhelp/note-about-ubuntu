@@ -1,0 +1,9 @@
+
+##
+## gnome-shell
+##
+
+gnome-shell
+gnome-shell-extensions
+gnome-shell-extension-manager
+gnome-tweaks
