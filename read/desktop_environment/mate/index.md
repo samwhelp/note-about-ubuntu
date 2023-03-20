@@ -13,6 +13,7 @@ parent: 桌面環境
 
 * [如何安裝](#如何安裝)
 * [微調腳本](#微調腳本)
+* [主要設定](#主要設定)
 * [中文輸入法](#中文輸入法)
 * [更改外觀](#更改外觀)
 * [按鍵綁定](#按鍵綁定)
@@ -31,6 +32,7 @@ parent: 桌面環境
 
 | 微調腳本 |
 | --- |
+| [mate-config-main](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/mate/part/mate-config-main) |
 | [mate-wallpaper-default](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/mate/part/mate-wallpaper-default) |
 | [mate-theme-main](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/mate/part/mate-theme-main) |
 | [mate-keybind-main](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/mate/part/mate-keybind-main) |
@@ -39,6 +41,13 @@ parent: 桌面環境
 | [mate-autostart-cairo-dock](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/mate/part/mate-autostart-cairo-dock) |
 | [mate-autostart-plank](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/mate/part/mate-autostart-plank) |
 | [plank](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/dock/plank) |
+
+
+## 主要設定
+
+| 主要設定 | 微調腳本 |
+| --- | --- |
+| [config-main](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/mate/adjustment/config-main.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/mate/part/mate-config-main) |
 
 
 ## 中文輸入法

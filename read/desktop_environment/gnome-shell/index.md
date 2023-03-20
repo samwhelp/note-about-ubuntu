@@ -13,6 +13,7 @@ parent: 桌面環境
 
 * [入門](#入門)
 * [微調腳本](#微調腳本)
+* [主要設定](#主要設定)
 * [中文輸入法](#中文輸入法)
 * [更改外觀](#更改外觀)
 * [按鍵綁定](#按鍵綁定)
@@ -32,6 +33,7 @@ parent: 桌面環境
 
 | 微調腳本 |
 | --- |
+| [gnome-shell-config-main](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-shell/part/gnome-shell-config-main) |
 | [gnome-shell-wallpaper-default](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-shell/part/gnome-shell-wallpaper-default) |
 | [gnome-shell-theme-main](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-shell/part/gnome-shell-theme-main) |
 | [gnome-shell-keybind-main](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-shell/part/gnome-shell-keybind-main) |
@@ -39,6 +41,13 @@ parent: 桌面環境
 | [gnome-shell-favorite-apps](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-shell/part/gnome-shell-favorite-apps) |
 | [gnome-shell-extension-ubuntu-dock](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/part-gnome-shell/gnome-shell-extension-ubuntu-dock) |
 | [switch-input-source](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/part-gnome-shell/switch-input-source) |
+
+
+## 主要設定
+
+| 主要設定 | 微調腳本 |
+| --- | --- |
+| [config-main](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/gnome-shell/adjustment/config-main.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-shell/part/gnome-shell-config-main) |
 
 
 ## 中文輸入法
