@@ -1,5 +1,5 @@
 
-# gnome-shell / Adjustment
+# gnome-shell
 
 
 
