@@ -12,7 +12,7 @@ grand_parent: 桌面環境
 ## Package
 
 * [gnome-shell-extensions](https://packages.ubuntu.com/jammy/gnome-shell-extensions)
-* [gnome-shell-extension-manager](https://packages.ubuntu.com/jammy/gnome-shell-extension-manager)
+* [gnome-shell-extension-manager](https://packages.ubuntu.com/jammy/gnome-shell-extension-manager) ([GitHub](https://github.com/mjakeman/extension-manager)) (Command: extension-manager)
 
 執行下面指令，安裝
 
