@@ -31,4 +31,4 @@ sudo apt-get install gnome-control-center gnome-tweaks
 
 ## Extension
 
-* [extension](extension)
+* [extension](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/gnome-shell/extension.html)

@@ -12,6 +12,7 @@ parent: 桌面環境
 ## 主題
 
 * [入門](#入門)
+* [如何安裝](#如何安裝)
 * [微調腳本](#微調腳本)
 * [主要設定](#主要設定)
 * [中文輸入法](#中文輸入法)
@@ -27,6 +28,12 @@ parent: 桌面環境
 ## 入門
 
 * [gschema](https://samwhelp.github.io/note-about-ubuntu/read/flavours/ubuntu/adjustment/gschema.html)
+
+
+## 如何安裝
+
+* [如何安裝 GNOME Shell](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/gnome-shell/install.html)
+* [如何安裝 GNOME Shell Extension](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/gnome-shell/extension.html)
 
 
 ## 微調腳本
