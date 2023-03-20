@@ -29,6 +29,10 @@ mate_config_install () {
 ##
 
 mate_config_main () {
+	mate_config_main_wm
+}
+
+mate_config_main_wm () {
 
 	echo
 	echo "gsettings set org.mate.Marco.general action-double-click-titlebar 'toggle_maximize'"
