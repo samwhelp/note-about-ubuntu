@@ -27,6 +27,14 @@ grand_parent: 桌面環境
 sudo apt-get install gnome-shell-extension-prefs gnome-shell-extensions gnome-shell-extension-manager
 ```
 
+## Command
+
+* [gnome-extensions](https://manpages.ubuntu.com/manpages/jammy/en/man1/gnome-extensions.1.html)
+* gnome-extensions-app
+* gnome-shell-extension-tool
+* gnome-shell-extension-prefs
+* extension-manager
+
 
 ## Extensions
 
