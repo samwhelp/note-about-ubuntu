@@ -1,6 +1,6 @@
 ---
 title: config-main
-nav_order: 3001
+nav_order: 3009
 has_children: false
 parent: gnome-shell
 grand_parent: 桌面環境

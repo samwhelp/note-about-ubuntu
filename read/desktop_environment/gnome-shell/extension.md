@@ -1,6 +1,6 @@
 ---
 title: extension
-nav_order: 3010
+nav_order: 3001
 has_children: false
 parent: gnome-shell
 grand_parent: 桌面環境
@@ -23,4 +23,6 @@ sudo apt-get install gnome-shell-extensions gnome-shell-extension-manager
 
 ## Extensions
 
-
+| Extension | Project |
+| --- | --- |
+| [Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/) | [Project](https://gitlab.gnome.org/jrahmatzadeh/just-perfection) |
