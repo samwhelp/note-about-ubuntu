@@ -102,4 +102,4 @@ parent: 桌面環境
 ## 相關討論
 
 * [【分享】適合 Ubuntu MATE 22.04 的面板布局方案](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=364170#forumpost364170)
-* [【請益】Ubuntu MATE 22.04 如何啟用 Awesome 視窗管理器 [論壇 - Ubuntu 與其它桌面系統]](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=364306#forumpost364306)
+* [【請益】Ubuntu MATE 22.04 如何啟用 Awesome 視窗管理器](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=364306#forumpost364306)
