@@ -50,5 +50,10 @@ sudo apt-get install gnome-shell-extension-prefs gnome-shell-extensions gnome-sh
 
 | Extension | Project |
 | --- | --- |
-| [Compiz windows effect](https://extensions.gnome.org//extension/3210/compiz-windows-effect/) | [Project](https://github.com/hermes83/compiz-windows-effect |
+| [Compiz windows effect](https://extensions.gnome.org//extension/3210/compiz-windows-effect/) | [Project](https://github.com/hermes83/compiz-windows-effect) |
 | [Wobbly Windows](https://extensions.gnome.org//extension/669/wobbly-windows/) |  |
+
+
+| Extension | Project |
+| --- | --- |
+| [Fly-Pie](https://extensions.gnome.org//extension/3433/fly-pie/) | [Project](https://github.com/Schneegans/Fly-Pie) |
