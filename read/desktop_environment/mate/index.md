@@ -21,6 +21,7 @@ parent: 桌面環境
 * [Favorite Apps](#favorite-apps)
 * [工具微調](#工具微調)
 * [相關筆記](#相關筆記)
+* [相關討論](#相關討論)
 
 
 ## 如何安裝
@@ -96,3 +97,9 @@ parent: 桌面環境
 ## 相關筆記
 
 * [mate 探索筆記](https://samwhelp.github.io/note-about-mate/)
+
+
+## 相關討論
+
+* [【分享】適合 Ubuntu MATE 22.04 的面板布局方案](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=364170#forumpost364170)
+* [【請益】Ubuntu MATE 22.04 如何啟用 Awesome 視窗管理器 [論壇 - Ubuntu 與其它桌面系統]](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=364306#forumpost364306)
