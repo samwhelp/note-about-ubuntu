@@ -19,7 +19,7 @@ sudo apt-get install gnome-shell
 
 ## Package
 
-* [gnome-tweaks](https://packages.ubuntu.com/jammy/gnome-control-center)
+* [gnome-control-center](https://packages.ubuntu.com/jammy/gnome-control-center)
 * [gnome-tweaks](https://packages.ubuntu.com/jammy/gnome-tweaks)
 
 執行下面指令安裝
