@@ -9,11 +9,17 @@ grand_parent: 桌面環境
 
 # extension
 
-## Package
+
+## Package / Extension Manager
 
 * [gnome-shell-extension-prefs](https://packages.ubuntu.com/jammy/gnome-shell-extension-prefs)
-* [gnome-shell-extensions](https://packages.ubuntu.com/jammy/gnome-shell-extensions)
 * [gnome-shell-extension-manager](https://packages.ubuntu.com/jammy/gnome-shell-extension-manager) ([GitHub](https://github.com/mjakeman/extension-manager)) (Command: extension-manager)
+
+
+## Package / Extensions
+
+* [gnome-shell-extensions](https://packages.ubuntu.com/jammy/gnome-shell-extensions)
+
 
 執行下面指令，安裝
 
