@@ -41,3 +41,14 @@ sudo apt-get install gnome-shell-extension-prefs gnome-shell-extensions gnome-sh
 | Extension | Project |
 | --- | --- |
 | [Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/) | [Project](https://gitlab.gnome.org/jrahmatzadeh/just-perfection) |
+
+
+| Extension | Project |
+| --- | --- |
+| [Desktop Cube](https://extensions.gnome.org/extension/4648/desktop-cube/) | [Project](https://github.com/Schneegans/Desktop-Cube) |
+
+
+| Extension | Project |
+| --- | --- |
+| [Compiz windows effect](https://extensions.gnome.org//extension/3210/compiz-windows-effect/) | [Project](https://github.com/hermes83/compiz-windows-effect |
+| [Wobbly Windows](https://extensions.gnome.org//extension/669/wobbly-windows/) |  |
