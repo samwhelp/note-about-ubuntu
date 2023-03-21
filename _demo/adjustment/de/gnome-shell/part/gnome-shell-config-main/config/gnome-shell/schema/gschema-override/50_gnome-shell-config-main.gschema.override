@@ -1,10 +1,20 @@
 
 
 [org.gnome.desktop.wm.preferences]
+action-double-click-titlebar='toggle-maximize'
 action-middle-click-titlebar='toggle-shade'
+action-right-click-titlebar='menu'
 button-layout='appmenu:minimize,maximize,close'
 mouse-button-modifier='<Super>'
 resize-with-right-button=true
+raise-on-click=true
+focus-mode='click'
+focus-new-windows='smart'
+
+
+[org.gnome.desktop.peripherals.keyboard]
+numlock-state=false
+remember-numlock-state=true
 
 
 [org.gnome.desktop.sound]
@@ -15,5 +25,4 @@ event-sounds=false
 clock-format='24h'
 clock-show-seconds=true
 clock-show-weekday=true
-
 
