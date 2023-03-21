@@ -38,11 +38,19 @@ cinnamon_hot_corner_config () {
 	echo "##"
 	echo
 
-	cinnamon_hot_corner_config_layout
+	cinnamon_hot_corner_config_layout_v1
+	#cinnamon_hot_corner_config_layout_v2
 
 }
 
-cinnamon_hot_corner_config_layout () {
+cinnamon_hot_corner_config_layout_v1 () {
+
+	echo 'gsettings set org.cinnamon hotcorner-layout "'"['expo:true:0', 'sakura:true:0', 'scale:true:0', 'desktop:true:0']"'"'
+	gsettings set org.cinnamon hotcorner-layout "['expo:true:0', 'sakura:true:0', 'scale:true:0', 'desktop:true:0']"
+
+}
+
+cinnamon_hot_corner_config_layout_v2 () {
 
 	echo 'gsettings set org.cinnamon hotcorner-layout "'"['scale:true:0', 'sakura:true:0', 'expo:true:0', 'desktop:true:0']"'"'
 	gsettings set org.cinnamon hotcorner-layout "['scale:true:0', 'sakura:true:0', 'expo:true:0', 'desktop:true:0']"
