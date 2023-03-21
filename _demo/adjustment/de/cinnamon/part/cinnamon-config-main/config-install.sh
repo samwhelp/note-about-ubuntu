@@ -103,6 +103,16 @@ cinnamon_config_main_config_wm () {
 
 
 	echo
+	echo "gsettings set org.cinnamon.desktop.wm.preferences focus-mode 'click'"
+	gsettings set org.cinnamon.desktop.wm.preferences focus-mode "'click'"
+
+	echo
+	echo "gsettings set org.cinnamon.desktop.wm.preferences focus-new-windows 'smart'"
+	gsettings set org.cinnamon.desktop.wm.preferences focus-new-windows "'smart'"
+
+
+
+	echo
 
 }
 
