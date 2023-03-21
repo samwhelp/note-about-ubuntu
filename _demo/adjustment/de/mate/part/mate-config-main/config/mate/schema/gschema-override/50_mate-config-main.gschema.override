@@ -1,14 +1,5 @@
 
 
-[org.mate.sound]
-event-sounds=false
-
-
-[org.mate.peripherals-keyboard]
-remember-numlock-state=true
-numlock-state='off'
-
-
 [org.mate.Marco.general]
 action-double-click-titlebar='toggle_maximize'
 action-middle-click-titlebar='toggle_shade'
@@ -16,4 +7,13 @@ action-right-click-titlebar='menu'
 button-layout='menu:minimize,maximize,close'
 mouse-button-modifier='<Super>'
 resize-with-right-button=true
+
+
+[org.mate.peripherals-keyboard]
+numlock-state='off'
+remember-numlock-state=true
+
+
+[org.mate.sound]
+event-sounds=false
 
