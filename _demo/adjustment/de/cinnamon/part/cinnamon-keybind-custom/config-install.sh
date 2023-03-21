@@ -118,10 +118,10 @@ cinnamon_keybind_custom_config () {
 
 
 
-	## Settings Shortcuts
-	dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/settings-shortcuts/name "'Settings_Shortcuts'"
-	dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/settings-shortcuts/command "'cinnamon-settings keyboard'"
-	dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/settings-shortcuts/binding "['<Shift><Alt>s']"
+	## System Settings
+	dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/system-settings/name "'System_Settings'"
+	dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/system-settings/command "'cinnamon-settings'"
+	dconf write /org/cinnamon/desktop/keybindings/custom-keybindings/system-settings/binding "['<Shift><Alt>s']"
 
 
 
