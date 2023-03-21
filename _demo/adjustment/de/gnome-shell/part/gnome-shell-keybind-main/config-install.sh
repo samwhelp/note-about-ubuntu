@@ -441,11 +441,34 @@ gnome_shell_keybind_start_here_config_overview () {
 	#gsettings set org.gnome.shell.keybindings toggle-message-tray "['<Super>v', '<Super>m']"
 	#gsettings set org.gnome.shell.keybindings toggle-overview "['<Super>s']"
 
-	echo 'gsettings set org.gnome.shell.keybindings toggle-overview "'"['<Super>grave', '<Alt>k', '<Alt>Up']"'"'
-	gsettings set org.gnome.shell.keybindings toggle-overview "['<Super>grave', '<Alt>k', '<Alt>Up']"
 
-	echo 'gsettings set org.gnome.shell.keybindings toggle-application-view "'"['<Super>Tab', '<Alt>j', '<Alt>Down']"'"'
-	gsettings set org.gnome.shell.keybindings toggle-application-view "['<Super>Tab', '<Alt>j', '<Alt>Down']"
+	##
+	## overview / v1
+	##
+
+	echo
+	echo 'gsettings set org.gnome.shell.keybindings toggle-application-view "'"['<Super>grave', '<Alt>k', '<Alt>Up']"'"'
+	gsettings set org.gnome.shell.keybindings toggle-application-view "['<Super>grave', '<Alt>k', '<Alt>Up']"
+
+	echo
+	echo 'gsettings set org.gnome.shell.keybindings toggle-overview "'"['<Super>Tab', '<Alt>j', '<Alt>Down']"'"'
+	gsettings set org.gnome.shell.keybindings toggle-overview "['<Super>Tab', '<Alt>j', '<Alt>Down']"
+
+
+	##
+	## overview / v2
+	##
+
+	#echo
+	#echo 'gsettings set org.gnome.shell.keybindings toggle-overview "'"['<Super>grave', '<Alt>k', '<Alt>Up']"'"'
+	#gsettings set org.gnome.shell.keybindings toggle-overview "['<Super>grave', '<Alt>k', '<Alt>Up']"
+
+	#echo
+	#echo 'gsettings set org.gnome.shell.keybindings toggle-application-view "'"['<Super>Tab', '<Alt>j', '<Alt>Down']"'"'
+	#gsettings set org.gnome.shell.keybindings toggle-application-view "['<Super>Tab', '<Alt>j', '<Alt>Down']"
+
+
+	echo
 
 }
 
