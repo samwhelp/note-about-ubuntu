@@ -60,12 +60,12 @@ cinnamon_config_main_config_wm () {
 
 
 	echo
-	echo "gsettings set org.cinnamon.desktop.wm.preferences action-double-click-titlebar 'lower'"
-	gsettings set org.cinnamon.desktop.wm.preferences action-double-click-titlebar "'lower'"
+	echo "gsettings set org.cinnamon.desktop.wm.preferences action-double-click-titlebar 'toggle-maximize'"
+	gsettings set org.cinnamon.desktop.wm.preferences action-double-click-titlebar "'toggle-maximize'"
 
 	echo
-	echo "gsettings set org.cinnamon.desktop.wm.preferences action-middle-click-titlebar 'toggle-maximize'"
-	gsettings set org.cinnamon.desktop.wm.preferences action-middle-click-titlebar "'toggle-maximize'"
+	echo "gsettings set org.cinnamon.desktop.wm.preferences action-middle-click-titlebar 'lower'"
+	gsettings set org.cinnamon.desktop.wm.preferences action-middle-click-titlebar "'lower'"
 
 	echo
 	echo "gsettings set org.cinnamon.desktop.wm.preferences action-right-click-titlebar 'menu'"

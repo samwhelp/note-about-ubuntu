@@ -8,8 +8,8 @@ panels-enabled=['1:0:top']
 
 
 [org/cinnamon/desktop/wm/preferences]
-action-double-click-titlebar='lower'
-action-middle-click-titlebar='toggle-maximize'
+action-double-click-titlebar='toggle-maximize'
+action-middle-click-titlebar='lower'
 action-right-click-titlebar='menu'
 action-scroll-titlebar='shade'
 mouse-button-modifier='<Super>'
