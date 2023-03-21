@@ -23,3 +23,8 @@ focus-new-windows='smart'
 [org.cinnamon.desktop.peripherals.keyboard]
 numlock-state=false
 remember-numlock-state=true
+
+
+[org.cinnamon.desktop.sound]
+event-sounds=false
+
