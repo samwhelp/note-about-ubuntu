@@ -305,10 +305,10 @@ gsettings set org.mate.Marco.window-keybindings move-to-workspace-5 '<Shift><Alt
 | 按鍵組合          | 功能     | 設定項目         |
 | ----------------- | -------- | ---------------- |
 | `Alt + Shift + 1`         | 移動視窗到工作空間 1 (File) | `org.mate.Marco.window-keybindings move-to-workspace-1` |
-| `Alt + Shift + 2`         | 移動視窗到工作空間 2 (Edit) | `org.mate.Marco.window-keybindings move-to-workspace-1` |
-| `Alt + Shift + 3`         | 移動視窗到工作空間 3 (Web) | `org.mate.Marco.window-keybindings move-to-workspace-1`
-| `Alt + Shift + 4`         | 移動視窗到工作空間 4 (Term) | `org.mate.Marco.window-keybindings move-to-workspace-1` |
-| `Alt + Shift + 5`         | 移動視窗到工作空間 5 (Misc) | `org.mate.Marco.window-keybindings move-to-workspace-1` |
+| `Alt + Shift + 2`         | 移動視窗到工作空間 2 (Edit) | `org.mate.Marco.window-keybindings move-to-workspace-2` |
+| `Alt + Shift + 3`         | 移動視窗到工作空間 3 (Web) | `org.mate.Marco.window-keybindings move-to-workspace-3`
+| `Alt + Shift + 4`         | 移動視窗到工作空間 4 (Term) | `org.mate.Marco.window-keybindings move-to-workspace-4` |
+| `Alt + Shift + 5`         | 移動視窗到工作空間 5 (Misc) | `org.mate.Marco.window-keybindings move-to-workspace-5` |
 
 
 ## 相關筆記
