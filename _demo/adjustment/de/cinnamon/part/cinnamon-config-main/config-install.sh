@@ -38,9 +38,11 @@ cinnamon_config_main_config () {
 	echo "##"
 	echo
 
-	cinnamon_config_main_config_applets
-
 	cinnamon_config_main_config_wm
+
+	cinnamon_config_main_config_keyboard
+
+	cinnamon_config_main_config_applets
 
 }
 
@@ -109,6 +111,38 @@ cinnamon_config_main_config_wm () {
 	echo
 	echo "gsettings set org.cinnamon.desktop.wm.preferences focus-new-windows 'smart'"
 	gsettings set org.cinnamon.desktop.wm.preferences focus-new-windows "'smart'"
+
+
+
+	echo
+
+}
+
+
+cinnamon_config_main_config_keyboard () {
+
+
+
+	##
+	## /usr/share/glib-2.0/schemas/org.cinnamon.desktop.wm.preferences.gschema.xml
+	##
+
+
+	##
+	## gsettings list-recursively | grep org.cinnamon.desktop.peripherals
+	## gsettings list-recursively org.cinnamon.desktop.peripherals.keyboard
+	## dconf dump /org/cinnamon/desktop/peripherals/keyboard/
+	## dconf dump / | grep 'org/cinnamon/desktop/peripherals/keyboard' -A 10
+	##
+
+
+	echo
+	echo "gsettings set org.cinnamon.desktop.peripherals.keyboard numlock-state false"
+	gsettings set org.cinnamon.desktop.peripherals.keyboard numlock-state false
+
+	echo
+	echo "gsettings set org.cinnamon.desktop.peripherals.keyboard remember-numlock-state true"
+	gsettings set org.cinnamon.desktop.peripherals.keyboard remember-numlock-state true
 
 
 
