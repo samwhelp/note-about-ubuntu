@@ -22,14 +22,14 @@ grand_parent: 桌面環境
 * [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-hot-corner/config-install.sh#L48)
 
 ``` sh
-gsettings set org.cinnamon hotcorner-layout "['scale:true:0', 'sakura:true:0', 'expo:true:0', 'desktop:true:0']"
+gsettings set org.cinnamon hotcorner-layout "['expo:true:0', 'sakura:true:0', 'scale:true:0', 'desktop:true:0']"
 ```
 
 | 方位 | 指令 | 功能 | 快速鍵 |
 | --- | --- | --- | --- |
-| 左上(西北) | `scale` | Show all windows | `Win + grave` |
+| 左上(西北) | `expo` | Show all windows | `Win + grave` |
 | 右上(東北) | `sakura` | Run a command `sakura` |  |
-| 左下(西南) | `expo` | Show all workspaces | `Win + Tab` |
+| 左下(西南) | `scale` | Show all workspaces | `Win + Tab` |
 | 右下(東南) | `desktop` | Show the desktop | `Win + d` |
 
 > 關於「grave」 指的是 「`」，也就是「Tab」上面那個鍵位。
@@ -38,16 +38,13 @@ gsettings set org.cinnamon hotcorner-layout "['scale:true:0', 'sakura:true:0', '
 
 > 請查詢「切換顯示桌面」，「切換顯示所有視窗」，「切換顯示所有工作空間」。
 
-> 關於「切換顯示所有視窗」，因為我把「Panel」放在上方，所以設定在「左上(西北)」，
-
-> 若是「Panel」放在下方，可以改設定在「左下(西南)」。
 
 ## 停用
 
 * [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-hot-corner/config-rollback.sh#L49)
 
 ``` sh
-gsettings set org.cinnamon hotcorner-layout "['scale:false:0', 'desktop:false:0', 'expo:false:0', 'desktop:false:0']"
+gsettings set org.cinnamon hotcorner-layout "['expo:false:0', 'desktop:false:0', 'scale:false:0', 'desktop:false:0']"
 ```
 
 
