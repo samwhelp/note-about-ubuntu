@@ -44,7 +44,7 @@ mate_config_main_config_wm () {
 
 
 	##
-	## /usr/share/glib-2.0/schemas/org.mate.Marco.general.gschema.xml
+	## /usr/share/glib-2.0/schemas/org.mate.marco.gschema.xml
 	##
 
 
@@ -88,6 +88,20 @@ mate_config_main_config_wm () {
 	echo
 	echo "gsettings set org.mate.Marco.general resize-with-right-button true"
 	gsettings set org.mate.Marco.general resize-with-right-button true
+
+	echo
+	echo "gsettings set org.mate.Marco.general raise-on-click true"
+	gsettings set org.mate.Marco.general raise-on-click true
+
+
+	echo
+	echo "gsettings set org.mate.Marco.general focus-mode 'click'"
+	gsettings set org.mate.Marco.general focus-mode "'click'"
+
+	echo
+	echo "gsettings set org.mate.Marco.general focus-new-windows 'smart'"
+	gsettings set org.mate.Marco.general focus-new-windows "'smart'"
+
 
 
 	echo
