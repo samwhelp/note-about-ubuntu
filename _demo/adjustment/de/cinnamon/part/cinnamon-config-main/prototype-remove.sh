@@ -6,11 +6,18 @@ set -e
 ################################################################################
 ### Head: cinnamon
 ##
-cinnamon_prototype_rollback () {
+cinnamon_prototype_remove () {
 
 	##
 	## /usr/share/glib-2.0/schemas/50_cinnamon-config-main.gschema.override
 	##
+
+	##
+	## gsettings list-recursively org.cinnamon.desktop.wm.preferences
+	## dconf dump /org/cinnamon/desktop/wm/preferences/
+	## dconf dump / | grep 'org/cinnamon/desktop/wm/preferences' -A 10
+	##
+
 
 	echo
 	echo "##"
@@ -35,11 +42,11 @@ cinnamon_prototype_rollback () {
 ################################################################################
 ### Head: main
 ##
-main_prototype_rollback () {
-	cinnamon_prototype_rollback
+main_prototype_remove () {
+	cinnamon_prototype_remove
 }
 ## start
-main_prototype_rollback
+main_prototype_remove
 
 ##
 ### Tail: main

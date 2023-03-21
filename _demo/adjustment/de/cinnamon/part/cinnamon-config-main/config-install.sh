@@ -48,6 +48,8 @@ cinnamon_config_main_config_wm () {
 
 	##
 	## gsettings list-recursively org.cinnamon.desktop.wm.preferences
+	## dconf dump /org/cinnamon/desktop/wm/preferences/
+	## dconf dump / | grep 'org/cinnamon/desktop/wm/preferences' -A 10
 	##
 
 	echo

@@ -7,3 +7,6 @@ panel-edit-mode=false
 panels-enabled=['1:0:top']
 
 
+[org/cinnamon/desktop/wm/preferences]
+mouse-button-modifier='<Super>'
+mouse-button-zoom-modifier='<Super>'
