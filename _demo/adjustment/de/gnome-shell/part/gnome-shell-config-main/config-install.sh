@@ -9,7 +9,9 @@ set -e
 gnome_shell_config_install () {
 
 	echo
+	echo "##"
 	echo "## Config: gnome-shell"
+	echo "##"
 	echo
 
 	gnome_shell_config_main
@@ -36,6 +38,8 @@ gnome_shell_config_main () {
 
 	gnome_shell_config_main_config_sound
 
+	gnome_shell_config_main_config_clock
+
 }
 
 gnome_shell_config_main_config_wm () {
@@ -52,6 +56,9 @@ gnome_shell_config_main_config_wm () {
 	## dconf dump /org/gnome/desktop/wm/preferences/
 	## dconf dump / | grep 'org/gnome/desktop/wm/preferences' -A 10
 	##
+
+
+	echo "## gnome_shell_config_main_config_wm"
 
 
 	echo
@@ -108,7 +115,6 @@ gnome_shell_config_main_config_wm () {
 gnome_shell_config_main_config_keyboard () {
 
 
-
 	##
 	## /usr/share/glib-2.0/schemas/org.gnome.desktop.peripherals.gschema.xml
 	##
@@ -120,6 +126,9 @@ gnome_shell_config_main_config_keyboard () {
 	## dconf dump /org/gnome/desktop/peripherals/keyboard/
 	## dconf dump / | grep 'org/gnome/desktop/peripherals/keyboard' -A 10
 	##
+
+
+	echo "## gnome_shell_config_main_config_keyboard"
 
 
 	echo
@@ -139,7 +148,6 @@ gnome_shell_config_main_config_keyboard () {
 gnome_shell_config_main_config_sound () {
 
 
-
 	##
 	## /usr/share/glib-2.0/schemas/org.gnome.desktop.sound.gschema.xml
 	##
@@ -153,9 +161,49 @@ gnome_shell_config_main_config_sound () {
 	##
 
 
+	echo "## gnome_shell_config_main_config_sound"
+
+
 	echo
 	echo "gsettings set org.gnome.desktop.sound event-sounds false"
 	gsettings set org.gnome.desktop.sound event-sounds false
+
+
+	echo
+
+}
+
+
+gnome_shell_config_main_config_clock () {
+
+
+	##
+	## /usr/share/glib-2.0/schemas/org.gnome.desktop.interface.gschema.xml
+	##
+
+
+	##
+	## gsettings list-recursively | grep org.gnome.desktop.interface
+	## gsettings list-recursively org.gnome.desktop.interface
+	## dconf dump /org/gnome/desktop/interface/
+	## dconf dump / | grep 'org/gnome/desktop/interface' -A 10
+	##
+
+
+	echo "## gnome_shell_config_main_config_clock"
+
+
+	echo
+	echo "gsettings set org.gnome.desktop.interface clock-format '24h'"
+	gsettings set org.gnome.desktop.interface clock-format "'24h'"
+
+	echo
+	echo "gsettings set org.gnome.desktop.interface clock-show-seconds true"
+	gsettings set org.gnome.desktop.interface clock-show-seconds true
+
+	echo
+	echo "gsettings set org.gnome.desktop.interface clock-show-weekday true"
+	gsettings set org.gnome.desktop.interface clock-show-weekday true
 
 
 	echo
