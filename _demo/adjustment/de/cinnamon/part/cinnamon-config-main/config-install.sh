@@ -94,6 +94,15 @@ cinnamon_config_main_config_wm () {
 
 
 	echo
+	echo "gsettings set org.cinnamon.desktop.wm.preferences resize-with-right-button true"
+	gsettings set org.cinnamon.desktop.wm.preferences resize-with-right-button true
+
+	echo
+	echo "gsettings set org.cinnamon.desktop.wm.preferences raise-on-click true"
+	gsettings set org.cinnamon.desktop.wm.preferences raise-on-click true
+
+
+	echo
 
 }
 
