@@ -40,6 +40,27 @@ cinnamon_config_main_config () {
 
 	cinnamon_config_main_config_applets
 
+	cinnamon_config_main_config_wm
+
+}
+
+cinnamon_config_main_config_wm () {
+
+	##
+	## gsettings list-recursively org.cinnamon.desktop.wm.preferences
+	##
+
+	echo
+	echo "gsettings set org.cinnamon.desktop.wm.preferences mouse-button-modifier '<Super>'"
+	gsettings set org.cinnamon.desktop.wm.preferences mouse-button-modifier "'<Super>'"
+
+	echo
+	echo "gsettings set org.cinnamon.desktop.wm.preferences mouse-button-zoom-modifier '<Super>'"
+	gsettings set org.cinnamon.desktop.wm.preferences mouse-button-zoom-modifier "'<Super>'"
+
+
+	echo
+
 }
 
 cinnamon_config_main_config_applets () {
