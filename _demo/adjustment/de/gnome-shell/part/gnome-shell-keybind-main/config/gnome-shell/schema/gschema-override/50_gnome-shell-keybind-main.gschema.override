@@ -1,0 +1,80 @@
+
+
+[org.gnome.shell.keybindings]
+toggle-application-view=['<Super>grave', '<Alt>k', '<Alt>Up']
+toggle-overview=['<Super>Tab', '<Alt>j', '<Alt>Down']
+
+
+[org.gnome.desktop.wm.keybindings]
+begin-move=['<Super>e']
+begin-resize=['<Super>r']
+close=['<Super>q']
+cycle-group=@as []
+cycle-group-backward=@as []
+cycle-panels=@as []
+cycle-panels-backward=@as []
+cycle-windows=['<Super>Escape', '<Super>j']
+cycle-windows-backward=['<Alt>Escape', '<Super>k']
+maximize=['<Super>Up']
+minimize=['<Super>x']
+move-to-workspace-1=['<Shift><Alt>exclam']
+move-to-workspace-10=['<Shift><Alt>parenright']
+move-to-workspace-2=['<Shift><Alt>at']
+move-to-workspace-3=['<Shift><Alt>numbersign']
+move-to-workspace-4=['<Shift><Alt>dollar']
+move-to-workspace-5=['<Shift><Alt>percent']
+move-to-workspace-6=['<Shift><Alt>asciicircum']
+move-to-workspace-7=['<Shift><Alt>ampersand']
+move-to-workspace-8=['<Shift><Alt>asterisk']
+move-to-workspace-9=['<Shift><Alt>parenleft']
+show-desktop=['<Super>d', '<Alt>d']
+switch-applications=@as []
+switch-applications-backward=@as []
+switch-group=@as []
+switch-group-backward=@as []
+switch-panels=@as []
+switch-panels-backward=@as []
+switch-to-workspace-1=['<Control><Alt>1']
+switch-to-workspace-10=['<Control><Alt>0']
+switch-to-workspace-2=['<Control><Alt>2']
+switch-to-workspace-3=['<Control><Alt>3']
+switch-to-workspace-4=['<Control><Alt>4']
+switch-to-workspace-5=['<Control><Alt>5']
+switch-to-workspace-6=['<Control><Alt>6']
+switch-to-workspace-7=['<Control><Alt>7']
+switch-to-workspace-8=['<Control><Alt>8']
+switch-to-workspace-9=['<Control><Alt>9']
+switch-to-workspace-down=@as []
+switch-to-workspace-last=['<Alt>z']
+switch-to-workspace-left=['<Alt>a', '<Alt>h', '<Alt>Left']
+switch-to-workspace-right=['<Alt>s', '<Alt>l', '<Alt>Right']
+switch-to-workspace-up=@as []
+switch-windows=['<Super>s', '<Super>l']
+switch-windows-backward=['<Super>a', '<Super>h']
+toggle-above=['<Super>t']
+toggle-fullscreen=['<Super>f', 'F11']
+toggle-maximized=['<Super>w']
+toggle-on-all-workspaces=['<Super>g']
+toggle-shaded=['<Super>y']
+unmaximize=['<Super>Down']
+
+
+
+
+[org.gnome.mutter]
+overlay-key=''
+
+
+[org.gnome.mutter.keybindings]
+toggle-tiled-left=['<Super>Left']
+toggle-tiled-right=['<Super>Right']
+
+
+[org.gnome.mutter.wayland.keybindings]
+restore-shortcuts=['']
+
+
+
+
+[org.gnome.settings-daemon.plugins.media-keys]
+screensaver=['<Control><Alt>x']

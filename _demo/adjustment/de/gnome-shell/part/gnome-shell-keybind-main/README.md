@@ -1,14 +1,5 @@
 
-# gnome-shell / Adjustment
-
-
-## Spec
-
-* [keybind](spec-keybind.md)
-* [mousebind](spec-mousebind.md)
-
-
-## Note
+# gnome-shell
 
 
 ## Howto
