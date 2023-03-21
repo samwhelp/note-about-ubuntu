@@ -30,6 +30,7 @@ gnome_shell_config_install () {
 
 gnome_shell_config_main () {
 
+
 	echo
 	echo "gsettings set org.gnome.desktop.wm.preferences action-middle-click-titlebar 'toggle-shade'"
 	gsettings set org.gnome.desktop.wm.preferences action-middle-click-titlebar "'toggle-shade'"
@@ -38,6 +39,14 @@ gnome_shell_config_main () {
 	echo
 	echo "gsettings set org.gnome.desktop.wm.preferences button-layout 'appmenu:minimize,maximize,close'"
 	gsettings set org.gnome.desktop.wm.preferences button-layout "'appmenu:minimize,maximize,close'"
+
+	#echo
+	#echo "gsettings set org.gnome.desktop.wm.preferences button-layout 'menu:minimize,maximize,close'"
+	#gsettings set org.gnome.desktop.wm.preferences button-layout "'menu:minimize,maximize,close'"
+
+	#echo
+	#echo "gsettings set org.gnome.desktop.wm.preferences button-layout 'appmenu:close'"
+	#gsettings set org.gnome.desktop.wm.preferences button-layout "'appmenu:close'"
 
 
 	echo
