@@ -284,20 +284,20 @@ gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-right "['<Alt
 * [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/gnome-shell/part/gnome-shell-keybind-main/config-install.sh)
 
 ``` sh
-gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-1 "['<Alt>1']"
-gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-2 "['<Alt>2']"
-gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-3 "['<Alt>3']"
-gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-4 "['<Alt>4']"
-gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-5 "['<Alt>5']"
+gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-1 "['<Control><Alt>1']"
+gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-2 "['<Control><Alt>2']"
+gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-3 "['<Control><Alt>3']"
+gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-4 "['<Control><Alt>4']"
+gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-5 "['<Control><Alt>5']"
 ```
 
 | 按鍵組合          | 功能     | 設定項目         |
 | ----------------- | -------- | ---------------- |
-| `Alt + 1`         | 切換到工作空間 1 (File) | `org.gnome.desktop.wm.keybindings switch-to-workspace-1` |
-| `Alt + 2`         | 切換到工作空間 2 (Edit) | `org.gnome.desktop.wm.keybindings switch-to-workspace-2` |
-| `Alt + 3`         | 切換到工作空間 3 (Web) | `org.gnome.desktop.wm.keybindings switch-to-workspace-3`
-| `Alt + 4`         | 切換到工作空間 4 (Term) | `org.gnome.desktop.wm.keybindings switch-to-workspace-4` |
-| `Alt + 5`         | 切換到工作空間 5 (Misc) | `org.gnome.desktop.wm.keybindings switch-to-workspace-5` |
+| `Alt + Ctrl + 1`         | 切換到工作空間 1 (File) | `org.gnome.desktop.wm.keybindings switch-to-workspace-1` |
+| `Alt + Ctrl + 2`         | 切換到工作空間 2 (Edit) | `org.gnome.desktop.wm.keybindings switch-to-workspace-2` |
+| `Alt + Ctrl + 3`         | 切換到工作空間 3 (Web) | `org.gnome.desktop.wm.keybindings switch-to-workspace-3`
+| `Alt + Ctrl + 4`         | 切換到工作空間 4 (Term) | `org.gnome.desktop.wm.keybindings switch-to-workspace-4` |
+| `Alt + Ctrl + 5`         | 切換到工作空間 5 (Misc) | `org.gnome.desktop.wm.keybindings switch-to-workspace-5` |
 
 
 ### 移動視窗到指定的工作空間
