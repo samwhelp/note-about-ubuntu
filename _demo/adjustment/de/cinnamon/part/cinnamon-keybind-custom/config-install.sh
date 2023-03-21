@@ -245,7 +245,7 @@ cinnamon_keybind_custom_config () {
 
 	## org.cinnamon.desktop.keybindings custom-list ['custom0', '__dummy__']
 	## Custom Keybindings
-	gsettings set org.cinnamon.desktop.keybindings custom-list "['__dummy__', 'system-logout', 'system-shutdown', 'wallpaper-shuf', 'wallpaper-default', 'settings-shortcuts', 'rofi-show-run', 'rofi-show-window', 'rofi-show-drun', 'terminal', 'terminal-1', 'terminal-2', 'terminal-3', 'terminal-4', 'text-editor', 'web-browser', 'file-manager', 'file-manager-1', 'volume-control', 'volume-toggle-mute', 'volume-decrease', 'volume-increase', 'volume-decrease-slowly', 'volume-increase-slowly']"
+	gsettings set org.cinnamon.desktop.keybindings custom-list "['__dummy__', 'system-logout', 'system-shutdown', 'wallpaper-shuf', 'wallpaper-default', 'system-settings', 'rofi-show-run', 'rofi-show-window', 'rofi-show-drun', 'terminal', 'terminal-1', 'terminal-2', 'terminal-3', 'terminal-4', 'text-editor', 'web-browser', 'file-manager', 'file-manager-1', 'volume-control', 'volume-toggle-mute', 'volume-decrease', 'volume-increase', 'volume-decrease-slowly', 'volume-increase-slowly']"
 
 
 	#gsettings set org.cinnamon.desktop.keybindings custom-list "['__dummy__']"
