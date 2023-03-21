@@ -46,11 +46,43 @@ cinnamon_config_main_config () {
 
 cinnamon_config_main_config_wm () {
 
+
+	##
+	## /usr/share/glib-2.0/schemas/org.cinnamon.desktop.wm.preferences.gschema.xml
+	##
+
+
 	##
 	## gsettings list-recursively org.cinnamon.desktop.wm.preferences
 	## dconf dump /org/cinnamon/desktop/wm/preferences/
 	## dconf dump / | grep 'org/cinnamon/desktop/wm/preferences' -A 10
 	##
+
+
+	echo
+	echo "gsettings set org.cinnamon.desktop.wm.preferences action-double-click-titlebar 'lower'"
+	gsettings set org.cinnamon.desktop.wm.preferences action-double-click-titlebar "'lower'"
+
+	echo
+	echo "gsettings set org.cinnamon.desktop.wm.preferences action-middle-click-titlebar 'toggle-maximize'"
+	gsettings set org.cinnamon.desktop.wm.preferences action-middle-click-titlebar "'toggle-maximize'"
+
+	echo
+	echo "gsettings set org.cinnamon.desktop.wm.preferences action-right-click-titlebar 'menu'"
+	gsettings set org.cinnamon.desktop.wm.preferences action-right-click-titlebar "'menu'"
+
+	echo
+	echo "gsettings set org.cinnamon.desktop.wm.preferences action-scroll-titlebar 'shade'"
+	gsettings set org.cinnamon.desktop.wm.preferences action-scroll-titlebar "'shade'"
+
+	#echo
+	#echo "gsettings set org.cinnamon.desktop.wm.preferences action-scroll-titlebar 'opacity'"
+	#gsettings set org.cinnamon.desktop.wm.preferences action-scroll-titlebar "'opacity'"
+
+	#echo
+	#echo "gsettings set org.cinnamon.desktop.wm.preferences action-scroll-titlebar 'none'"
+	#gsettings set org.cinnamon.desktop.wm.preferences action-scroll-titlebar "'none'"
+
 
 	echo
 	echo "gsettings set org.cinnamon.desktop.wm.preferences mouse-button-modifier '<Super>'"

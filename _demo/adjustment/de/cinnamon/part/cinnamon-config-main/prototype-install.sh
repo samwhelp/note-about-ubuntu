@@ -8,6 +8,11 @@ set -e
 ##
 cinnamon_prototype_install () {
 
+
+	##
+	## /usr/share/glib-2.0/schemas/org.cinnamon.desktop.wm.preferences.gschema.xml
+	##
+
 	##
 	## /usr/share/glib-2.0/schemas/50_cinnamon-config-main.gschema.override
 	##
