@@ -81,10 +81,10 @@ sudo apt-get install gnome-shell-extension-prefs gnome-shell-extensions gnome-sh
 | [Custom Hot Corners - Extended](https://extensions.gnome.org/extension/4167/custom-hot-corners-extended/) | [Project](https://github.com/G-dH/custom-hot-corners-extended/tree/gdh) |
 
 
-| Extension | Project |
-| --- | --- |
-| [Forge]https://extensions.gnome.org/extension/4481/forge/) | [Project](https://github.com/jmmaranan/forge) |
-| [gTile](https://extensions.gnome.org/extension/28/gtile/) | [Project](https://github.com/gTile/gTile) |
+| Extension | Project | 微調腳本 |
+| --- | --- | --- |
+| [Forge](https://extensions.gnome.org/extension/4481/forge/) | [Project](https://github.com/jmmaranan/forge) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/gnome-shell/extension/gnome-shell-extension-forge) |
+| [gTile](https://extensions.gnome.org/extension/28/gtile/) | [Project](https://github.com/gTile/gTile) |  |
 
 
 | Extension | Project |
