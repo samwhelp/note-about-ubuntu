@@ -174,11 +174,11 @@ cinnamon_keybind_window_config_switch_windows () {
 
 
 
-	echo 'gsettings set org.cinnamon.desktop.keybindings.wm switch-windows-backward "'"['<Super>a', '<Super>h']"'"'
-	gsettings set org.cinnamon.desktop.keybindings.wm switch-windows-backward "['<Super>a', '<Super>h']"
+	echo 'gsettings set org.cinnamon.desktop.keybindings.wm switch-windows-backward "'"['<Super>a']"'"'
+	gsettings set org.cinnamon.desktop.keybindings.wm switch-windows-backward "['<Super>a']"
 
-	echo 'gsettings set org.cinnamon.desktop.keybindings.wm switch-windows "'"['<Super>s', '<Super>l']"'"'
-	gsettings set org.cinnamon.desktop.keybindings.wm switch-windows "['<Super>s', '<Super>l']"
+	echo 'gsettings set org.cinnamon.desktop.keybindings.wm switch-windows "'"['<Super>s']"'"'
+	gsettings set org.cinnamon.desktop.keybindings.wm switch-windows "['<Super>s']"
 
 
 
@@ -270,16 +270,16 @@ cinnamon_keybind_workspace_config_base () {
 cinnamon_keybind_workspace_config_switch_to_workspace_cycle () {
 
 	## overview / version_1
-	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-up "['<Super>grave', '<Alt>k', '<Alt>Up']"
-	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-down "['<Super>Tab', '<Alt>j', '<Alt>Down']"
+	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-up "['<Super>grave', '<Alt>Up']"
+	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-down "['<Super>Tab', '<Alt>Down']"
 
 	## overview / version_2
-	#gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-up "['<Super>Tab', '<Alt>j', '<Alt>Down']"
-	#gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-down "['<Super>grave', '<Alt>k', '<Alt>Up']"
+	#gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-up "['<Super>Tab', '<Alt>Down']"
+	#gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-down "['<Super>grave', '<Alt>Up']"
 
 	## cycle
-	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-left "['<Alt>a', '<Alt>h', '<Alt>Left']"
-	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-right "['<Alt>s', '<Alt>l', '<Alt>Right']"
+	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-left "['<Alt>a', '<Alt>Left']"
+	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-right "['<Alt>s', '<Alt>Right']"
 
 
 }
@@ -333,8 +333,8 @@ cinnamon_keybind_workspace_config_demo () {
 
 
 
-	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-left "['<Alt>a', '<Alt>h', '<Alt>Left']"
-	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-right "['<Alt>s', '<Alt>l', '<Alt>Right']"
+	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-left "['<Alt>a', '<Alt>Left']"
+	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-right "['<Alt>s', '<Alt>Right']"
 
 
 
