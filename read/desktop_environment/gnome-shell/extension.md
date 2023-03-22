@@ -50,6 +50,11 @@ sudo apt-get install gnome-shell-extension-prefs gnome-shell-extensions gnome-sh
 
 | Extension | Project |
 | --- | --- |
+| [Coverflow Alt-Tab](https://extensions.gnome.org/extension/97/coverflow-alt-tab/) | [Project](https://github.com/dmo60/CoverflowAltTab) |
+
+
+| Extension | Project |
+| --- | --- |
 | [Compiz windows effect](https://extensions.gnome.org//extension/3210/compiz-windows-effect/) | [Project](https://github.com/hermes83/compiz-windows-effect) |
 | [Wobbly Windows](https://extensions.gnome.org//extension/669/wobbly-windows/) |  |
 
@@ -68,6 +73,11 @@ sudo apt-get install gnome-shell-extension-prefs gnome-shell-extensions gnome-sh
 | --- | --- |
 | [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/) | [Project](https://github.com/aunetx/blur-my-shell) |
 | [Control Blur Effect On Lock Screen](https://extensions.gnome.org/extension/2935/control-blur-effect-on-lock-screen/) | [Project](https://github.com/PRATAP-KUMAR/control-blur-effect-on-lock-screen) |
+
+
+| Extension | Project |
+| --- | --- |
+| [Custom Hot Corners - Extended](https://extensions.gnome.org/extension/4167/custom-hot-corners-extended/) | [Project](https://github.com/G-dH/custom-hot-corners-extended/tree/gdh) |
 
 
 | Extension | Project |
