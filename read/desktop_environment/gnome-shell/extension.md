@@ -83,6 +83,7 @@ sudo apt-get install gnome-shell-extension-prefs gnome-shell-extensions gnome-sh
 
 | Extension | Project |
 | --- | --- |
+| [Forge]https://extensions.gnome.org/extension/4481/forge/) | [Project](https://github.com/jmmaranan/forge) |
 | [gTile](https://extensions.gnome.org/extension/28/gtile/) | [Project](https://github.com/gTile/gTile) |
 
 
