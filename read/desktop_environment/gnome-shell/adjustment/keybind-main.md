@@ -75,14 +75,13 @@ gsettings set org.gnome.desktop.wm.keybindings show-desktop "['<Super>d']"
 * [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/gnome-shell/part/gnome-shell-keybind-main/config-install.sh)
 
 ``` sh
-gsettings set org.gnome.shell.keybindings toggle-overview "['<Super>Tab', '<Alt>j', '<Alt>Down']"
+gsettings set org.gnome.shell.keybindings toggle-overview "['<Super>Tab', '<Alt>Down']"
 ```
 
 | 按鍵組合          | 功能     | 設定項目         |
 | ----------------- | -------- | ---------------- |
 | `Win + Tab`         | 切換顯示 Overview | `org.gnome.shell.keybindings toggle-overview` |
 | `Alt + Down`         | 切換顯示 Overview | `org.gnome.shell.keybindings toggle-overview` |
-| `Alt + j`         | 切換顯示 Overview | `org.gnome.shell.keybindings toggle-overview` |
 
 
 ## 切換顯示 Application Overview
@@ -91,14 +90,13 @@ gsettings set org.gnome.shell.keybindings toggle-overview "['<Super>Tab', '<Alt>
 * [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/gnome-shell/part/gnome-shell-keybind-main/config-install.sh)
 
 ``` sh
-gsettings set org.gnome.shell.keybindings toggle-application-view "['<Super>grave', '<Alt>k', '<Alt>Up']"
+gsettings set org.gnome.shell.keybindings toggle-application-view "['<Super>grave', '<Alt>Up']"
 ```
 
 | 按鍵組合          | 功能     | 設定項目         |
 | ----------------- | -------- | ---------------- |
 | `Win + grave`         | 切換顯示 Application Overview | `org.gnome.shell.keybindings toggle-application-view` |
 | `Alt + Up`         | 切換顯示 Application Overview | `org.gnome.shell.keybindings toggle-application-view` |
-| `Alt + k`         | 切換顯示 Application Overview | `org.gnome.shell.keybindings toggle-application-view` |
 
 
 ### 視窗關閉
