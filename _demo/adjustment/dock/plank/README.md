@@ -35,6 +35,11 @@ gsettings set net.launchpad.plank.dock.settings:/net/launchpad/plank/docks/dock1
 ```
 
 
+## Link
+
+* [dash-to-plank](https://github.com/hardpixel/dash-to-plank) / [apps-file.desktop](https://github.com/hardpixel/dash-to-plank/blob/master/dash-to-plank%40hardpixel.eu/templates/apps-file.desktop)
+
+
 ## Howto
 
 
