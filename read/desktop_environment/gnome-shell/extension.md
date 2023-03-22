@@ -83,4 +83,9 @@ sudo apt-get install gnome-shell-extension-prefs gnome-shell-extensions gnome-sh
 
 | Extension | Project |
 | --- | --- |
+| [gTile](https://extensions.gnome.org/extension/28/gtile/) | [Project](https://github.com/gTile/gTile) |
+
+
+| Extension | Project |
+| --- | --- |
 | [Fly-Pie](https://extensions.gnome.org//extension/3433/fly-pie/) | [Project](https://github.com/Schneegans/Fly-Pie) |
