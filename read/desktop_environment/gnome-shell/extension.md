@@ -36,7 +36,7 @@ sudo apt-get install gnome-shell-extension-prefs gnome-shell-extensions gnome-sh
 * extension-manager
 
 
-## Extensions
+## GNOME Shell Extensions
 
 | Extension | Project | YouTube |
 | --- | --- | --- |
@@ -59,6 +59,9 @@ sudo apt-get install gnome-shell-extension-prefs gnome-shell-extensions gnome-sh
 | [Dash2Dock Lite](https://extensions.gnome.org/extension/4994/dash2dock-lite/) | [Project](https://github.com/icedman/dash2dock-lite) |
 | [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/) | [Project](https://micheleg.github.io/dash-to-dock/) |
 | [Dash to Plank](https://extensions.gnome.org/extension/4198/dash-to-plank/) | [Project](https://github.com/hardpixel/dash-to-plank) |
+
+
+* [apps-file.desktop](https://github.com/hardpixel/dash-to-plank/blob/master/dash-to-plank%40hardpixel.eu/templates/apps-file.desktop)
 
 
 | Extension | Project |
