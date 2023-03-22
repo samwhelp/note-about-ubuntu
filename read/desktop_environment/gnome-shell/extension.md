@@ -51,6 +51,7 @@ sudo apt-get install gnome-shell-extension-prefs gnome-shell-extensions gnome-sh
 | Extension | Project |
 | --- | --- |
 | [Coverflow Alt-Tab](https://extensions.gnome.org/extension/97/coverflow-alt-tab/) | [Project](https://github.com/dmo60/CoverflowAltTab) |
+| [Vertical Window List](https://extensions.gnome.org/extension/4369/vertical-window-list/) | [Project](https://gitlab.com/student/vertical-window-list) |
 
 
 | Extension | Project |
