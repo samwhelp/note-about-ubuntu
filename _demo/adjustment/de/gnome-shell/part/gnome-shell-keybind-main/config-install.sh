@@ -198,20 +198,20 @@ gnome_shell_keybind_window_config_switch_windows () {
 
 
 
-	echo 'gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "'"['<Super>a', '<Super>h']"'"'
-	gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "['<Super>a', '<Super>h']"
+	echo 'gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "'"['<Super>a']"'"'
+	gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "['<Super>a']"
 
-	echo 'gsettings set org.gnome.desktop.wm.keybindings switch-windows "'"['<Super>s', '<Super>l']"'"'
-	gsettings set org.gnome.desktop.wm.keybindings switch-windows "['<Super>s', '<Super>l']"
-
-
+	echo 'gsettings set org.gnome.desktop.wm.keybindings switch-windows "'"['<Super>s']"'"'
+	gsettings set org.gnome.desktop.wm.keybindings switch-windows "['<Super>s']"
 
 
-	echo 'gsettings set org.gnome.desktop.wm.keybindings cycle-windows-backward "'"['<Alt>Escape', '<Super>k']"'"'
-	gsettings set org.gnome.desktop.wm.keybindings cycle-windows-backward "['<Alt>Escape', '<Super>k']"
 
-	echo 'gsettings set org.gnome.desktop.wm.keybindings cycle-windows "'"['<Super>Escape', '<Super>j']"'"'
-	gsettings set org.gnome.desktop.wm.keybindings cycle-windows "['<Super>Escape', '<Super>j']"
+
+	echo 'gsettings set org.gnome.desktop.wm.keybindings cycle-windows-backward "'"['<Alt>Escape']"'"'
+	gsettings set org.gnome.desktop.wm.keybindings cycle-windows-backward "['<Alt>Escape']"
+
+	echo 'gsettings set org.gnome.desktop.wm.keybindings cycle-windows "'"['<Super>Escape']"'"'
+	gsettings set org.gnome.desktop.wm.keybindings cycle-windows "['<Super>Escape']"
 
 
 
@@ -289,8 +289,8 @@ gnome_shell_keybind_workspace_config_switch_to_workspace_cycle () {
 	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-down "[]"
 
 
-	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-left "['<Alt>a', '<Alt>h', '<Alt>Left']"
-	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-right "['<Alt>s', '<Alt>l', '<Alt>Right']"
+	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-left "['<Alt>a', '<Alt>Left']"
+	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-right "['<Alt>s', '<Alt>Right']"
 
 
 	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-last "['<Alt>z']"
@@ -451,8 +451,14 @@ gnome_shell_keybind_start_here_config_overview () {
 	#gsettings set org.gnome.desktop.wm.keybindings panel-main-menu "['<Alt>F2']"
 
 
+	gsettings set org.gnome.shell.keybindings toggle-message-tray "['<Super>m']"
+
+
+	##
+	## ## Overview
+	##
+
 	#gsettings set org.gnome.shell.keybindings toggle-application-view "['<Super>a']"
-	#gsettings set org.gnome.shell.keybindings toggle-message-tray "['<Super>v', '<Super>m']"
 	#gsettings set org.gnome.shell.keybindings toggle-overview "['<Super>s']"
 
 
@@ -461,12 +467,12 @@ gnome_shell_keybind_start_here_config_overview () {
 	##
 
 	echo
-	echo 'gsettings set org.gnome.shell.keybindings toggle-application-view "'"['<Super>grave', '<Alt>k', '<Alt>Up']"'"'
-	gsettings set org.gnome.shell.keybindings toggle-application-view "['<Super>grave', '<Alt>k', '<Alt>Up']"
+	echo 'gsettings set org.gnome.shell.keybindings toggle-application-view "'"['<Super>grave', '<Alt>Up']"'"'
+	gsettings set org.gnome.shell.keybindings toggle-application-view "['<Super>grave', '<Alt>Up']"
 
 	echo
-	echo 'gsettings set org.gnome.shell.keybindings toggle-overview "'"['<Super>Tab', '<Alt>j', '<Alt>Down']"'"'
-	gsettings set org.gnome.shell.keybindings toggle-overview "['<Super>Tab', '<Alt>j', '<Alt>Down']"
+	echo 'gsettings set org.gnome.shell.keybindings toggle-overview "'"['<Super>Tab', '<Alt>Down']"'"'
+	gsettings set org.gnome.shell.keybindings toggle-overview "['<Super>Tab', '<Alt>Down']"
 
 
 	##
@@ -474,8 +480,8 @@ gnome_shell_keybind_start_here_config_overview () {
 	##
 
 	#echo
-	#echo 'gsettings set org.gnome.shell.keybindings toggle-overview "'"['<Super>grave', '<Alt>k', '<Alt>Up']"'"'
-	#gsettings set org.gnome.shell.keybindings toggle-overview "['<Super>grave', '<Alt>k', '<Alt>Up']"
+	#echo 'gsettings set org.gnome.shell.keybindings toggle-overview "'"['<Super>grave', '<Alt>Up']"'"'
+	#gsettings set org.gnome.shell.keybindings toggle-overview "['<Super>grave', '<Alt>Up']"
 
 	#echo
 	#echo 'gsettings set org.gnome.shell.keybindings toggle-application-view "'"['<Super>Tab', '<Alt>j', '<Alt>Down']"'"'
@@ -515,17 +521,20 @@ gnome_shell_keybind_adjustment_config_fix () {
 	echo "gsettings set org.gnome.mutter overlay-key ''"
 	gsettings set org.gnome.mutter overlay-key ''
 
+	##
 	## Fix `<Alt><Shift>a` not work
+	##
 
 	echo 'gsettings set org.gnome.desktop.input-sources xkb-options "'"['']"'"'
 	gsettings set org.gnome.desktop.input-sources xkb-options "['']"
 
+	#echo 'gsettings set org.freedesktop.ibus.general.hotkey next-engine "'"['']"'"'
+	#gsettings set org.freedesktop.ibus.general.hotkey next-engine "['']"
 
-	echo 'gsettings set org.freedesktop.ibus.general.hotkey next-engine "'"['']"'"'
-	gsettings set org.freedesktop.ibus.general.hotkey next-engine "['']"
+	#echo 'gsettings set org.freedesktop.ibus.general.hotkey next-engine-in-menu "'"['']"'"'
+	#gsettings set org.freedesktop.ibus.general.hotkey next-engine-in-menu "['']"
 
-	echo 'gsettings set org.freedesktop.ibus.general.hotkey next-engine-in-menu "'"['']"'"'
-	gsettings set org.freedesktop.ibus.general.hotkey next-engine-in-menu "['']"
+
 
 
 
@@ -535,9 +544,14 @@ gnome_shell_keybind_adjustment_config_fix () {
 	#echo 'gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "'"['<Super>F4']"'"'
 	#gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "['<Super>F4']"
 
-	# clear '<Super>t'
-	echo 'gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "'"['']"'"'
-	gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "['']"
+
+
+	##
+	## clear '<Super>t'
+	##
+
+	#echo 'gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "'"['']"'"'
+	#gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "['']"
 
 
 
