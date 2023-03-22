@@ -20,7 +20,7 @@ parent: 桌面環境
 * [按鍵綁定](#按鍵綁定)
 * [Dock](#dock)
 * [Favorite Apps](#favorite-apps)
-* [GNOME Shell Extension](#gnome-shell-extension)
+* [GNOME Shell Extension](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/gnome-shell/extension.html)
 * [工具微調](#工具微調)
 * [相關筆記](#相關筆記)
 
@@ -87,14 +87,14 @@ parent: 桌面環境
 
 | Dock | 微調腳本 |
 | --- | --- |
-| [gnome-shell-extension-ubuntu-dock](https://samwhelp.github.io/note-about-ubuntu/read/flavours/ubuntu/adjustment/gnome-shell-extension-ubuntu-dock.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/part-gnome-shell/gnome-shell-extension-ubuntu-dock) |
+| [gnome-shell-extension-ubuntu-dock](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/gnome-shell/adjustment/gnome-shell-extension-ubuntu-dock.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/part-gnome-shell/gnome-shell-extension-ubuntu-dock) |
 
 
 ## Favorite Apps
 
 | Favorite Apps | 微調腳本 |
 | --- | --- |
-| [favorite-apps](https://samwhelp.github.io/note-about-ubuntu/read/flavours/ubuntu/adjustment/favorite-apps.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/part-gnome-shell/gnome-shell-extension-ubuntu-dock) |
+| [favorite-apps](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/gnome-shell/adjustment/favorite-apps.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/part-gnome-shell/gnome-shell-extension-ubuntu-dock) |
 
 
 ## 工具微調
