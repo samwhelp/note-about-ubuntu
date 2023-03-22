@@ -267,10 +267,16 @@ gnome_shell_keybind_workspace_config () {
 
 gnome_shell_keybind_workspace_config_base () {
 
+	##
+	## Workspace
+	##
 
-	#gsettings set Workspace
+
+	#gsettings set org.gnome.shell.overrides dynamic-workspaces true
 	#gsettings set org.gnome.mutter dynamic-workspaces true
 
+
+	gsettings set org.gnome.shell.overrides dynamic-workspaces false
 	gsettings set org.gnome.mutter dynamic-workspaces false
 	gsettings set org.gnome.desktop.wm.preferences num-workspaces 5
 	gsettings set org.gnome.desktop.wm.preferences workspace-names "['File', 'Edit', 'Web', 'Term', 'Misc']"
