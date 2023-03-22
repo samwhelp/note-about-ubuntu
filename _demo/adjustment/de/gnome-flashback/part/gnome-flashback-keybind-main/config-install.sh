@@ -197,20 +197,20 @@ gnome_flashback_keybind_window_config_switch_windows () {
 
 
 
-	echo 'gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "'"['<Super>a', '<Super>h']"'"'
-	gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "['<Super>a', '<Super>h']"
+	echo 'gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "'"['<Super>a']"'"'
+	gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "['<Super>a']"
 
-	echo 'gsettings set org.gnome.desktop.wm.keybindings switch-windows "'"['<Super>s', '<Super>l']"'"'
-	gsettings set org.gnome.desktop.wm.keybindings switch-windows "['<Super>s', '<Super>l']"
-
-
+	echo 'gsettings set org.gnome.desktop.wm.keybindings switch-windows "'"['<Super>s']"'"'
+	gsettings set org.gnome.desktop.wm.keybindings switch-windows "['<Super>s']"
 
 
-	echo 'gsettings set org.gnome.desktop.wm.keybindings cycle-windows-backward "'"['<Alt>Escape', '<Super>k']"'"'
-	gsettings set org.gnome.desktop.wm.keybindings cycle-windows-backward "['<Alt>Escape', '<Super>k']"
 
-	echo 'gsettings set org.gnome.desktop.wm.keybindings cycle-windows "'"['<Super>Escape', '<Super>j']"'"'
-	gsettings set org.gnome.desktop.wm.keybindings cycle-windows "['<Super>Escape', '<Super>j']"
+
+	echo 'gsettings set org.gnome.desktop.wm.keybindings cycle-windows-backward "'"['<Alt>Escape']"'"'
+	gsettings set org.gnome.desktop.wm.keybindings cycle-windows-backward "['<Alt>Escape']"
+
+	echo 'gsettings set org.gnome.desktop.wm.keybindings cycle-windows "'"['<Super>Escape']"'"'
+	gsettings set org.gnome.desktop.wm.keybindings cycle-windows "['<Super>Escape']"
 
 
 
@@ -285,8 +285,8 @@ gnome_flashback_keybind_workspace_config_switch_to_workspace_cycle () {
 	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-down "[]"
 
 
-	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-left "['<Alt>a', '<Alt>h', '<Alt>Left']"
-	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-right "['<Alt>s', '<Alt>l', '<Alt>Right']"
+	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-left "['<Alt>a', '<Alt>Left']"
+	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-right "['<Alt>s', '<Alt>Right']"
 
 
 	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-last "['<Alt>z']"
@@ -355,8 +355,8 @@ gnome_flashback_keybind_workspace_config_demo () {
 
 
 
-	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-left "['<Alt>a', '<Alt>h', '<Alt>Left']"
-	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-right "['<Alt>s', '<Alt>l', '<Alt>Right']"
+	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-left "['<Alt>a', '<Alt>Left']"
+	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-right "['<Alt>s', '<Alt>Right']"
 
 
 
