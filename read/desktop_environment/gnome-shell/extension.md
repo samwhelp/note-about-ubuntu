@@ -38,9 +38,9 @@ sudo apt-get install gnome-shell-extension-prefs gnome-shell-extensions gnome-sh
 
 ## Extensions
 
-| Extension | Project |
-| --- | --- |
-| [Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/) | [Project](https://gitlab.gnome.org/jrahmatzadeh/just-perfection) |
+| Extension | Project | YouTube |
+| --- | --- | --- |
+| [Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/) | [Project](https://gitlab.gnome.org/jrahmatzadeh/just-perfection) | [Just Perfection](https://www.youtube.com/@jperfection) |
 
 
 | Extension | Project |
@@ -52,6 +52,19 @@ sudo apt-get install gnome-shell-extension-prefs gnome-shell-extensions gnome-sh
 | --- | --- |
 | [Compiz windows effect](https://extensions.gnome.org//extension/3210/compiz-windows-effect/) | [Project](https://github.com/hermes83/compiz-windows-effect) |
 | [Wobbly Windows](https://extensions.gnome.org//extension/669/wobbly-windows/) |  |
+
+
+| Extension | Project |
+| --- | --- |
+| [Dash2Dock Lite](https://extensions.gnome.org/extension/4994/dash2dock-lite/) | [Project](https://github.com/icedman/dash2dock-lite) |
+| [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/) | [Project](https://micheleg.github.io/dash-to-dock/) |
+| [Dash to Plank](https://extensions.gnome.org/extension/4198/dash-to-plank/) | [Project](https://github.com/hardpixel/dash-to-plank) |
+
+
+| Extension | Project |
+| --- | --- |
+| [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/) | [Project](https://github.com/aunetx/blur-my-shell) |
+| [Control Blur Effect On Lock Screen](https://extensions.gnome.org/extension/2935/control-blur-effect-on-lock-screen/) | [Project](https://github.com/PRATAP-KUMAR/control-blur-effect-on-lock-screen) |
 
 
 | Extension | Project |
