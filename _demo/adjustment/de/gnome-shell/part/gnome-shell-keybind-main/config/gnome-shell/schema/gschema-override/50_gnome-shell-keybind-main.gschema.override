@@ -14,9 +14,9 @@ cycle-group=@as []
 cycle-group-backward=@as []
 cycle-panels=@as []
 cycle-panels-backward=@as []
-cycle-windows=['<Super>Escape']
-cycle-windows-backward=['<Alt>Escape']
-maximize=['<Super>Up']
+cycle-windows=['<Super>Escape', '<Super>Right']
+cycle-windows-backward=['<Alt>Escape', '<Super>Left']
+maximize=['<Control><Super>Up']
 minimize=['<Super>x']
 move-to-workspace-1=['<Shift><Alt>exclam']
 move-to-workspace-10=['<Shift><Alt>parenright']
@@ -57,7 +57,7 @@ toggle-fullscreen=['<Super>f', 'F11']
 toggle-maximized=['<Super>w']
 toggle-on-all-workspaces=['<Super>g']
 toggle-shaded=['<Super>y']
-unmaximize=['<Super>Down']
+unmaximize=['<Control><Super>Down']
 
 
 
@@ -67,8 +67,8 @@ overlay-key=''
 
 
 [org.gnome.mutter.keybindings]
-toggle-tiled-left=['<Super>Left']
-toggle-tiled-right=['<Super>Right']
+toggle-tiled-left=['<Control><Super>Left']
+toggle-tiled-right=['<Control><Super>Right']
 
 
 [org.gnome.mutter.wayland.keybindings]

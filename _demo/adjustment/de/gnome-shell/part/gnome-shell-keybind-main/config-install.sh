@@ -207,11 +207,11 @@ gnome_shell_keybind_window_config_switch_windows () {
 
 
 
-	echo 'gsettings set org.gnome.desktop.wm.keybindings cycle-windows-backward "'"['<Alt>Escape']"'"'
-	gsettings set org.gnome.desktop.wm.keybindings cycle-windows-backward "['<Alt>Escape']"
+	echo 'gsettings set org.gnome.desktop.wm.keybindings cycle-windows-backward "'"['<Alt>Escape', '<Super>Left']"'"'
+	gsettings set org.gnome.desktop.wm.keybindings cycle-windows-backward "['<Alt>Escape', '<Super>Left']"
 
-	echo 'gsettings set org.gnome.desktop.wm.keybindings cycle-windows "'"['<Super>Escape']"'"'
-	gsettings set org.gnome.desktop.wm.keybindings cycle-windows "['<Super>Escape']"
+	echo 'gsettings set org.gnome.desktop.wm.keybindings cycle-windows "'"['<Super>Escape', '<Super>Right']"'"'
+	gsettings set org.gnome.desktop.wm.keybindings cycle-windows "['<Super>Escape', '<Super>Right']"
 
 
 
@@ -230,10 +230,10 @@ gnome_shell_keybind_window_config_to_tiling () {
 
 
 
-	gsettings set org.gnome.desktop.wm.keybindings maximize "['<Super>Up']"
-	gsettings set org.gnome.desktop.wm.keybindings unmaximize "['<Super>Down']"
-	gsettings set org.gnome.mutter.keybindings toggle-tiled-left "['<Super>Left']"
-	gsettings set org.gnome.mutter.keybindings toggle-tiled-right "['<Super>Right']"
+	gsettings set org.gnome.desktop.wm.keybindings maximize "['<Control><Super>Up']"
+	gsettings set org.gnome.desktop.wm.keybindings unmaximize "['<Control><Super>Down']"
+	gsettings set org.gnome.mutter.keybindings toggle-tiled-left "['<Control><Super>Left']"
+	gsettings set org.gnome.mutter.keybindings toggle-tiled-right "['<Control><Super>Right']"
 
 
 }
@@ -351,76 +351,6 @@ gnome_shell_keybind_workspace_config_move_to_workspace_specific () {
 
 }
 
-
-gnome_shell_keybind_workspace_config_demo () {
-
-
-	#gsettings set Workspace
-	#gsettings set org.gnome.mutter dynamic-workspaces true
-
-	gsettings set org.gnome.mutter dynamic-workspaces false
-	gsettings set org.gnome.desktop.wm.preferences num-workspaces 5
-	gsettings set org.gnome.desktop.wm.preferences workspace-names "['File', 'Edit', 'Web', 'Term', 'Misc']"
-
-
-
-
-
-	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-left "['<Alt>a', '<Alt>h', '<Alt>Left']"
-	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-right "['<Alt>s', '<Alt>l', '<Alt>Right']"
-
-
-
-
-
-	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-1 "['<Alt>1']"
-	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-2 "['<Alt>2']"
-	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-3 "['<Alt>3']"
-	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-4 "['<Alt>4']"
-	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-5 "['<Alt>5']"
-	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-6 "['<Alt>6']"
-	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-7 "['<Alt>7']"
-	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-8 "['<Alt>8']"
-	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-9 "['<Alt>9']"
-	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-10 "['<Alt>0']"
-
-	gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-1 "['<Shift><Alt>exclam']"
-	gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-2 "['<Shift><Alt>at']"
-	gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-3 "['<Shift><Alt>numbersign']"
-	gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-4 "['<Shift><Alt>dollar']"
-	gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-5 "['<Shift><Alt>percent']"
-	gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-6 "['<Shift><Alt>asciicircum']"
-	gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-7 "['<Shift><Alt>ampersand']"
-	gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-8 "['<Shift><Alt>asterisk']"
-	gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-9 "['<Shift><Alt>parenleft']"
-	gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-10 "['<Shift><Alt>parenright']"
-
-	# gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-1 "['<Alt><Super>1']"
-	# gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-2 "['<Alt><Super>2']"
-	# gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-3 "['<Alt><Super>3']"
-	# gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-4 "['<Alt><Super>4']"
-	# gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-5 "['<Alt><Super>5']"
-	# gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-6 "['<Alt><Super>6']"
-	# gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-7 "['<Alt><Super>7']"
-	# gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-8 "['<Alt><Super>8']"
-	# gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-9 "['<Alt><Super>9']"
-	# gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-10 "['<Alt><Super>10']"
-
-	#gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-1 "['<Super>1']"
-	#gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-2 "['<Super>2']"
-	#gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-3 "['<Super>3']"
-	#gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-4 "['<Super>4']"
-	#gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-5 "['<Super>5']"
-	#gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-6 "['<Super>6']"
-	#gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-7 "['<Super>7']"
-	#gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-8 "['<Super>8']"
-	#gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-9 "['<Super>9']"
-	#gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-10 "['<Super>10']"
-
-
-}
-
-
 ##
 ### Tail: gnome-shell / keybind / workspace
 ################################################################################
@@ -473,12 +403,12 @@ gnome_shell_keybind_start_here_config_overview () {
 	##
 
 	echo
-	echo 'gsettings set org.gnome.shell.keybindings toggle-application-view "'"['<Super>grave', '<Alt>Up']"'"'
-	gsettings set org.gnome.shell.keybindings toggle-application-view "['<Super>grave', '<Alt>Up']"
+	echo 'gsettings set org.gnome.shell.keybindings toggle-application-view "'"['<Super>grave', '<Super>Up']"'"'
+	gsettings set org.gnome.shell.keybindings toggle-application-view "['<Super>grave', '<Super>Up']"
 
 	echo
-	echo 'gsettings set org.gnome.shell.keybindings toggle-overview "'"['<Super>Tab', '<Alt>Down']"'"'
-	gsettings set org.gnome.shell.keybindings toggle-overview "['<Super>Tab', '<Alt>Down']"
+	echo 'gsettings set org.gnome.shell.keybindings toggle-overview "'"['<Super>Tab', '<Super>Down']"'"'
+	gsettings set org.gnome.shell.keybindings toggle-overview "['<Super>Tab', '<Super>Down']"
 
 
 	##
