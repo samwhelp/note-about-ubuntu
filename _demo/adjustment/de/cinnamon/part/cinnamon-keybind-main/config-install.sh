@@ -211,6 +211,11 @@ cinnamon_keybind_window_config_to_tiling () {
 	#gsettings set org.cinnamon.desktop.keybindings.wm push-snap-left "['<Control><Super>Left']"
 	#gsettings set org.cinnamon.desktop.keybindings.wm push-snap-right "['<Control><Super>Right']"
 
+	gsettings set org.cinnamon.desktop.keybindings.wm push-snap-up "[]"
+	gsettings set org.cinnamon.desktop.keybindings.wm push-snap-down "[]"
+	gsettings set org.cinnamon.desktop.keybindings.wm push-snap-left "[]"
+	gsettings set org.cinnamon.desktop.keybindings.wm push-snap-right "[]"
+
 
 	gsettings set org.cinnamon.desktop.keybindings.wm push-tile-up "['<Control><Super>Up']"
 	gsettings set org.cinnamon.desktop.keybindings.wm push-tile-down "['<Control><Super>Down']"
