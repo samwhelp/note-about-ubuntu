@@ -39,6 +39,8 @@ cinnamon_config_install () {
 
 cinnamon_keybind_window_config () {
 
+	cinnamon_keybind_window_config_begin_activate_window_menu
+
 	cinnamon_keybind_window_config_begin_move
 
 	cinnamon_keybind_window_config_begin_resize
@@ -50,6 +52,12 @@ cinnamon_keybind_window_config () {
 	cinnamon_keybind_window_config_toggle_maximized
 
 	cinnamon_keybind_window_config_to_minimize
+
+	cinnamon_keybind_window_config_to_raise_or_lower
+
+	cinnamon_keybind_window_config_to_raise
+
+	cinnamon_keybind_window_config_to_lower
 
 	cinnamon_keybind_window_config_toggle_shaded
 
@@ -66,6 +74,16 @@ cinnamon_keybind_window_config () {
 	cinnamon_keybind_window_config_change_opacity
 
 }
+
+
+cinnamon_keybind_window_config_begin_activate_window_menu () {
+
+	## Window / activate_window_menu
+	echo 'gsettings set org.cinnamon.desktop.keybindings.wm activate-window-menu "'"['<Alt>space']"'"'
+	gsettings set org.cinnamon.desktop.keybindings.wm activate-window-menu "['<Alt>space']"
+
+}
+
 
 cinnamon_keybind_window_config_begin_move () {
 
@@ -113,6 +131,11 @@ cinnamon_keybind_window_config_toggle_maximized () {
 	echo 'gsettings set org.cinnamon.desktop.keybindings.wm unmaximize "'"[]"'"'
 	gsettings set org.cinnamon.desktop.keybindings.wm unmaximize "[]"
 
+	echo 'gsettings set org.cinnamon.desktop.keybindings.wm maximize-horizontally "'"[]"'"'
+	gsettings set org.cinnamon.desktop.keybindings.wm maximize-horizontally "[]"
+
+	echo 'gsettings set org.cinnamon.desktop.keybindings.wm maximize-vertically "'"[]"'"'
+	gsettings set org.cinnamon.desktop.keybindings.wm maximize-vertically "[]"
 
 }
 
@@ -122,6 +145,33 @@ cinnamon_keybind_window_config_to_minimize () {
 	## Window / Minimize
 	echo 'gsettings set org.cinnamon.desktop.keybindings.wm minimize "'"['<Super>x']"'"'
 	gsettings set org.cinnamon.desktop.keybindings.wm minimize "['<Super>x']"
+
+}
+
+
+cinnamon_keybind_window_config_to_raise_or_lower () {
+
+	## Window / raise_or_lower
+	echo 'gsettings set org.cinnamon.desktop.keybindings.wm raise-or-lower "'"['<Super>p']"'"'
+	gsettings set org.cinnamon.desktop.keybindings.wm raise-or-lower "['<Super>p']"
+
+}
+
+
+cinnamon_keybind_window_config_to_raise () {
+
+	## Window / Raise
+	echo 'gsettings set org.cinnamon.desktop.keybindings.wm raise "'"['<Super>u']"'"'
+	gsettings set org.cinnamon.desktop.keybindings.wm raise "['<Super>u']"
+
+}
+
+
+cinnamon_keybind_window_config_to_lower () {
+
+	## Window / Lower
+	echo 'gsettings set org.cinnamon.desktop.keybindings.wm lower "'"['<Super>n']"'"'
+	gsettings set org.cinnamon.desktop.keybindings.wm lower "['<Super>n']"
 
 }
 
