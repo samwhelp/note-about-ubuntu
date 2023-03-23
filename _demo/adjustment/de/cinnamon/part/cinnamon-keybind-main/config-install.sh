@@ -174,11 +174,11 @@ cinnamon_keybind_window_config_switch_windows () {
 
 
 
-	echo 'gsettings set org.cinnamon.desktop.keybindings.wm switch-windows-backward "'"['<Super>a']"'"'
-	gsettings set org.cinnamon.desktop.keybindings.wm switch-windows-backward "['<Super>a']"
+	echo 'gsettings set org.cinnamon.desktop.keybindings.wm switch-windows-backward "'"['<Super>a', '<Super>Left']"'"'
+	gsettings set org.cinnamon.desktop.keybindings.wm switch-windows-backward "['<Super>a', '<Super>Left']"
 
-	echo 'gsettings set org.cinnamon.desktop.keybindings.wm switch-windows "'"['<Super>s']"'"'
-	gsettings set org.cinnamon.desktop.keybindings.wm switch-windows "['<Super>s']"
+	echo 'gsettings set org.cinnamon.desktop.keybindings.wm switch-windows "'"['<Super>s', '<Super>Right']"'"'
+	gsettings set org.cinnamon.desktop.keybindings.wm switch-windows "['<Super>s', '<Super>Right']"
 
 
 
@@ -206,16 +206,16 @@ cinnamon_keybind_window_config_switch_windows () {
 cinnamon_keybind_window_config_to_tiling () {
 
 
-	gsettings set org.cinnamon.desktop.keybindings.wm push-snap-up "['<Super><Control>Up']"
-	gsettings set org.cinnamon.desktop.keybindings.wm push-snap-down "['<Super><Control>Down']"
-	gsettings set org.cinnamon.desktop.keybindings.wm push-snap-left "['<Super><Control>Left']"
-	gsettings set org.cinnamon.desktop.keybindings.wm push-snap-right "['<Super><Control>Right']"
+	#gsettings set org.cinnamon.desktop.keybindings.wm push-snap-up "['<Control><Super>Up']"
+	#gsettings set org.cinnamon.desktop.keybindings.wm push-snap-down "['<Control><Super>Down']"
+	#gsettings set org.cinnamon.desktop.keybindings.wm push-snap-left "['<Control><Super>Left']"
+	#gsettings set org.cinnamon.desktop.keybindings.wm push-snap-right "['<Control><Super>Right']"
 
 
-	gsettings set org.cinnamon.desktop.keybindings.wm push-tile-up "['<Super>Up']"
-	gsettings set org.cinnamon.desktop.keybindings.wm push-tile-down "['<Super>Down']"
-	gsettings set org.cinnamon.desktop.keybindings.wm push-tile-left "['<Super>Left']"
-	gsettings set org.cinnamon.desktop.keybindings.wm push-tile-right "['<Super>Right']"
+	gsettings set org.cinnamon.desktop.keybindings.wm push-tile-up "['<Control><Super>Up']"
+	gsettings set org.cinnamon.desktop.keybindings.wm push-tile-down "['<Control><Super>Down']"
+	gsettings set org.cinnamon.desktop.keybindings.wm push-tile-left "['<Control><Super>Left']"
+	gsettings set org.cinnamon.desktop.keybindings.wm push-tile-right "['<Control><Super>Right']"
 
 
 
@@ -225,8 +225,8 @@ cinnamon_keybind_window_config_to_tiling () {
 
 cinnamon_keybind_window_config_change_opacity () {
 
-	gsettings set org.cinnamon.desktop.keybindings.wm decrease-opacity "['<Super>bracketleft']"
-	gsettings set org.cinnamon.desktop.keybindings.wm increase-opacity "['<Super>bracketright']"
+	gsettings set org.cinnamon.desktop.keybindings.wm decrease-opacity "['<Control><Super>bracketleft']"
+	gsettings set org.cinnamon.desktop.keybindings.wm increase-opacity "['<Control><Super>bracketright']"
 
 }
 
@@ -270,12 +270,12 @@ cinnamon_keybind_workspace_config_base () {
 cinnamon_keybind_workspace_config_switch_to_workspace_cycle () {
 
 	## overview / version_1
-	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-up "['<Super>grave', '<Alt>Up']"
-	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-down "['<Super>Tab', '<Alt>Down']"
+	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-up "['<Super>grave', '<Super>Up']"
+	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-down "['<Super>Tab', '<Super>Down']"
 
 	## overview / version_2
-	#gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-up "['<Super>Tab', '<Alt>Down']"
-	#gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-down "['<Super>grave', '<Alt>Up']"
+	#gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-up "['<Super>Tab', '<Super>Down']"
+	#gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-down "['<Super>grave', '<Super>Up']"
 
 	## cycle
 	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-left "['<Alt>a', '<Alt>Left']"
@@ -287,16 +287,30 @@ cinnamon_keybind_workspace_config_switch_to_workspace_cycle () {
 cinnamon_keybind_workspace_config_switch_to_workspace_specific () {
 
 
-	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-1 "['<Alt>1']"
-	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-2 "['<Alt>2']"
-	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-3 "['<Alt>3']"
-	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-4 "['<Alt>4']"
-	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-5 "['<Alt>5']"
-	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-6 "['<Alt>6']"
-	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-7 "['<Alt>7']"
-	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-8 "['<Alt>8']"
-	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-9 "['<Alt>9']"
-	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-10 "['<Alt>0']"
+	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-1 "['<Control><Alt>1']"
+	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-2 "['<Control><Alt>2']"
+	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-3 "['<Control><Alt>3']"
+	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-4 "['<Control><Alt>4']"
+	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-5 "['<Control><Alt>5']"
+	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-6 "['<Control><Alt>6']"
+	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-7 "['<Control><Alt>7']"
+	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-8 "['<Control><Alt>8']"
+	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-9 "['<Control><Alt>9']"
+	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-10 "['<Control><Alt>0']"
+
+
+	#gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-1 "['<Alt>1']"
+	#gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-2 "['<Alt>2']"
+	#gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-3 "['<Alt>3']"
+	#gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-4 "['<Alt>4']"
+	#gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-5 "['<Alt>5']"
+	#gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-6 "['<Alt>6']"
+	#gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-7 "['<Alt>7']"
+	#gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-8 "['<Alt>8']"
+	#gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-9 "['<Alt>9']"
+	#gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-10 "['<Alt>0']"
+
+
 
 }
 
@@ -318,75 +332,6 @@ cinnamon_keybind_workspace_config_move_to_workspace_specific () {
 
 
 }
-
-
-cinnamon_keybind_workspace_config_demo () {
-
-
-	## Workspace
-	gsettings set org.cinnamon.desktop.wm.preferences num-workspaces 5
-	gsettings set org.cinnamon.desktop.wm.preferences workspace-names "['File', 'Edit', 'Web', 'Term', 'Misc']"
-
-	gsettings set org.cinnamon.muffin dynamic-workspaces false
-	gsettings set org.cinnamon.muffin workspace-cycle true
-
-
-
-
-	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-left "['<Alt>a', '<Alt>Left']"
-	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-right "['<Alt>s', '<Alt>Right']"
-
-
-
-
-
-	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-1 "['<Alt>1']"
-	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-2 "['<Alt>2']"
-	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-3 "['<Alt>3']"
-	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-4 "['<Alt>4']"
-	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-5 "['<Alt>5']"
-	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-6 "['<Alt>6']"
-	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-7 "['<Alt>7']"
-	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-8 "['<Alt>8']"
-	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-9 "['<Alt>9']"
-	gsettings set org.cinnamon.desktop.keybindings.wm switch-to-workspace-10 "['<Alt>0']"
-
-	gsettings set org.cinnamon.desktop.keybindings.wm move-to-workspace-1 "['<Shift><Alt>exclam']"
-	gsettings set org.cinnamon.desktop.keybindings.wm move-to-workspace-2 "['<Shift><Alt>at']"
-	gsettings set org.cinnamon.desktop.keybindings.wm move-to-workspace-3 "['<Shift><Alt>numbersign']"
-	gsettings set org.cinnamon.desktop.keybindings.wm move-to-workspace-4 "['<Shift><Alt>dollar']"
-	gsettings set org.cinnamon.desktop.keybindings.wm move-to-workspace-5 "['<Shift><Alt>percent']"
-	gsettings set org.cinnamon.desktop.keybindings.wm move-to-workspace-6 "['<Shift><Alt>asciicircum']"
-	gsettings set org.cinnamon.desktop.keybindings.wm move-to-workspace-7 "['<Shift><Alt>ampersand']"
-	gsettings set org.cinnamon.desktop.keybindings.wm move-to-workspace-8 "['<Shift><Alt>asterisk']"
-	gsettings set org.cinnamon.desktop.keybindings.wm move-to-workspace-9 "['<Shift><Alt>parenleft']"
-	gsettings set org.cinnamon.desktop.keybindings.wm move-to-workspace-10 "['<Shift><Alt>parenright']"
-
-	# gsettings set org.cinnamon.desktop.keybindings.wm move-to-workspace-1 "['<Alt><Super>1']"
-	# gsettings set org.cinnamon.desktop.keybindings.wm move-to-workspace-2 "['<Alt><Super>2']"
-	# gsettings set org.cinnamon.desktop.keybindings.wm move-to-workspace-3 "['<Alt><Super>3']"
-	# gsettings set org.cinnamon.desktop.keybindings.wm move-to-workspace-4 "['<Alt><Super>4']"
-	# gsettings set org.cinnamon.desktop.keybindings.wm move-to-workspace-5 "['<Alt><Super>5']"
-	# gsettings set org.cinnamon.desktop.keybindings.wm move-to-workspace-6 "['<Alt><Super>6']"
-	# gsettings set org.cinnamon.desktop.keybindings.wm move-to-workspace-7 "['<Alt><Super>7']"
-	# gsettings set org.cinnamon.desktop.keybindings.wm move-to-workspace-8 "['<Alt><Super>8']"
-	# gsettings set org.cinnamon.desktop.keybindings.wm move-to-workspace-9 "['<Alt><Super>9']"
-	# gsettings set org.cinnamon.desktop.keybindings.wm move-to-workspace-10 "['<Alt><Super>10']"
-
-	#gsettings set org.cinnamon.desktop.keybindings.wm move-to-workspace-1 "['<Super>1']"
-	#gsettings set org.cinnamon.desktop.keybindings.wm move-to-workspace-2 "['<Super>2']"
-	#gsettings set org.cinnamon.desktop.keybindings.wm move-to-workspace-3 "['<Super>3']"
-	#gsettings set org.cinnamon.desktop.keybindings.wm move-to-workspace-4 "['<Super>4']"
-	#gsettings set org.cinnamon.desktop.keybindings.wm move-to-workspace-5 "['<Super>5']"
-	#gsettings set org.cinnamon.desktop.keybindings.wm move-to-workspace-6 "['<Super>6']"
-	#gsettings set org.cinnamon.desktop.keybindings.wm move-to-workspace-7 "['<Super>7']"
-	#gsettings set org.cinnamon.desktop.keybindings.wm move-to-workspace-8 "['<Super>8']"
-	#gsettings set org.cinnamon.desktop.keybindings.wm move-to-workspace-9 "['<Super>9']"
-	#gsettings set org.cinnamon.desktop.keybindings.wm move-to-workspace-10 "['<Super>10']"
-
-
-}
-
 
 ##
 ### Tail: cinnamon / keybind / workspace
