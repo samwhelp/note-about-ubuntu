@@ -75,13 +75,13 @@ gsettings set org.gnome.desktop.wm.keybindings show-desktop "['<Super>d']"
 * [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/gnome-shell/part/gnome-shell-keybind-main/config-install.sh)
 
 ``` sh
-gsettings set org.gnome.shell.keybindings toggle-overview "['<Super>Tab', '<Alt>Down']"
+gsettings set org.gnome.shell.keybindings toggle-overview "['<Super>Tab', '<Super>Down']"
 ```
 
 | 按鍵組合          | 功能     | 設定項目         |
 | ----------------- | -------- | ---------------- |
 | `Win + Tab`         | 切換顯示 Overview | `org.gnome.shell.keybindings toggle-overview` |
-| `Alt + Down`         | 切換顯示 Overview | `org.gnome.shell.keybindings toggle-overview` |
+| `Win + Down`         | 切換顯示 Overview | `org.gnome.shell.keybindings toggle-overview` |
 
 
 ## 切換顯示 Application Overview
@@ -90,13 +90,13 @@ gsettings set org.gnome.shell.keybindings toggle-overview "['<Super>Tab', '<Alt>
 * [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/gnome-shell/part/gnome-shell-keybind-main/config-install.sh)
 
 ``` sh
-gsettings set org.gnome.shell.keybindings toggle-application-view "['<Super>grave', '<Alt>Up']"
+gsettings set org.gnome.shell.keybindings toggle-application-view "['<Super>grave', '<Super>Up']"
 ```
 
 | 按鍵組合          | 功能     | 設定項目         |
 | ----------------- | -------- | ---------------- |
 | `Win + grave`         | 切換顯示 Application Overview | `org.gnome.shell.keybindings toggle-application-view` |
-| `Alt + Up`         | 切換顯示 Application Overview | `org.gnome.shell.keybindings toggle-application-view` |
+| `Win + Up`         | 切換顯示 Application Overview | `org.gnome.shell.keybindings toggle-application-view` |
 
 
 ### 視窗關閉
@@ -222,18 +222,18 @@ gsettings set org.gnome.desktop.wm.keybindings toggle-on-all-workspaces "['<Supe
 * [設定片段](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/adjustment/de/gnome-shell/part/gnome-shell-keybind-main/config-install.sh)
 
 ``` sh
-gsettings set org.gnome.desktop.wm.keybindings maximize "['<Super>Up']"
-gsettings set org.gnome.desktop.wm.keybindings unmaximize "['<Super>Down']"
-gsettings set org.gnome.mutter.keybindings toggle-tiled-left "['<Super>Left']"
-gsettings set org.gnome.mutter.keybindings toggle-tiled-right "['<Super>Right']"
+gsettings set org.gnome.desktop.wm.keybindings maximize "['<Control><Super>Up']"
+gsettings set org.gnome.desktop.wm.keybindings unmaximize "['<Control><Super>Down']"
+gsettings set org.gnome.mutter.keybindings toggle-tiled-left "['<Control><Super>Left']"
+gsettings set org.gnome.mutter.keybindings toggle-tiled-right "['<Control><Super>Right']"
 ```
 
 | 按鍵組合          | 功能     | 設定項目         |
 | ----------------- | -------- | ---------------- |
-| `Win + Up`         | 視窗最大化 | `org.gnome.desktop.wm.keybindings maximize` |
-| `Win + Down`         | 視窗反最大化 | `org.gnome.desktop.wm.keybindings unmaximize` |
-| `Win + Left`         | 視窗平鋪移動到畫面左半側(西方) | `org.gnome.mutter.keybindings toggle-tiled-left` |
-| `Win + Right`         | 視窗平鋪移動到畫面右半側(東方) | `org.gnome.mutter.keybindings toggle-tiled-right` |
+| `Win + Ctrl + Up`         | 視窗最大化 | `org.gnome.desktop.wm.keybindings maximize` |
+| `Win + Ctrl + Down`         | 視窗反最大化 | `org.gnome.desktop.wm.keybindings unmaximize` |
+| `Win + Ctrl + Left`         | 視窗平鋪移動到畫面左半側(西方) | `org.gnome.mutter.keybindings toggle-tiled-left` |
+| `Win + Ctrl + Right`         | 視窗平鋪移動到畫面右半側(東方) | `org.gnome.mutter.keybindings toggle-tiled-right` |
 
 
 ## 工作空間
