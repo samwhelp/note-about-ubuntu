@@ -62,6 +62,13 @@ dpkg -L libime-bin
 ```
 
 
+## 指令
+
+| 指令 |
+| --- |
+| [libime_tabledict](https://samwhelp.github.io/note-about-ubuntu/read/subject/im/fcitx5/command/libime_tabledict.html) |
+
+
 ## 相關討論
 
 ### Ubuntu與嘸蝦米: 在fcitx下，(boshiamy)嘸蝦米的使用最為順暢、穩定!（新酷音、m17n、倉頡、輕鬆法亦適用）

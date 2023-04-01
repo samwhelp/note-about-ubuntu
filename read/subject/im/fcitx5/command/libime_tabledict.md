@@ -1,6 +1,6 @@
 ---
 title: libime_tabledict
-nav_order: 3151
+nav_order: 3141
 has_children: false
 parent: fcitx5
 grand_parent: 中文輸入法
