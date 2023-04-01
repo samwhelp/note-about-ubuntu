@@ -10,7 +10,8 @@ has_children: true
 
 ## fcitx
 
-* [fcitx-chewing](https://samwhelp.github.io/note-about-ubuntu/read/subject/im/fcitx/fcitx-chewing.html)
+* [fcitx5](https://samwhelp.github.io/note-about-ubuntu/read/subject/im/fcitx5.html)
+* [fcitx5-chewing](https://samwhelp.github.io/note-about-ubuntu/read/subject/im/fcitx5/fcitx5-chewing.html)
 
 
 ## ibus
