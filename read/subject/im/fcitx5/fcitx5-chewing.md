@@ -40,7 +40,10 @@ sudo apt-get install fcitx5-frontend-gtk2 fcitx5-frontend-gtk3 fcitx5-frontend-g
 sudo apt-get install fcitx5-config-qt
 ```
 
-* 可以參考我的「[package-list.txt](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/im/fcitx5-chewing/package-list.txt)」
+> 可以參考我的「[package-list.txt](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/im/fcitx5-chewing/package-list.txt)」
+
+
+> 以及跟「Fcitx5」相關的「[Package List](https://samwhelp.github.io/note-about-ubuntu/read/subject/im/fcitx5.html#package)」
 
 
 ## 切換輸入法架構
