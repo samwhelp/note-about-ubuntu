@@ -31,7 +31,7 @@ sudo apt-get install fcitx5-chewing
 執行下面指令，確保安裝支援「GTK」和「QT」環境所需要的「Package」
 
 ``` sh
-sudo apt-get install fcitx5-frontend-gtk2 fcitx5-frontend-gtk3 fcitx5-frontend-qt5
+sudo apt-get install fcitx5-frontend-gtk2 fcitx5-frontend-gtk3 fcitx5-frontend-gtk4 fcitx5-frontend-qt5
 ```
 
 執行下面指令，安裝「圖形設定介面」的「輔助工具」
