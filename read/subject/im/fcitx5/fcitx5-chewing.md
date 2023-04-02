@@ -22,9 +22,25 @@ grand_parent: 中文輸入法
 
 ## 指令安裝
 
+執行下面指令
+
 ``` sh
 sudo apt-get install fcitx5-chewing
 ```
+
+執行下面指令，確保安裝支援「GTK」和「QT」環境所需要的「Package」
+
+``` sh
+sudo apt-get install fcitx5-frontend-gtk2 fcitx5-frontend-gtk3 fcitx5-frontend-qt5
+```
+
+執行下面指令，安裝「圖形設定介面」的「輔助工具」
+
+``` sh
+sudo apt-get install fcitx5-config-qt
+```
+
+* 可以參考我的「[package-list.txt](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/im/fcitx5-chewing/package-list.txt)」
 
 
 ## 切換輸入法架構
