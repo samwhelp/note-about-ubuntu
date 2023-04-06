@@ -1,4 +1,3 @@
-breeze-cursor-theme
-breeze-gtk-theme
-breeze-icon-theme
-xfwm4-theme-breeze
+numix-gtk-theme
+numix-icon-theme
+numix-icon-theme-circle
