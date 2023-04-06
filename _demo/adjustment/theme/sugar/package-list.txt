@@ -1,0 +1,3 @@
+#sugar-themes
+sugar-icon-theme
+#gtk2-engines-sugar
