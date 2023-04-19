@@ -82,7 +82,7 @@ sudo install -Dm644 boshiamy.conf.in "/usr/share/fcitx5/inputmethod/boshiamy.con
 接著就可以到「fcitx5」的設定介面，去設定加入「boshiamy」。
 
 
-> 關於「icons」是「非必要」，所以這裡就先忽略，不安裝。
+> 關於「icons」是「非必要」，所以這裡就先忽略，不安裝。請參考「[另一個討論回覆](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=364434#forumpost364434)」。
 
 
 ## 相關討論
