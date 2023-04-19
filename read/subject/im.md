@@ -7,8 +7,17 @@ has_children: true
 
 # 中文輸入法
 
+## 切換指令
 
-## fcitx
+| 輸入法框架 | 切換指令 | 設定檔路徑 |
+| --- | --- | --- |
+| [fcitx5](#fcitx5) | `im-config -n fcitx5` | `~/.xinputrc` |
+| [ibus](#ibus) | `im-config -n ibus` | `~/.xinputrc` |
+| [gcin](#gcin) | `im-config -n gcin` | `~/.xinputrc` |
+| [hime](#hime) | `im-config -n hime` | `~/.xinputrc` |
+
+
+## fcitx5
 
 | 模組 | 輸入法 |
 | --- | --- |
