@@ -10,8 +10,12 @@ has_children: true
 
 ## fcitx
 
-* [fcitx5](https://samwhelp.github.io/note-about-ubuntu/read/subject/im/fcitx5.html)
-* [fcitx5-chewing](https://samwhelp.github.io/note-about-ubuntu/read/subject/im/fcitx5/fcitx5-chewing.html)
+| 模組 | 輸入法 |
+| --- | --- |
+| [fcitx5-chewing](https://samwhelp.github.io/note-about-ubuntu/read/subject/im/fcitx5/fcitx5-chewing.html) | 新酷音輸入法 |
+| [fcitx5-mcbopomofo](https://samwhelp.github.io/note-about-ubuntu/read/subject/im/fcitx5/fcitx5-mcbopomofo.html) | 小麥注音輸入法 |
+| [fcitx5-table-boshiamy](https://samwhelp.github.io/note-about-ubuntu/read/subject/im/fcitx5/howto/install-fcitx5-table-boshiamy.html) | 嘸蝦米輸入法 |
+| [fcitx5-table-easy-large](https://samwhelp.github.io/note-about-ubuntu/read/subject/im/fcitx5/howto/install-fcitx5-table-easy-large.html) | 輕鬆輸入法 |
 
 
 ## ibus
