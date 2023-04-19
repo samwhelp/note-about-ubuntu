@@ -29,9 +29,9 @@ grand_parent: 中文輸入法
 ### Ubuntu 22.04 LTS (Jammy Jellyfish) Released
 
 * 「[#16](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=363740#forumpost363740)」 - 關於「fcitx5-table-extra」
-* 「[#18](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=363744#forumpost363744)」- 如何編譯「fcitx5-table-extra」並且簡易打包成「Debian Package」
-* 「[#19](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=363748#forumpost363748)」- 如何編譯「fcitx5-table-extra」並且打包成「Debian Package」和「Debian Source Package」
-* 「[#20](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=363750#forumpost363750)」- 如何編譯「fcitx5-table-extra」並且打包成多個「Debian Package」
+* 「[#18](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=363744#forumpost363744)」 - 如何編譯「fcitx5-table-extra」並且簡易打包成「Debian Package」
+* 「[#19](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=363748#forumpost363748)」 - 如何編譯「fcitx5-table-extra」並且打包成「Debian Package」和「Debian Source Package」
+* 「[#20](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=363750#forumpost363750)」 - 如何編譯「fcitx5-table-extra」並且打包成多個「Debian Package」
 
 
 ### Ubuntu與嘸蝦米: 在fcitx下，(boshiamy)嘸蝦米的使用最為順暢、穩定!（新酷音、m17n、倉頡、輕鬆法亦適用）
