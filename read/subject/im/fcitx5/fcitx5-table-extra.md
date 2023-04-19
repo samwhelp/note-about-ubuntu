@@ -17,7 +17,10 @@ grand_parent: 中文輸入法
 
 ## Demo
 
-* demo-forum-case / [fcitx5-table-extra](https://github.com/samwhelp/demo-forum-case/tree/main/demo/fcitx5-table-extra)
+| Demo |
+| --- |
+| [fcitx5-table-extra](https://github.com/samwhelp/demo-forum-case/tree/main/demo/fcitx5-table-extra) |
+| [fcitx5-table-extra-each](https://github.com/samwhelp/demo-forum-case/tree/main/demo/fcitx5-table-extra-each) |
 
 
 ## 相關討論
@@ -44,11 +47,3 @@ grand_parent: 中文輸入法
 * Search: [fcitx5-table-extra arch](https://www.google.com/search?q=fcitx5-table-extra+arch)
 * Arch Package / [fcitx5-table-extra](https://archlinux.org/packages/community/any/fcitx5-table-extra/) / [Download From Mirror](https://archlinux.org/packages/community/any/fcitx5-table-extra/download) / [PKGBUILD](https://github.com/archlinux/svntogit-community/blob/packages/fcitx5-table-extra/trunk/PKGBUILD)
 * Fcitx Wiki / [Compile from source](https://fcitx-im.org/wiki/Compile_from_source)
-
-
-## Demo
-
-| Demo |
-| --- |
-| [fcitx5-table-extra](https://github.com/samwhelp/demo-forum-case/tree/main/demo/fcitx5-table-extra) |
-| [fcitx5-table-extra-each](https://github.com/samwhelp/demo-forum-case/tree/main/demo/fcitx5-table-extra-each) |
