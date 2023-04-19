@@ -16,6 +16,8 @@ has_children: true
 | [gcin](#gcin) | `im-config -n gcin` | `~/.xinputrc` |
 | [hime](#hime) | `im-config -n hime` | `~/.xinputrc` |
 
+> $ man [im-config](https://manpages.ubuntu.com/manpages/jammy/en/man8/im-config.8.html)
+
 
 ## fcitx5
 
