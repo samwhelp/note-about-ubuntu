@@ -1,6 +1,6 @@
 ---
 title: fcitx5-mcbopomofo
-nav_order: 3131
+nav_order: 3111
 has_children: false
 parent: fcitx5
 grand_parent: 中文輸入法
