@@ -56,7 +56,7 @@
 | [Apt sources.list](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/apt-sources-list.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/apt/apt-sources-list) |
 | [Locale 切換](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/locale.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/locale) |
 | [字型的安裝與設定](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/font.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/font-setting/font-match-order) |
-| [中文輸入法](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/im.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/im/fcitx-chewing) |
+| [中文輸入法](https://samwhelp.github.io/note-about-ubuntu/read/subject/im.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/im/fcitx-chewing) |
 | [個人 bin 資料夾](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/bin-dir.html) | |
 
 
