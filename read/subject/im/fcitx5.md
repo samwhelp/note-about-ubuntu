@@ -30,6 +30,7 @@ parent: 中文輸入法
 
 * 「[#16](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=363740#forumpost363740)」- Ubuntu 22.04 LTS (Jammy Jellyfish) Released
 * 「[#41](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=364426#forumpost364426)」- Ubuntu與嘸蝦米: 在fcitx下，(boshiamy)嘸蝦米的使用最為順暢、穩定!（新酷音、m17n、倉頡、輕鬆法亦適用）
+* 「[#1](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=364438#forumpost364438」- fcitx5-mcbopomofo: 小麥注音輸入法 fcitx5 模組
 * Github / fcitx5 / [Discussions](https://github.com/fcitx/fcitx5/discussions)
 
 
