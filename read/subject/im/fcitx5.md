@@ -9,9 +9,9 @@ parent: 中文輸入法
 # fcitx5
 
 
-## 主題
+## 佈景主題
 
-| 主題 |
+| 議題 |
 | --- |
 | [佈景主題](https://samwhelp.github.io/note-about-ubuntu/read/subject/im/fcitx5/themes.html) |
 
@@ -25,6 +25,14 @@ parent: 中文輸入法
 | [fcitx5-table-extra](https://samwhelp.github.io/note-about-ubuntu/read/subject/im/fcitx5/fcitx5-table-extra.html) |
 | [fcitx5-table-boshiamy](https://samwhelp.github.io/note-about-ubuntu/read/subject/im/fcitx5/howto/install-fcitx5-table-boshiamy.html) | 嘸蝦米輸入法 |
 | [fcitx5-table-easy-large](https://samwhelp.github.io/note-about-ubuntu/read/subject/im/fcitx5/howto/install-fcitx5-table-easy-large.html) | 輕鬆輸入法 |
+
+
+## libime
+
+| 議題 |
+| --- |
+| [libime-bin](https://samwhelp.github.io/note-about-ubuntu/read/subject/im/fcitx5/package/libime-bin.html) |
+| [libime_tabledict](https://samwhelp.github.io/note-about-ubuntu/read/subject/im/fcitx5/command/libime_tabledict.html) |
 
 
 ## 相關討論
