@@ -1,11 +1,10 @@
 
-# xdg_user_dir_templates
+# xdg-user-dir-templates
 
 
 ## Config File Path
 
-* [~/Templates/bash.sh](config/xdg-user-dir-templates/Templates/bash.sh)
-* [~/Templates/pygithub.py](config/xdg-user-dir-templates/Templates/pygithub.py)
+* [~/Templates](config/xdg-user-dir-templates/Templates)
 
 
 ## Howto

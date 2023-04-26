@@ -1,14 +1,14 @@
 [Added Associations]
-inode/directory=xftt.desktop;atom.desktop;code-oss.desktop;pcmanfm-qt.desktop;thunar.desktop;pcmanfm.desktop;
+inode/directory=sublime_text.desktop;xftt.desktop;atom.desktop;code-oss.desktop;pcmanfm-qt.desktop;thunar.desktop;pcmanfm.desktop;
 image/png=viewnior.desktop;opset-wallpaper-feh.desktop;xftt.desktop;gpicview.desktop;
 image/jpeg=viewnior.desktop;opset-wallpaper-feh.desktop;xftt.desktop;gpicview.desktop;
 image/gif=viewnior.desktop;opset-wallpaper-feh.desktop;xftt.desktop;gpicview.desktop;
 image/svg+xml=viewnior.desktop;opset-wallpaper-feh.desktop;xftt.desktop;gpicview.desktop;
-text/x-csrc=org.xfce.mousepad.desktop;atom.desktop;xftt.desktop;code-oss.desktop;
-text/plain=org.xfce.mousepad.desktop;atom.desktop;xftt.desktop;code-oss.desktop;
-application/x-shellscript=org.xfce.mousepad.desktop;atom.desktop;xftt.desktop;code-oss.desktop;
-application/x-theme=org.xfce.mousepad.desktop;atom.desktop;xftt.desktop;code-oss.desktop;
-application/json=org.xfce.mousepad.desktop;atom.desktop;xftt.desktop;code-oss.desktop;
+text/x-csrc=org.xfce.mousepad.desktop;sublime_text.desktop;atom.desktop;xftt.desktop;code-oss.desktop;
+text/plain=org.xfce.mousepad.desktop;sublime_text.desktop;atom.desktop;xftt.desktop;code-oss.desktop;
+application/x-shellscript=org.xfce.mousepad.desktop;sublime_text.desktop;atom.desktop;xftt.desktop;code-oss.desktop;
+application/x-theme=org.xfce.mousepad.desktop;sublime_text.desktop;atom.desktop;xftt.desktop;code-oss.desktop;
+application/json=org.xfce.mousepad.desktop;sublime_text.desktop;atom.desktop;xftt.desktop;code-oss.desktop;
 video/x-matroska=mpv.desktop;mediainfo-gui.desktop;xftt.desktop;smplayer.desktop;vlc.desktop;
 video/x-ms-wmv=mpv.desktop;mediainfo-gui.desktop;xftt.desktop;smplayer.desktop;vlc.desktop;
 video/webm=mpv.desktop;mediainfo-gui.desktop;xftt.desktop;smplayer.desktop;vlc.desktop;

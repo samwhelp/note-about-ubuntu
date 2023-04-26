@@ -1,11 +1,12 @@
 
-# xdg_mime_applications
+# xdg
 
 
 ## Config File Path
 
 * [~/.config/mimeapps.list](config/xdg-mime-applications/mimeapps.list)
 * [/usr/share/applications/mimeapps.list](config/xdg-mime-applications/mimeapps.list)
+
 
 ## Howto
 
