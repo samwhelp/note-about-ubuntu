@@ -35,6 +35,11 @@ parent: 中文輸入法
 | [libime_tabledict](https://samwhelp.github.io/note-about-ubuntu/read/subject/im/fcitx5/command/libime_tabledict.html) |
 
 
+## Arch Wiki
+
+* [Fcitx5](https://wiki.archlinux.org/title/Fcitx5)
+
+
 ## 相關討論
 
 * 「[#16](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=363740#forumpost363740)」 - Ubuntu 22.04 LTS (Jammy Jellyfish) Released
