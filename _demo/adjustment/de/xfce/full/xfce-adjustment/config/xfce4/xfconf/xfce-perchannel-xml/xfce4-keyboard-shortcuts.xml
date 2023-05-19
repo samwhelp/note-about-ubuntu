@@ -52,10 +52,10 @@
 			<property name="XF86WWW" type="string" value="exo-open --launch WebBrowser"/>
 			<property name="XF86Calculator" type="string" value="galculator"/>
 			<property name="&lt;Super&gt;p" type="string" value="xfce4-display-settings --minimal"/>
-			<property name="&lt;Shift&gt;&lt;Alt&gt;s" type="string" value="xfwm4-settings"/>
-			<property name="&lt;Primary&gt;&lt;Alt&gt;s" type="string" value="xfce4-appearance-settings"/>
-			<property name="&lt;Shift&gt;&lt;Super&gt;s" type="string" value="xfce4-settings-manager"/>
-			<property name="&lt;Primary&gt;&lt;Super&gt;s" type="string" value="xfce4-settings-editor"/>
+			<property name="&lt;Shift&gt;&lt;Alt&gt;s" type="string" value="xfce4-settings-manager"/>
+			<property name="&lt;Primary&gt;&lt;Alt&gt;s" type="string" value="xfce4-settings-editor"/>
+			<property name="&lt;Shift&gt;&lt;Super&gt;s" type="string" value="xfwm4-settings"/>
+			<property name="&lt;Primary&gt;&lt;Super&gt;s" type="string" value="xfce4-appearance-settings"/>
 			<property name="&lt;Primary&gt;Escape" type="string" value="xfce4-taskmanager"/>
 			<property name="&lt;Primary&gt;&lt;Alt&gt;Delete" type="string" value="xfce4-session-logout"/>
 			<property name="&lt;Shift&gt;&lt;Alt&gt;x" type="string" value="xfce4-session-logout"/>
