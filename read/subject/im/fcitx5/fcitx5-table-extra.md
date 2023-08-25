@@ -42,6 +42,11 @@ grand_parent: 中文輸入法
 * 「[#43](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=364430#forumpost364430)」 - 如何簡易安裝「fcitx5-table-easy-large」(輕鬆輸入法)
 
 
+### 如何才能在網頁瀏覽器上顯示日文？
+
+* 「[#12](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=364600#forumpost364600)」 - 如何簡易安裝「fcitx5-table-boshiamy」 (嘸蝦米輸入法) (**完整步驟**)
+
+
 ## Link
 
 * Search: [fcitx5-table-extra arch](https://www.google.com/search?q=fcitx5-table-extra+arch)
