@@ -79,7 +79,7 @@ show
 run
 
 ``` sh
-cat /usr/share/im-config/data/21_gcin.rc
+cat /usr/share/im-config/data/26_gcin.rc
 ```
 
 show
@@ -92,7 +92,7 @@ show
 run
 
 ``` sh
-cat /usr/share/im-config/data/21_gcin.conf
+cat /usr/share/im-config/data/26_gcin.conf
 ```
 
 show

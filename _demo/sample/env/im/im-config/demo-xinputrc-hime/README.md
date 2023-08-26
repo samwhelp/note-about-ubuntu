@@ -42,8 +42,8 @@ show
 02_cjkv.rc
 09_REMOVE.conf
 09_REMOVE.rc
-21_hime.conf
-21_hime.rc
+21_ibus.conf
+21_ibus.rc
 22_fcitx.conf
 22_fcitx.rc
 23_fcitx5.conf
@@ -79,7 +79,7 @@ show
 run
 
 ``` sh
-cat /usr/share/im-config/data/21_hime.rc
+cat /usr/share/im-config/data/25_hime.rc
 ```
 
 show
@@ -92,7 +92,7 @@ show
 run
 
 ``` sh
-cat /usr/share/im-config/data/21_hime.conf
+cat /usr/share/im-config/data/25_hime.conf
 ```
 
 show

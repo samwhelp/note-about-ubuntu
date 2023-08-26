@@ -79,7 +79,7 @@ show
 run
 
 ``` sh
-cat /usr/share/im-config/data/21_fcitx.rc
+cat /usr/share/im-config/data/22_fcitx.rc
 ```
 
 show
@@ -92,7 +92,7 @@ show
 run
 
 ``` sh
-cat /usr/share/im-config/data/21_fcitx.conf
+cat /usr/share/im-config/data/22_fcitx.conf
 ```
 
 show
