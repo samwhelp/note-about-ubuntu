@@ -15,9 +15,16 @@ has_children: true
 * [https://github.com/torvalds/linux/blob/master/Documentation/x86/microcode.rst](https://github.com/torvalds/linux/blob/master/Documentation/x86/microcode.rst)
 * [https://unix.stackexchange.com/questions/163346/why-is-it-that-my-initrd-only-has-one-directory-namely-kernel](https://unix.stackexchange.com/questions/163346/why-is-it-that-my-initrd-only-has-one-directory-namely-kernel)
 
+
 ## 相關討論
 
 * [夾帶 microcode 的 initrd 解法](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=362036#forumpost362036)
+
+
+## 相關專案
+
+* [tool-initramfs-extract](https://samwhelp.github.io/tool-initramfs-extract/) ([GitHub](https://github.com/samwhelp/tool-initramfs-extract))
+
 
 ## 相關議題
 
