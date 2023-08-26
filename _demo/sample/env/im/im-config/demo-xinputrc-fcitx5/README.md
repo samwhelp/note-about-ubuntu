@@ -20,4 +20,4 @@ im-config -n fcitx5
 
 | Config File Path |
 | --- |
-| [~/.xinputrc](./asset/overlay/ect/skel/.xinputrc) |
+| [~/.xinputrc](./asset/overlay/etc/skel/.xinputrc) |
