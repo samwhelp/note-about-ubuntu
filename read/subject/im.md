@@ -31,7 +31,9 @@ has_children: true
 
 ## ibus
 
-* [ibus-chewing](https://samwhelp.github.io/note-about-ubuntu/read/subject/im/ibus/ibus-chewing.html)
+| 模組 | 輸入法 |
+| --- | --- |
+| [ibus-chewing](https://samwhelp.github.io/note-about-ubuntu/read/subject/im/ibus/ibus-chewing.html) | 新酷音輸入法 |
 
 
 ### switch-input-source
@@ -43,12 +45,16 @@ has_children: true
 
 ## gcin
 
-* [gcin](https://samwhelp.github.io/note-about-ubuntu/read/subject/im/gcin.html)
+| 輸入法 |
+| --- |
+| [gcin](https://samwhelp.github.io/note-about-ubuntu/read/subject/im/gcin.html) |
 
 
 ## hime
 
-* [hime](https://samwhelp.github.io/note-about-ubuntu/read/subject/im/hime.html)
+| 輸入法 |
+| --- |
+| [hime](https://samwhelp.github.io/note-about-ubuntu/read/subject/im/hime.html) |
 
 
 ## 相關文件
