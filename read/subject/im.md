@@ -12,9 +12,9 @@ has_children: true
 | 輸入法框架 | 切換指令 | 設定檔路徑 |
 | --- | --- | --- |
 | [fcitx5](#fcitx5) | `im-config -n fcitx5` | [~/.xinputrc](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/sample/env/im/im-config/demo-xinputrc-fcitx5/asset/overlay/etc/skel/.xinputrc) |
-| [ibus](#ibus) | `im-config -n ibus` | `~/.xinputrc` |
-| [gcin](#gcin) | `im-config -n gcin` | `~/.xinputrc` |
-| [hime](#hime) | `im-config -n hime` | `~/.xinputrc` |
+| [ibus](#ibus) | `im-config -n ibus` | [~/.xinputrc](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/sample/env/im/im-config/demo-xinputrc-ibus/asset/overlay/etc/skel/.xinputrc) |
+| [gcin](#gcin) | `im-config -n gcin` | [~/.xinputrc](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/sample/env/im/im-config/demo-xinputrc-gcin/asset/overlay/etc/skel/.xinputrc) |
+| [hime](#hime) | [~/.xinputrc](https://github.com/samwhelp/note-about-ubuntu/blob/gh-pages/_demo/sample/env/im/im-config/demo-xinputrc-hime/asset/overlay/etc/skel/.xinputrc) |
 
 > $ man [im-config](https://manpages.ubuntu.com/manpages/jammy/en/man8/im-config.8.html)
 
