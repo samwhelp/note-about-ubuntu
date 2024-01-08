@@ -51,3 +51,14 @@ grand_parent: 佈景主題
 | Kde Theme |
 | --- |
 | [gruvboxplasma](https://www.opencode.net/adhe/gruvboxplasma/) |
+
+
+| Pling / Kde Theme / Gruvbox |
+| --- |
+| [global-theme](https://www.pling.com/p/1327723/) |
+| [icon-theme](https://www.pling.com/p/1327720/) |
+| [color-schemes](https://www.pling.com/p/1327717/) |
+| [aurorae-theme](https://www.pling.com/p/1327718/) |
+| [plasma-theme](https://www.pling.com/p/1327719/) |
+| [konsole-theme](https://www.pling.com/p/1327725/) |
+
