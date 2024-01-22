@@ -8,4 +8,4 @@
 ##
 
 
-#sudo dd if=./ubuntu-budgie-22.04.1-desktop-amd64.iso of=/dev/sdb bs=4M status=progress oflag=sync
+#sudo dd if=./ubuntu-budgie-22.04.3-desktop-amd64.iso of=/dev/sdb bs=4M status=progress oflag=sync

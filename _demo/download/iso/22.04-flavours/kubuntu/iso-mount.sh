@@ -9,7 +9,7 @@ mount_iso () {
 }
 
 mount_kubuntu () {
-	sudo mount -o loop kubuntu-22.04.1-desktop-amd64.iso iso-root
+	sudo mount -o loop kubuntu-22.04.3-desktop-amd64.iso iso-root
 }
 
 __main__ () {

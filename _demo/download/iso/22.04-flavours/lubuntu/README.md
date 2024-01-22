@@ -5,7 +5,7 @@
 ## Link
 
 * https://cdimage.ubuntu.com/
-* https://cdimage.ubuntu.com/lubuntu/releases/22.04/release/
+* https://cdimage.ubuntu.com/lubuntu/releases/22.04.3/release/
 * https://cdimage.ubuntu.com/lubuntu/releases/jammy/release/
 * [How to verify your Ubuntu download](https://ubuntu.com/tutorials/how-to-verify-ubuntu#1-overview)
 

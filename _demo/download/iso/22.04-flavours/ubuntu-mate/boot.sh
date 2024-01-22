@@ -11,7 +11,7 @@ boot_ubuntu_mate () {
 		-machine memory-backend=pc.ram \
 		-m 1024M \
 		-monitor stdio \
-		-cdrom ubuntu-mate-22.04.1-desktop-amd64.iso
+		-cdrom ubuntu-mate-22.04.3-desktop-amd64.iso
 }
 
 __main__ () {

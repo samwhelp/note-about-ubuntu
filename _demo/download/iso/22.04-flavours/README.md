@@ -18,13 +18,13 @@
 ## Download ISO
 
 ``` sh
-wget -c 'https://cdimage.ubuntu.com/xubuntu/releases/22.04/release/xubuntu-22.04-desktop-amd64.iso'
+wget -c 'https://cdimage.ubuntu.com/xubuntu/releases/22.04.3/release/xubuntu-22.04.3-desktop-amd64.iso'
 ```
 
 ## Mount ISO
 
 ``` sh
-sudo mount -o loop xubuntu-22.04-desktop-amd64.iso iso-root
+sudo mount -o loop xubuntu-22.04.3-desktop-amd64.iso iso-root
 ```
 
 ## Mount SquashFS

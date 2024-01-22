@@ -9,7 +9,7 @@ mount_iso () {
 }
 
 mount_ubuntu_budgie () {
-	sudo mount -o loop ubuntu-budgie-22.04.1-desktop-amd64.iso iso-root
+	sudo mount -o loop ubuntu-budgie-22.04.3-desktop-amd64.iso iso-root
 }
 
 __main__ () {

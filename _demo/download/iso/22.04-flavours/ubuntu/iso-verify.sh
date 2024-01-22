@@ -5,8 +5,8 @@ sha256sum -c SHA256SUMS
 
 
 ##
-## ubuntu-22.04.1-desktop-amd64.iso: OK
-## ubuntu-22.04.1-live-server-amd64.iso: OK
+## ubuntu-22.04.3-desktop-amd64.iso: OK
+## ubuntu-22.04.3-live-server-amd64.iso: OK
 ##
 
 
@@ -17,6 +17,6 @@ sha256sum -c SHA256SUMS
 
 
 ##
-## https://ubuntu.com/download/desktop/thank-you?version=22.04.1&architecture=amd64#
-## echo "c396e956a9f52c418397867d1ea5c0cf1a99a49dcf648b086d2fb762330cc88d *ubuntu-22.04.1-desktop-amd64.iso" | shasum -a 256 --check
+## https://ubuntu.com/download/desktop/thank-you?version=22.04.3&architecture=amd64#
+## echo "c396e956a9f52c418397867d1ea5c0cf1a99a49dcf648b086d2fb762330cc88d *ubuntu-22.04.3-desktop-amd64.iso" | shasum -a 256 --check
 ##

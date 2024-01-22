@@ -9,7 +9,7 @@ mount_iso () {
 }
 
 mount_ubuntustudio () {
-	sudo mount -o loop ubuntustudio-22.04.1-dvd-amd64.iso iso-root
+	sudo mount -o loop ubuntustudio-22.04.3-dvd-amd64.iso iso-root
 }
 
 __main__ () {

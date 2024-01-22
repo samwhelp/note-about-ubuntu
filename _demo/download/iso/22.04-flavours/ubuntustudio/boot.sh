@@ -11,7 +11,7 @@ boot_ubuntustudio () {
 		-machine memory-backend=pc.ram \
 		-m 1024M \
 		-monitor stdio \
-		-cdrom ubuntustudio-22.04.1-dvd-amd64.iso
+		-cdrom ubuntustudio-22.04.3-dvd-amd64.iso
 }
 
 __main__ () {

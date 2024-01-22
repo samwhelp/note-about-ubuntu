@@ -8,4 +8,4 @@
 ##
 
 
-#sudo dd if=./ubuntustudio-22.04.1-dvd-amd64.iso of=/dev/sdb bs=4M status=progress oflag=sync
+#sudo dd if=./ubuntustudio-22.04.3-dvd-amd64.iso of=/dev/sdb bs=4M status=progress oflag=sync
