@@ -9,7 +9,7 @@ mount_iso () {
 }
 
 mount_xubuntu () {
-	sudo mount -o loop xubuntu-22.04-desktop-amd64.iso mnt
+	sudo mount -o loop xubuntu-22.04.3-desktop-amd64.iso mnt
 }
 
 __main__ () {

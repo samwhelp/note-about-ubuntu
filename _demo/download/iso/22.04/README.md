@@ -14,7 +14,7 @@
 mount iso
 
 ``` sh
-sudo mount -o loop xubuntu-22.04-desktop-amd64.iso mnt
+sudo mount -o loop xubuntu-22.04.3-desktop-amd64.iso mnt
 ```
 
 run

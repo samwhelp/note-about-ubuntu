@@ -8,10 +8,10 @@
 ##
 
 
-#sudo dd if=./ubuntu-22.04-desktop-amd64.iso of=/dev/sdb bs=4M status=progress oflag=sync
-#sudo dd if=./xubuntu-22.04-desktop-amd64.iso of=/dev/sdb bs=4M status=progress oflag=sync
-#sudo dd if=./kubuntu-22.04-desktop-amd64.iso of=/dev/sdb bs=4M status=progress oflag=sync
-#sudo dd if=./lubuntu-22.04-desktop-amd64.iso of=/dev/sdb bs=4M status=progress oflag=sync
-#sudo dd if=./ubuntu-mate-22.04-desktop-amd64.iso of=/dev/sdb bs=4M status=progress oflag=sync
-#sudo dd if=./ubuntu-budgie-22.04-desktop-amd64.iso of=/dev/sdb bs=4M status=progress oflag=sync
-#sudo dd if=./ubuntustudio-22.04-dvd-amd64.iso of=/dev/sdb bs=4M status=progress oflag=sync
+#sudo dd if=./ubuntu-22.04.3-desktop-amd64.iso of=/dev/sdb bs=4M status=progress oflag=sync
+#sudo dd if=./xubuntu-22.04.3-desktop-amd64.iso of=/dev/sdb bs=4M status=progress oflag=sync
+#sudo dd if=./kubuntu-22.04.3-desktop-amd64.iso of=/dev/sdb bs=4M status=progress oflag=sync
+#sudo dd if=./lubuntu-22.04.3-desktop-amd64.iso of=/dev/sdb bs=4M status=progress oflag=sync
+#sudo dd if=./ubuntu-mate-22.04.3-desktop-amd64.iso of=/dev/sdb bs=4M status=progress oflag=sync
+#sudo dd if=./ubuntu-budgie-22.04.3-desktop-amd64.iso of=/dev/sdb bs=4M status=progress oflag=sync
+#sudo dd if=./ubuntustudio-22.04.3-dvd-amd64.iso of=/dev/sdb bs=4M status=progress oflag=sync
