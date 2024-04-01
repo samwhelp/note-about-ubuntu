@@ -16,7 +16,9 @@ grand_parent: 中文輸入法
 
 | Link |
 | --- |
+| Kubuntu / [如何安裝「輕鬆輸入法」](https://samwhelp.github.io/note-about-kubuntu/read/subject/input-method/fcitx5/table/fcitx5-table-easy-large.html) |
 | Lubuntu / [如何安裝「輕鬆輸入法」](https://samwhelp.github.io/note-about-lubuntu/read/subject/input-method/fcitx5/table/fcitx5-table-easy-large.html) |
+| Xubuntu / [如何安裝「輕鬆輸入法」](https://samwhelp.github.io/note-about-xubuntu/read/subject/input-method/fcitx5/table/fcitx5-table-easy-large.html) |
 
 
 
