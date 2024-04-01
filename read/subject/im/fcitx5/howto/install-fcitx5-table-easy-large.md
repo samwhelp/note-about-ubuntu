@@ -10,6 +10,17 @@ grand_parent: 中文輸入法
 # 如何簡易安裝「fcitx5-table-easy-large」
 
 
+## 後記
+
+> 在「Ubuntu 24.04」已經有收錄打包成「[citx5-table-easy-large](https://packages.ubuntu.com/noble/fcitx5-table-easy-large)」這個「Package」。所以只要直接安裝該「Package」就行了。詳細操作步驟，可以參考我在其他篇的紀錄。
+
+| Link |
+| --- |
+| Lubuntu / [如何安裝「輕鬆輸入法」](https://samwhelp.github.io/note-about-lubuntu/read/subject/input-method/fcitx5/table/fcitx5-table-easy-large.html) |
+
+
+
+
 ## Demo
 
 | Demo |
