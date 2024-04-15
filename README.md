@@ -228,7 +228,7 @@
 | [play-ubuntu-18.04-ppa](https://github.com/samwhelp/play-ubuntu-18.04-ppa) |
 
 
-## samwhelp
+## Samwhelp
 
 * [個人筆記](https://samwhelp.github.io/book/)
 * [System Modeling](https://samwhelp.github.io/system-modeling/) / ([GitHub](https://github.com/samwhelp/system-modeling))
