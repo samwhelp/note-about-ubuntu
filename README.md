@@ -14,9 +14,14 @@
 
 > 這個筆記，目前是基於「[**Ubuntu 22.04 LTS (Jammy Jellyfish)**](https://samwhelp.github.io/note-about-ubuntu/read/start/download/download_iso.html)」撰寫的。
 
+> Ubuntu 的「桌面環境」是採用「gnome-shell」，所以相關的微調，請參考「[Ubuntu Gnome Shell 探索筆記](https://samwhelp.github.io/note-about-ubuntu-gnome-shell/) 」。
+
+
+
 
 ## 主題
 
+* [Ubuntu Adjustment](#ubuntu-adjustment)
 * [入門](#入門)
 * [專案](#專案)
 * [系統環境微調](#系統環境微調)
@@ -25,6 +30,33 @@
 * [視窗管理器微調](#視窗管理器微調)
 * [工具微調](#工具微調)
 * [相關筆記](#相關筆記)
+
+
+
+
+## Ubuntu Adjustment
+
+> 以下「Ubuntu」相關的「探索筆記」目前是根據「24.04」撰寫的。
+
+| Link | GitHub |
+| ---- | ------ |
+| [Kubuntu 探索筆記](https://samwhelp.github.io/note-about-kubuntu/) | [GitHub](https://github.com/samwhelp/note-about-kubuntu) |
+| [Lubuntu 探索筆記](https://samwhelp.github.io/note-about-lubuntu/) | [GitHub](https://github.com/samwhelp/note-about-lubuntu) |
+| [Xubuntu 探索筆記](https://samwhelp.github.io/note-about-xubuntu/) | [GitHub](https://github.com/samwhelp/note-about-xubuntu) |
+| [Ubuntu Mate 探索筆記](https://samwhelp.github.io/note-about-ubuntu-mate/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-mate) |
+| [Ubuntu Cinnamon 探索筆記](https://samwhelp.github.io/note-about-ubuntu-cinnamon/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-cinnamon) |
+| [Ubuntu Budgie 探索筆記](https://samwhelp.github.io/note-about-ubuntu-budgie/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-budgie) |
+| [Ubuntu Gnome Shell 探索筆記](https://samwhelp.github.io/note-about-ubuntu-gnome-shell/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-gnome-shell) |
+| [Ubuntu Gnome Flashback 探索筆記](https://samwhelp.github.io/note-about-ubuntu-gnome-shell/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-gnome-shell) |
+| [Ubuntu Sway 探索筆記](https://samwhelp.github.io/note-about-ubuntu-sway/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-sway) |
+
+
+| Link | GitHub |
+| ---- | ------ |
+| [Debian 探索筆記](https://samwhelp.github.io/note-about-debian/) | [GitHub](https://github.com/samwhelp/note-about-debian) |
+| [Linux Mint 探索筆記](https://samwhelp.github.io/note-about-linuxmint/) | [GitHub](https://github.com/samwhelp/note-about-linuxmint) |
+
+
 
 
 ## 入門
@@ -155,21 +187,6 @@
 
 
 ## 相關筆記
-
-| Link | GitHub |
-| ---- | ------ |
-| [Debian 探索筆記](https://samwhelp.github.io/note-about-debian/) | [GitHub](https://github.com/samwhelp/note-about-debian) |
-| [Xubuntu 探索筆記](https://samwhelp.github.io/note-about-xubuntu/) | [GitHub](https://github.com/samwhelp/note-about-xubuntu) |
-| [Kubuntu 探索筆記](https://samwhelp.github.io/note-about-kubuntu/) | [GitHub](https://github.com/samwhelp/note-about-kubuntu) |
-| [Lubuntu 探索筆記](https://samwhelp.github.io/note-about-lubuntu/) | [GitHub](https://github.com/samwhelp/note-about-lubuntu) |
-| [Ubuntu Mate 探索筆記](https://samwhelp.github.io/note-about-ubuntu-mate/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-mate) |
-| [Ubuntu Cinnamon 探索筆記](https://samwhelp.github.io/note-about-ubuntu-cinnamon/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-cinnamon) |
-| [Ubuntu Budgie 探索筆記](https://samwhelp.github.io/note-about-ubuntu-budgie/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-budgie) |
-| [Ubuntu Gnome Shell 探索筆記](https://samwhelp.github.io/note-about-ubuntu-gnome-shell/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-gnome-shell) |
-| [Ubuntu Gnome Flashback 探索筆記](https://samwhelp.github.io/note-about-ubuntu-gnome-shell/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-gnome-shell) |
-| [Ubuntu Sway 探索筆記](https://samwhelp.github.io/note-about-ubuntu-sway/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-sway) |
-| [Linux Mint 探索筆記](https://samwhelp.github.io/note-about-linuxmint/) | [GitHub](https://github.com/samwhelp/note-about-linuxmint) |
-
 
 | Ubuntu 筆記 | 微調腳本 | 討論串 |
 | --- | --- | --- |
