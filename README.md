@@ -55,6 +55,7 @@
 | ---- | ------ |
 | [Debian 探索筆記](https://samwhelp.github.io/note-about-debian/) | [GitHub](https://github.com/samwhelp/note-about-debian) |
 | [Linux Mint 探索筆記](https://samwhelp.github.io/note-about-linuxmint/) | [GitHub](https://github.com/samwhelp/note-about-linuxmint) |
+| [Popos Cosmic 探索筆記](https://samwhelp.github.io/note-about-popos-cosmic/) | [GitHub](https://github.com/samwhelp/note-about-popos-cosmic) |
 
 
 
