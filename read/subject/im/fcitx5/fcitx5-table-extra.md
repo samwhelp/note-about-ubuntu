@@ -26,12 +26,16 @@ grand_parent: 中文輸入法
 ## 相關討論
 
 
+
+
 ### Ubuntu 22.04 LTS (Jammy Jellyfish) Released
 
 * 「[#16](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=363740#forumpost363740)」 - 關於「fcitx5-table-extra」
 * 「[#18](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=363744#forumpost363744)」 - 如何編譯「fcitx5-table-extra」並且簡易打包成「Debian Package」
 * 「[#19](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=363748#forumpost363748)」 - 如何編譯「fcitx5-table-extra」並且打包成「Debian Package」和「Debian Source Package」
 * 「[#20](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=363750#forumpost363750)」 - 如何編譯「fcitx5-table-extra」並且打包成多個「Debian Package」
+
+
 
 
 ### Ubuntu與嘸蝦米: 在fcitx下，(boshiamy)嘸蝦米的使用最為順暢、穩定!（新酷音、m17n、倉頡、輕鬆法亦適用）
@@ -42,9 +46,21 @@ grand_parent: 中文輸入法
 * 「[#43](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=364430#forumpost364430)」 - 如何簡易安裝「fcitx5-table-easy-large」(輕鬆輸入法)
 
 
+
+
 ### 如何才能在網頁瀏覽器上顯示日文？
 
 * 「[#12](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=364600#forumpost364600)」 - 如何簡易安裝「fcitx5-table-boshiamy」 (嘸蝦米輸入法) (**完整步驟**)
+* [在 fcitx 下，(boshiamy)嘸蝦米的使用最為順暢穩定，但可惜沒有日文模式](https://github.com/samwhelp/note-about-ubuntu/issues/1)
+
+
+
+
+## 額外參考
+
+* [如何用嘸蝦米打簡體字或日文平假名、片假名？](https://alanhome0814.blogspot.com/2023/06/blog-post.html) ([教學影片](https://www.youtube.com/watch?v=YxZyVaDMl28))
+
+
 
 
 ## Link
