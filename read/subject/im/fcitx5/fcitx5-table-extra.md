@@ -51,7 +51,6 @@ grand_parent: 中文輸入法
 ### 如何才能在網頁瀏覽器上顯示日文？
 
 * 「[#12](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=364600#forumpost364600)」 - 如何簡易安裝「fcitx5-table-boshiamy」 (嘸蝦米輸入法) (**完整步驟**)
-* [在 fcitx 下，(boshiamy)嘸蝦米的使用最為順暢穩定，但可惜沒有日文模式](https://github.com/samwhelp/note-about-ubuntu/issues/1)
 
 
 
@@ -59,6 +58,7 @@ grand_parent: 中文輸入法
 ## 額外參考
 
 * [如何用嘸蝦米打簡體字或日文平假名、片假名？](https://alanhome0814.blogspot.com/2023/06/blog-post.html) ([教學影片](https://www.youtube.com/watch?v=YxZyVaDMl28))
+* [在 fcitx 下，(boshiamy)嘸蝦米的使用最為順暢穩定，但可惜沒有日文模式](https://github.com/samwhelp/note-about-ubuntu/issues/1)
 
 
 
