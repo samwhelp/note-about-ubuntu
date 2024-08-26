@@ -68,3 +68,10 @@ grand_parent: 中文輸入法
 * Search: [fcitx5-table-extra arch](https://www.google.com/search?q=fcitx5-table-extra+arch)
 * Arch Package / [fcitx5-table-extra](https://archlinux.org/packages/community/any/fcitx5-table-extra/) / [Download From Mirror](https://archlinux.org/packages/community/any/fcitx5-table-extra/download) / [PKGBUILD](https://github.com/archlinux/svntogit-community/blob/packages/fcitx5-table-extra/trunk/PKGBUILD)
 * Fcitx Wiki / [Compile from source](https://fcitx-im.org/wiki/Compile_from_source)
+
+
+
+
+## 線上工具
+
+* [嘸蝦米查碼：嘸蝦米輸入法查碼程式](https://boshiamy.then.tw/)
