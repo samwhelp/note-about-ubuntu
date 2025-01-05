@@ -9,15 +9,33 @@ parent: 連結
 # iso-remix
 
 
+
+
 ## Article
 
-* [改裝 Ubuntu](http://amitmason.blogspot.com/2011/04/ubuntu.html)
+| Article |
+| ------- |
+| [改裝 Ubuntu](http://amitmason.blogspot.com/2011/04/ubuntu.html) |
+| [How to Create Custom Debian Based ISO](https://dev.to/vaiolabs_io/how-to-create-custom-debian-based-iso-4g37) |
+
+
+
+
+## 相關筆記
+
+| 相關筆記 |
+| ------- |
+| [Remix Linux Distro ISO / 探索筆記](https://samwhelp.github.io/note-about-remix-linux-distro-iso/) |
+
+
 
 
 ## Case
 
 * GitLab / [ubuntu-remixes](https://gitlab.com/ubuntu-unity/ubuntu-remixes)
 * GitHub / [Ubuntu-Remixes](https://github.com/Ubuntu-Remixes)
+
+
 
 
 ## Distro
