@@ -36,6 +36,8 @@ parent: 連結
 * Ubuntu Cinnamon / [iso-builder-devel](https://github.com/Ubuntu-Cinnamon-Remix/iso-builder-devel) / [iso-builder-old-archive](https://github.com/Ubuntu-Cinnamon-Remix/iso-builder-old-archive)
 * UbuntuDDE / [iso-builder](https://github.com/UbuntuDDE/iso-builder)
 * Ubuntu-Sway / [iso-builder](https://github.com/Ubuntu-Sway/iso-builder)
+* rhino-linux / [os](https://github.com/rhino-linux/os)
+* Vanilla-OS / [live-iso](https://github.com/Vanilla-OS/live-iso)
 
 
 ## live-build
