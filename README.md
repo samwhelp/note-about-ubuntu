@@ -51,10 +51,16 @@
 | [Ubuntu Sway 探索筆記](https://samwhelp.github.io/note-about-ubuntu-sway/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-sway) |
 
 
+| [Linux Mint 探索筆記](https://samwhelp.github.io/note-about-linuxmint/) | GitHub |
+| ---- | ------ |
+| [LinuxMint Cinnamon 探索筆記](https://samwhelp.github.io/note-about-linuxmint-cinnamon/) | [GitHub](https://github.com/samwhelp/note-about-linuxmint-cinnamon) |
+| [LinuxMint Mate 探索筆記](https://samwhelp.github.io/note-about-linuxmint-mate/) | [GitHub](https://github.com/samwhelp/note-about-linuxmint-mate) |
+| [LinuxMint Xfce 探索筆記](https://samwhelp.github.io/note-about-linuxmint-xfce/) | [GitHub](https://github.com/samwhelp/note-about-linuxmint-xfce) |
+
 | Link | GitHub |
 | ---- | ------ |
 | [Debian 探索筆記](https://samwhelp.github.io/note-about-debian/) | [GitHub](https://github.com/samwhelp/note-about-debian) |
-| [Linux Mint 探索筆記](https://samwhelp.github.io/note-about-linuxmint/) | [GitHub](https://github.com/samwhelp/note-about-linuxmint) |
+| [Rhino Linux 探索筆記](https://samwhelp.github.io/note-about-rhinolinux/) | [GitHub](https://github.com/samwhelp/note-about-rhinolinux) |
 | [Popos Cosmic 探索筆記](https://samwhelp.github.io/note-about-popos-cosmic/) | [GitHub](https://github.com/samwhelp/note-about-popos-cosmic) |
 
 
@@ -73,6 +79,8 @@
 | [Explore ISO](https://samwhelp.github.io/note-about-ubuntu/read/start/download/explore_iso.html) |
 
 
+
+
 ## 專案
 
 | 專案 |
@@ -80,11 +88,15 @@
 | [ubuntu-adjustment](https://samwhelp.github.io/note-about-ubuntu/read/project/ubuntu-adjustment/) |
 
 
+
+
 ## Ubuntu Flavours
 
 | Flavours |
 | --- |
 | [Ubuntu](https://samwhelp.github.io/note-about-ubuntu/read/flavours/ubuntu/) |
+
+
 
 
 ## 系統環境微調
@@ -97,6 +109,8 @@
 | [字型的安裝與設定](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/font.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/font-setting/font-match-order) |
 | [中文輸入法](https://samwhelp.github.io/note-about-ubuntu/read/subject/im.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/im/fcitx-chewing) |
 | [個人 bin 資料夾](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/env/bin-dir.html) | |
+
+
 
 
 ## 外觀微調
@@ -121,6 +135,8 @@
 | [sddm-theme](https://samwhelp.github.io/note-about-ubuntu/read/subject/dm/sddm/theme.html) |
 
 
+
+
 ## 桌面環境微調
 
 | 桌面環境 | 微調腳本 |
@@ -133,11 +149,15 @@
 | [kde-plasma](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/kde/) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_legacy/22.10/adjustment/de/kde-plasma) |
 
 
+
+
 ## 視窗管理器微調
 
 | 視窗管理器 | 微調腳本 |
 | --- | --- |
 | [openbox](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/wm/openbox.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/wm/openbox) |
+
+
 
 
 ## 工具微調
