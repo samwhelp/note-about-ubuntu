@@ -9,6 +9,8 @@ parent: 桌面環境
 # xfce
 
 
+
+
 ## 主題
 
 * [如何安裝](#如何安裝)
@@ -17,9 +19,13 @@ parent: 桌面環境
 * [相關筆記](#相關筆記)
 
 
+
+
 ## 如何安裝
 
 * [如何安裝 Xfce Desktop](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/xfce/install.html)
+
+
 
 
 ## 微調腳本
@@ -32,8 +38,9 @@ parent: 桌面環境
 | [plank](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/dock/plank) |
 
 
-## Dock
 
+
+## Dock
 
 | Dock | 微調腳本 | Autostart |
 | --- | --- | --- |
@@ -42,6 +49,12 @@ parent: 桌面環境
 
 
 
+
 ## 相關筆記
 
-* [xfce 探索筆記](https://samwhelp.github.io/note-about-xfce/)
+| Link | GitHub |
+| ---- | ------ |
+| [Xfce 探索筆記](https://samwhelp.github.io/note-about-xfce/) | [GitHub](https://github.com/samwhelp/note-about-xfce) |
+| [Linux Mint Xfce 探索筆記](https://samwhelp.github.io/note-about-linuxmint-xfce/) | [GitHub](https://github.com/samwhelp/note-about-linuxmint-xfce) |
+| [Xubuntu 探索筆記](https://samwhelp.github.io/note-about-ubuntu-xubuntu/) | [GitHub](https://github.com/samwhelp/note-about-xubuntu) |
+| [Fedora Xfce 探索筆記](https://samwhelp.github.io/note-about-fedora-xfce/) | [GitHub](https://github.com/samwhelp/note-about-fedora-xfce) |
