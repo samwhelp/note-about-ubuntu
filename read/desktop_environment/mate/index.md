@@ -9,6 +9,8 @@ parent: 桌面環境
 # mate
 
 
+
+
 ## 主題
 
 * [如何安裝](#如何安裝)
@@ -24,9 +26,13 @@ parent: 桌面環境
 * [相關討論](#相關討論)
 
 
+
+
 ## 如何安裝
 
 * [如何安裝 Mate Desktop](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/mate/install.html)
+
+
 
 
 ## 微調腳本
@@ -44,11 +50,15 @@ parent: 桌面環境
 | [plank](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/dock/plank) |
 
 
+
+
 ## 主要設定
 
 | 主要設定 | 微調腳本 |
 | --- | --- |
 | [config-main](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/mate/adjustment/config-main.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/mate/part/mate-config-main) |
+
+
 
 
 ## 中文輸入法
@@ -59,12 +69,16 @@ parent: 桌面環境
 | [fcitx-chewing](https://samwhelp.github.io/note-about-ubuntu/read/subject/im/fcitx/fcitx-chewing.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/im/fcitx-chewing) |
 
 
+
+
 ## 更改外觀
 
 | 更改外觀 | 微調腳本 |
 | --- | --- |
 | [更改桌面圖片](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/mate/adjustment/wallpaper.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/mate/part/mate-wallpaper-default) |
 | [更改佈景主題](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/mate/adjustment/theme.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/mate/part/mate-theme-main) |
+
+
 
 
 ## 按鍵綁定
@@ -75,12 +89,16 @@ parent: 桌面環境
 | [keybind-custom](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/mate/adjustment/keybind-custom.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/mate/part/mate-keybind-custom) |
 
 
+
+
 ## Dock
 
 | Dock | 微調腳本 | Autostart |
 | --- | --- | --- |
 | [cairo-dock](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/mate/adjustment/dock-cairo-dock.html) |  | [Autostart](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/mate/part/mate-autostart-cairo-dock) |
 | [plank](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/mate/adjustment/dock-plank.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/dock/plank) | [Autostart](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/mate/part/mate-autostart-plank) |
+
+
 
 
 ## Favorite Apps
@@ -90,13 +108,25 @@ parent: 桌面環境
 | [favorite-apps](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/mate/adjustment/favorite-apps.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/mate/part/mate-favorite-apps) |
 
 
+
+
 ## 工具微調
 
 * [更多的工具微調](https://samwhelp.github.io/note-about-ubuntu/read/adjustment/tool.html)
 
+
+
+
 ## 相關筆記
 
-* [mate 探索筆記](https://samwhelp.github.io/note-about-mate/)
+| Link | GitHub |
+| ---- | ------ |
+| [Mate Desktop 探索筆記](https://samwhelp.github.io/note-about-mate/) | [GitHub](https://github.com/samwhelp/note-about-mate) |
+| [Linux Mint Mate 探索筆記](https://samwhelp.github.io/note-about-linuxmint-mate/) | [GitHub](https://github.com/samwhelp/note-about-linuxmint-mate) |
+| [Ubuntu Mate 探索筆記](https://samwhelp.github.io/note-about-ubuntu-mate/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-mate) |
+| [Fedora Mate 探索筆記](https://samwhelp.github.io/note-about-fedora-mate/) | [GitHub](https://github.com/samwhelp/note-about-fedora-mate) |
+
+
 
 
 ## 相關討論

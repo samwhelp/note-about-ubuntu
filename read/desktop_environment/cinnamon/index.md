@@ -9,6 +9,8 @@ parent: 桌面環境
 # cinnamon
 
 
+
+
 ## 主題
 
 * [如何安裝](#如何安裝)
@@ -25,9 +27,13 @@ parent: 桌面環境
 * [相關的設定工具](#相關的設定工具)
 
 
+
+
 ## 如何安裝
 
 * [如何安裝 Cinnamon Desktop](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/cinnamon/install.html)
+
+
 
 
 ## 微調腳本
@@ -46,9 +52,13 @@ parent: 桌面環境
 | [cinnamon-hot-corner](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-hot-corner) |
 
 
+
+
 ## 相關的設定工具
 
 * [cinnamon-settings](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/cinnamon/tool/cinnamon-settings.html)
+
+
 
 
 ## 主要設定
@@ -56,6 +66,8 @@ parent: 桌面環境
 | 主要設定 | 微調腳本 |
 | --- | --- |
 | [config-main](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/cinnamon/adjustment/config-main.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-config-main) |
+
+
 
 
 ## 中文輸入法
@@ -66,12 +78,16 @@ parent: 桌面環境
 | [fcitx-chewing](https://samwhelp.github.io/note-about-ubuntu/read/subject/im/fcitx/fcitx-chewing.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/env/im/fcitx-chewing) |
 
 
+
+
 ## 更改外觀
 
 | 更改外觀 | 微調腳本 |
 | --- | --- |
 | [更改桌面圖片](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/cinnamon/adjustment/wallpaper.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-wallpaper-default) |
 | [更改佈景主題](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/cinnamon/adjustment/theme.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-theme-main) |
+
+
 
 
 ## 按鍵綁定
@@ -86,12 +102,16 @@ parent: 桌面環境
 > 請參考「[config-main](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/cinnamon/adjustment/config-main.html)」該頁的說明。
 
 
+
+
 ## Dock
 
 | Dock | 微調腳本 | Autostart |
 | --- | --- | --- |
 | [cairo-dock](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/cinnamon/adjustment/dock-cairo-dock.html) |  | [Autostart](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-autostart-cairo-dock) |
 | [plank](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/cinnamon/adjustment/dock-plank.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/dock/plank) | [Autostart](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-autostart-plank) |
+
+
 
 
 ## Favorite Apps
@@ -101,11 +121,15 @@ parent: 桌面環境
 | [favorite-apps](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/cinnamon/adjustment/favorite-apps.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-favorite-apps) |
 
 
+
+
 ## Hot Corner
 
 | Hot Corner | 微調腳本 |
 | --- | --- |
 | [hot-corner](https://samwhelp.github.io/note-about-ubuntu/read/desktop_environment/cinnamon/adjustment/hot-corner.html) | [微調腳本](https://github.com/samwhelp/note-about-ubuntu/tree/gh-pages/_demo/adjustment/de/cinnamon/part/cinnamon-hot-corner) |
+
+
 
 
 ## 工具微調
