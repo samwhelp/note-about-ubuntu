@@ -29,4 +29,10 @@ parent: 桌面環境
 
 ## 相關筆記
 
-* [KDE 探索筆記](https://samwhelp.github.io/note-about-kde/)
+| Link | GitHub |
+| ---- | ------ |
+| [Kde 探索筆記](https://samwhelp.github.io/note-about-kde/) | [GitHub](https://github.com/samwhelp/note-about-kde) |
+| [Kde Neon 探索筆記](https://samwhelp.github.io/note-about-kde-neon/) | [GitHub](https://github.com/samwhelp/note-about-kde-neon) |
+| [Kubuntu 探索筆記](https://samwhelp.github.io/note-about-ubuntu-kubuntu/) | [GitHub](https://github.com/samwhelp/note-about-kubuntu) |
+| [Fedora Kde 探索筆記](https://samwhelp.github.io/note-about-fedora-kde/) | [GitHub](https://github.com/samwhelp/note-about-fedora-kde) |
+| [Manjaro Kde 探索筆記](https://samwhelp.github.io/note-about-manjaro-kde/) | [GitHub](https://github.com/samwhelp/note-about-manjaro-kde) |

@@ -58,3 +58,4 @@ parent: 桌面環境
 | [Linux Mint Xfce 探索筆記](https://samwhelp.github.io/note-about-linuxmint-xfce/) | [GitHub](https://github.com/samwhelp/note-about-linuxmint-xfce) |
 | [Xubuntu 探索筆記](https://samwhelp.github.io/note-about-ubuntu-xubuntu/) | [GitHub](https://github.com/samwhelp/note-about-xubuntu) |
 | [Fedora Xfce 探索筆記](https://samwhelp.github.io/note-about-fedora-xfce/) | [GitHub](https://github.com/samwhelp/note-about-fedora-xfce) |
+| [Manjaro Xfce 探索筆記](https://samwhelp.github.io/note-about-manjaro-xfce/) | [GitHub](https://github.com/samwhelp/note-about-manjaro-xfce) |
