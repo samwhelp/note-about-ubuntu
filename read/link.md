@@ -27,6 +27,7 @@ has_children: true
 | [Ubuntu Gnome Flashback 探索筆記](https://samwhelp.github.io/note-about-ubuntu-gnome-shell/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-gnome-shell) | [Ubuntu Gnome Flashback Adjustment](https://samwhelp.github.io/ubuntu-gnome-shell-adjustment/) | [GitHub](https://github.com/samwhelp/ubuntu-gnome-shell-adjustment) |
 | [Ubuntu Sway 探索筆記](https://samwhelp.github.io/note-about-ubuntu-sway/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-sway) | [Ubuntu Sway Adjustment](https://samwhelp.github.io/ubuntu-sway-adjustment/) | [GitHub](https://github.com/samwhelp/ubuntu-sway-adjustment) |
 | [Linux Mint 探索筆記](https://samwhelp.github.io/note-about-linuxmint/) | [GitHub](https://github.com/samwhelp/note-about-linuxmint) | [Linux Mint Adjustment](https://samwhelp.github.io/linuxmint-adjustment/) | [GitHub](https://github.com/samwhelp/linuxmint-adjustment) |
+| [Elementary OS 探索筆記](https://samwhelp.github.io/note-about-elementary-os/) | [GitHub](https://github.com/samwhelp/note-about-elementary-os) | [Elementary OS Adjustment](https://samwhelp.github.io/elementary-os-adjustment/) | [GitHub](https://github.com/samwhelp/elementary-os-adjustment) |
 
 
 
