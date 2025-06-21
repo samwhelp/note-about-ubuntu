@@ -9,6 +9,23 @@ parent: 連結
 # iso-build-from-scratch
 
 
+
+
+## Project
+
+* [ubuntu-iso-builder-template](https://github.com/samwhelp/ubuntu-iso-builder-template)
+
+
+
+
+## Ubuntu Community Help Wiki
+
+* [LiveCDCustomizationFromScratch](https://help.ubuntu.com/community/LiveCDCustomizationFromScratch)
+* [LiveCDCustomization](https://help.ubuntu.com/community/LiveCDCustomization)
+
+
+
+
 ## Case
 
 * [live-custom-ubuntu-from-scratch](https://github.com/mvallim/live-custom-ubuntu-from-scratch)

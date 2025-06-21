@@ -8,6 +8,20 @@ parent: 連結
 
 # iso-build
 
+
+## Project
+
+* [ubuntu-iso-builder-template](https://github.com/samwhelp/ubuntu-iso-builder-template)
+
+
+## Ubuntu Community Help Wiki
+
+* [LiveCDCustomizationFromScratch](https://help.ubuntu.com/community/LiveCDCustomizationFromScratch)
+* [LiveCDCustomization](https://help.ubuntu.com/community/LiveCDCustomization)
+
+
+
+
 ## DebianLive
 
 * [DebianLive](https://wiki.debian.org/DebianLive/)
