@@ -18,6 +18,13 @@ parent: 連結
 
 
 
+## Note
+
+* [Ubuntu / ISO Builder / 探索筆記](https://samwhelp.github.io/note-about-ubuntu-iso-builder/)
+
+
+
+
 ## Ubuntu Community Help Wiki
 
 * [LiveCDCustomizationFromScratch](https://help.ubuntu.com/community/LiveCDCustomizationFromScratch)

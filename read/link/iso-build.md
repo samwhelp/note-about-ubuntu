@@ -18,6 +18,13 @@ parent: 連結
 
 
 
+## Note
+
+* [Ubuntu / ISO Builder / 探索筆記](https://samwhelp.github.io/note-about-ubuntu-iso-builder/)
+
+
+
+
 ## Ubuntu Community Help Wiki
 
 * [LiveCDCustomizationFromScratch](https://help.ubuntu.com/community/LiveCDCustomizationFromScratch)
@@ -35,15 +42,21 @@ parent: 連結
 * [Debian Live install images](https://www.debian.org/CD/live/)
 
 
+
+
 ## Isohybrid
 
 * Syslinux Wiki / [Isohybrid](https://wiki.syslinux.org/wiki/index.php?title=Isohybrid)
 * Ubuntu Wiki / mkusb / [isohybrid](https://help.ubuntu.com/community/mkusb/isohybrid)
 
+
+
 ## Case
 
 * [debian-live-config](https://github.com/nodiscc/debian-live-config)
 * [custom-ubuntu-config](https://github.com/fcwu/custom-ubuntu-config) [文章: 使用 live-build 客製化無人值守 Ubuntu 安裝光碟](http://rickey-nctu.blogspot.com/2013/08/live-build-ubuntu.html)
+
+
 
 
 ## Distro
@@ -56,6 +69,8 @@ parent: 連結
 * Ubuntu-Sway / [iso-builder](https://github.com/Ubuntu-Sway/iso-builder)
 * rhino-linux / [os](https://github.com/rhino-linux/os)
 * Vanilla-OS / [live-iso](https://github.com/Vanilla-OS/live-iso)
+
+
 
 
 ## live-build
@@ -75,9 +90,13 @@ live-clone - GUI to clone and manage Live-Build USB sticks
 ```
 
 
+
+
 ## Package
 
 * [live-build](https://packages.ubuntu.com/jammy/live-build)
+
+
 
 
 ## Manpage
