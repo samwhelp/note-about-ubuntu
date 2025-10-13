@@ -21,7 +21,7 @@
 
 ## 主題
 
-* [Ubuntu Adjustment](#ubuntu-adjustment)
+* [Ubuntu Respin](#ubuntu-respin)
 * [入門](#入門)
 * [專案](#專案)
 * [系統環境微調](#系統環境微調)
@@ -34,7 +34,7 @@
 
 
 
-## Ubuntu Adjustment
+## Ubuntu Respin
 
 > 以下「Ubuntu」相關的「探索筆記」，目前是根據「**24.04**」撰寫的。
 
@@ -57,11 +57,17 @@
 | [LinuxMint Mate 探索筆記](https://samwhelp.github.io/note-about-linuxmint-mate/) | [GitHub](https://github.com/samwhelp/note-about-linuxmint-mate) |
 | [LinuxMint Xfce 探索筆記](https://samwhelp.github.io/note-about-linuxmint-xfce/) | [GitHub](https://github.com/samwhelp/note-about-linuxmint-xfce) |
 
+
+| [Popos 探索筆記](https://samwhelp.github.io/note-about-popos/) | GitHub |
+| ---- | ------ |
+| [Popos Cosmic 探索筆記](https://samwhelp.github.io/note-about-popos-cosmic/) | [GitHub](https://github.com/samwhelp/note-about-popos-cosmic) |
+
+
 | Link | GitHub |
 | ---- | ------ |
 | [Debian 探索筆記](https://samwhelp.github.io/note-about-debian/) | [GitHub](https://github.com/samwhelp/note-about-debian) |
 | [Rhino Linux 探索筆記](https://samwhelp.github.io/note-about-rhinolinux/) | [GitHub](https://github.com/samwhelp/note-about-rhinolinux) |
-| [Popos Cosmic 探索筆記](https://samwhelp.github.io/note-about-popos-cosmic/) | [GitHub](https://github.com/samwhelp/note-about-popos-cosmic) |
+| [elementaryOS 探索筆記](https://samwhelp.github.io/note-about-elementary-os/) | [GitHub](https://github.com/samwhelp/note-about-elementary-os) |
 
 
 
