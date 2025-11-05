@@ -21,6 +21,7 @@
 
 ## 主題
 
+* [微調腳本](#微調腳本)
 * [Ubuntu Respin](#ubuntu-respin)
 * [入門](#入門)
 * [專案](#專案)
@@ -33,22 +34,61 @@
 
 
 
+## 微調腳本
+
+| 微調腳本 |
+| ------- |
+| [Ubuntu Config](https://github.com/samwhelp/ubuntu-adjustment/tree/main/prototype/main) |
+| [Tool Config](https://github.com/samwhelp/ubuntu-adjustment/tree/main/prototype/main/tool-config/part) |
+
+
+
 
 ## Ubuntu Respin
 
-> 以下「Ubuntu」相關的「探索筆記」，目前是根據「**24.04**」撰寫的。
+| Link | GitHub |
+| ---- | ------ |
+| [XUbuntu 探索筆記](https://samwhelp.github.io/note-about-xubuntu/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-xubuntu) |
+| [Kubuntu 探索筆記](https://samwhelp.github.io/note-about-kubuntu/) | [GitHub](https://github.com/samwhelp/note-about-kubuntu) |
+| [Ubuntu Gnome Shell 探索筆記](https://samwhelp.github.io/note-about-ubuntu-gnome-shell/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-gnome-shell) |
+| [Ubuntu Cinnamon 探索筆記](https://samwhelp.github.io/note-about-ubuntu-cinnamon/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-cinnamon) |
+| [Ubuntu Mate 探索筆記](https://samwhelp.github.io/note-about-ubuntu-mate/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-mate) |
+| [Ubuntu Budgie 探索筆記](https://samwhelp.github.io/note-about-ubuntu-budgie/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-budgie) |
+| [Lubuntu 探索筆記](https://samwhelp.github.io/note-about-lubuntu/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-lubuntu) |
+
+
+
 
 | Link | GitHub |
 | ---- | ------ |
-| [Kubuntu 探索筆記](https://samwhelp.github.io/note-about-kubuntu/) | [GitHub](https://github.com/samwhelp/note-about-kubuntu) |
-| [Lubuntu 探索筆記](https://samwhelp.github.io/note-about-lubuntu/) | [GitHub](https://github.com/samwhelp/note-about-lubuntu) |
-| [Xubuntu 探索筆記](https://samwhelp.github.io/note-about-xubuntu/) | [GitHub](https://github.com/samwhelp/note-about-xubuntu) |
-| [Ubuntu Mate 探索筆記](https://samwhelp.github.io/note-about-ubuntu-mate/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-mate) |
-| [Ubuntu Cinnamon 探索筆記](https://samwhelp.github.io/note-about-ubuntu-cinnamon/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-cinnamon) |
-| [Ubuntu Budgie 探索筆記](https://samwhelp.github.io/note-about-ubuntu-budgie/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-budgie) |
-| [Ubuntu Gnome Shell 探索筆記](https://samwhelp.github.io/note-about-ubuntu-gnome-shell/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-gnome-shell) |
-| [Ubuntu Gnome Flashback 探索筆記](https://samwhelp.github.io/note-about-ubuntu-gnome-shell/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-gnome-shell) |
+| [Ubuntu Cosmic 探索筆記](https://samwhelp.github.io/note-about-ubuntu-cosmic/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-cosmic) |
+| [Ubuntu Hyprland 探索筆記](https://samwhelp.github.io/note-about-ubuntu-hyprland/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-hyprland) |
 | [Ubuntu Sway 探索筆記](https://samwhelp.github.io/note-about-ubuntu-sway/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-sway) |
+| [Ubuntu Labwc 探索筆記](https://samwhelp.github.io/note-about-ubuntu-labwc/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-labwc) |
+| [Ubuntu Wayfire 探索筆記](https://samwhelp.github.io/note-about-ubuntu-wayfire/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-wayfire) |
+| [Ubuntu River 探索筆記](https://samwhelp.github.io/note-about-ubuntu-river/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-river) |
+
+
+
+
+| Link | GitHub |
+| ---- | ------ |
+| [Ubuntu Openbox 探索筆記](https://samwhelp.github.io/note-about-ubuntu-openbox/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-openbox) |
+| [Ubuntu Fluxbox 探索筆記](https://samwhelp.github.io/note-about-ubuntu-fluxbox/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-fluxbox) |
+| [Ubuntu Jwm 探索筆記](https://samwhelp.github.io/note-about-ubuntu-jwm/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-jwm) |
+
+
+
+
+| Link | GitHub |
+| ---- | ------ |
+| [Ubuntu Bspwm 探索筆記](https://samwhelp.github.io/note-about-ubuntu-bspwm/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-bspwm) |
+| [Ubuntu I3wm 探索筆記](https://samwhelp.github.io/note-about-ubuntu-i3wm/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-i3wm) |
+| [Ubuntu Herbstluftwm 探索筆記](https://samwhelp.github.io/note-about-ubuntu-herbstluftwm/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-herbstluftwm) |
+| [Ubuntu Cwm 探索筆記](https://samwhelp.github.io/note-about-ubuntu-cwm/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-cwm) |
+| [Ubuntu Spectrwm 探索筆記](https://samwhelp.github.io/note-about-ubuntu-spectrwm/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-spectrwm) |
+
+
 
 
 | [Linux Mint 探索筆記](https://samwhelp.github.io/note-about-linuxmint/) | GitHub |
@@ -58,16 +98,20 @@
 | [LinuxMint Xfce 探索筆記](https://samwhelp.github.io/note-about-linuxmint-xfce/) | [GitHub](https://github.com/samwhelp/note-about-linuxmint-xfce) |
 
 
+
+
 | [Popos 探索筆記](https://samwhelp.github.io/note-about-popos/) | GitHub |
 | ---- | ------ |
 | [Popos Cosmic 探索筆記](https://samwhelp.github.io/note-about-popos-cosmic/) | [GitHub](https://github.com/samwhelp/note-about-popos-cosmic) |
 
 
+
+
 | Link | GitHub |
 | ---- | ------ |
-| [Debian 探索筆記](https://samwhelp.github.io/note-about-debian/) | [GitHub](https://github.com/samwhelp/note-about-debian) |
 | [Rhino Linux 探索筆記](https://samwhelp.github.io/note-about-rhinolinux/) | [GitHub](https://github.com/samwhelp/note-about-rhinolinux) |
 | [elementaryOS 探索筆記](https://samwhelp.github.io/note-about-elementary-os/) | [GitHub](https://github.com/samwhelp/note-about-elementary-os) |
+| [Debian 探索筆記](https://samwhelp.github.io/note-about-debian/) | [GitHub](https://github.com/samwhelp/note-about-debian) |
 
 
 
