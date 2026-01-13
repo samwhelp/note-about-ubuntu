@@ -24,6 +24,7 @@
 * [微調腳本](#微調腳本)
 * [Ubuntu Respin](#ubuntu-respin)
 * [入門](#入門)
+* [如何](#如何)
 * [專案](#專案)
 * [系統環境微調](#系統環境微調)
 * [外觀微調](#外觀微調)
@@ -127,6 +128,15 @@
 | [Boot ISO By QEMU KVM](https://samwhelp.github.io/note-about-ubuntu/read/start/download/boot_iso_by_qemu_kvm.html) |
 | [Mount ISO](https://samwhelp.github.io/note-about-ubuntu/read/start/download/mount_iso.html) |
 | [Explore ISO](https://samwhelp.github.io/note-about-ubuntu/read/start/download/explore_iso.html) |
+
+
+
+
+## 如何
+
+| 系統 |
+| ---- |
+| [如何改回使用「gnu-coreutils」](https://samwhelp.github.io/note-about-ubuntu/read/howto/switch-back-to-using-gnu-corutils.html) |
 
 
 
