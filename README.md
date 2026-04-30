@@ -14,7 +14,7 @@
 
 > 這個筆記，目前是基於「[**Ubuntu 22.04 LTS (Jammy Jellyfish)**](https://samwhelp.github.io/note-about-ubuntu/read/start/download/download_iso.html)」撰寫的。
 
-> Ubuntu 的「桌面環境」是採用「gnome-shell」，所以相關的微調，請參考「[Ubuntu Gnome Shell 探索筆記](https://samwhelp.github.io/note-about-ubuntu-gnome-shell/) 」。
+> Ubuntu 的「桌面環境」是採用「gnome-shell」，所以相關的微調，請參考「[Ubuntu Gnome Shell 探索筆記](https://samwhelp.github.io/note-about-ubuntu-gnome-shell/) 」，而此筆記則是紀錄通用的系統操作或微調。
 
 
 
