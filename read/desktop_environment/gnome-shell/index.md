@@ -149,6 +149,10 @@ parent: 桌面環境
 | ---- | ------ |
 | [Gnome Shell 探索筆記](https://samwhelp.github.io/note-about-gnome-shell/) | [GitHub](https://github.com/samwhelp/note-about-gnome-shell) |
 | [Ubuntu Gnome Shell 探索筆記](https://samwhelp.github.io/note-about-ubuntu-gnome-shell/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-gnome-shell) |
+| [Debian Gnome Shell 探索筆記](https://samwhelp.github.io/note-about-debian-gnome-shell/) | [GitHub](https://github.com/samwhelp/note-about-debian-gnome-shell) |
 | [Fedora Gnome Shell 探索筆記](https://samwhelp.github.io/note-about-fedora-gnome-shell/) | [GitHub](https://github.com/samwhelp/note-about-fedora-gnome-shell) |
+| [Archlinux Gnome Shell 探索筆記](https://samwhelp.github.io/note-about-archlinux-gnome-shell/) | [GitHub](https://github.com/samwhelp/note-about-archlinux-gnome-shell) |
+| [Voidlinux Gnome Shell 探索筆記](https://samwhelp.github.io/note-about-voidlinux-gnome-shell/) | [GitHub](https://github.com/samwhelp/note-about-voidlinux-gnome-shell) |
+| [Solus Gnome Shell 探索筆記](https://samwhelp.github.io/note-about-solus-gnome-shell/) | [GitHub](https://github.com/samwhelp/note-about-solus-gnome-shell) |
 | [Manjaro Gnome Shell 探索筆記](https://samwhelp.github.io/note-about-manjaro-gnome-shell/) | [GitHub](https://github.com/samwhelp/note-about-manjaro-gnome-shell) |
 | [Elementary OS 探索筆記](https://samwhelp.github.io/note-about-elementary-os/) | [GitHub](https://github.com/samwhelp/note-about-elementary-os) |
