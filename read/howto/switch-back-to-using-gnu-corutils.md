@@ -17,6 +17,7 @@ parent: 如何
 * [操作步驟](#操作步驟)
 * [參考文章](#參考文章)
 * [相關討論](#相關討論)
+* [注意事項](#注意事項)
 
 
 
@@ -152,3 +153,16 @@ Written by Richard M. Stallman and David MacKenzie.
 | GitHub / uutils-coreutils / issue / [bug: GNU and uutils dirname handles paths ending in "/." differently](https://github.com/uutils/coreutils/issues/8910) |
 | GitHub / uutils-coreutils / issue / [The result of cp -rfT executed in uutils coreutils is different from the result in GNU Coreutils.](https://github.com/uutils/coreutils/issues/8708) |
 | Ubuntu / rust-coreutils / Bugs / [#2122363 - cp -T: prefix not found](https://bugs.launchpad.net/ubuntu/+source/rust-coreutils/+bug/2122363) |
+
+
+
+
+## 注意事項
+
+Ubuntu 26.04: [build-essential](https://packages.ubuntu.com/resolute/build-essential) **depends** coreutils-from-uutils。
+
+所以一開始已經切回使用 [coreutils-from-gnu](https://packages.ubuntu.com/resolute/coreutils-from-gnu)，
+
+若是爾後安裝 build-essential，
+
+將會再度安裝 [coreutils-from-uutils](https://packages.ubuntu.com/resolute/coreutils-from-uutils)。
